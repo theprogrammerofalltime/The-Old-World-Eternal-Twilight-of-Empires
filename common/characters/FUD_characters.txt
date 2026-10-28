@@ -1,0 +1,65 @@
+characters = {
+	FUD_khan = {
+		name = FUD_khan
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_unknown"
+			}
+		}
+		country_leader = {
+			ideology = despotism_absolute_monarchy_subtype
+			traits = { dictator }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	FUD_advisor_warlord = {
+		name = FUD_advisor_warlord
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_asia_1"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = FUD_warlord
+			allowed = { original_tag = FUD }
+			traits = { army_chief_offensive_2 }
+			cost = 100
+			ledger = army
+		}
+	}
+
+	FUD_advisor_steward = {
+		name = FUD_advisor_steward
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = FUD_steward
+			allowed = { original_tag = FUD }
+			traits = { captain_of_industry }
+			cost = 150
+		}
+	}
+
+	FUD_advisor_blade = {
+		name = FUD_advisor_blade
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = FUD_blade
+			allowed = { original_tag = FUD }
+			traits = { prince_of_terror }
+			cost = 150
+		}
+	}
+}

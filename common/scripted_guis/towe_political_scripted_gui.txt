@@ -1,0 +1,36 @@
+scripted_gui = {
+
+	towe_political_blockers = {
+		context_type = player_context
+		window_name = "towe_laws_blocker"
+		parent_window_name = "countrypoliticsview"
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			# No click effects - pure blocker
+		}
+	}
+
+	towe_research_blockers = {
+		context_type = player_context
+		window_name = "towe_research_blocker"
+		parent_window_name = "countrypoliticsview"
+
+		visible = {
+			always = yes
+		}
+	}
+
+	towe_military_blockers = {
+		context_type = player_context
+		window_name = "towe_military_blocker"
+		parent_window_name = "countrypoliticsview"
+
+		visible = {
+			always = yes
+		}
+	}
+}

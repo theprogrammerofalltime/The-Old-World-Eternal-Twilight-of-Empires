@@ -1,0 +1,61 @@
+guiTypes = {
+
+	# Only the button sits on the politics screen
+	containerWindowType = {
+		name = "towe_custom_political_panel"
+		position = { x = 330 y = 8 }
+		size = { width = 160 height = 36 }
+		orientation = upper_left
+
+		buttonType = {
+			name = "towe_throne_toggle"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonFont = "hoi_18mbs"
+			buttonText = "TOWE_THRONE_BUTTON"
+			clicksound = click_default
+			pdx_tooltip = "TOWE_THRONE_BUTTON_TT"
+		}
+	}
+
+	# Separate floating panel - controlled entirely by scripted_gui visible
+	containerWindowType = {
+		name = "towe_throne_info_window"
+		position = { x = 400 y = 120 }
+		size = { width = 480 height = 240 }
+		orientation = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window_1b_border"
+		}
+
+		instantTextBoxType = {
+			name = "towe_panel_title"
+			position = { x = 15 y = 12 }
+			font = "hoi_20b"
+			text = "TOWE_POLITICAL_CONTROL_TITLE"
+			maxWidth = 450
+			maxHeight = 28
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "towe_panel_desc"
+			position = { x = 20 y = 50 }
+			font = "hoi_16mbs"
+			text = "TOWE_POLITICAL_CONTROL_DESC"
+			maxWidth = 440
+			maxHeight = 150
+			format = left
+		}
+
+		buttonType = {
+			name = "towe_throne_close"
+			position = { x = 440 y = 8 }
+			quadTextureSprite = "GFX_closebutton"
+			clicksound = click_default
+		}
+	}
+}

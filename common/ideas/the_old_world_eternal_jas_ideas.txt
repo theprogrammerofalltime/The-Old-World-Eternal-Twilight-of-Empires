@@ -1,0 +1,196 @@
+ideas = {
+	country = {
+		JAS_imperial_workshops = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
+
+		JAS_scholars_of_the_empire = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+
+		JAS_imperial_bureaucracy = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+			stability_factor = 0.05
+			}
+		}
+
+		JAS_protectorate_system = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+			political_power_factor = 0.05
+			}
+		}
+
+		JAS_imperial_unity = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.10
+			war_support_factor = 0.10
+			}
+		}
+
+		JAS_garrison_system = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_defence_factor = 0.10
+			}
+		}
+
+		JAS_veteran_corps = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.10
+			experience_gain_army_factor = 0.10
+			}
+		}
+
+		JAS_the_eternal_empire = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.10
+				research_speed_factor = 0.10
+				production_speed_buildings_factor = 0.10
+			}
+		}
+
+		JAS_anti_partisan_drive = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				resistance_target = -0.15
+				compliance_growth = 0.10
+				army_speed_factor = 0.05
+			}
+		}
+
+		JAS_straits_fortifications = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.10
+				naval_invasion_penalty = 0.15
+			}
+		}
+
+		JAS_imperial_mobilisation = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				training_time_factor = -0.10
+				army_org_factor = 0.05
+			}
+		}
+
+		JAS_buffer_loyalty = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				autonomy_gain = -0.5
+				stability_factor = 0.05
+			}
+		}
+
+		JAS_decisive_offensive = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.15
+				breakthrough_factor = 0.10
+				army_org_regain = 0.10
+			}
+		}
+
+		towe_balkan_expedition = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				send_volunteer_size = 2
+				send_volunteer_divisions_required = -2
+				army_org_factor = 0.05
+			}
+		}
+        # Starting Jasmine Empire national spirits
+        JAS_eternal_imperial_bureaucracy = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { political_power_factor = 0.10 stability_factor = 0.05 } }
+        JAS_vast_imperial_legions = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { army_org_factor = 0.05 army_attack_factor = 0.05 conscription = 0.01 } }
+        JAS_strained_imperial_periphery = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { stability_factor = -0.05 production_speed_buildings_factor = -0.05 } }
+        FUD_celestial_administration = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { political_power_factor = 0.05 stability_factor = 0.05 } }
+        FUD_modern_arsenals = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { production_speed_arms_factory_factor = 0.10 } }
+        FUD_war_mobilisation = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { conscription = 0.01 army_org_factor = 0.05 } }
+        MGL_united_clans = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { stability_factor = 0.05 political_power_factor = 0.05 } }
+        MGL_mobile_cavalry_spirit = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { army_speed_factor = 0.05 army_attack_factor = 0.05 } }
+        MGL_great_horde_mobilisation = { allowed = { always = no } allowed_civil_war = { always = yes } removal_cost = -1 modifier = { conscription = 0.02 army_org_factor = 0.05 } }
+
+	}
+}

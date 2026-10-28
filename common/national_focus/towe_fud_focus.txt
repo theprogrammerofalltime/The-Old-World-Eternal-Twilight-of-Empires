@@ -1,0 +1,419 @@
+focus_tree = {
+	id = fud_twilight_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 50
+			tag = FUD
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 2800 }
+
+	###########################
+	# CHAPTER 1 — THE GREAT FU AWAKENS
+	###########################
+	focus = {
+		id = FUD_the_sleeping_dragon
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 60
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = FUD_remember_the_old_claims
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = FUD_the_sleeping_dragon }
+		x = 8
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.06
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = FUD_stir_the_clans
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = FUD_the_sleeping_dragon }
+		x = 12
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_manpower = 15000
+			add_stability = -0.02
+		}
+	}
+	focus = {
+		id = FUD_court_the_merchants
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = FUD_the_sleeping_dragon }
+		x = 16
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_political_power = 40
+			add_ideas = FUD_legacy_of_the_steppe
+		}
+	}
+
+	###########################
+	# PATH: RESTORATION
+	###########################
+	focus = {
+		id = FUD_path_of_restoration
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FUD_remember_the_old_claims }
+		prerequisite = { focus = FUD_stir_the_clans }
+		mutually_exclusive = { focus = FUD_path_of_conquest }
+		mutually_exclusive = { focus = FUD_path_of_reform }
+		x = 6
+		y = 2
+		cost = 6
+		ai_will_do = { factor = 40 }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = FUD_restore_clan_laws
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = FUD_path_of_restoration }
+		x = 4
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = FUD_honor_the_ancestors
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = FUD_path_of_restoration }
+		x = 8
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.05
+			army_experience = 15
+		}
+	}
+	focus = {
+		id = FUD_mandate_of_the_steppe
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = FUD_restore_clan_laws }
+		prerequisite = { focus = FUD_honor_the_ancestors }
+		x = 6
+		y = 4
+		cost = 6
+		completion_reward = {
+			add_ideas = FUD_restored_mandate
+			add_political_power = 40
+		}
+	}
+	focus = {
+		id = FUD_reclaim_border_posts
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = FUD_mandate_of_the_steppe }
+		x = 4
+		y = 5
+		cost = 5
+		completion_reward = {
+			army_experience = 20
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 2000 producer = FUD }
+		}
+	}
+	focus = {
+		id = FUD_steppe_diplomacy
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = FUD_mandate_of_the_steppe }
+		x = 8
+		y = 5
+		cost = 5
+		completion_reward = {
+			add_political_power = 35
+			add_opinion_modifier = { target = JAS modifier = large_increase }
+		}
+	}
+	focus = {
+		id = FUD_restoration_complete
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FUD_reclaim_border_posts }
+		prerequisite = { focus = FUD_steppe_diplomacy }
+		x = 6
+		y = 6
+		cost = 7
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = 75
+			add_war_support = 0.05
+		}
+	}
+
+	###########################
+	# PATH: CONQUEST
+	###########################
+	focus = {
+		id = FUD_path_of_conquest
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = FUD_stir_the_clans }
+		prerequisite = { focus = FUD_remember_the_old_claims }
+		mutually_exclusive = { focus = FUD_path_of_restoration }
+		mutually_exclusive = { focus = FUD_path_of_reform }
+		x = 12
+		y = 2
+		cost = 6
+		ai_will_do = { factor = 35 }
+		completion_reward = {
+			add_war_support = 0.08
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = FUD_arm_the_banners
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = FUD_path_of_conquest }
+		x = 10
+		y = 3
+		cost = 5
+		completion_reward = {
+			army_experience = 25
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 3000 producer = FUD }
+		}
+	}
+	focus = {
+		id = FUD_horse_lords_rise
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = FUD_path_of_conquest }
+		x = 14
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_ideas = FUD_legacy_of_the_steppe
+			army_experience = 15
+		}
+	}
+	focus = {
+		id = FUD_war_economy
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = FUD_arm_the_banners }
+		prerequisite = { focus = FUD_horse_lords_rise }
+		x = 12
+		y = 4
+		cost = 6
+		completion_reward = {
+			add_ideas = FUD_war_economy
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+				add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = FUD_strike_south
+		icon = GFX_goal_generic_occupy_states_ongoing
+		prerequisite = { focus = FUD_war_economy }
+		x = 10
+		y = 5
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.06
+			create_wargoal = { type = take_state_focus target = JAS }
+		}
+	}
+	focus = {
+		id = FUD_terror_of_the_plains
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = FUD_war_economy }
+		x = 14
+		y = 5
+		cost = 5
+		completion_reward = {
+			add_timed_idea = { idea = FUD_war_economy days = 180 }
+			army_experience = 20
+		}
+	}
+	focus = {
+		id = FUD_conquest_ascendant
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = FUD_strike_south }
+		prerequisite = { focus = FUD_terror_of_the_plains }
+		x = 12
+		y = 6
+		cost = 7
+		completion_reward = {
+			add_war_support = 0.10
+			add_political_power = 60
+			add_manpower = 20000
+		}
+	}
+
+	###########################
+	# PATH: REFORM
+	###########################
+	focus = {
+		id = FUD_path_of_reform
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = FUD_court_the_merchants }
+		prerequisite = { focus = FUD_stir_the_clans }
+		mutually_exclusive = { focus = FUD_path_of_restoration }
+		mutually_exclusive = { focus = FUD_path_of_conquest }
+		x = 18
+		y = 2
+		cost = 6
+		ai_will_do = { factor = 25 }
+		completion_reward = {
+			add_political_power = 45
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = FUD_modern_administration
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FUD_path_of_reform }
+		x = 16
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_political_power = 40
+			add_stability = 0.04
+		}
+	}
+	focus = {
+		id = FUD_open_trade_routes
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = FUD_path_of_reform }
+		x = 20
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_ideas = free_trade
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = FUD_schools_of_the_steppe
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = FUD_modern_administration }
+		x = 16
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = FUD_industrial_foothold
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = FUD_open_trade_routes }
+		x = 20
+		y = 4
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = FUD_new_generation
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = FUD_schools_of_the_steppe }
+		prerequisite = { focus = FUD_industrial_foothold }
+		x = 18
+		y = 5
+		cost = 6
+		completion_reward = {
+			add_stability = 0.06
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = FUD_reform_complete
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = FUD_new_generation }
+		x = 18
+		y = 6
+		cost = 7
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = 80
+			add_ideas = FUD_restored_mandate
+		}
+	}
+
+	###########################
+	# SHARED INDUSTRY / ARMY
+	###########################
+	focus = {
+		id = FUD_build_the_arsenals
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = FUD_the_sleeping_dragon }
+		x = 24
+		y = 2
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+				add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = FUD_cavalry_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = FUD_build_the_arsenals }
+		x = 22
+		y = 3
+		cost = 5
+		completion_reward = {
+			army_experience = 30
+			add_tech_bonus = { name = land_doctrine_bonus bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+	}
+	focus = {
+		id = FUD_infantry_arms
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = FUD_build_the_arsenals }
+		x = 26
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_tech_bonus = { name = infantry_bonus bonus = 0.5 uses = 1 category = infantry_weapons }
+		}
+	}
+	focus = {
+		id = FUD_fortify_the_heartland
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = FUD_cavalry_doctrine }
+		prerequisite = { focus = FUD_infantry_arms }
+		x = 24
+		y = 4
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.04
+			army_experience = 15
+		}
+	}
+	focus = {
+		id = FUD_ready_for_war
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = FUD_fortify_the_heartland }
+		x = 24
+		y = 5
+		cost = 6
+		completion_reward = {
+			add_war_support = 0.08
+			add_political_power = 40
+			set_country_flag = fud_ready_for_war
+		}
+	}
+}

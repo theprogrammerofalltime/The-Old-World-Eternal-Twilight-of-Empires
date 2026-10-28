@@ -1,0 +1,52 @@
+division_template = {
+	name = "Fu Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Fu Banner"
+		location = 617
+		division_template = "Fu Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2nd Fu Banner"
+		location = 617
+		division_template = "Fu Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "3rd Fu Banner"
+		location = 617
+		division_template = "Fu Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "4th Fu Banner"
+		location = 617
+		division_template = "Fu Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "5th Fu Banner"
+		location = 617
+		division_template = "Fu Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.6
+	}
+}

@@ -1,0 +1,290 @@
+﻿l_english:
+
+#############################################
+# BOOKMARK
+#############################################
+ TOWE_TWILIGHT_NAME:0 "Twilight of Empires"
+ TOWE_TWILIGHT_DESC:0 "December 1905.\n\nThe Jasmine Empire still stands. Its banners still fly from the Aegean to the steppes. Officials still speak of the Eternal Mandate as if the words alone can hold the world together.\n\nThey cannot.\n\nThe cracks are spreading. The Balkans are already lit. Rival powers are asking a dangerous question: what if the Mandate is not eternal after all?\n\nThis is not a story of renewal. This is a story of decline — and of the second great war born from desperation."
+
+ JAS_TWILIGHT_HISTORY:0 "For generations the Jasmine Empire kept the peace of the East through force, gold, and the carefully maintained fiction of permanence. That fiction is failing. The court is divided. The army is restless. The periphery is watching. The only question left is whether the Empire will reform, radicalise, or simply break."
+
+#############################################
+# SUPER EVENTS & KEY EVENTS
+#############################################
+ towe_jas.1.t:0 "THE MANDATE FALTERS"
+ towe_jas.1.d:0 "It begins with small things.\n\nA delayed tax shipment from the western provinces. A garrison commander who takes three weeks to answer a direct order. A newspaper in the capital that prints a cartoon of the Emperor as an old man asleep on a crumbling throne — and is not immediately shut down.\n\nNo one declares the Mandate dead. No one needs to. Everyone can feel the temperature changing.\n\nThe age of automatic obedience is ending. What replaces it has not yet been decided."
+ towe_jas.1.a:0 "We still have time."
+ towe_jas.1.tt:0 "The first real cracks in the Eternal Mandate have become impossible to ignore."
+
+ towe_jas.2.t:0 "THE BALKAN CRISIS"
+ towe_jas.2.d:0 "The powder keg has finally exploded.\n\nFor years the great powers treated the Balkans as a convenient pressure valve — a place where ambitions could be vented without threatening the wider order. That arrangement required one thing above all: that the Jasmine Empire remain strong enough to keep the lid on.\n\nIt is no longer strong enough.\n\nTelegrams are already flying between capitals. Armies are beginning to move. The local powers that thought they were fighting for independence are about to discover they are fighting for survival in someone else's war.\n\nThe second great crisis of the new century has begun."
+ towe_jas.2.a:0 "The world is watching."
+ towe_jas.2.tt:0 "The Balkan Crisis has begun. The Empire is now entangled in a conflict it may not be able to control."
+
+ towe_jas.3.t:0 "THE SECOND WAR APPROACHES"
+ towe_jas.3.d:0 "There is a moment in the life of every declining power when the leadership stops asking how to avoid the coming war and starts asking how to win it.\n\nThat moment has arrived.\n\nThe reformers and the hardliners still argue over methods, but both now accept the same premise: the old world cannot be preserved. It can only be replaced — by the Empire's will, or by someone else's.\n\nThe legions are being counted. The factories are being prepared. The maps are being redrawn in private.\n\nHistory is about to become very expensive."
+ towe_jas.3.a:0 "Then let it come."
+ towe_jas.3.tt:0 "The Jasmine Empire has accepted that a second great war is no longer a risk to be avoided, but a reality to be shaped."
+
+ towe_jas.10.t:0 "Voices in the Court"
+ towe_jas.10.d:0 "The factions are no longer bothering to hide their disagreements. Reformers speak of necessary change. Hardliners speak of necessary strength. Both look at the other and see the reason the Mandate is failing."
+ towe_jas.10.a:0 "Back the reformers."
+ towe_jas.10.b:0 "Back the hardliners."
+
+#############################################
+# NATIONAL SPIRITS
+#############################################
+ JAS_legacy_of_the_mandate:0 "Legacy of the Mandate"
+ JAS_legacy_of_the_mandate_desc:0 "The Empire was not built in a day, and the memory of its past strength still carries weight. For now."
+ JAS_cracks_in_the_edifice:0 "Cracks in the Edifice"
+ JAS_cracks_in_the_edifice_desc:0 "Everyone can see them. No one can agree on how to seal them. Some are starting to wonder whether the building is worth saving at all."
+ JAS_balkan_entanglement:0 "Balkan Entanglement"
+ JAS_balkan_entanglement_desc:0 "What began as a distant crisis is becoming a direct drain on the Empire's strength and attention."
+ JAS_the_coming_storm:0 "The Coming Storm"
+ JAS_the_coming_storm_desc:0 "The leadership has stopped pretending the storm can be avoided. Preparations are underway."
+ JAS_mandate_restored:0 "Mandate Restored"
+ JAS_mandate_restored_desc:0 "Through reform or through force, the centre has reasserted itself. For the moment, the Empire speaks with one voice again."
+ JAS_age_of_iron:0 "Age of Iron"
+ JAS_age_of_iron_desc:0 "The factories have been turned toward the only purpose that still matters."
+
+#############################################
+# FOCUS TREE
+#############################################
+ JAS_the_dying_mandate:0 "The Dying Mandate"
+ JAS_the_dying_mandate_desc:0 "The first step is admitting the patient is sick."
+ JAS_the_dying_mandate_tt:0 "The court begins to openly discuss the Empire's decline."
+
+ JAS_assess_the_cracks:0 "Assess the Cracks"
+ JAS_assess_the_cracks_desc:0 "We must know how deep the damage goes before we can decide how to repair it — or whether repair is still possible."
+ JAS_listen_to_the_provinces:0 "Listen to the Provinces"
+ JAS_listen_to_the_provinces_desc:0 "The periphery has been silent for too long. That silence was never loyalty. It was patience."
+
+ JAS_the_path_of_reform:0 "The Path of Reform"
+ JAS_the_path_of_reform_desc:0 "The Empire can still be saved. But only if it is willing to become something new."
+ JAS_reform_path_tt:0 "The reformist faction gains the upper hand in court."
+
+ JAS_the_path_of_iron:0 "The Path of Iron"
+ JAS_the_path_of_iron_desc:0 "Weakness invited this crisis. Strength is the only answer that has ever worked."
+ JAS_iron_path_tt:0 "The hardline faction gains the upper hand in court."
+
+ JAS_modernise_the_bureaucracy:0 "Modernise the Bureaucracy"
+ JAS_modernise_the_bureaucracy_desc:0 "An empire cannot be run on tradition and inertia alone. Not anymore."
+ JAS_appease_the_periphery:0 "Appease the Periphery"
+ JAS_appease_the_periphery_desc:0 "Some concessions now may prevent collapse later."
+
+ JAS_purge_the_weak:0 "Purge the Weak"
+ JAS_purge_the_weak_desc:0 "There is no room left for hesitation or divided loyalty."
+ JAS_prepare_the_legions:0 "Prepare the Legions"
+ JAS_prepare_the_legions_desc:0 "When the storm comes, it will not wait for us to finish debating."
+
+ JAS_the_second_war_approaches:0 "The Second War Approaches"
+ JAS_the_second_war_approaches_desc:0 "We are no longer trying to prevent the war. We are trying to decide what the world will look like after it."
+ JAS_second_war_tt:0 "The Jasmine Empire now accepts that a second great war is inevitable."
+
+ JAS_secure_the_western_flank:0 "Secure the Western Flank"
+ JAS_secure_the_western_flank_desc:0 "The buffer states were always temporary. It is time to make that official."
+ JAS_settle_the_eastern_question:0 "Settle the Eastern Question"
+ JAS_settle_the_eastern_question_desc:0 "There can only be one master of the East."
+
+
+#############################################
+# JAS FOCUS LOCALISATION (expanded)
+#############################################
+ JAS_echoes_of_past_glory:0 "Echoes of Past Glory"
+ JAS_echoes_of_past_glory_desc:0 "The past still has power. We must decide whether to draw strength from it or be crushed by its weight."
+ JAS_the_court_is_divided:0 "The Court is Divided"
+ JAS_the_court_is_divided_desc:0 "The arguments in the palace are no longer whispered. They are becoming policy."
+ JAS_whispers_from_the_provinces:0 "Whispers from the Provinces"
+ JAS_whispers_from_the_provinces_desc:0 "The periphery has grown bold. Their silence was never loyalty — only calculation."
+
+ JAS_path_of_reform:0 "The Path of Reform"
+ JAS_path_of_reform_desc:0 "The Empire can still be saved. But only if it is willing to become something it has never been before."
+ JAS_path_of_iron:0 "The Path of Iron"
+ JAS_path_of_iron_desc:0 "Weakness invited this crisis. Strength is the only language the world still respects."
+ JAS_path_of_retreat:0 "The Path of Retreat"
+ JAS_path_of_retreat_desc:0 "Sometimes survival means knowing what to abandon. The centre must be preserved even if the edges burn."
+
+ JAS_reform_bureaucracy:0 "Reform the Bureaucracy"
+ JAS_reform_bureaucracy_desc:0 "An empire cannot be run on habit and inertia. Not anymore."
+ JAS_reform_army:0 "Reform the Army"
+ JAS_reform_army_desc:0 "The legions remember older glories. We must give them a future worth fighting for."
+ JAS_reform_appease:0 "A New Compact"
+ JAS_reform_appease_desc:0 "The centre will yield some power so that the whole may endure."
+
+ JAS_iron_purge:0 "Purge the Weak"
+ JAS_iron_purge_desc:0 "There is no longer room for divided loyalty or comfortable incompetence."
+ JAS_iron_legions:0 "Raise the Legions"
+ JAS_iron_legions_desc:0 "When the storm comes it will not wait for us to finish our debates."
+ JAS_iron_total_war:0 "Accept Total War"
+ JAS_iron_total_war_desc:0 "The Empire will not survive by half-measures. Everything must be subordinated to victory."
+
+ JAS_retreat_consolidate:0 "Consolidate the Centre"
+ JAS_retreat_consolidate_desc:0 "Some provinces are already lost in all but name. Better to admit it and save what can still be saved."
+ JAS_retreat_abandon:0 "Strategic Abandonment"
+ JAS_retreat_abandon_desc:0 "Not every border is worth the blood it would cost to hold."
+ JAS_retreat_new_order:0 "A Smaller, Harder Empire"
+ JAS_retreat_new_order_desc:0 "What remains will be stronger. What was lost was already dead weight."
+ JAS_retreat_new_order_tt:0 "The Empire deliberately shrinks to a more defensible core."
+
+ JAS_second_war_inevitable:0 "The Second War is Inevitable"
+ JAS_second_war_inevitable_desc:0 "We are no longer trying to prevent the war. We are trying to decide what the world looks like when it ends."
+ JAS_western_settlement:0 "Settle the Western Question"
+ JAS_western_settlement_desc:0 "The buffer states were always temporary. It is time to make that official."
+ JAS_eastern_settlement:0 "Settle the Eastern Question"
+ JAS_eastern_settlement_desc:0 "There can only be one master of the East."
+ JAS_the_final_mandate:0 "The Final Mandate"
+ JAS_the_final_mandate_desc:0 "Whatever comes next, it will be decided by force of arms. The age of careful management is over."
+ JAS_final_mandate_tt:0 "The Jasmine Empire commits fully to reshaping the regional order through war."
+
+#############################################
+# GREAT FU
+#############################################
+ FUD_the_sleeping_dragon:0 "The Sleeping Dragon"
+ FUD_the_sleeping_dragon_desc:0 "For too long the Great Fu has watched while others shaped the world. That time is ending."
+ FUD_sleeping_dragon_tt:0 "The Great Fu begins to stir."
+
+ FUD_remember_the_old_claims:0 "Remember the Old Claims"
+ FUD_remember_the_old_claims_desc:0 "Maps can be redrawn. Memory cannot."
+ FUD_study_the_enemy:0 "Study the Enemy"
+ FUD_study_the_enemy_desc:0 "The Jasmine Empire is strong, but it is also brittle. We must understand exactly where it will break."
+ FUD_rally_the_clans:0 "Rally the Clans"
+ FUD_rally_the_clans_desc:0 "The old loyalties still exist. They only need a reason to wake."
+
+ FUD_path_of_restoration:0 "The Path of Restoration"
+ FUD_path_of_restoration_desc:0 "We will not merely conquer. We will reclaim what was always ours and make it work again."
+ FUD_restoration_tt:0 "The Great Fu seeks to restore a legitimate order rather than simply destroy the old one."
+ FUD_path_of_conquest:0 "The Path of Conquest"
+ FUD_path_of_conquest_desc:0 "Legitimacy is a luxury of the victorious. First we take. Then we decide what to call it."
+ FUD_conquest_tt:0 "The Great Fu chooses pure power over any claim to continuity."
+
+ FUD_restore_administration:0 "Restore Administration"
+ FUD_restore_administration_desc:0 "Conquest without governance is just banditry on a grand scale."
+ FUD_restore_army:0 "Restore the Army"
+ FUD_restore_army_desc:0 "The new order will need soldiers who believe in something larger than plunder."
+ FUD_claim_legitimacy:0 "Claim the Mandate"
+ FUD_claim_legitimacy_desc:0 "We do not merely succeed the Jasmine Empire. We replace it as the rightful centre."
+
+ FUD_militarize_society:0 "Militarize Society"
+ FUD_militarize_society_desc:0 "Every factory, every farm, every able body must serve the coming struggle."
+ FUD_raise_the_banners:0 "Raise the Banners"
+ FUD_raise_the_banners_desc:0 "The clans remember how to fight. We will remind them why."
+ FUD_the_southern_thrust:0 "The Southern Thrust"
+ FUD_the_southern_thrust_desc:0 "The Jasmine heartland is the prize. Everything else is secondary."
+
+ FUD_the_final_accounting:0 "The Final Accounting"
+ FUD_the_final_accounting_desc:0 "One of us will order the East. The other will be a footnote."
+ FUD_final_accounting_tt:0 "The Great Fu commits to a final struggle for mastery of the East."
+
+ FUD_legacy_of_the_steppe:0 "Legacy of the Steppe"
+ FUD_legacy_of_the_steppe_desc:0 "The old ways of war still live in the blood of the people."
+ FUD_restored_mandate:0 "Restored Mandate"
+ FUD_restored_mandate_desc:0 "The Great Fu now claims the legitimacy once held by the Jasmine Empire."
+ FUD_war_economy:0 "War Economy"
+ FUD_war_economy_desc:0 "Everything not essential to victory is a luxury the state can no longer afford."
+
+
+#############################################
+# PARTY NAMES & POLITICAL UI
+#############################################
+ JAS_neutrality_party:0 "The Jasmine Throne"
+ JAS_neutrality_party_long:0 "The Jasmine Throne"
+ JAS_fascism_party:0 "Iron Mandate Society"
+ JAS_fascism_party_long:0 "Iron Mandate Society"
+ JAS_democratic_party:0 "Constitutional Reform League"
+ JAS_democratic_party_long:0 "Constitutional Reform League"
+ JAS_communism_party:0 "People's Liberation Committees"
+ JAS_communism_party_long:0 "People's Liberation Committees"
+
+ JAS_weight_of_history:0 "Weight of History"
+ JAS_weight_of_history_desc:0 "Every decision is made in the shadow of centuries. Glory and failure both press down on the living."
+
+ # Make the banned parties feel intentional
+ JAS_democratic_drift:0 "Reformist Agitation"
+ JAS_fascism_drift:0 "Iron Mandate Influence"
+ JAS_communism_drift:0 "Radical Cells"
+
+ FUD_fascism_party:0 "Banner of the Great Fu"
+ FUD_fascism_party_long:0 "Banner of the Great Fu"
+ FUD_neutrality_party:0 "Clan Council"
+ FUD_neutrality_party_long:0 "Clan Council"
+
+
+#############################################
+# POLITICAL UI LOCK MESSAGES
+#############################################
+ TOWE_LAWS_LOCKED:0 "Laws are directed by the Throne and the Focus Tree"
+ TOWE_ADVISORS_LOCKED:0 "Advisors are appointed through political focus paths"
+ TOWE_STAFF_LOCKED:0 "Military Staff is assigned via decisions and focuses"
+
+ TOWE_POLITICAL_CONTROL_TITLE:0 "Authority of the Throne"
+ TOWE_POLITICAL_CONTROL_DESC:0 "In the Jasmine Empire, laws, advisors, and military appointments are not freely chosen by ministers.\n\nThey are the product of political struggle, focus decisions, and the will of the centre.\n\nUse the National Focus tree and Decisions to shape the government. The old free selection of laws and staff has been abolished."
+
+ JAS_empress_lila:0 "Empress Lila"
+ JAS_empress_lila_desc:0 "The young Empress who inherited a crumbling mandate. Pale, distant, and far more dangerous than the court realises."
+
+ JAS_pale_sovereign:0 "Pale Sovereign"
+ JAS_pale_sovereign_desc:0 "She rules with a cold, distant authority. Courtiers find it difficult to read her, and even harder to oppose her."
+ JAS_heir_to_a_dying_mandate:0 "Heir to a Dying Mandate"
+ JAS_heir_to_a_dying_mandate_desc:0 "She inherited an empire already cracking. Every decision she makes is measured against the knowledge that the old order is running out of time."
+
+
+#############################################
+# NEW FOCUS LOCALISATION
+#############################################
+ JAS_reform_education:0 "Reform Education"
+ JAS_reform_education_desc:0 "An empire that cannot teach its children cannot expect them to believe in it."
+ JAS_reform_provincial_rights:0 "Provincial Rights"
+ JAS_reform_provincial_rights_desc:0 "Some autonomy now may prevent open rebellion later."
+ JAS_reform_new_compact:0 "A New Compact"
+ JAS_reform_new_compact_desc:0 "The centre yields a little power so that the whole may endure."
+ JAS_reform_complete_tt:0 "The reformist path is complete. The Mandate has been given a second chance."
+
+ JAS_iron_propaganda:0 "Iron Propaganda"
+ JAS_iron_propaganda_desc:0 "Doubt is a luxury the Empire can no longer afford."
+ JAS_iron_war_economy:0 "War Economy"
+ JAS_iron_war_economy_desc:0 "Everything not essential to victory is a luxury."
+ JAS_iron_complete_tt:0 "The Path of Iron is complete. The Empire is ready for total war."
+
+ JAS_retreat_audit:0 "Audit the Empire"
+ JAS_retreat_audit_desc:0 "We must know what is still worth holding before we decide what to abandon."
+ JAS_retreat_abandon_periphery:0 "Abandon the Periphery"
+ JAS_retreat_abandon_periphery_desc:0 "Some borders exist only on maps. It is time to admit it."
+ JAS_retreat_fortify_core:0 "Fortify the Core"
+ JAS_retreat_fortify_core_desc:0 "What remains will be defended to the last."
+ JAS_abandon_periphery_tt:0 "The Empire begins a controlled withdrawal from overextended territories."
+
+#############################################
+# BALKAN CRISIS UPDATED
+#############################################
+ towe_balkan.10.t:0 "The Buffer Breaks Free"
+ towe_balkan.10.d:0 "The European Buffer was never meant to last forever. Today its officers and politicians have decided the Mandate no longer protects them — it only restrains them.\n\nIndependence has been declared. War has been declared. The old arrangement is dead."
+ towe_balkan.10.a:0 "Then we fight for our freedom."
+
+ towe_balkan.11.t:0 "Serbia Answers the Call"
+ towe_balkan.11.d:0 "The Kingdom of the Serbs will not stand idle while the Buffer fights alone. Old grievances and new opportunities have aligned.\n\nWar is joined."
+ towe_balkan.11.a:0 "For the South Slavs."
+
+#############################################
+# LOWLANDS WHITE PEACE
+#############################################
+ towe_lowlands.0.t:0 "War in the Lowlands"
+ towe_lowlands.0.d:0 "Gaulle and Prussia have moved against English holdings on the continent."
+ towe_lowlands.0.a:0 "The map is about to change."
+
+ towe_lowlands.1.t:0 "THE LOWLANDS SETTLEMENT"
+ towe_lowlands.1.d:0 "English power on the European mainland has collapsed.\n\nAfter weeks of fighting, the last English garrisons in the Lowlands have surrendered or withdrawn. The question of who inherits the wreckage has already been decided by the victors.\n\nBelgium and the southern territories pass to the Empire of Gaulle.\nThe Netherlands and the northern territories pass to Prussia.\n\nA formal white peace has been arranged. The war in the Lowlands is over."
+ towe_lowlands.1.a:0 "A new order in the west."
+ towe_lowlands.1.tt:0 "Scripted white peace: Belgium-area states to Gaulle, Netherlands-area states to Prussia. War between the parties ends."
+
+ JAS_advisor_vizier:0 "Grand Vizier"
+ JAS_advisor_marshal:0 "Marshal of the Empire"
+ JAS_advisor_treasurer:0 "Lord Treasurer"
+ JAS_advisor_spymaster:0 "Master of Whispers"
+ FUD_khan:0 "Great Khan"
+ FUD_advisor_warlord:0 "Warlord of the Banners"
+ FUD_advisor_steward:0 "Steward of the Clans"
+ FUD_advisor_blade:0 "Blade of the Khan"
+ JAS_throne_above_ideology:0 "The Throne Above Ideology"
+ JAS_throne_above_ideology_desc:0 "In the Jasmine Empire there is only the Throne. Parties and ideologies are foreign affectations."
+ FUD_clan_above_ideology:0 "The Clans Above Ideology"
+ FUD_clan_above_ideology_desc:0 "Loyalty is to blood and banner, not to foreign doctrines."

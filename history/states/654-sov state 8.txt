@@ -1,0 +1,17 @@
+state = {
+    id = 654
+    name = STATE_654
+    manpower = 153510
+    state_category = wasteland
+    history = {
+        owner = MGL
+        controller = MGL
+        add_core_of = MGL
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 4800 1 }
+    }
+    provinces = { 4781 4800 10531 10713 12509 }
+    local_supplies = 2.0
+}

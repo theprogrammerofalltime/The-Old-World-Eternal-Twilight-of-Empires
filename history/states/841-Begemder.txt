@@ -1,0 +1,31 @@
+state = {
+    id = 841
+    name = STATE_841
+    manpower = 1100000
+    resources = {
+    }
+    state_category = pastoral
+    history = {
+        owner = JSA
+        controller = JSA
+        add_core_of = JSA
+        set_variable = {
+            ETH_state_development_production_speed = -0.3
+        }
+        set_variable = {
+            ETH_state_development_local_building_slots_factor = -0.3
+        }
+        add_dynamic_modifier = {
+            modifier = ETH_state_development_dynamic_modifier
+        }
+        add_dynamic_modifier = {
+            modifier = ETH_state_decentralization_dynamic_modifier
+            scope = ETH
+        }
+        buildings = {
+        }
+        victory_points = { 1984 2 }
+    }
+    provinces = { 1984 2040 13137 13241 }
+    local_supplies = 0.0
+}

@@ -1,0 +1,23 @@
+state = {
+    id = 188
+    name = STATE_188
+    manpower = 150000
+    state_category = rural
+    history = {
+        owner = PRG
+        controller = PRG
+        add_core_of = PRG
+        add_core_of = PLC
+        add_claim_by = PLC
+        victory_points = { 3288 3 }
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+            3288 = {
+                naval_base = 1
+            }
+        }
+    }
+    provinces = { 3288 }
+    local_supplies = 0.0
+}

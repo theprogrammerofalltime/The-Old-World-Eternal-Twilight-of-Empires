@@ -1,0 +1,21 @@
+state = {
+    id = 74
+    name = STATE_74
+    manpower = 820000
+    resources = {
+        coal = 12
+    }
+    state_category = rural
+    history = {
+        owner = HAS
+        controller = HAS
+        buildings = {
+            infrastructure = 4
+            arms_factory = 1
+        }
+        victory_points = { 3583 5 }
+        victory_points = { 3414 2 }
+    }
+    provinces = { 421 3414 3583 6485 }
+    local_supplies = 2.0
+}

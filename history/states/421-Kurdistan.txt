@@ -1,0 +1,16 @@
+state = {
+    id = 421
+    name = STATE_421
+    manpower = 390139
+    state_category = rural
+    history = {
+        owner = JAS
+        controller = JAS
+        add_core_of = JAS
+        buildings = {
+            infrastructure = 1
+        }
+    }
+    provinces = { 829 5050 10774 }
+    local_supplies = 0.0
+}

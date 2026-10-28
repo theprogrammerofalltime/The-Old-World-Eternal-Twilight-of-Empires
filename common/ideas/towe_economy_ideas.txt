@@ -1,0 +1,103 @@
+ideas = {
+	country = {
+		# Economic Policy Ideas - mutually exclusive categories can be managed via decisions/focuses
+		
+		towe_econ_laissez_faire = {
+			picture = generic_goods_red_bonus
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+		
+		towe_econ_state_capitalism = {
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		
+		towe_econ_command = {
+			picture = generic_central_management
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_factory_max_efficiency_factor = 0.10
+				industrial_capacity_factory = 0.08
+				stability_factor = -0.05
+			}
+		}
+		
+		towe_econ_agrarian = {
+			picture = generic_agrarian_society
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.03
+				local_resources_factor = 0.10
+				production_speed_infrastructure_factor = 0.08
+			}
+		}
+		
+		# Debt / Crisis ideas
+		towe_debt_crisis = {
+			picture = great_depression
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.20
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				political_power_factor = -0.15
+			}
+		}
+		
+		towe_economic_miracle = {
+			picture = generic_economic_increase
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		# Tax ideas
+		towe_high_taxation = {
+			picture = generic_foreign_capital
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.08
+				political_power_gain = 0.10
+				stability_weekly = -0.001
+			}
+		}
+		
+		towe_low_taxation = {
+			picture = generic_goods_red_bonus
+			allowed = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+	}
+}

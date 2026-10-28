@@ -1,0 +1,332 @@
+focus_tree = {
+	id = MGL_focus_second_asian_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 50
+			tag = MGL
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 30 y = 2400 }
+
+	###########################
+	# ROOT — UNITE THE STEPPE
+	###########################
+	focus = {
+		id = MGL_unite_the_steppe
+		icon = GFX_goal_generic_national_unity
+		x = 12
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = MGL_gather_the_khans
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = MGL_unite_the_steppe }
+		x = 8
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_political_power = 35
+			add_manpower = 10000
+		}
+	}
+	focus = {
+		id = MGL_secure_caravan_routes
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = MGL_unite_the_steppe }
+		x = 12
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_political_power = 40
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = MGL_spirit_of_the_horde
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = MGL_unite_the_steppe }
+		x = 16
+		y = 1
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.06
+			army_experience = 10
+		}
+	}
+
+	###########################
+	# MILITARY BRANCH
+	###########################
+	focus = {
+		id = MGL_mobile_cavalry
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = MGL_gather_the_khans }
+		x = 6
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 80 }
+		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = { name = cavalry_bonus bonus = 0.5 uses = 1 category = land_doctrine }
+		}
+	}
+	focus = {
+		id = MGL_horse_archers_tradition
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = MGL_mobile_cavalry }
+		x = 4
+		y = 3
+		cost = 5
+		completion_reward = {
+			army_experience = 15
+			add_equipment_to_stockpile = { type = infantry_equipment amount = 1500 producer = MGL }
+		}
+	}
+	focus = {
+		id = MGL_scout_networks
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = MGL_mobile_cavalry }
+		x = 8
+		y = 3
+		cost = 5
+		completion_reward = {
+			add_political_power = 25
+			army_experience = 10
+		}
+	}
+	focus = {
+		id = MGL_great_horde_doctrine
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = MGL_horse_archers_tradition }
+		prerequisite = { focus = MGL_scout_networks }
+		x = 6
+		y = 4
+		cost = 6
+		completion_reward = {
+			army_experience = 30
+			add_tech_bonus = { name = land_doc bonus = 0.75 uses = 1 category = land_doctrine }
+		}
+	}
+	focus = {
+		id = MGL_mobilise_the_great_horde
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = MGL_great_horde_doctrine }
+		prerequisite = { focus = MGL_secure_caravan_routes }
+		x = 10
+		y = 5
+		cost = 6
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_war_support = 0.10
+			add_manpower = 25000
+			set_country_flag = towe_mgl_ready_for_asian_war
+		}
+	}
+
+	###########################
+	# DIPLOMACY — JASMINE
+	###########################
+	focus = {
+		id = MGL_envoys_to_jasmine
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = MGL_secure_caravan_routes }
+		x = 14
+		y = 2
+		cost = 5
+		completion_reward = {
+			add_political_power = 30
+			add_opinion_modifier = { target = JAS modifier = medium_increase }
+		}
+	}
+	focus = {
+		id = MGL_stand_with_jasmine
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = MGL_envoys_to_jasmine }
+		prerequisite = { focus = MGL_mobilise_the_great_horde }
+		mutually_exclusive = { focus = MGL_claim_independence }
+		x = 12
+		y = 6
+		cost = 6
+		ai_will_do = { factor = 70 }
+		completion_reward = {
+			add_political_power = 50
+			add_opinion_modifier = { target = JAS modifier = large_increase }
+			JAS = { add_opinion_modifier = { target = MGL modifier = large_increase } }
+		}
+	}
+	focus = {
+		id = MGL_joint_war_council
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = MGL_stand_with_jasmine }
+		x = 10
+		y = 7
+		cost = 5
+		completion_reward = {
+			army_experience = 20
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = MGL_shared_supply_lines
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = MGL_stand_with_jasmine }
+		x = 14
+		y = 7
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT }
+				add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = MGL_eternal_pact
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = MGL_joint_war_council }
+		prerequisite = { focus = MGL_shared_supply_lines }
+		x = 12
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.06
+			add_war_support = 0.05
+		}
+	}
+
+	###########################
+	# PATH: INDEPENDENCE
+	###########################
+	focus = {
+		id = MGL_claim_independence
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = MGL_spirit_of_the_horde }
+		prerequisite = { focus = MGL_mobilise_the_great_horde }
+		mutually_exclusive = { focus = MGL_stand_with_jasmine }
+		x = 18
+		y = 6
+		cost = 6
+		ai_will_do = { factor = 30 }
+		completion_reward = {
+			add_war_support = 0.08
+			add_political_power = 40
+			add_stability = -0.03
+		}
+	}
+	focus = {
+		id = MGL_break_the_yoke
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = MGL_claim_independence }
+		x = 16
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 30
+		}
+	}
+	focus = {
+		id = MGL_own_destiny
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = MGL_claim_independence }
+		x = 20
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 35
+		}
+	}
+	focus = {
+		id = MGL_free_khanate
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = MGL_break_the_yoke }
+		prerequisite = { focus = MGL_own_destiny }
+		x = 18
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_stability = 0.08
+			add_war_support = 0.08
+			add_political_power = 60
+			add_manpower = 15000
+		}
+	}
+
+	###########################
+	# INDUSTRY / DEVELOPMENT
+	###########################
+	focus = {
+		id = MGL_pastoral_wealth
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = MGL_secure_caravan_routes }
+		x = 20
+		y = 2
+		cost = 5
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = MGL_workshop_camps
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = MGL_pastoral_wealth }
+		x = 18
+		y = 3
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+				add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = MGL_arms_of_the_steppe
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = MGL_pastoral_wealth }
+		x = 22
+		y = 3
+		cost = 5
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_core_of = ROOT free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+				add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+			}
+		}
+	}
+	focus = {
+		id = MGL_learn_from_the_west
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = MGL_workshop_camps }
+		prerequisite = { focus = MGL_arms_of_the_steppe }
+		x = 20
+		y = 4
+		cost = 6
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = MGL_modern_khanate
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = MGL_learn_from_the_west }
+		x = 20
+		y = 5
+		cost = 6
+		completion_reward = {
+			add_stability = 0.06
+			add_political_power = 50
+		}
+	}
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_JAS_empress_lila"
+		texturefile = "gfx/leaders/JAS/Portrait_JAS_Empress_Lila.dds"
+	}
+}

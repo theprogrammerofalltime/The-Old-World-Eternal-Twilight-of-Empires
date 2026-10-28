@@ -1,0 +1,20 @@
+state = {
+    id = 1015
+    name = STATE_1015
+    manpower = 129000
+    state_category = pastoral
+    resources = {
+        oil = 2
+    }
+    history = {
+        owner = JAS
+        controller = JAS
+        add_core_of = JAS
+        buildings = {
+            infrastructure = 1
+        }
+        victory_points = { 5049 1 }
+    }
+    provinces = { 2018 5049 }
+    local_supplies = 0.0
+}

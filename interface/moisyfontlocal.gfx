@@ -1,0 +1,12 @@
+bitmapfonts = {
+
+	########## HOI FONTS ############ ####  THANK ME LATER <3 - Moisy
+
+	bitmapfont_override = {
+		name = "tahoma_60"
+		fontfiles = {
+			"gfx/fonts/cyrillic/hoi_mapfont4"
+		}
+		languages = { "l_russian" }
+	}
+}

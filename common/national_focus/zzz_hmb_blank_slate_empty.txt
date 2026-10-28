@@ -1,0 +1,141 @@
+# Prevents the installed generic tree from appearing on blank-slate countries
+# that do not have an authored project tree yet.
+focus_tree = {
+    id = hmb_blank_slate_empty
+    default = no
+    country = {
+        factor = 0
+        modifier = {
+            add = 1000
+            tag = AOR
+        }
+        modifier = {
+            add = 1000
+            tag = APL
+        }
+        modifier = {
+            add = 1000
+            tag = ATS
+        }
+        modifier = {
+            add = 1000
+            tag = AZT
+        }
+        modifier = {
+            add = 1000
+            tag = BRC
+        }
+        modifier = {
+            add = 1000
+            tag = CAS
+        }
+        modifier = {
+            add = 1000
+            tag = ESS
+        }
+        modifier = {
+            add = 1000
+            tag = FNW
+        }
+        modifier = {
+            add = 1000
+            tag = GAU
+        }
+        modifier = {
+            add = 1000
+            tag = HAS
+        }
+        modifier = {
+            add = 1000
+            tag = IAC
+        }
+        modifier = {
+            add = 1000
+            tag = IBE
+        }
+        modifier = {
+            add = 1000
+            tag = ICA
+        }
+        modifier = {
+            add = 1000
+            tag = IME
+        }
+        modifier = {
+            add = 1000
+            tag = IRE
+        }
+        modifier = {
+            add = 1000
+            tag = ISY
+        }
+        modifier = {
+            add = 1000
+            tag = JNW
+        }
+        modifier = {
+            add = 1000
+            tag = JSA
+        }
+        modifier = {
+            add = 1000
+            tag = JSE
+        }
+        modifier = {
+            add = 1000
+            tag = JSI
+        }
+        modifier = {
+            add = 1000
+            tag = KSA
+        }
+        modifier = {
+            add = 1000
+            tag = KSE
+        }
+        modifier = {
+            add = 1000
+            tag = NUO
+        }
+        modifier = {
+            add = 1000
+            tag = PAG
+        }
+        modifier = {
+            add = 1000
+            tag = PLC
+        }
+        modifier = {
+            add = 1000
+            tag = PPL
+        }
+        modifier = {
+            add = 1000
+            tag = PRG
+        }
+        modifier = {
+            add = 1000
+            tag = SAT
+        }
+        modifier = {
+            add = 1000
+            tag = SIB
+        }
+        modifier = {
+            add = 1000
+            tag = SIS
+        }
+        modifier = {
+            add = 1000
+            tag = UCP
+        }
+        modifier = {
+            add = 1000
+            tag = WAU
+        }
+        modifier = {
+            add = 1000
+            tag = ZUL
+        }
+    }
+}

@@ -1,0 +1,673 @@
+technologies = {
+
+	oe_concentrated_industry6 = {
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.15 
+		#industrial_capacity_dockyard_powered = 0.1 
+		global_building_slots_factor = 0.20
+		ai_research_weights = {
+			offensive = -1.0
+		}
+
+
+		research_cost = 2
+		start_year = 1952
+
+		folder = {
+			name = industry_folder
+			position = { x = 4 y = 12 }
+		}
+
+		categories = {
+			industry
+			concentrated_industry_category
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_dispersed_industry6 = {
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.1
+		#industrial_capacity_factory_powered = 0.1 
+		#industrial_capacity_dockyard_powered = 0.1 
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		industry_air_damage_factor = -0.10
+		global_building_slots_factor = 0.2
+		ai_research_weights = {
+			defensive = -1.0
+		}
+
+
+		research_cost = 2
+		start_year = 1952
+
+		folder = {
+			name = industry_folder
+			position = { x = 6 y = 12 }
+		}
+
+		categories = {
+			industry
+			dispersed_industry_category
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_construction6 = {
+		production_speed_buildings_factor = 0.1
+		#production_speed_buildings_powered_factor = 0.1
+		industry_repair_factor = 0.10
+
+
+		research_cost = 2
+		start_year = 1952
+
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 10 }
+		}
+
+		categories = {
+			industry
+			construction_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_excavation6 = {
+		local_resources_factor = 0.10
+		local_resources_coal_factor = 0.05
+
+
+		research_cost = 2
+		start_year = 1952
+
+		folder = {
+			name = industry_folder
+			position = { x = 8 y = 8 }
+		}
+
+		categories = {
+			industry
+			construction_tech
+			excavation_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_fuel_refining6 = {
+		fuel_gain_factor = 0.20
+		fuel_gain_factor_from_states = 0.1
+
+
+		research_cost = 3
+		start_year = 1952
+
+		folder = {
+			name = industry_folder
+			position = { x = 3 y = 12 }
+		}
+
+		categories = {
+			industry
+			synth_resources
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_advanced_infantry_weapons3 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		category_cavalry = {
+			soft_attack = 0.05
+		}
+		category_vehicle_infantry = {
+			soft_attack = 0.1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1953
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 24 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_infantry_at3 = {
+		category_all_infantry = {
+			hard_attack = 0.25
+			ap_attack = 1
+		}
+		category_cavalry = {
+			hard_attack = 0.1
+			ap_attack = 0.4
+		}
+		fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
+		}
+		mot_fire_support = {
+			hard_attack = 0.15
+			ap_attack = 0.5
+		}
+
+
+		research_cost = 1.5
+		start_year = 1952
+
+		folder = {
+			name = infantry_folder
+			position = { x = 2 y = 16 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_support_weapons5 = {
+		fire_support = {
+			defense = 0.15
+			breakthrough = 0.15
+			soft_attack = 0.1
+		}
+		mot_fire_support = {
+			defense = 0.15
+			breakthrough = 0.05
+			soft_attack = 0.1
+		}
+		#category_infantry_and_bicycle = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
+		#category_cavalry = {
+		#	defense = 0.02
+		#	breakthrough = 0.02
+		#}
+		#category_special_forces_leg_infantry = {
+		#	defense = 0.03
+		#	breakthrough = 0.03
+		#}
+		#category_vehicle_infantry = {
+		#	defense = 0.05
+		#	breakthrough = 0.05
+		#}
+
+
+		research_cost = 1.5
+		start_year = 1951
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 28 }
+		}
+
+		categories = {
+			infantry_weapons
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_night_vision3 = {
+		land_night_attack = 0.15
+
+
+		research_cost = 2
+		start_year = 1955
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 26 }
+		}
+
+		categories = {
+			night_vision
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_engineers5 = {
+		engineer = {
+			entrenchment = 0.50
+			urban = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		assault_engineer = {
+			breakthrough = 0.1
+			urban = {
+				attack = 0.1
+			}
+		}
+		armored_engineer = {
+			entrenchment = 1
+			urban = {
+				defence = 0.15
+				movement = 0.15
+			}
+		}
+		light_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.1
+			}
+		}
+		medium_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.1
+			}
+		}
+		heavy_flame_tank = {
+			urban = {
+				attack = 0.05
+			}
+			fort = {
+				attack = 0.1
+			}
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 0 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			engineers_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_field_hospital5 = {
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+		helicopter_field_hospital = {
+			casualty_trickleback = 0.12
+			experience_loss_factor = -0.08
+
+			battalion_mult = {
+				category = category_all_infantry
+				default_morale = 0.05
+			}
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 9 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			hospital_tech
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_logistics_company5 = {
+		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		helicopter_transport = {
+			supply_consumption_factor = -0.15
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 11 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_maintenance_company5 = {
+		maintenance_company = {
+			reliability_factor = 0.05
+			equipment_capture_factor = 0.05
+		}
+		armored_maintenance = {
+			reliability_factor = 0.02
+			recovery = 0.03
+			equipment_capture_factor = 0.1
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 6 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			maintenance_company_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_military_police5 = {
+		military_police = {
+			suppression_factor = 0.1
+		}
+		motorized_military_police = {
+			suppression_factor = 0.1
+			battalion_mult = {
+				category = category_vehicle_infantry
+				default_morale = 0.05
+			}
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 4 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			military_police_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_recon5 = {
+		category_recon = {
+			recon = 2
+		}
+		helicopter_recon = {
+			recon = 2
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			recon_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_tech_signal_company5 = {
+		signal_company = {
+			initiative = 0.12
+		}
+		armored_signal = {
+			initiative = 0.08
+			battalion_mult = {
+				category = category_all_armor
+				breakthrough = 0.01
+			}
+		}
+
+
+		research_cost = 2.0
+		start_year = 1954
+
+		folder = {
+			name = support_folder
+			position = { x = 14 y = 24 }
+		}
+
+		categories = {
+			support_tech
+			signal_company_tech
+			electronics
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_artillery6 = {
+		artillery = {
+			soft_attack = 0.05
+		}
+		artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		category_self_propelled_artillery = {
+			soft_attack = 0.05
+		}
+		field_guns = {
+			soft_attack = 0.05
+		}
+
+
+		research_cost = 1
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 14 }
+		}
+
+		categories = {
+			artillery
+			mio_cat_all_artillery_equipment
+			mio_cat_artillery #Only Artillery
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_antiair6 = {
+		armored_car = {
+			hard_attack = 0.1
+		}
+		static_anti_air_damage_factor = 0.1
+
+
+		research_cost = 1
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = 14 }
+		}
+
+		categories = {
+			artillery
+			cat_anti_air
+			mio_cat_all_artillery_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_antitank6 = {
+		armored_car = {
+			ap_attack = 0.1
+		}
+
+
+		research_cost = 1
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 14 }
+		}
+
+		categories = {
+			artillery
+			cat_anti_tank
+			mio_cat_all_artillery_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_rocket_artillery5 = {
+		motorized_rocket_brigade = {
+			soft_attack = 0.3
+		}
+
+
+		research_cost = 1
+		start_year = 1952
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 14 }
+		}
+
+		categories = {
+			rocketry
+			mio_cat_all_artillery_equipment
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_land_fort_tech_3 = {
+		bunker_max_level_terrain_limit = 1
+
+
+		research_cost = 1.5
+		start_year = 1951
+
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 14 }
+		}
+
+		categories = {
+			cat_fortification
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	oe_coastal_fort_tech_3 = {
+		coastal_bunker_max_level_terrain_limit = 2
+
+
+		research_cost = 1.5
+		start_year = 1951
+
+		folder = {
+			name = electronics_folder
+			position = { x = 2 y = 18 }
+		}
+
+		categories = {
+			cat_fortification
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	# Extended infantry weapons into the 1950s
+}

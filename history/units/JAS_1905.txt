@@ -1,0 +1,80 @@
+division_template = {
+	name = "Jasmine Infantry Division"
+	division_names_group = JAS_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jasmine Cavalry Division"
+	division_names_group = JAS_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = { name = "1st Jasmine Guard Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.35 start_equipment_factor = 0.85 }
+	division = { name = "2nd Jasmine Guard Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.35 start_equipment_factor = 0.85 }
+	division = { name = "3rd Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "4th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "5th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "6th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "7th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "8th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "9th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "10th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "11th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "12th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "13th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "14th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "15th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "16th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "17th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "18th Jasmine Infantry Division" location = 1086 division_template = "Jasmine Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.65 }
+	division = { name = "1st Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.30 start_equipment_factor = 0.80 }
+	division = { name = "2nd Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.30 start_equipment_factor = 0.80 }
+	division = { name = "3rd Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "4th Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.25 start_equipment_factor = 0.75 }
+	division = { name = "5th Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+	division = { name = "6th Jasmine Cavalry Division" location = 1086 division_template = "Jasmine Cavalry Division" start_experience_factor = 0.20 start_equipment_factor = 0.70 }
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = { type = infantry_equipment_0 creator = "JAS" }
+		requested_factories = 4
+		progress = 0.5
+		efficiency = 55
+	}
+	add_equipment_production = {
+		equipment = { type = support_equipment_1 creator = "JAS" }
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 45
+	}
+	add_equipment_production = {
+		equipment = { type = artillery_equipment_1 creator = "JAS" }
+		requested_factories = 2
+		progress = 0.35
+		efficiency = 40
+	}
+}

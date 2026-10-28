@@ -1,0 +1,166 @@
+﻿l_english:
+ # Focuses
+ JAS_the_dying_mandate: "The Dying Mandate"
+ JAS_the_dying_mandate_desc: "The old order of the Jasmine Empire trembles. The mandate that once bound the realm frays under the weight of court intrigue, provincial discontent, and a treasury stretched thin. The year is 1905. The choices made now will shape the fate of the nation for a generation."
+ JAS_the_dying_mandate_tt: "The crisis of legitimacy begins. Economic systems initialized."
+ 
+ JAS_echoes_of_past_glory: "Echoes of Past Glory"
+ JAS_echoes_of_past_glory_desc: "Remember the golden age when the Jasmine banners flew unchallenged. That memory still has power—if we can wield it."
+ 
+ JAS_the_court_is_divided: "The Court is Divided"
+ JAS_the_court_is_divided_desc: "Factions circle like vultures. Reformers, hardliners, traditionalists, and radicals all claim to speak for the true Jasmine."
+ 
+ JAS_whispers_from_the_provinces: "Whispers from the Provinces"
+ JAS_whispers_from_the_provinces_desc: "Far from the capital, the land speaks in unrest. Harvests fail, taxes bite, and old loyalties fray."
+ 
+ JAS_assess_the_treasury: "Assess the Treasury"
+ JAS_assess_the_treasury_desc: "Before any path can be chosen, we must know the true state of the realm's wealth—and its debts."
+ JAS_treasury_assessment_tt: "Economy variables initialized. GDP, debt, and growth tracking begins."
+ 
+ JAS_the_mandate_of_heaven_cracks: "The Mandate of Heaven Cracks"
+ JAS_the_mandate_of_heaven_cracks_desc: "The crisis can no longer be denied. The old consensus is dead. What rises in its place will define the Jasmine Empire."
+ 
+ JAS_path_of_reform: "The Path of Reform"
+ JAS_path_of_reform_desc: "Only by modernizing institutions, expanding rights, and harnessing the energies of the people can the Empire survive the new century."
+ JAS_reform_path_tt: "The Reformist path is chosen. Constitutional possibilities open."
+ 
+ JAS_path_of_iron: "The Path of Iron"
+ JAS_path_of_iron_desc: "Strength alone preserves the state. The court must be purged, the army elevated, and dissent crushed. Order before all."
+ JAS_iron_path_tt: "The Authoritarian path is chosen. Military consolidation begins."
+ 
+ JAS_path_of_retreat: "The Path of Retreat"
+ JAS_path_of_retreat_desc: "The world outside is chaos. Better to restore the old rites, limit foreign contamination, and seek harmony within."
+ JAS_retreat_path_tt: "The Conservative Restoration path is chosen."
+ 
+ JAS_path_of_revolution: "The Path of Revolution"
+ JAS_path_of_revolution_desc: "The old regime is beyond saving. Only the complete overthrow of the existing order can liberate the people of Jasmine."
+ JAS_revolution_path_tt: "The Revolutionary path is chosen. Dangerous and uncertain."
+ 
+ # Economy tooltips
+ towe_high_tax_tt: "Tax rate increased. Higher revenue but lower stability."
+ towe_low_tax_tt: "Tax rate lowered. Growth encouraged at the cost of revenue."
+ towe_increase_spending_tt: "Government spending rises. Debt increases."
+ towe_austerity_tt: "Harsh cuts implemented. Stability suffers but debt stabilizes."
+ towe_industrial_investment_tt: "Industrial capacity expanded. Factories and GDP rise; debt increases."
+ towe_agricultural_reform_tt: "Agricultural output improves through reform."
+ 
+ # Events
+ towe_jas.1.t: "The Crisis of 1905"
+ towe_jas.1.d: "Reports flood the capital. Provincial governors delay tax shipments. Court factions openly defy the throne. The people murmur that the Mandate itself is failing. Something must be done—yet every choice risks civil strife."
+ towe_jas.1.a: "Call for measured reform"
+ towe_jas.1.b: "Assert authority by force"
+ 
+ towe_jas.10.t: "The Reformist Cabinet"
+ towe_jas.10.d: "A new ministry of moderate reformers takes shape. Their program is ambitious: land reform, education, a consultative assembly. The hardliners watch with open hostility."
+ towe_jas.10.a: "Support the reformers fully"
+ 
+ towe_jas.11.t: "The Constitutional Compact"
+ towe_jas.11.d: "After months of negotiation, a new compact is signed. The throne retains significant powers, but a national assembly and provincial charters now limit arbitrary rule. It is an imperfect settlement—yet it holds."
+ towe_jas.11.a: "A new foundation is laid"
+ 
+ towe_jas.20.t: "The Iron Ministry"
+ towe_jas.20.d: "Generals and hardline courtiers dominate the new government. Their message is simple: obedience, strength, and the restoration of order by any means necessary."
+ towe_jas.20.a: "The army stands ready"
+ 
+ towe_jas.21.t: "The New Order Proclaimed"
+ towe_jas.21.d: "The old factions have been broken. A centralized military-backed regime now rules. The provinces are quiet—for now. The question is whether this order can endure."
+ towe_jas.21.a: "Order has been restored"
+ 
+ towe_jas.30.t: "The Conservative Restoration"
+ towe_jas.30.d: "Traditionalists regain the upper hand. Foreign advisors are dismissed, old rites restored, and the court turns inward. Stability returns, bought at the price of isolation."
+ towe_jas.30.a: "Harmony within, walls without"
+ 
+ towe_jas.31.t: "Harmony Restored"
+ towe_jas.31.d: "The rites are observed. The clans are appeased. The land yields its harvest. Outsiders may mock our 'backwardness', but the people are quiet and the throne secure."
+ towe_jas.31.a: "The old ways endure"
+ 
+ towe_jas.40.t: "The Revolutionary Surge"
+ towe_jas.40.d: "Radical agitators seize the moment. People's councils form in several provinces. The army is divided. The court is terrified. The future is suddenly unwritten."
+ towe_jas.40.a: "The people rise"
+ 
+ towe_jas.41.t: "The New Jasmine"
+ towe_jas.41.d: "The old regime has fallen. A revolutionary government proclaims the People's Jasmine Republic. Whether this experiment survives the reaction that will surely come remains to be seen."
+ towe_jas.41.a: "A new dawn—or a new terror"
+ 
+ towe_jas.50.t: "A Constitutional Settlement"
+ towe_jas.50.d: "By 1915 the Jasmine Empire has become something new: a constitutional monarchy with functioning institutions, growing industry, and a measure of popular legitimacy. The crisis of 1905 feels distant."
+ towe_jas.50.a: "The future is open"
+ 
+ towe_jas.51.t: "The Empire of Iron"
+ towe_jas.51.d: "The authoritarian regime has consolidated. The army is strong, the administration efficient, and dissent is rare. Whether this strength will be used for defence or conquest is the next question."
+ towe_jas.51.a: "Strength above all"
+ 
+ towe_jas.52.t: "The Quiet Empire"
+ towe_jas.52.d: "Jasmine has withdrawn from the storms of the wider world. Internal harmony has been purchased with isolation and stagnation. For many, that is enough."
+ towe_jas.52.a: "Better quiet than chaos"
+ 
+ towe_jas.53.t: "The Workers' Jasmine"
+ towe_jas.53.d: "The revolutionary state has survived its first years. Collectivization continues, the Red Army grows, and the old elites are broken. The cost has been high—but the new order stands."
+ towe_jas.53.a: "The struggle continues"
+
+ JAS_the_scholars_debate: "The Scholars Debate"
+ JAS_the_scholars_debate_desc: "Learned men argue over the meaning of the crisis. Their words may yet shape policy."
+ JAS_the_generals_whisper: "The Generals Whisper"
+ JAS_the_generals_whisper_desc: "In the barracks and staff rooms, officers discuss what the army must do if the court fails."
+ JAS_the_merchants_complain: "The Merchants Complain"
+ JAS_the_merchants_complain_desc: "Trade is disrupted. Credit is tight. The merchant houses demand action."
+ JAS_the_peasants_stir: "The Peasants Stir"
+ JAS_the_peasants_stir_desc: "In the countryside the old patience is fraying. Hungry men become dangerous men."
+ 
+ JAS_reform_draft_charter: "Draft the Charter"
+ JAS_reform_limit_throne: "Limit the Throne"
+ JAS_reform_preserve_throne: "Preserve the Throne"
+ JAS_reform_civil_service_exam: "Restore the Examinations"
+ JAS_reform_currency_stabilization: "Stabilize the Currency"
+ JAS_reform_primary_schools: "Primary Schools for All"
+ JAS_reform_technical_institutes: "Technical Institutes"
+ JAS_reform_officer_academy: "New Officer Academy"
+ JAS_reform_modern_artillery: "Modern Artillery Corps"
+ JAS_reform_industrial_parks: "Industrial Parks"
+ JAS_reform_press_freedom: "Freedom of the Press"
+ JAS_reform_local_assemblies: "Local Assemblies"
+ JAS_reform_commercial_code: "Commercial Code"
+ JAS_reform_public_health: "Public Health Boards"
+ JAS_reform_judiciary: "Independent Judiciary"
+ 
+ JAS_iron_loyal_governors: "Loyal Governors"
+ JAS_iron_conscription_law: "Universal Conscription"
+ JAS_iron_heavy_industry: "Heavy Industry Drive"
+ JAS_iron_cult_of_strength: "Cult of Strength"
+ JAS_iron_propaganda_bureau: "Propaganda Bureau"
+ JAS_iron_youth_leagues: "Youth Leagues"
+ JAS_iron_border_fortifications: "Border Fortifications"
+ 
+ JAS_retreat_temple_restoration: "Temple Restoration"
+ JAS_retreat_clan_militias: "Clan Militias"
+ JAS_retreat_rural_harmony: "Rural Harmony"
+ JAS_retreat_cultural_revival: "Cultural Revival"
+ JAS_retreat_scholar_officials: "Scholar-Officials Restored"
+ JAS_retreat_limit_urbanization: "Limit Urbanization"
+ JAS_retreat_ancestral_laws: "Ancestral Laws"
+ 
+ JAS_rev_agitate_the_cities: "Agitate the Cities"
+ JAS_rev_purge_landlords: "Purge the Landlords"
+ JAS_rev_workers_militias: "Workers' Militias"
+ JAS_rev_five_year_plan: "First Five-Year Plan"
+ JAS_rev_cultural_revolution: "Cultural Revolution"
+ JAS_rev_literacy_campaign: "Literacy Campaign"
+ JAS_rev_internationalists: "Internationalist Faction"
+ JAS_rev_industrial_shock: "Industrial Shock Work"
+ 
+ JAS_chapter3_resource_extraction: "Resource Extraction"
+ JAS_chapter3_armaments_board: "Armaments Board"
+ JAS_chapter3_census: "National Census"
+ JAS_social_pension_system: "Pension System"
+ JAS_mil_expand_officer_corps: "Expand the Officer Corps"
+ JAS_mil_modern_navy: "Modern Navy"
+ JAS_mil_air_corps: "Air Corps"
+ JAS_diplo_great_power_status: "Great Power Status"
+ JAS_diplo_regional_hegemony: "Regional Hegemony"
+ 
+ JAS_final_cultural_purity: "Cultural Purity"
+ JAS_final_world_revolution: "World Revolution"
+ JAS_legacy_of_1905: "Legacy of 1905"
+ JAS_legacy_tt: "The crisis that began in 1905 has been resolved—for now. The Jasmine Empire enters a new era."
+ JAS_epilogue_remember_the_dead: "Remember the Dead"
+ JAS_epilogue_look_to_the_future: "Look to the Future"

@@ -1,0 +1,312 @@
+add_namespace = towe_balkan
+
+#############################
+# SUPER EVENT - Balkan Crisis
+#############################
+country_event = {
+	id = towe_balkan.1
+	title = towe_balkan.1.t
+	desc = towe_balkan.1.d
+	picture = GFX_report_event_generic_riot
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = JAS
+		date > 1906.5.1
+		date < 1906.6.15
+		NOT = { has_country_flag = towe_balkan_revolt_started }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = towe_balkan_revolt_started
+	}
+
+	option = {
+		name = towe_balkan.1.a
+		custom_effect_tooltip = towe_balkan_revolt_tt
+
+		load_focus_tree = JAS_balkan_crisis_focus
+
+
+		every_other_country = {
+			limit = {
+				OR = {
+					tag = BRC
+					tag = GAU
+					tag = HAS
+					tag = PRG
+					tag = PLC
+					tag = NUO
+					tag = IBE
+					tag = KSE
+					tag = IME
+				}
+				is_subject = no
+			}
+			country_event = { id = towe_balkan.2 days = 3 }
+		}
+
+		# The Balkan Crisis is a conventional interstate war, not a civil war.
+		# Give the Buffer States the Bulgarian territories before hostilities.
+		JSE = { transfer_state = 48 }
+		JSE = { transfer_state = 801 }
+		JSE = { transfer_state = 211 }
+		JSE = { transfer_state = 212 }
+		JSE = {
+			set_country_flag = towe_balkan_buffer_states_united
+			country_event = { id = towe_balkan.3 days = 1 }
+		}
+
+		add_stability = -0.12
+		add_war_support = 0.08
+		add_political_power = -75
+		set_global_flag = towe_balkan_crisis_active
+	}
+}
+
+country_event = {
+	id = towe_balkan.2
+	title = towe_balkan.2.t
+	desc = towe_balkan.2.d
+	picture = GFX_report_event_generic_military_parade
+	is_triggered_only = yes
+
+	option = {
+		name = towe_balkan.2.a
+		ai_chance = { factor = 70 }
+		custom_effect_tooltip = towe_european_intervention_tt
+		set_country_flag = towe_intervened_balkans
+		add_manpower = -15000
+		capital_scope = {
+			create_unit = {
+				division = "name = \"Balkan Expeditionary Force\" division_template = \"Infantry Division\" start_experience_factor = 0.3 start_equipment_factor = 0.8"
+				owner = ROOT
+				count = 2
+			}
+		}
+		add_timed_idea = {
+			idea = towe_balkan_expedition
+			days = 365
+		}
+		JAS = {
+			country_event = { id = towe_balkan.4 days = 5 }
+		}
+	}
+
+	option = {
+		name = towe_balkan.2.b
+		ai_chance = { factor = 30 }
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = towe_balkan.3
+	title = towe_balkan.3.t
+	desc = towe_balkan.3.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+
+	option = {
+		name = towe_balkan.3.a
+		if = {
+			limit = { exists = JSE NOT = { has_country_flag = towe_jse_balkan_war_declared } }
+			JSE = {
+				set_country_flag = towe_jse_balkan_war_declared
+				declare_war_on = { target = JAS type = annex_everything }
+				add_war_support = 0.10
+			}
+		}
+		if = {
+			limit = { exists = KSE is_in_faction = no }
+			KSE = {
+				add_to_war = {
+					targeted_alliance = JSE
+					enemy = JAS
+					hostility_reason = asked_to_join
+				}
+			}
+		}
+		add_stability = -0.08
+		add_war_support = 0.10
+	}
+}
+
+country_event = {
+	id = towe_balkan.4
+	title = towe_balkan.4.t
+	desc = towe_balkan.4.d
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+
+	option = {
+		name = towe_balkan.4.a
+		custom_effect_tooltip = towe_europeans_coming_tt
+		add_war_support = 0.05
+	}
+}
+
+
+#############################
+# IMPERIAL CHRONICLE — pre-crisis story events
+# Original narrative content inspired by slow-burn alternate-history storytelling.
+#############################
+add_namespace = towe_imperial
+
+country_event = {
+    id = towe_imperial.1
+    title = towe_imperial.1.t
+    desc = towe_imperial.1.d
+    picture = GFX_report_event_generic_parliament
+    major = no
+    fire_only_once = yes
+    trigger = {
+        tag = JAS
+        date > 1901.1.1
+        date < 1901.12.20
+        NOT = { has_country_flag = towe_imperial_census_reported }
+    }
+    mean_time_to_happen = { days = 10 }
+    immediate = { set_country_flag = towe_imperial_census_reported }
+    option = {
+        name = towe_imperial.1.a
+        add_political_power = 35
+        add_stability = 0.02
+        set_country_flag = towe_imperial_centralisation
+    }
+    option = {
+        name = towe_imperial.1.b
+        add_political_power = 20
+        add_stability = 0.01
+        set_country_flag = towe_imperial_local_compacts
+    }
+}
+
+country_event = {
+    id = towe_imperial.2
+    title = towe_imperial.2.t
+    desc = towe_imperial.2.d
+    picture = GFX_report_event_generic_diplomatic
+    major = no
+    fire_only_once = yes
+    trigger = {
+        tag = JAS
+        date > 1903.1.1
+        date < 1903.12.20
+        has_country_flag = towe_imperial_census_reported
+        NOT = { has_country_flag = towe_imperial_provincial_question }
+    }
+    mean_time_to_happen = { days = 10 }
+    immediate = { set_country_flag = towe_imperial_provincial_question }
+    option = {
+        name = towe_imperial.2.a
+        add_stability = -0.02
+        add_war_support = 0.03
+        add_political_power = 35
+        set_country_flag = towe_imperial_hard_line
+    }
+    option = {
+        name = towe_imperial.2.b
+        add_stability = 0.02
+        add_political_power = 20
+        set_country_flag = towe_imperial_concessions
+    }
+}
+
+country_event = {
+    id = towe_imperial.3
+    title = towe_imperial.3.t
+    desc = towe_imperial.3.d
+    picture = GFX_report_event_generic_intelligence
+    major = no
+    fire_only_once = yes
+    trigger = {
+        tag = JAS
+        date > 1905.1.1
+        date < 1905.12.20
+        has_country_flag = towe_imperial_provincial_question
+        NOT = { has_country_flag = towe_imperial_sofia_dispatch }
+    }
+    mean_time_to_happen = { days = 10 }
+    immediate = { set_country_flag = towe_imperial_sofia_dispatch }
+    option = {
+        name = towe_imperial.3.a
+        add_war_support = 0.03
+        add_political_power = 25
+        set_country_flag = towe_imperial_prepare_for_balkans
+    }
+    option = {
+        name = towe_imperial.3.b
+        add_stability = 0.02
+        add_political_power = 25
+        set_country_flag = towe_imperial_seek_compromise
+    }
+}
+
+
+country_event = {
+    id = towe_imperial.4
+    title = towe_imperial.4.t
+    desc = towe_imperial.4.d
+    picture = GFX_report_event_generic_parliament
+    major = no
+    fire_only_once = yes
+    trigger = {
+        tag = JAS
+        date > 1904.1.1
+        date < 1904.12.20
+        has_country_flag = towe_imperial_provincial_question
+        NOT = { has_country_flag = towe_imperial_cabinet_minutes }
+    }
+    mean_time_to_happen = { days = 20 }
+    immediate = { set_country_flag = towe_imperial_cabinet_minutes }
+    option = {
+        name = towe_imperial.4.a
+        add_stability = 0.03
+        add_political_power = 25
+        set_country_flag = towe_imperial_cabinet_compromise
+    }
+    option = {
+        name = towe_imperial.4.b
+        add_stability = -0.02
+        add_war_support = 0.03
+        add_political_power = 35
+        set_country_flag = towe_imperial_cabinet_hardline
+    }
+}
+
+country_event = {
+    id = towe_imperial.5
+    title = towe_imperial.5.t
+    desc = towe_imperial.5.d
+    picture = GFX_report_event_generic_diplomatic
+    major = no
+    fire_only_once = yes
+    trigger = {
+        tag = JAS
+        date > 1905.1.1
+        date < 1906.4.20
+        has_country_flag = towe_imperial_sofia_dispatch
+        NOT = { has_country_flag = towe_imperial_sofia_memorandum }
+    }
+    mean_time_to_happen = { days = 20 }
+    immediate = { set_country_flag = towe_imperial_sofia_memorandum }
+    option = {
+        name = towe_imperial.5.a
+        add_war_support = 0.05
+        add_political_power = 20
+        set_country_flag = towe_imperial_prepare_for_war
+    }
+    option = {
+        name = towe_imperial.5.b
+        add_stability = 0.02
+        add_political_power = 30
+        set_country_flag = towe_imperial_last_diplomatic_attempt
+    }
+}

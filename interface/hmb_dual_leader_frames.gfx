@@ -1,0 +1,152 @@
+# HMB co-leader custom skin v11: regenerated on every export.
+spriteTypes = {
+spriteType = {
+    name = "GFX_hmb_dual_politics_header"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_politics_bottom"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_bottom.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_category_header"
+    texturefile = "gfx/interface/hmb_dual_leader/category_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_politics_identity"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_identity.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_politics_ideology"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_ideology.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_politics_faction"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_faction.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_politics_spirits"
+    texturefile = "gfx/interface/hmb_dual_leader/politics_spirits.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_header"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_bottom"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_bottom.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_country_header"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_country_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_top"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_top.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_spirits"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_spirits.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_diplomacy_actions_header"
+    texturefile = "gfx/interface/hmb_dual_leader/diplomacy_actions_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_header"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_bottom"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_bottom.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_category"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_category.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_politics_top"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_politics_top.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_leader_backing"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_leader_backing.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_politics_spirits"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_politics_spirits.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_politics_faction"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_politics_faction.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_politics_ideology"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_politics_ideology.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_politics_support"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_politics_support.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_diplomacy_country_header"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_diplomacy_country_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_diplomacy_top"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_diplomacy_top.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_diplomacy_spirits"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_diplomacy_spirits.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_normal_diplomacy_actions_header"
+    texturefile = "gfx/interface/hmb_dual_leader/normal_diplomacy_actions_header.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_joined_politics"
+    texturefile = "gfx/interface/hmb_dual_leader/joined_politics.dds"
+    noOfFrames = 1
+}
+spriteType = {
+    name = "GFX_hmb_dual_joined_diplomacy"
+    texturefile = "gfx/interface/hmb_dual_leader/joined_diplomacy.dds"
+    noOfFrames = 1
+}
+    corneredTileSpriteType = {
+        name = "GFX_hmb_dual_panel_tile"
+        texturefile = "gfx/interface/hmb_dual_leader/panel_tile.dds"
+        size = { x = 64 y = 64 }
+        borderSize = { x = 8 y = 8 }
+        # The master has a gradient, not a seamless repeating texture.
+        # Keep the bevels fixed and stretch the center once per panel.
+        tilingCenter = no
+    }
+}

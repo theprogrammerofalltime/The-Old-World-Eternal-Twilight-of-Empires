@@ -1,0 +1,12 @@
+# Basic overrides to reduce vanilla political screen clutter
+# Full TNO-style UI is a large project; this starts locking things down
+
+guiTypes = {
+
+	# Hide the default "Create Faction" button for JAS-style immersion (can be re-enabled later via decision)
+	containerWindowType = {
+		name = "faction_button_container"
+		position = { x=-1000 y=-1000 }
+		size = { width=1 height=1 }
+	}
+}

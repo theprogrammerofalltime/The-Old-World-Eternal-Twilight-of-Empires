@@ -1,0 +1,5 @@
+focus_tree = {
+	id = FUD_focus_DISABLED
+	country = { factor = 0 }
+	default = no
+}

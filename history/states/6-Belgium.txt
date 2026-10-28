@@ -1,0 +1,29 @@
+state = {
+    id = 6
+    name = STATE_6
+    manpower = 2947700
+    resources = {
+        steel = 4
+    }
+    state_category = metropolis
+    history = {
+        owner = BRC
+        controller = BRC
+        add_core_of = GAU
+        victory_points = { 516 30 }
+        victory_points = { 6560 5 }
+        victory_points = { 3576 1 }
+        buildings = {
+            infrastructure = 3
+            arms_factory = 3
+            industrial_complex = 4
+            air_base = 2
+            6560 = {
+                naval_base = 3
+            }
+        }
+        add_extra_state_shared_building_slots = 2
+    }
+    provinces = { 516 3576 6446 6560 }
+    local_supplies = 0.0
+}

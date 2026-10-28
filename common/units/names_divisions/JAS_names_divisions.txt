@@ -1,0 +1,22 @@
+JAS_INF_01 = {
+	name = "Jasmine Infantry Divisions"
+	for_countries = { JAS }
+	can_use = { always = yes }
+	division_types = { "infantry" }
+	fallback_name = "%d. Jasmine Infantry Division"
+	ordered = {
+		1 = "%d. Jasmine Guard Division"
+		2 = "%d. Jasmine Infantry Division"
+	}
+}
+
+JAS_CAV_01 = {
+	name = "Jasmine Cavalry Divisions"
+	for_countries = { JAS }
+	can_use = { always = yes }
+	division_types = { "cavalry" }
+	fallback_name = "%d. Jasmine Cavalry Division"
+	ordered = {
+		1 = "%d. Jasmine Cavalry Division"
+	}
+}

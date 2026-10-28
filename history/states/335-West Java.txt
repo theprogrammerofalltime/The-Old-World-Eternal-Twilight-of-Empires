@@ -1,0 +1,23 @@
+state = {
+    id = 335
+    name = STATE_335
+    manpower = 9632183
+    state_category = large_town
+    resources = {
+        rubber = 51
+        oil = 11
+    }
+    history = {
+        owner = ESS
+        controller = ESS
+        add_core_of = ESS
+        victory_points = { 7421 15 }
+        victory_points = { 4434 1 }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+    }
+    provinces = { 1398 10307 1386 13382 7421 1425 4621 4434 7223 10279 }
+    local_supplies = 5.0
+}

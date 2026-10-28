@@ -1,0 +1,16 @@
+add_namespace = towe_asia
+country_event = {
+ id = towe_asia.1
+ title = towe_asia.1.t
+ desc = towe_asia.1.d
+ picture = GFX_report_event_generic_military_parade
+ is_triggered_only = yes
+ option = {
+  name = towe_asia.1.a
+  if = { limit = { NOT = { has_country_flag = towe_asian_war_support_sent } }
+   set_country_flag = towe_asian_war_support_sent
+   if = { limit = { exists = FUD } FUD = { add_to_faction = JAS } }
+   if = { limit = { exists = MGL } MGL = { add_to_faction = JAS } }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+characters = {
+    new_character_1 = {
+        name = new_character_1
+        portraits = {
+            civilian = {
+                large = GFX_portrait_the_old_world_eternal_new_character_1
+                small = GFX_idea_the_old_world_eternal_new_character_1
+            }
+        }
+        country_leader = {
+            ideology = despotism
+            expire = "1965.1.1"
+            id = -1
+        }
+    }
+}

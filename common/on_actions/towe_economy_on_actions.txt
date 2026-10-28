@@ -1,0 +1,31 @@
+# TOWE Economy On Actions
+# Monthly tick + startup initialization
+
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }		# Player countries get full init; AI can be selective
+				towe_init_economy = yes
+			}
+			# Also init majors even if AI
+			JAS = { towe_init_economy = yes }
+			FUD = { towe_init_economy = yes }
+			ISY = { towe_init_economy = yes }
+			IBE = { towe_init_economy = yes }
+			GAU = { towe_init_economy = yes }
+			BRC = { towe_init_economy = yes }
+			PRG = { towe_init_economy = yes }
+			MGL = { towe_init_economy = yes }
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			every_country = {
+				limit = { has_country_flag = towe_economy_initialized }
+				towe_monthly_economy_tick = yes
+			}
+		}
+	}
+}

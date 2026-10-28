@@ -1,0 +1,14 @@
+# Country-scoped display controls. Assignments and succession are unchanged.
+# Disabled takes precedence; reset restores the builder's start-hidden setting.
+hmb_the_old_world_eternal_enable_co_leader_display = {
+    clr_country_flag = hmb_the_old_world_eternal_co_leader_display_disabled
+    set_country_flag = hmb_the_old_world_eternal_co_leader_display_enabled
+}
+hmb_the_old_world_eternal_disable_co_leader_display = {
+    clr_country_flag = hmb_the_old_world_eternal_co_leader_display_enabled
+    set_country_flag = hmb_the_old_world_eternal_co_leader_display_disabled
+}
+hmb_the_old_world_eternal_reset_co_leader_display = {
+    clr_country_flag = hmb_the_old_world_eternal_co_leader_display_enabled
+    clr_country_flag = hmb_the_old_world_eternal_co_leader_display_disabled
+}

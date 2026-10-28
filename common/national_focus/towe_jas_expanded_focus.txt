@@ -1,0 +1,1616 @@
+focus_tree = {
+	id = jas_towe_expanded_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 999999
+			tag = JAS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 3500 }
+
+	###########################
+	# CHAPTER 1 - 1905: THE DYING MANDATE
+	###########################
+
+	focus = {
+		id = JAS_the_dying_mandate
+		icon = GFX_goal_generic_national_unity
+		x = 24
+		y = 0
+		cost = 5
+		
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_political_power = 80
+			custom_effect_tooltip = JAS_the_dying_mandate_tt
+			towe_init_economy = yes
+			set_country_flag = JAS_chapter1_started
+		}
+	}
+
+	focus = {
+		id = JAS_echoes_of_past_glory
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_the_dying_mandate }
+		x = 12
+		y = 1
+		cost = 4
+		ai_will_do = { factor = 40 }
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = 35
+			add_to_variable = { towe_gdp = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_the_court_is_divided
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_the_dying_mandate }
+		x = 24
+		y = 1
+		cost = 4
+		ai_will_do = { factor = 50 }
+		completion_reward = {
+			add_political_power = 55
+			add_stability = -0.03
+			set_country_flag = JAS_court_divided
+		}
+	}
+
+	focus = {
+		id = JAS_whispers_from_the_provinces
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_the_dying_mandate }
+		x = 36
+		y = 1
+		cost = 4
+		ai_will_do = { factor = 45 }
+		completion_reward = {
+			add_stability = -0.04
+			add_war_support = 0.03
+			set_country_flag = JAS_provincial_unrest
+		}
+	}
+
+	focus = {
+		id = JAS_assess_the_treasury
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_the_dying_mandate }
+		x = 24
+		y = 2
+		cost = 4
+		ai_will_do = { factor = 60 }
+		completion_reward = {
+			towe_init_economy = yes
+			add_political_power = 30
+			custom_effect_tooltip = JAS_treasury_assessment_tt
+		}
+	}
+
+	focus = {
+		id = JAS_the_scholars_debate
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = JAS_echoes_of_past_glory }
+		x = 8
+		y = 2
+		cost = 4
+		completion_reward = {
+			add_political_power = 25
+			add_stability = 0.02
+		}
+	}
+
+	focus = {
+		id = JAS_the_generals_whisper
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_the_court_is_divided }
+		x = 20
+		y = 2
+		cost = 4
+		completion_reward = {
+			army_experience = 15
+			add_war_support = 0.02
+		}
+	}
+
+	focus = {
+		id = JAS_the_merchants_complain
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = JAS_assess_the_treasury }
+		x = 28
+		y = 2
+		cost = 4
+		completion_reward = {
+			add_to_variable = { towe_trade_balance = -2 }
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = JAS_the_peasants_stir
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_whispers_from_the_provinces }
+		x = 40
+		y = 2
+		cost = 4
+		completion_reward = {
+			add_stability = -0.03
+			add_to_variable = { towe_unemployment = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_the_mandate_of_heaven_cracks
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = JAS_echoes_of_past_glory }
+		prerequisite = { focus = JAS_the_court_is_divided }
+		prerequisite = { focus = JAS_whispers_from_the_provinces }
+		prerequisite = { focus = JAS_assess_the_treasury }
+		x = 24
+		y = 3
+		cost = 6
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_stability = -0.06
+			add_political_power = 50
+			country_event = { id = towe_jas.1 days = 2 }
+			set_country_flag = JAS_crisis_of_1905
+		}
+	}
+
+	###########################
+	# CHAPTER 2 - 1906-1908: THE FIRST RECKONING
+	# Four mutually exclusive grand paths
+	###########################
+
+	focus = {
+		id = JAS_path_of_reform
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_the_mandate_of_heaven_cracks }
+		mutually_exclusive = { focus = JAS_path_of_iron }
+		mutually_exclusive = { focus = JAS_path_of_retreat }
+		mutually_exclusive = { focus = JAS_path_of_revolution }
+		x = 8
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 1.5
+				has_government = liberalism
+			}
+		}
+		completion_reward = {
+			add_political_power = 110
+			add_stability = 0.05
+			set_country_flag = JAS_chose_reform
+			custom_effect_tooltip = JAS_reform_path_tt
+			country_event = { id = towe_jas.10 days = 4 }
+		}
+	}
+
+	focus = {
+		id = JAS_path_of_iron
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = JAS_the_mandate_of_heaven_cracks }
+		mutually_exclusive = { focus = JAS_path_of_reform }
+		mutually_exclusive = { focus = JAS_path_of_retreat }
+		mutually_exclusive = { focus = JAS_path_of_revolution }
+		x = 24
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 35
+			modifier = {
+				factor = 1.8
+				has_government = fascism
+			}
+			modifier = {
+				factor = 1.3
+				has_government = despotism
+			}
+		}
+		completion_reward = {
+			add_political_power = 70
+			add_war_support = 0.12
+			add_stability = -0.06
+			set_country_flag = JAS_chose_iron
+			custom_effect_tooltip = JAS_iron_path_tt
+			country_event = { id = towe_jas.20 days = 4 }
+		}
+	}
+
+	focus = {
+		id = JAS_path_of_retreat
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_the_mandate_of_heaven_cracks }
+		mutually_exclusive = { focus = JAS_path_of_reform }
+		mutually_exclusive = { focus = JAS_path_of_iron }
+		mutually_exclusive = { focus = JAS_path_of_revolution }
+		x = 40
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 25
+			modifier = {
+				factor = 1.4
+				has_government = despotism
+			}
+		}
+		completion_reward = {
+			add_stability = 0.09
+			add_war_support = -0.12
+			add_political_power = 45
+			set_country_flag = JAS_chose_retreat
+			custom_effect_tooltip = JAS_retreat_path_tt
+			country_event = { id = towe_jas.30 days = 4 }
+		}
+	}
+
+	focus = {
+		id = JAS_path_of_revolution
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAS_the_mandate_of_heaven_cracks }
+		prerequisite = { focus = JAS_whispers_from_the_provinces }
+		mutually_exclusive = { focus = JAS_path_of_reform }
+		mutually_exclusive = { focus = JAS_path_of_iron }
+		mutually_exclusive = { focus = JAS_path_of_retreat }
+		x = 52
+		y = 5
+		cost = 9
+		available = {
+			has_country_flag = JAS_provincial_unrest
+			OR = {
+				has_government = communist
+				communist > 0.12
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 3
+				communist > 0.2
+			}
+		}
+		completion_reward = {
+			add_political_power = 55
+			add_stability = -0.14
+			add_popularity = { ideology = communist popularity = 0.12 }
+			set_country_flag = JAS_chose_revolution
+			custom_effect_tooltip = JAS_revolution_path_tt
+			country_event = { id = towe_jas.40 days = 4 }
+		}
+	}
+
+	###########################
+	# REFORM PATH - DEEP TREE
+	###########################
+
+	# Political sub-branch
+	focus = {
+		id = JAS_reform_summon_the_assembly
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_path_of_reform }
+		x = 2
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_political_power = 65
+			add_stability = 0.03
+			set_country_flag = JAS_assembly_summoned
+		}
+	}
+
+	focus = {
+		id = JAS_reform_draft_charter
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_reform_summon_the_assembly }
+		x = 0
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_political_power = 40
+			add_stability = 0.02
+		}
+	}
+
+	focus = {
+		id = JAS_reform_limit_throne
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_draft_charter }
+		mutually_exclusive = { focus = JAS_reform_preserve_throne }
+		x = 0
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = 30
+			set_country_flag = JAS_throne_limited
+		}
+	}
+
+	focus = {
+		id = JAS_reform_preserve_throne
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_reform_draft_charter }
+		mutually_exclusive = { focus = JAS_reform_limit_throne }
+		x = 2
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_stability = 0.06
+			add_political_power = 20
+			set_country_flag = JAS_throne_preserved
+		}
+	}
+
+	# Bureaucracy & Economy sub-branch
+	focus = {
+		id = JAS_reform_bureaucracy
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = JAS_path_of_reform }
+		x = 6
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_ideas = towe_econ_state_capitalism
+			towe_industrial_investment = yes
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_reform_civil_service_exam
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_bureaucracy }
+		x = 4
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_political_power = 35
+			add_stability = 0.03
+			add_to_variable = { towe_gdp = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_fiscal_modernization
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = JAS_reform_bureaucracy }
+		x = 8
+		y = 7
+		cost = 6
+		completion_reward = {
+			towe_set_high_tax = yes
+			add_ideas = towe_high_taxation
+			add_to_variable = { towe_credit_rating = 0.4 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_national_bank
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_fiscal_modernization }
+		x = 8
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_to_variable = { towe_gdp = 10 }
+			add_to_variable = { towe_credit_rating = 0.6 }
+			add_political_power = 45
+		}
+	}
+
+	focus = {
+		id = JAS_reform_currency_stabilization
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_reform_national_bank }
+		x = 8
+		y = 9
+		cost = 5
+		completion_reward = {
+			add_to_variable = { towe_inflation = -1.5 }
+			add_to_variable = { towe_gdp = 4 }
+		}
+	}
+
+	# Education & Society
+	focus = {
+		id = JAS_reform_education
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = JAS_path_of_reform }
+		x = 12
+		y = 6
+		cost = 5
+		completion_reward = {
+			add_research_slot = 1
+			add_stability = 0.04
+			add_to_variable = { towe_gdp = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_primary_schools
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = JAS_reform_education }
+		x = 10
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_stability = 0.03
+			add_to_variable = { towe_unemployment = -1 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_technical_institutes
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = JAS_reform_education }
+		x = 14
+		y = 7
+		cost = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			add_to_variable = { towe_industrial_capacity = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_universal_education
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = JAS_reform_primary_schools }
+		prerequisite = { focus = JAS_reform_technical_institutes }
+		x = 12
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_research_slot = 1
+			add_stability = 0.05
+			add_to_variable = { towe_gdp = 5 }
+		}
+	}
+
+	focus = {
+		id = JAS_social_womens_education
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_universal_education }
+		x = 12
+		y = 9
+		cost = 5
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 30
+		}
+	}
+
+	# Military reform
+	focus = {
+		id = JAS_reform_army_modernization
+		icon = GFX_goal_generic_alliance
+		prerequisite = { focus = JAS_path_of_reform }
+		x = 16
+		y = 6
+		cost = 6
+		completion_reward = {
+			army_experience = 35
+			add_tech_bonus = {
+				name = land_doctrine_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2500
+				producer = JAS
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_reform_officer_academy
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_reform_army_modernization }
+		x = 14
+		y = 7
+		cost = 5
+		completion_reward = {
+			army_experience = 20
+			add_command_power = 20
+		}
+	}
+
+	focus = {
+		id = JAS_reform_citizen_army
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_reform_army_modernization }
+		x = 18
+		y = 7
+		cost = 6
+		completion_reward = {
+			add_manpower = 18000
+			army_experience = 15
+		}
+	}
+
+	focus = {
+		id = JAS_reform_modern_artillery
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = JAS_reform_officer_academy }
+		x = 14
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 300
+				producer = JAS
+			}
+		}
+	}
+
+	# Land & Provincial
+	focus = {
+		id = JAS_reform_land_code
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_reform_summon_the_assembly }
+		prerequisite = { focus = JAS_reform_bureaucracy }
+		x = 4
+		y = 9
+		cost = 7
+		completion_reward = {
+			add_stability = 0.06
+			towe_agricultural_reform = yes
+			add_political_power = 45
+		}
+	}
+
+	focus = {
+		id = JAS_reform_provincial_charters
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_summon_the_assembly }
+		prerequisite = { focus = JAS_reform_education }
+		x = 10
+		y = 9
+		cost = 6
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 55
+			every_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_compliance = 6
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_reform_new_compact
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_reform_land_code }
+		prerequisite = { focus = JAS_reform_provincial_charters }
+		prerequisite = { focus = JAS_reform_citizen_army }
+		x = 10
+		y = 10
+		cost = 8
+		completion_reward = {
+			add_stability = 0.12
+			add_political_power = 90
+			set_country_flag = JAS_constitutional_compact
+			country_event = { id = towe_jas.11 days = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_reform_rail_network
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = JAS_reform_new_compact }
+		x = 6
+		y = 11
+		cost = 8
+		completion_reward = {
+			towe_industrial_investment = yes
+			every_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_reform_industrial_parks
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = JAS_reform_new_compact }
+		x = 10
+		y = 11
+		cost = 7
+		completion_reward = {
+			towe_industrial_investment = yes
+			add_to_variable = { towe_industrial_capacity = 4 }
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_reform_press_freedom
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_reform_new_compact }
+		x = 14
+		y = 11
+		cost = 5
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 40
+		}
+	}
+
+	###########################
+	# IRON PATH - DEEP TREE
+	###########################
+
+	focus = {
+		id = JAS_iron_purge_the_court
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = JAS_path_of_iron }
+		x = 20
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_political_power = 90
+			add_stability = -0.07
+			add_war_support = 0.06
+			set_country_flag = JAS_court_purged
+		}
+	}
+
+	focus = {
+		id = JAS_iron_military_government
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_path_of_iron }
+		x = 24
+		y = 6
+		cost = 7
+		completion_reward = {
+			add_ideas = towe_econ_command
+			add_war_support = 0.09
+			add_stability = -0.05
+		}
+	}
+
+	focus = {
+		id = JAS_iron_centralize_taxes
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = JAS_path_of_iron }
+		x = 28
+		y = 6
+		cost = 5
+		completion_reward = {
+			towe_set_high_tax = yes
+			add_ideas = towe_high_taxation
+			add_to_variable = { towe_debt = -6 }
+		}
+	}
+
+	focus = {
+		id = JAS_iron_loyal_governors
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_iron_purge_the_court }
+		x = 18
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_stability = 0.03
+			every_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_compliance = 8
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_iron_crush_provincial_dissent
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_iron_purge_the_court }
+		x = 22
+		y = 7
+		cost = 7
+		completion_reward = {
+			add_stability = -0.06
+			add_war_support = 0.07
+			every_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_compliance = 12
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_iron_officer_corps
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_iron_military_government }
+		x = 24
+		y = 7
+		cost = 6
+		completion_reward = {
+			army_experience = 45
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_iron_war_industry
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = JAS_iron_military_government }
+		prerequisite = { focus = JAS_iron_centralize_taxes }
+		x = 28
+		y = 7
+		cost = 8
+		completion_reward = {
+			towe_industrial_investment = yes
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_iron_conscription_law
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_iron_officer_corps }
+		x = 24
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_manpower = 35000
+			add_war_support = 0.04
+			add_to_variable = { towe_spending = 4 }
+		}
+	}
+
+	focus = {
+		id = JAS_iron_heavy_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = JAS_iron_war_industry }
+		x = 28
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_to_variable = { towe_industrial_capacity = 5 }
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_iron_new_order
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = JAS_iron_crush_provincial_dissent }
+		prerequisite = { focus = JAS_iron_officer_corps }
+		prerequisite = { focus = JAS_iron_war_industry }
+		x = 24
+		y = 9
+		cost = 9
+		completion_reward = {
+			add_stability = 0.09
+			add_war_support = 0.11
+			set_country_flag = JAS_iron_new_order
+			country_event = { id = towe_jas.21 days = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_iron_secret_police
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = JAS_iron_new_order }
+		x = 20
+		y = 10
+		cost = 6
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 35
+		}
+	}
+
+	focus = {
+		id = JAS_iron_total_mobilization
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = JAS_iron_new_order }
+		x = 24
+		y = 10
+		cost = 8
+		completion_reward = {
+			add_ideas = towe_econ_command
+			add_to_variable = { towe_industrial_capacity = 6 }
+			add_manpower = 28000
+		}
+	}
+
+	focus = {
+		id = JAS_iron_project_power
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = JAS_iron_new_order }
+		x = 28
+		y = 10
+		cost = 7
+		completion_reward = {
+			add_war_support = 0.06
+			navy_experience = 25
+			add_to_variable = { towe_spending = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_iron_cult_of_strength
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = JAS_iron_secret_police }
+		prerequisite = { focus = JAS_iron_total_mobilization }
+		x = 22
+		y = 11
+		cost = 6
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.03
+			add_political_power = 40
+		}
+	}
+
+	###########################
+	# RETREAT PATH - DEEP TREE
+	###########################
+
+	focus = {
+		id = JAS_retreat_restore_rites
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_path_of_retreat }
+		x = 36
+		y = 6
+		cost = 5
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = 45
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_limit_foreign_influence
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_path_of_retreat }
+		x = 40
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_ideas = towe_econ_agrarian
+			add_stability = 0.04
+			add_to_variable = { towe_trade_balance = -6 }
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_empower_clans
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_path_of_retreat }
+		x = 44
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_stability = 0.06
+			add_political_power = -15
+			every_owned_state = {
+				limit = { is_core_of = ROOT }
+				add_compliance = 4
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_temple_restoration
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_retreat_restore_rites }
+		x = 34
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_agrarian_pact
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_retreat_restore_rites }
+		prerequisite = { focus = JAS_retreat_limit_foreign_influence }
+		x = 38
+		y = 7
+		cost = 7
+		completion_reward = {
+			towe_agricultural_reform = yes
+			add_to_variable = { towe_agricultural_output = 7 }
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_clan_militias
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_retreat_empower_clans }
+		x = 44
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_manpower = 12000
+			add_war_support = -0.03
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_isolation
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_retreat_limit_foreign_influence }
+		prerequisite = { focus = JAS_retreat_empower_clans }
+		x = 42
+		y = 8
+		cost = 7
+		completion_reward = {
+			add_stability = 0.07
+			add_war_support = -0.09
+			add_to_variable = { towe_trade_balance = -5 }
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_rural_harmony
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_retreat_agrarian_pact }
+		x = 38
+		y = 8
+		cost = 5
+		completion_reward = {
+			add_stability = 0.04
+			add_to_variable = { towe_unemployment = -2 }
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_harmony_restored
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_retreat_agrarian_pact }
+		prerequisite = { focus = JAS_retreat_isolation }
+		x = 40
+		y = 9
+		cost = 8
+		completion_reward = {
+			add_stability = 0.16
+			add_political_power = 70
+			set_country_flag = JAS_harmony_restored
+			country_event = { id = towe_jas.31 days = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_econ_autarky
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_retreat_harmony_restored }
+		x = 40
+		y = 10
+		cost = 6
+		completion_reward = {
+			add_ideas = towe_econ_agrarian
+			add_to_variable = { towe_agricultural_output = 5 }
+			add_to_variable = { towe_trade_balance = -8 }
+		}
+	}
+
+	focus = {
+		id = JAS_retreat_cultural_revival
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_retreat_harmony_restored }
+		x = 36
+		y = 10
+		cost = 5
+		completion_reward = {
+			add_stability = 0.04
+			add_political_power = 30
+		}
+	}
+
+	###########################
+	# REVOLUTION PATH - DEEP TREE
+	###########################
+
+	focus = {
+		id = JAS_rev_peoples_councils
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAS_path_of_revolution }
+		x = 50
+		y = 6
+		cost = 6
+		completion_reward = {
+			add_popularity = { ideology = communist popularity = 0.09 }
+			add_stability = -0.06
+			add_political_power = 45
+		}
+	}
+
+	focus = {
+		id = JAS_rev_seize_the_granaries
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_path_of_revolution }
+		x = 54
+		y = 6
+		cost = 5
+		completion_reward = {
+			add_to_variable = { towe_agricultural_output = -4 }
+			add_stability = -0.05
+			add_manpower = 12000
+		}
+	}
+
+	focus = {
+		id = JAS_rev_agitate_the_cities
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_rev_peoples_councils }
+		x = 48
+		y = 7
+		cost = 5
+		completion_reward = {
+			add_popularity = { ideology = communist popularity = 0.06 }
+			add_stability = -0.04
+		}
+	}
+
+	focus = {
+		id = JAS_rev_red_army
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_rev_peoples_councils }
+		x = 52
+		y = 7
+		cost = 7
+		completion_reward = {
+			add_manpower = 35000
+			army_experience = 30
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3500
+				producer = JAS
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_rev_collectivization
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_rev_seize_the_granaries }
+		x = 54
+		y = 7
+		cost = 8
+		completion_reward = {
+			add_ideas = towe_econ_command
+			towe_agricultural_reform = yes
+			add_stability = -0.09
+			add_to_variable = { towe_gdp = -6 }
+		}
+	}
+
+	focus = {
+		id = JAS_rev_purge_landlords
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = JAS_rev_collectivization }
+		x = 54
+		y = 8
+		cost = 6
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+			add_to_variable = { towe_agricultural_output = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_rev_workers_militias
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = JAS_rev_red_army }
+		x = 50
+		y = 8
+		cost = 5
+		completion_reward = {
+			add_manpower = 15000
+			add_war_support = 0.04
+		}
+	}
+
+	focus = {
+		id = JAS_rev_the_new_jasmine
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAS_rev_red_army }
+		prerequisite = { focus = JAS_rev_collectivization }
+		x = 52
+		y = 9
+		cost = 9
+		completion_reward = {
+			add_stability = 0.06
+			set_politics = { ruling_party = communist elections_allowed = no }
+			set_country_flag = JAS_revolutionary_state
+			country_event = { id = towe_jas.41 days = 2 }
+		}
+	}
+
+	focus = {
+		id = JAS_rev_five_year_plan
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = JAS_rev_the_new_jasmine }
+		x = 50
+		y = 10
+		cost = 8
+		completion_reward = {
+			towe_industrial_investment = yes
+			add_to_variable = { towe_industrial_capacity = 7 }
+			add_to_variable = { towe_gdp = 8 }
+		}
+	}
+
+	focus = {
+		id = JAS_rev_cultural_revolution
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_rev_the_new_jasmine }
+		x = 54
+		y = 10
+		cost = 6
+		completion_reward = {
+			add_stability = -0.04
+			add_popularity = { ideology = communist popularity = 0.08 }
+			add_political_power = 40
+		}
+	}
+
+	###########################
+	# CHAPTER 3 - 1908-1912: THE NEW ORDER
+	# Shared mid-game focuses (available after any path completion)
+	###########################
+
+	focus = {
+		id = JAS_chapter3_industrial_drive
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = JAS_reform_new_compact focus = JAS_iron_new_order focus = JAS_retreat_harmony_restored focus = JAS_rev_the_new_jasmine }
+		x = 24
+		y = 12
+		cost = 8
+		ai_will_do = { factor = 40 }
+		completion_reward = {
+			towe_industrial_investment = yes
+			towe_industrial_investment = yes
+			add_to_variable = { towe_industrial_capacity = 7 }
+			add_to_variable = { towe_gdp = 12 }
+		}
+	}
+
+	focus = {
+		id = JAS_chapter3_diplomatic_overture
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_reform_new_compact focus = JAS_iron_new_order focus = JAS_retreat_harmony_restored focus = JAS_rev_the_new_jasmine }
+		x = 16
+		y = 12
+		cost = 6
+		completion_reward = {
+			add_political_power = 55
+		}
+	}
+
+	focus = {
+		id = JAS_chapter3_military_rearmament
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_reform_new_compact focus = JAS_iron_new_order focus = JAS_retreat_harmony_restored focus = JAS_rev_the_new_jasmine }
+		x = 32
+		y = 12
+		cost = 7
+		completion_reward = {
+			army_experience = 35
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = JAS
+			}
+			add_to_variable = { towe_spending = 6 }
+		}
+	}
+
+	focus = {
+		id = JAS_chapter3_social_legislation
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_chapter3_industrial_drive }
+		available = {
+			OR = {
+				has_country_flag = JAS_chose_reform
+				has_country_flag = JAS_chose_revolution
+			}
+		}
+		x = 20
+		y = 13
+		cost = 6
+		completion_reward = {
+			add_stability = 0.07
+			add_to_variable = { towe_unemployment = -4 }
+		}
+	}
+
+	focus = {
+		id = JAS_chapter3_great_projects
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = JAS_chapter3_industrial_drive }
+		x = 28
+		y = 13
+		cost = 9
+		completion_reward = {
+			towe_industrial_investment = yes
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_econ_tax_reform_deep
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = JAS_chapter3_industrial_drive }
+		x = 24
+		y = 13
+		cost = 5
+		completion_reward = {
+			towe_set_high_tax = yes
+			add_to_variable = { towe_gdp = 4 }
+		}
+	}
+
+	focus = {
+		id = JAS_econ_trade_opening
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = JAS_chapter3_diplomatic_overture }
+		available = {
+			NOT = { has_country_flag = JAS_chose_retreat }
+		}
+		x = 14
+		y = 13
+		cost = 6
+		completion_reward = {
+			add_to_variable = { towe_trade_balance = 10 }
+			add_to_variable = { towe_gdp = 6 }
+			add_political_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_social_workers_protections
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_chapter3_social_legislation }
+		x = 18
+		y = 14
+		cost = 5
+		completion_reward = {
+			add_stability = 0.04
+			add_to_variable = { towe_unemployment = -2 }
+			add_to_variable = { towe_spending = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_mil_doctrine_offensive
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_chapter3_military_rearmament }
+		mutually_exclusive = { focus = JAS_mil_doctrine_defensive }
+		x = 30
+		y = 13
+		cost = 6
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = offensive_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_mobile_warfare
+			}
+			add_war_support = 0.04
+		}
+	}
+
+	focus = {
+		id = JAS_mil_doctrine_defensive
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_chapter3_military_rearmament }
+		mutually_exclusive = { focus = JAS_mil_doctrine_offensive }
+		x = 34
+		y = 13
+		cost = 6
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = defensive_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = cat_grand_battle_plan
+			}
+			add_stability = 0.04
+		}
+	}
+
+	focus = {
+		id = JAS_diplo_fud_relations
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_chapter3_diplomatic_overture }
+		x = 12
+		y = 14
+		cost = 5
+		completion_reward = {
+			add_political_power = 35
+			FUD = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = medium_increase
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = JAS_diplo_buffer_states
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_chapter3_diplomatic_overture }
+		x = 16
+		y = 14
+		cost = 6
+		completion_reward = {
+			add_political_power = 45
+		}
+	}
+
+	focus = {
+		id = JAS_diplo_great_power_status
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_diplo_fud_relations }
+		prerequisite = { focus = JAS_diplo_buffer_states }
+		x = 14
+		y = 15
+		cost = 7
+		completion_reward = {
+			add_political_power = 60
+			add_war_support = 0.03
+			add_to_variable = { towe_gdp = 5 }
+		}
+	}
+
+	focus = {
+		id = JAS_mil_expand_officer_corps
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_mil_doctrine_offensive focus = JAS_mil_doctrine_defensive }
+		x = 32
+		y = 14
+		cost = 5
+		completion_reward = {
+			army_experience = 25
+			add_command_power = 25
+		}
+	}
+
+	focus = {
+		id = JAS_mil_modern_navy
+		icon = GFX_goal_generic_navy_battleship
+		prerequisite = { focus = JAS_chapter3_military_rearmament }
+		x = 36
+		y = 14
+		cost = 7
+		completion_reward = {
+			navy_experience = 30
+			add_to_variable = { towe_spending = 4 }
+		}
+	}
+
+	###########################
+	# CHAPTER 4 - 1912-1915: THE FATE OF THE NATION
+	###########################
+
+	focus = {
+		id = JAS_debt_emergency
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = JAS_chapter3_industrial_drive }
+		available = {
+			check_variable = { towe_debt > 55 }
+		}
+		x = 26
+		y = 14
+		cost = 5
+		completion_reward = {
+			towe_austerity = yes
+			add_ideas = towe_debt_crisis
+			add_political_power = -35
+		}
+	}
+
+	focus = {
+		id = JAS_fate_stabilize
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_chapter3_social_legislation focus = JAS_chapter3_great_projects }
+		available = {
+			has_country_flag = JAS_chose_reform
+			check_variable = { towe_gdp > 75 }
+		}
+		x = 12
+		y = 16
+		cost = 8
+		completion_reward = {
+			add_stability = 0.12
+			add_ideas = towe_economic_miracle
+			set_country_flag = JAS_ending_constitutional
+			country_event = { id = towe_jas.50 days = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_fate_empire_reborn
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = JAS_chapter3_military_rearmament }
+		available = {
+			has_country_flag = JAS_chose_iron
+			has_country_flag = JAS_iron_new_order
+		}
+		x = 24
+		y = 16
+		cost = 8
+		completion_reward = {
+			add_war_support = 0.14
+			add_political_power = 110
+			set_country_flag = JAS_ending_authoritarian
+			country_event = { id = towe_jas.51 days = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_fate_eternal_harmony
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = JAS_chapter3_great_projects }
+		available = {
+			has_country_flag = JAS_chose_retreat
+			has_country_flag = JAS_harmony_restored
+		}
+		x = 36
+		y = 16
+		cost = 8
+		completion_reward = {
+			add_stability = 0.18
+			add_war_support = -0.06
+			set_country_flag = JAS_ending_isolationist
+			country_event = { id = towe_jas.52 days = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_fate_workers_state
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAS_chapter3_industrial_drive }
+		available = {
+			has_country_flag = JAS_chose_revolution
+			has_country_flag = JAS_revolutionary_state
+		}
+		x = 48
+		y = 16
+		cost = 8
+		completion_reward = {
+			add_stability = 0.09
+			add_popularity = { ideology = communist popularity = 0.15 }
+			set_country_flag = JAS_ending_communist
+			country_event = { id = towe_jas.53 days = 3 }
+		}
+	}
+
+	focus = {
+		id = JAS_final_economic_miracle
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = JAS_fate_stabilize }
+		x = 10
+		y = 17
+		cost = 7
+		completion_reward = {
+			add_ideas = towe_economic_miracle
+			add_to_variable = { towe_gdp = 18 }
+			add_to_variable = { towe_credit_rating = 1 }
+		}
+	}
+
+	focus = {
+		id = JAS_final_military_supremacy
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = JAS_fate_empire_reborn }
+		x = 24
+		y = 17
+		cost = 7
+		completion_reward = {
+			add_war_support = 0.09
+			army_experience = 55
+			add_to_variable = { towe_spending = 9 }
+		}
+	}
+
+	focus = {
+		id = JAS_final_cultural_purity
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_fate_eternal_harmony }
+		x = 36
+		y = 17
+		cost = 6
+		completion_reward = {
+			add_stability = 0.06
+			add_political_power = 40
+		}
+	}
+
+	focus = {
+		id = JAS_final_world_revolution
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = JAS_fate_workers_state }
+		x = 48
+		y = 17
+		cost = 7
+		completion_reward = {
+			add_war_support = 0.08
+			add_popularity = { ideology = communist popularity = 0.10 }
+			add_political_power = 50
+		}
+	}
+
+	# Extra late-game shared
+	focus = {
+		id = JAS_legacy_of_1905
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_fate_stabilize focus = JAS_fate_empire_reborn focus = JAS_fate_eternal_harmony focus = JAS_fate_workers_state }
+		x = 24
+		y = 18
+		cost = 5
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+			custom_effect_tooltip = JAS_legacy_tt
+		}
+	}
+
+
+	# Final shared epilogue focuses
+	focus = {
+		id = JAS_epilogue_remember_the_dead
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = JAS_legacy_of_1905 }
+		x = 20
+		y = 19
+		cost = 4
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = JAS_epilogue_look_to_the_future
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = JAS_legacy_of_1905 }
+		x = 28
+		y = 19
+		cost = 4
+		completion_reward = {
+			add_to_variable = { towe_gdp = 5 }
+			add_political_power = 25
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+spriteTypes = {
+	# Placeholder - for full Kaiserreich-style UI, load Kaiserreich as a dependency
+	# or copy KR's interface/ and gfx/ folders. This mod uses vanilla frames with
+	# darker imperial colouring for JAS.
+}

@@ -1,0 +1,62 @@
+﻿# Starting diplomatic order: the two permanent strategic blocs.
+# Named powers and their subjects are aligned at game start.
+on_actions = {
+    on_startup = {
+        effect = {
+            JAS = {
+                if = { limit = { is_in_faction = yes } leave_faction = yes }
+                create_faction = "Hilāl Bloc"
+            }
+            PRG = {
+                if = { limit = { is_in_faction = yes } leave_faction = yes }
+                create_faction = "Iron Pact"
+            }
+            # Hilāl Bloc: Jasmine Empire, Qing Dynasty (FUD), Mongol Confederation and Iberia.
+            FUD = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = JAS }
+            MGL = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = JAS }
+            IBE = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = JAS }
+            # Iron Pact: Volkstaat (PRG), Norse Union of Odin, Ireland, Gaul and Britannic Commonwealth.
+            NUO = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = PRG }
+            IRE = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = PRG }
+            GAU = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = PRG }
+            BRC = { if = { limit = { is_in_faction = yes } leave_faction = yes } add_to_faction = PRG }
+            # Align every direct subject of a bloc member with that member's alliance.
+            every_country = {
+                limit = { is_subject_of = JAS }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = JAS }
+            }
+            every_country = {
+                limit = { is_subject_of = FUD }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = JAS }
+            }
+            every_country = {
+                limit = { is_subject_of = MGL }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = JAS }
+            }
+            every_country = {
+                limit = { is_subject_of = IBE }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = JAS }
+            }
+            every_country = {
+                limit = { is_subject_of = PRG }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = PRG }
+            }
+            every_country = {
+                limit = { is_subject_of = NUO }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = PRG }
+            }
+            every_country = {
+                limit = { is_subject_of = IRE }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = PRG }
+            }
+            every_country = {
+                limit = { is_subject_of = GAU }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = PRG }
+            }
+            every_country = {
+                limit = { is_subject_of = BRC }
+                if = { limit = { NOT = { is_in_faction = yes } } add_to_faction = PRG }
+            }
+        }
+    }
+}

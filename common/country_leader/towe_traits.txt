@@ -1,0 +1,27 @@
+leader_traits = {
+
+	JAS_pale_sovereign = {
+		random = no
+		sprite = 13
+		political_power_factor = 0.10
+		stability_factor = 0.05
+		drift_defence_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	JAS_heir_to_a_dying_mandate = {
+		random = no
+		sprite = 13
+		stability_factor = -0.08
+		war_support_factor = 0.05
+		political_power_cost = 0.10
+		justify_war_goal_time = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

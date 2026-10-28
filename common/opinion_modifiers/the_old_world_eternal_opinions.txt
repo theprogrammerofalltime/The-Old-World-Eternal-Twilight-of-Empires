@@ -1,0 +1,8 @@
+opinion_modifiers = {
+	towe_intervention_against = {
+		value = -40
+	}
+	towe_negotiation_gesture = {
+		value = 15
+	}
+}

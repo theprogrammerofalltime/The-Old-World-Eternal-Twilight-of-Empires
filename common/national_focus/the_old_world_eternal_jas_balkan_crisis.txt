@@ -1,0 +1,5 @@
+focus_tree = {
+	id = DISABLED_jas_balkan
+	country = { factor = 0 }
+	default = no
+}

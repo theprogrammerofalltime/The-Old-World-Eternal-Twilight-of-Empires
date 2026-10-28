@@ -1,0 +1,45 @@
+guiTypes = {
+
+	# Larger event window so text doesn't get cut off
+	containerWindowType = {
+		name = "towe_large_event_window"
+		position = { x=0 y=0 }
+		size = { width=700 height=520 }
+		orientation = center
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		# Title
+		instantTextBoxType = {
+			name = "event_title"
+			position = { x=20 y=15 }
+			font = "hoi_24header"
+			text = "EVENT_TITLE"
+			maxHeight = 40
+			format = centre
+		}
+
+		# Description - much larger text area
+		instantTextBoxType = {
+			name = "event_desc"
+			position = { x=25 y=70 }
+			font = "hoi_18mbs"
+			text = "EVENT_DESC"
+			maxHeight = 320
+			format = left
+		}
+
+		# Option buttons area
+		buttonType = {
+			name = "option_1"
+			position = { x=50 y=420 }
+			quadTextureSprite = "GFX_button_148x34"
+			buttonText = "OPTION_1"
+			buttonFont = "hoi_18mbs"
+		}
+	}
+}

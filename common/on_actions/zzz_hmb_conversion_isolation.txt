@@ -1,0 +1,17 @@
+# Runs after installed/DLC on_actions. Conversion projects must not
+# inherit continent-based vanilla national spirits or doctrine flags.
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                remove_ideas = {
+                    USA_monroe_doctrine_idea
+                    USA_monroe_doctrine_enforcer
+                }
+                clr_country_flag = monroe_doctrine
+                clr_country_flag = monroe_country_in_support_flag
+                clr_country_flag = monroe_country_in_opposition_flag
+            }
+        }
+    }
+}

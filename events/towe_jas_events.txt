@@ -1,0 +1,308 @@
+add_namespace = towe_jas
+add_namespace = towe_super
+add_namespace = towe_balkan
+add_namespace = towe_lowlands
+
+#############################
+# SUPER EVENT - THE MANDATE FALTERS
+#############################
+country_event = {
+	id = towe_jas.1
+	title = towe_jas.1.t
+	desc = towe_jas.1.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = JAS
+		date > 1906.1.15
+		date < 1906.3.1
+		NOT = { has_country_flag = towe_mandate_falters }
+	}
+
+	mean_time_to_happen = { days = 5 }
+
+	immediate = {
+		set_country_flag = towe_mandate_falters
+	}
+
+	option = {
+		name = towe_jas.1.a
+		add_stability = -0.05
+		add_political_power = -50
+		add_ideas = JAS_cracks_in_the_edifice
+		custom_effect_tooltip = towe_jas.1.tt
+	}
+}
+
+#############################
+# SUPER EVENT - BALKAN CRISIS
+# European Jasmine puppet (JSE) rebels, breaks free, declares war
+# Serbs (KSE) join the war against Jasmine
+#############################
+country_event = {
+	id = towe_jas.2
+	title = towe_jas.2.t
+	desc = towe_jas.2.d
+	picture = GFX_report_event_generic_riot
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = JAS
+		date > 1906.5.1
+		date < 1906.7.1
+		has_country_flag = towe_mandate_falters
+		NOT = { has_country_flag = towe_balkan_crisis }
+	}
+
+	mean_time_to_happen = { days = 3 }
+
+	immediate = {
+		set_country_flag = towe_balkan_crisis
+		set_global_flag = towe_balkan_crisis_active
+	}
+
+	option = {
+		name = towe_jas.2.a
+		add_stability = -0.12
+		add_war_support = 0.10
+		add_ideas = JAS_balkan_entanglement
+		add_political_power = -75
+		custom_effect_tooltip = towe_jas.2.tt
+
+		# JSE (Jasmine European Buffer) breaks free and declares war
+		if = {
+			limit = { exists = JSE }
+			JSE = {
+				if = {
+					limit = { is_subject = yes }
+					OVERLORD = {
+						set_autonomy = {
+							target = JSE
+							autonomy_state = autonomy_free
+						}
+					}
+				}
+				set_country_flag = towe_jse_rebelled
+				declare_war_on = {
+					target = JAS
+					type = independence_war
+				}
+				add_war_support = 0.20
+				add_stability = 0.05
+				country_event = { id = towe_balkan.10 hours = 2 }
+			}
+		}
+
+		# Serbs (KSE) join the war against Jasmine
+		if = {
+			limit = { exists = KSE }
+			KSE = {
+				add_to_war = {
+					targeted_alliance = JSE
+					enemy = JAS
+					hostility_reason = asked_to_join
+				}
+				add_war_support = 0.15
+				country_event = { id = towe_balkan.11 hours = 4 }
+			}
+		}
+
+		hidden_effect = {
+			news_event = { id = towe_super.1 hours = 6 }
+		}
+	}
+}
+
+# World news version
+news_event = {
+	id = towe_super.1
+	title = towe_jas.2.t
+	desc = towe_jas.2.d
+	picture = GFX_news_event_generic_rally2
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = towe_jas.2.a
+	}
+}
+
+# JSE rebellion flavour
+country_event = {
+	id = towe_balkan.10
+	title = towe_balkan.10.t
+	desc = towe_balkan.10.d
+	picture = GFX_report_event_generic_riot
+	is_triggered_only = yes
+
+	option = {
+		name = towe_balkan.10.a
+		add_political_power = 50
+		add_manpower = 15000
+	}
+}
+
+# Serbs join flavour
+country_event = {
+	id = towe_balkan.11
+	title = towe_balkan.11.t
+	desc = towe_balkan.11.d
+	picture = GFX_report_event_generic_military_parade
+	is_triggered_only = yes
+
+	option = {
+		name = towe_balkan.11.a
+		add_war_support = 0.05
+	}
+}
+
+#############################
+# THE SECOND WAR LOOMS
+#############################
+country_event = {
+	id = towe_jas.3
+	title = towe_jas.3.t
+	desc = towe_jas.3.d
+	picture = GFX_report_event_generic_military_parade
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = JAS
+		has_country_flag = JAS_ready_for_the_storm
+		date > 1907.1.1
+	}
+
+	mean_time_to_happen = { days = 30 }
+
+	option = {
+		name = towe_jas.3.a
+		add_war_support = 0.15
+		add_stability = -0.05
+		add_ideas = JAS_the_coming_storm
+		custom_effect_tooltip = towe_jas.3.tt
+	}
+}
+
+#############################
+# LOWLANDS WHITE PEACE
+# When BRC loses all Lowlands states, scripted white peace:
+# Belgium-area states -> GAU (Gaulle)
+# Netherlands-area states -> PRG (Prussia)
+#############################
+country_event = {
+	id = towe_lowlands.1
+	title = towe_lowlands.1.t
+	desc = towe_lowlands.1.d
+	picture = GFX_report_event_generic_sign_treaty1
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		OR = {
+			tag = GAU
+			tag = PRG
+			tag = BRC
+		}
+		has_global_flag = towe_lowlands_war_active
+		NOT = { has_global_flag = towe_lowlands_peace_fired }
+		# BRC no longer controls key Lowland states
+		NOT = {
+			BRC = {
+				OR = {
+					controls_state = 6		# Belgium / Flanders area
+					controls_state = 7		# Holland
+					controls_state = 34		# Wallonia-ish
+					controls_state = 35		# Brabant
+					controls_state = 36		# Friesland
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = { days = 5 }
+
+	immediate = {
+		set_global_flag = towe_lowlands_peace_fired
+	}
+
+	option = {
+		name = towe_lowlands.1.a
+		
+		# White peace between the parties
+		every_country = {
+			limit = {
+				OR = {
+					tag = GAU
+					tag = PRG
+					tag = BRC
+					is_in_faction_with = GAU
+					is_in_faction_with = PRG
+					is_in_faction_with = BRC
+				}
+			}
+			white_peace = BRC
+		}
+
+		# Transfer Belgium-area states to Gaulle
+		if = {
+			limit = { exists = GAU }
+			GAU = {
+				if = { limit = { 6 = { is_owned_by = BRC } } transfer_state = 6 }
+				if = { limit = { 34 = { is_owned_by = BRC } } transfer_state = 34 }
+				# Add more Belgium states if they exist in the mod
+			}
+		}
+
+		# Transfer Netherlands-area states to Prussia
+		if = {
+			limit = { exists = PRG }
+			PRG = {
+				if = { limit = { 7 = { is_owned_by = BRC } } transfer_state = 7 }
+				if = { limit = { 35 = { is_owned_by = BRC } } transfer_state = 35 }
+				if = { limit = { 36 = { is_owned_by = BRC } } transfer_state = 36 }
+			}
+		}
+
+		custom_effect_tooltip = towe_lowlands.1.tt
+		news_event = { id = towe_lowlands.2 hours = 3 }
+	}
+}
+
+news_event = {
+	id = towe_lowlands.2
+	title = towe_lowlands.1.t
+	desc = towe_lowlands.1.d
+	picture = GFX_news_event_generic_sign_treaty1
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = towe_lowlands.1.a
+	}
+}
+
+# Trigger helper - fire when Gaulle or Prussia starts the war against England
+country_event = {
+	id = towe_lowlands.0
+	title = towe_lowlands.0.t
+	desc = towe_lowlands.0.d
+	picture = GFX_report_event_generic_military_parade
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		set_global_flag = towe_lowlands_war_active
+	}
+
+	option = {
+		name = towe_lowlands.0.a
+	}
+}

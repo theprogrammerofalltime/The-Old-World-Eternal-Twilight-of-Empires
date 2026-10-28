@@ -1,0 +1,23 @@
+state = {
+    id = 762
+    name = STATE_762
+    manpower = 1000000
+    resources = {
+        steel = 19
+        aluminium = 7
+        coal = 32
+    }
+    state_category = city
+    history = {
+        owner = PRG
+        controller = PRG
+        add_core_of = PRG
+        victory_points = { 6464 5 }
+        buildings = {
+            infrastructure = 3
+            industrial_complex = 1
+        }
+    }
+    provinces = { 506 6464 }
+    local_supplies = 0.0
+}

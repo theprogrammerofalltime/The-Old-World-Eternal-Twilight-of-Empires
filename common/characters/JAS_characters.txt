@@ -1,0 +1,113 @@
+characters = {
+	JAS_empress_lila = {
+		name = JAS_empress_lila
+		portraits = {
+			civilian = {
+				large = "GFX_portrait_JAS_empress_lila"
+			}
+		}
+		country_leader = {
+			ideology = despotism_absolute_monarchy_subtype
+			traits = {
+				JAS_pale_sovereign
+				JAS_heir_to_a_dying_mandate
+				dictator
+			}
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+
+	JAS_advisor_vizier = {
+		name = JAS_advisor_vizier
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_arab_1"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = JAS_vizier
+			allowed = {
+				original_tag = JAS
+			}
+			traits = {
+				smooth_talking_charmer
+			}
+			cost = 150
+		}
+	}
+
+	JAS_advisor_marshal = {
+		name = JAS_advisor_marshal
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_arab_1"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = JAS_marshal
+			allowed = {
+				original_tag = JAS
+			}
+			traits = {
+				army_chief_offensive_2
+			}
+			cost = 100
+			ledger = army
+		}
+		advisor = {
+			slot = high_command
+			idea_token = JAS_marshal_hc
+			ledger = army
+			allowed = {
+				original_tag = JAS
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+		}
+	}
+
+	JAS_advisor_treasurer = {
+		name = JAS_advisor_treasurer
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_arab_2"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = JAS_treasurer
+			allowed = {
+				original_tag = JAS
+			}
+			traits = {
+				captain_of_industry
+			}
+			cost = 150
+		}
+	}
+
+	JAS_advisor_spymaster = {
+		name = JAS_advisor_spymaster
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_political_advisor_arab_3"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = JAS_spymaster
+			allowed = {
+				original_tag = JAS
+			}
+			traits = {
+				prince_of_terror
+			}
+			cost = 150
+		}
+	}
+}

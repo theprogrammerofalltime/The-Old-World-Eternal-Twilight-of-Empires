@@ -1,0 +1,4 @@
+# Disabled: this file was overriding countrypoliticsview with missing element refs
+# (active_goal, rules, leader, political_pie_chart, etc.) causing massive log spam.
+guiTypes = {
+}

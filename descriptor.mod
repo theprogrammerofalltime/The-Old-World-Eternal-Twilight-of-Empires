@@ -1,0 +1,17 @@
+name="The Old World Eternal: Twilight of Empires"
+version="1.0.0"
+tags={
+	"Alternative History"
+	"Events"
+	"National Focuses"
+	"Gameplay"
+}
+picture="thumbnail.png"
+supported_version="1.19.*"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="common/country_tags"
+replace_path="common/bookmarks"
+replace_path="common/on_actions"
+replace_path="events"
+replace_path="common/ideologies"

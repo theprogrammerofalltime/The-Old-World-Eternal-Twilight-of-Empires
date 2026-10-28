@@ -1,0 +1,139 @@
+# TOWE Custom Economy System
+# Simplified but functional TNO-inspired economy using HOI4 variables and ideas.
+# GDP is a proxy value (not real currency). Updated monthly via on_actions.
+# Compatible with 1905 start. Does not overwrite TNO defines.
+
+# Initialize economy variables for a country (call on startup or first focus)
+towe_init_economy = {
+	if = {
+		limit = { NOT = { has_variable = towe_gdp } }
+		set_variable = { towe_gdp = 50 }					# Base GDP proxy (scaled 0-200+)
+		set_variable = { towe_debt = 10 }					# Debt level
+		set_variable = { towe_growth = 0.5 }					# Annual growth % proxy
+		set_variable = { towe_tax_rate = 30 }				# Tax rate 0-100
+		set_variable = { towe_spending = 25 }				# Government spending 0-100
+		set_variable = { towe_industrial_capacity = 20 }		# Industrial base
+		set_variable = { towe_agricultural_output = 40 }		# Agri base for 1905
+		set_variable = { towe_trade_balance = 0 }			# Trade surplus/deficit
+		set_variable = { towe_credit_rating = 3 }			# 1= junk ... 5= excellent
+		set_variable = { towe_unemployment = 15 }			# %
+		set_variable = { towe_inflation = 2 }				# %
+		set_country_flag = towe_economy_initialized
+	}
+}
+
+# Monthly economy tick (called from on_actions)
+towe_monthly_economy_tick = {
+	# Base growth from industrial + agri
+	set_temp_variable = { temp_growth = towe_industrial_capacity }
+	multiply_temp_variable = { temp_growth = 0.02 }
+	add_to_temp_variable = { temp_growth = towe_agricultural_output }
+	multiply_temp_variable = { temp_growth = 0.01 }
+	
+	# Tax and spending effect on growth
+	set_temp_variable = { fiscal_balance = towe_tax_rate }
+	subtract_from_temp_variable = { fiscal_balance = towe_spending }
+	
+	if = {
+		limit = { check_variable = { fiscal_balance > 5 } }
+		add_to_temp_variable = { temp_growth = 0.3 }		# Surplus boosts growth
+	}
+	else_if = {
+		limit = { check_variable = { fiscal_balance < -10 } }
+		subtract_from_temp_variable = { temp_growth = 0.5 }	# Deficit hurts
+		add_to_variable = { towe_debt = 1 }
+	}
+	
+	# Debt drag
+	if = {
+		limit = { check_variable = { towe_debt > 50 } }
+		subtract_from_temp_variable = { temp_growth = 0.4 }
+		subtract_from_variable = { towe_credit_rating = 0.1 }
+	}
+	
+	# Apply growth to GDP (clamped)
+	add_to_variable = { towe_gdp = temp_growth }
+	clamp_variable = { var = towe_gdp min = 5 max = 500 }
+	
+	# Inflation from overspending / high growth
+	if = {
+		limit = { check_variable = { towe_spending > 40 } }
+		add_to_variable = { towe_inflation = 0.2 }
+	}
+	clamp_variable = { var = towe_inflation min = 0 max = 30 }
+	
+	# Unemployment reduction from growth
+	if = {
+		limit = { check_variable = { temp_growth > 1 } }
+		subtract_from_variable = { towe_unemployment = 0.3 }
+	}
+	clamp_variable = { var = towe_unemployment min = 2 max = 40 }
+	
+	# Credit rating recovery if debt low
+	if = {
+		limit = {
+			check_variable = { towe_debt < 20 }
+			check_variable = { fiscal_balance > 0 }
+		}
+		add_to_variable = { towe_credit_rating = 0.05 }
+	}
+	clamp_variable = { var = towe_credit_rating min = 1 max = 5 }
+	
+	# Debt interest
+	set_temp_variable = { interest = towe_debt }
+	multiply_temp_variable = { interest = 0.02 }
+	add_to_variable = { towe_debt = interest }
+	clamp_variable = { var = towe_debt min = 0 max = 200 }
+}
+
+# Policy change effects
+towe_set_high_tax = {
+	set_variable = { towe_tax_rate = 45 }
+	add_stability = -0.03
+	custom_effect_tooltip = towe_high_tax_tt
+}
+
+towe_set_low_tax = {
+	set_variable = { towe_tax_rate = 20 }
+	add_stability = 0.02
+	add_to_variable = { towe_growth = 0.2 }
+	custom_effect_tooltip = towe_low_tax_tt
+}
+
+towe_increase_spending = {
+	add_to_variable = { towe_spending = 5 }
+	clamp_variable = { var = towe_spending min = 10 max = 60 }
+	add_to_variable = { towe_debt = 2 }
+	custom_effect_tooltip = towe_increase_spending_tt
+}
+
+towe_austerity = {
+	subtract_from_variable = { towe_spending = 8 }
+	clamp_variable = { var = towe_spending min = 10 max = 60 }
+	add_stability = -0.04
+	add_political_power = 30
+	custom_effect_tooltip = towe_austerity_tt
+}
+
+towe_industrial_investment = {
+	add_to_variable = { towe_industrial_capacity = 3 }
+	add_to_variable = { towe_debt = 5 }
+	random_owned_controlled_state = {
+		limit = {
+			is_core_of = ROOT
+			free_building_slots = { building = industrial_complex size > 0 include_locked = yes }
+		}
+		add_building_construction = {
+			type = industrial_complex
+			level = 1
+			instant_build = yes
+		}
+	}
+	custom_effect_tooltip = towe_industrial_investment_tt
+}
+
+towe_agricultural_reform = {
+	add_to_variable = { towe_agricultural_output = 4 }
+	add_stability = 0.02
+	custom_effect_tooltip = towe_agricultural_reform_tt
+}

@@ -1,0 +1,10 @@
+JAS_balkan_aftermath = {
+	icon = generic_form_nation
+	priority = 100
+	allowed = {
+		original_tag = JAS
+	}
+	visible = {
+		has_country_flag = towe_balkan_revolt_started
+	}
+}

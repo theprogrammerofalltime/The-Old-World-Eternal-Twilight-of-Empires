@@ -1,0 +1,19 @@
+bookmarks = {
+    bookmark = {
+        name = the_old_world_eternal_1_name
+        desc = the_old_world_eternal_1_desc
+        date = 1905.12.1.12
+        picture = ""
+        default_country = "JAS"
+        default = yes
+        filters = { new_content }
+        JAS = {
+            history = the_old_world_eternal_1_JAS_history
+            ideology = neutrality
+            version = base_game
+        }
+        effect = {
+            randomize_weather = 12345
+        }
+    }
+}

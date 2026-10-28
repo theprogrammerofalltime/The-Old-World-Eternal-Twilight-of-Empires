@@ -1,0 +1,52 @@
+scripted_gui = {
+	# Button always available on politics screen
+	towe_throne_button_gui = {
+		context_type = player_context
+		window_name = "towe_custom_political_panel"
+		parent_window_name = "countrypoliticsview"
+
+		visible = {
+			always = yes
+		}
+
+		effects = {
+			towe_throne_toggle_click = {
+				if = {
+					limit = { has_country_flag = towe_throne_panel_open }
+					clr_country_flag = towe_throne_panel_open
+				}
+				else = {
+					set_country_flag = towe_throne_panel_open
+				}
+			}
+		}
+
+		triggers = {
+			towe_throne_toggle_click_enabled = {
+				always = yes
+			}
+		}
+	}
+
+	# Info window ONLY when flag is set
+	towe_throne_info_gui = {
+		context_type = player_context
+		window_name = "towe_throne_info_window"
+
+		visible = {
+			has_country_flag = towe_throne_panel_open
+		}
+
+		effects = {
+			towe_throne_close_click = {
+				clr_country_flag = towe_throne_panel_open
+			}
+		}
+
+		triggers = {
+			towe_throne_close_click_enabled = {
+				always = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,47 @@
+focus_tree = {
+	id = towe_generic_basic_focus
+	country = {
+		factor = 10
+		modifier = { factor = 0 tag = JAS }
+		modifier = { factor = 0 tag = FUD }
+		modifier = { factor = 0 tag = MGL }
+	}
+	default = yes
+	continuous_focus_position = { x = 20 y = 1000 }
+
+	focus = {
+		id = TOWE_political_stability
+		icon = GFX_goal_generic_national_unity
+		x = 5
+		y = 0
+		cost = 10
+		ai_will_do = { factor = 5 }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = TOWE_industrial_expansion
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = TOWE_political_stability }
+		x = 3
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = TOWE_military_readiness
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = TOWE_political_stability }
+		x = 7
+		y = 1
+		cost = 10
+		completion_reward = {
+			army_experience = 20
+			add_war_support = 0.05
+		}
+	}
+}

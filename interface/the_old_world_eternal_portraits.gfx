@@ -1,0 +1,10 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_portrait_the_old_world_eternal_new_character_1
+        texturefile = "gfx/leaders/JAS/the_old_world_eternal_new_character_1_large.dds"
+    }
+    spriteType = {
+        name = GFX_idea_the_old_world_eternal_new_character_1
+        texturefile = "gfx/leaders/JAS/the_old_world_eternal_new_character_1_small.dds"
+    }
+}

@@ -1,0 +1,62 @@
+capital = 454
+set_research_slots = 3
+set_stability = 0.55
+set_war_support = 0.40
+set_convoys = 80
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	despotism = 100
+	liberalism = 0
+	fascism = 0
+	communist = 0
+}
+
+set_party_name = {
+	ideology = despotism
+	name = JAS_despotism_party
+	long_name = JAS_despotism_party_long
+}
+
+set_rule = {
+	can_create_factions = no
+}
+
+create_country_leader = {
+	name = "Empress Lila"
+	desc = "JAS_empress_lila_desc"
+	picture = "GFX_portrait_JAS_empress_lila"
+	expire = "1965.1.1"
+	ideology = despotism_absolute_monarchy_subtype
+	traits = {
+		JAS_pale_sovereign
+		JAS_heir_to_a_dying_mandate
+		dictator
+	}
+}
+
+recruit_character = JAS_empress_lila
+promote_character = {
+	character = JAS_empress_lila
+	ideology = despotism_absolute_monarchy_subtype
+}
+
+recruit_character = JAS_advisor_vizier
+recruit_character = JAS_advisor_marshal
+recruit_character = JAS_advisor_treasurer
+recruit_character = JAS_advisor_spymaster
+
+add_ideas = {
+	JAS_throne_above_ideology
+	JAS_legacy_of_the_mandate
+	JAS_cracks_in_the_edifice
+	JAS_weight_of_history
+}
+
+oob = "JAS_1905"

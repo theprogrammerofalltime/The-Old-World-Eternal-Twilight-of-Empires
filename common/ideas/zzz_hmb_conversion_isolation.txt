@@ -1,0 +1,16 @@
+# Neutral definitions retained only so cleanup can safely remove these
+# vanilla ideas from an existing save without an unknown-idea error.
+ideas = {
+    country = {
+        USA_monroe_doctrine_idea = {
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+        }
+        USA_monroe_doctrine_enforcer = {
+            allowed = { always = no }
+            allowed_civil_war = { always = no }
+            removal_cost = -1
+        }
+    }
+}

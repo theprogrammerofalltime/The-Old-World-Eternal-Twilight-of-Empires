@@ -1,0 +1,5 @@
+focus_tree = {
+	id = DISABLED_towe_jas
+	country = { factor = 0 }
+	default = no
+}

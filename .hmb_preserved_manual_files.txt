@@ -1,0 +1,1087 @@
+Kept manual content files. These whole files take precedence over project edits; they were not merged.
+Kept edited/added: common/country_tags/zz_dynamic_countries.txt
+Kept edited/added: history/countries/AOR - Aboriginal Oceanic Republic.txt
+Kept edited/added: history/countries/JAS - Jasmine Empire.txt
+Kept deleted: history/countries/SER - Serbia.txt
+Kept edited/added: history/states/1-France.txt
+Kept edited/added: history/states/10-Poland.txt
+Kept edited/added: history/states/100-Iceland.txt
+Kept edited/added: history/states/1000-East Azerbaijan.txt
+Kept edited/added: history/states/1001-Kurdistan.txt
+Kept edited/added: history/states/1002-Yazd.txt
+Kept edited/added: history/states/1003-South Khorasan.txt
+Kept edited/added: history/states/1004-North Khorasan.txt
+Kept edited/added: history/states/1005-Qataghan.txt
+Kept edited/added: history/states/1006-Khyber Pass.txt
+Kept edited/added: history/states/1007-Maymanah.txt
+Kept edited/added: history/states/1008-Qandahar.txt
+Kept edited/added: history/states/1009-Farah.txt
+Kept edited/added: history/states/101-Greenland.txt
+Kept edited/added: history/states/1010-Al Anbar.txt
+Kept edited/added: history/states/1011-Al Basrah.txt
+Kept edited/added: history/states/1012-Kalat.txt
+Kept edited/added: history/states/1013 -Musamdam.txt
+Kept edited/added: history/states/1014 - Bahrain.txt
+Kept edited/added: history/states/1015 - Interior Oman.txt
+Kept edited/added: history/states/1016 - Dhofar.txt
+Kept edited/added: history/states/1017 - Trung Bo.txt
+Kept edited/added: history/states/1018 - South Kyushu.txt
+Kept edited/added: history/states/1019 - South Tohoku.txt
+Kept edited/added: history/states/102-North-Eastern Slovenia.txt
+Kept edited/added: history/states/1020 - Sanin.txt
+Kept edited/added: history/states/1021 - Actual Singapore.txt
+Kept edited/added: history/states/1022 - Interior Borneo.txt
+Kept edited/added: history/states/1023 - Brunei.txt
+Kept edited/added: history/states/1024 - Sabah.txt
+Kept edited/added: history/states/1025 - Zamboanga.txt
+Kept edited/added: history/states/1026 - North Mindanao.txt
+Kept edited/added: history/states/1027 - Bataan.txt
+Kept edited/added: history/states/1028 - Hamgyong.txt
+Kept edited/added: history/states/1029 - Gangwon.txt
+Kept edited/added: history/states/103-Croatia.txt
+Kept edited/added: history/states/1030 - Gyeongsang.txt
+Kept edited/added: history/states/1031 - Chungcheong Jeolla.txt
+Kept edited/added: history/states/1032 - Yanan.txt
+Kept edited/added: history/states/1033 - Fangchenggang.txt
+Kept edited/added: history/states/1034 - Suzhou.txt
+Kept edited/added: history/states/1035 - Nanjing.txt
+Kept edited/added: history/states/1036 - Wuhan.txt
+Kept edited/added: history/states/1037 - Chongqing.txt
+Kept edited/added: history/states/1038 - Jinan.txt
+Kept edited/added: history/states/1039 - Hebei-Chahar.txt
+Kept edited/added: history/states/104-Bosnia.txt
+Kept edited/added: history/states/1040 - Alxa.txt
+Kept edited/added: history/states/1041 - Chengdu.txt
+Kept edited/added: history/states/1042 - Khotan.txt
+Kept edited/added: history/states/1043 - Pailingmiao.txt
+Kept edited/added: history/states/1044 - Wuwei.txt
+Kept edited/added: history/states/1045 - Guyuan.txt
+Kept edited/added: history/states/1046 - Yulin.txt
+Kept edited/added: history/states/1047-Bangka-Belitung.txt
+Kept edited/added: history/states/1048-Padang.txt
+Kept edited/added: history/states/1049-Medan and Riouw.txt
+Kept edited/added: history/states/105-Montenegro.txt
+Kept edited/added: history/states/1050-Ajteh.txt
+Kept edited/added: history/states/1051-East Java.txt
+Kept edited/added: history/states/1052-Bali.txt
+Kept edited/added: history/states/1053-East Nusa Tenggara.txt
+Kept edited/added: history/states/1054-Dutch Timor.txt
+Kept edited/added: history/states/1055-Eastern Kalimantan.txt
+Kept edited/added: history/states/1056-Manado.txt
+Kept edited/added: history/states/1057-Dutch Southern New Guinea.txt
+Kept edited/added: history/states/1058-Batavia.txt
+Kept edited/added: history/states/1059 - Limbang.txt
+Kept edited/added: history/states/106-Macedonia.txt
+Kept edited/added: history/states/1060 - Johor.txt
+Kept edited/added: history/states/1061 - Perlis Kedah.txt
+Kept edited/added: history/states/1062 - Kelantan.txt
+Kept edited/added: history/states/1063 - Pahang.txt
+Kept edited/added: history/states/1064 - Perak.txt
+Kept edited/added: history/states/1065 - Penang.txt
+Kept edited/added: history/states/1066 - Mekong Delta.txt
+Kept edited/added: history/states/1067 - Battambang.txt
+Kept edited/added: history/states/1068 - Bassac.txt
+Kept edited/added: history/states/1069 - Lan Chang.txt
+Kept edited/added: history/states/107-Kosavo.txt
+Kept edited/added: history/states/1070 - Bougainville.txt
+Kept edited/added: history/states/1071 - Vanuatu.txt
+Kept edited/added: history/states/1072 - American Samoa.txt
+Kept edited/added: history/states/1073 - Interior Papua.txt
+Kept edited/added: history/states/1074 - Gibson Desert.txt
+Kept edited/added: history/states/1075 - West Queensland.txt
+Kept edited/added: history/states/1076 - Bangkok.txt
+Kept edited/added: history/states/1077 - Central Siam.txt
+Kept edited/added: history/states/1078 - Eastern Siam.txt
+Kept edited/added: history/states/1079-Auckland.txt
+Kept edited/added: history/states/108-Eastern Serbia.txt
+Kept edited/added: history/states/1080 - Marlborough.txt
+Kept edited/added: history/states/1081 - Otago.txt
+Kept edited/added: history/states/109-Eastern Croatia.txt
+Kept edited/added: history/states/11-Kaunas.txt
+Kept edited/added: history/states/110-Norway.txt
+Kept edited/added: history/states/111-Uusima.txt
+Kept edited/added: history/states/112-Lisbon.txt
+Kept edited/added: history/states/113-Ireland.txt
+Kept edited/added: history/states/114-Sardinia.txt
+Kept edited/added: history/states/115-Sicily.txt
+Kept edited/added: history/states/116-Malta.txt
+Kept edited/added: history/states/117-Napoli.txt
+Kept edited/added: history/states/118-Gibralter.txt
+Kept edited/added: history/states/119-Northern Ireland.txt
+Kept edited/added: history/states/12-Latvia.txt
+Kept edited/added: history/states/120-Scottish Highlands.txt
+Kept edited/added: history/states/121-Scottish Lowlands.txt
+Kept edited/added: history/states/122-Wales.txt
+Kept edited/added: history/states/123-Cornwall.txt
+Kept edited/added: history/states/124-Gotland.txt
+Kept edited/added: history/states/125-East Anglia.txt
+Kept edited/added: history/states/126-Greater London Area.txt
+Kept edited/added: history/states/127-South-east England.txt
+Kept edited/added: history/states/128-West Midlands.txt
+Kept edited/added: history/states/129-East Midlands.txt
+Kept edited/added: history/states/13-Estonia.txt
+Kept edited/added: history/states/130-Yorkshire.txt
+Kept edited/added: history/states/131-Northern England.txt
+Kept edited/added: history/states/132-North-west England.txt
+Kept edited/added: history/states/133-Strathclyde.txt
+Kept edited/added: history/states/134-Connaught.txt
+Kept edited/added: history/states/135-Munster.txt
+Kept edited/added: history/states/136-Aberdeenshire.txt
+Kept edited/added: history/states/137-Crimea.txt
+Kept edited/added: history/states/138-Skane.txt
+Kept edited/added: history/states/139-Smaland.txt
+Kept edited/added: history/states/14-Brittany.txt
+Kept edited/added: history/states/140-Vaster Gotland.txt
+Kept edited/added: history/states/141-Sodermanland.txt
+Kept edited/added: history/states/142-Vestlandet.txt
+Kept edited/added: history/states/143-Midt-Noreg.txt
+Kept edited/added: history/states/144-Nord-Noreg.txt
+Kept edited/added: history/states/145-Aland.txt
+Kept edited/added: history/states/146-Karelia.txt
+Kept edited/added: history/states/147-Salla.txt
+Kept edited/added: history/states/148-Lappi.txt
+Kept edited/added: history/states/149-Vaasa.txt
+Kept edited/added: history/states/15-Normandy.txt
+Kept edited/added: history/states/150-Kuopio.txt
+Kept edited/added: history/states/151-Eastern Swiss Alps.txt
+Kept edited/added: history/states/152-Upper Austria.txt
+Kept edited/added: history/states/153-Tyrol.txt
+Kept edited/added: history/states/154-Southern plain.txt
+Kept edited/added: history/states/155-Western Hungary.txt
+Kept edited/added: history/states/156-Calabria.txt
+Kept edited/added: history/states/157-Abruzzo.txt
+Kept edited/added: history/states/158-Piedmont.txt
+Kept edited/added: history/states/159-Lombardy.txt
+Kept edited/added: history/states/16-Ile de France.txt
+Kept edited/added: history/states/160-Veneto.txt
+Kept edited/added: history/states/161-Emilia Romagna.txt
+Kept edited/added: history/states/162-Tuscany.txt
+Kept edited/added: history/states/163-Dalmatia.txt
+Kept edited/added: history/states/164-Dodecanese.txt
+Kept edited/added: history/states/165-Catalonia.txt
+Kept edited/added: history/states/166-Western Aragon.txt
+Kept edited/added: history/states/167-Valencia.txt
+Kept edited/added: history/states/168-Murcia.txt
+Kept edited/added: history/states/169-Sevilla.txt
+Kept edited/added: history/states/17-Alcase Lorraine.txt
+Kept edited/added: history/states/170-Extremadura.txt
+Kept edited/added: history/states/171-Galicia.txt
+Kept edited/added: history/states/172-Navarre.txt
+Kept edited/added: history/states/173-Granada.txt
+Kept edited/added: history/states/174-Leon.txt
+Kept edited/added: history/states/175-Ciudad Real.txt
+Kept edited/added: history/states/176-Burgos.txt
+Kept edited/added: history/states/177-Balearic Islands.txt
+Kept edited/added: history/states/178-Canary islands.txt
+Kept edited/added: history/states/179-Beja.txt
+Kept edited/added: history/states/18-Champagne.txt
+Kept edited/added: history/states/180-Porto.txt
+Kept edited/added: history/states/181-Guarda.txt
+Kept edited/added: history/states/182-Crete.txt
+Kept edited/added: history/states/183-Cyprus.txt
+Kept edited/added: history/states/184-Thrace.txt
+Kept edited/added: history/states/185-Epirus.txt
+Kept edited/added: history/states/186-Peloponnese.txt
+Kept edited/added: history/states/187-Aegean Islands.txt
+Kept edited/added: history/states/188-Memel.txt
+Kept edited/added: history/states/189-Kaunas.txt
+Kept edited/added: history/states/19-Aquitaine.txt
+Kept edited/added: history/states/190-Kurzeme.txt
+Kept edited/added: history/states/191-Tartu.txt
+Kept edited/added: history/states/192-Odessa.txt
+Kept edited/added: history/states/193-Kiev.txt
+Kept edited/added: history/states/194-Pinsk Marches.txt
+Kept edited/added: history/states/195-Leningrad Area.txt
+Kept edited/added: history/states/196-Kherson.txt
+Kept edited/added: history/states/197-Mykolaiv.txt
+Kept edited/added: history/states/198-Vinnytsia.txt
+Kept edited/added: history/states/199-Khmelnytskyi.txt
+Kept edited/added: history/states/2-Italy.txt
+Kept edited/added: history/states/20-Franche-comte.txt
+Kept edited/added: history/states/200-Rivne.txt
+Kept edited/added: history/states/201-Zhytomyr.txt
+Kept edited/added: history/states/202-Western Kiev.txt
+Kept edited/added: history/states/203-Cherkasy.txt
+Kept edited/added: history/states/204-Brest.txt
+Kept edited/added: history/states/205-Hrodna.txt
+Kept edited/added: history/states/206-Minsk.txt
+Kept edited/added: history/states/207-Viciebsk.txt
+Kept edited/added: history/states/208-Pskov.txt
+Kept edited/added: history/states/209-Smolensk.txt
+Kept edited/added: history/states/21-Bouches-du-Rhone.txt
+Kept edited/added: history/states/210-Bryansk.txt
+Kept edited/added: history/states/211-Burgas.txt
+Kept edited/added: history/states/212-Plovdiv.txt
+Kept edited/added: history/states/213-Murmansk.txt
+Kept edited/added: history/states/214-Arkhangelsk.txt
+Kept edited/added: history/states/215-Eastern Karelia.txt
+Kept edited/added: history/states/216-Below Zero.txt
+Kept edited/added: history/states/217-Stalingrad Area.txt
+Kept edited/added: history/states/218-Rostov Area.txt
+Kept edited/added: history/states/219-Moscow Area.txt
+Kept edited/added: history/states/22-Roussillion.txt
+Kept edited/added: history/states/220-Kursk Area.txt
+Kept edited/added: history/states/221-Kharkov.txt
+Kept edited/added: history/states/222-Orel.txt
+Kept edited/added: history/states/223-tula.txt
+Kept edited/added: history/states/224-Bryansk.txt
+Kept edited/added: history/states/225-Glukhov.txt
+Kept edited/added: history/states/226-Nikopol.txt
+Kept edited/added: history/states/227-Stalino.txt
+Kept edited/added: history/states/228-Taganrog.txt
+Kept edited/added: history/states/229-baku.txt
+Kept edited/added: history/states/23-Poitou.txt
+Kept edited/added: history/states/230-Armenia.txt
+Kept edited/added: history/states/231-Georgia.txt
+Kept edited/added: history/states/232-Grozny.txt
+Kept edited/added: history/states/233-Caucasus Mountains.txt
+Kept edited/added: history/states/234-Krasodar.txt
+Kept edited/added: history/states/235-Stravropol.txt
+Kept edited/added: history/states/236-Astrakhan.txt
+Kept edited/added: history/states/237-Elista.txt
+Kept edited/added: history/states/238-volgodonsk.txt
+Kept edited/added: history/states/239-Saratov.txt
+Kept edited/added: history/states/24-Centre.txt
+Kept edited/added: history/states/240-Voronezh.txt
+Kept edited/added: history/states/241-Pochep.txt
+Kept edited/added: history/states/242-Smolensk.txt
+Kept edited/added: history/states/243-Roslavl.txt
+Kept edited/added: history/states/244-Gatchina.txt
+Kept edited/added: history/states/245-Donetsk.txt
+Kept edited/added: history/states/246-Rzhev.txt
+Kept edited/added: history/states/247-Tver.txt
+Kept edited/added: history/states/248-Yaroslavl.txt
+Kept edited/added: history/states/249-Kazan.txt
+Kept edited/added: history/states/25-Limousin.txt
+Kept edited/added: history/states/250-ulyanovsky.txt
+Kept edited/added: history/states/251-Samara.txt
+Kept edited/added: history/states/252-Nizhny Novogrod.txt
+Kept edited/added: history/states/253-Ivanovo.txt
+Kept edited/added: history/states/254-Ryazan.txt
+Kept edited/added: history/states/255-Penza.txt
+Kept edited/added: history/states/256-Cheboksary.txt
+Kept edited/added: history/states/257-Livny.txt
+Kept edited/added: history/states/258-lipetsk.txt
+Kept edited/added: history/states/259-Liski.txt
+Kept edited/added: history/states/26-Bourgogne.txt
+Kept edited/added: history/states/260-Borisoglbsk.txt
+Kept edited/added: history/states/261-USA.txt
+Kept edited/added: history/states/262-Torzhok.txt
+Kept edited/added: history/states/263-Veliky Novogrod.txt
+Kept edited/added: history/states/264-Tikhvin.txt
+Kept edited/added: history/states/265-Mikhaylovka.txt
+Kept edited/added: history/states/266-Persia.txt
+Kept edited/added: history/states/267-Afghanistan.txt
+Kept edited/added: history/states/268-French Somaliland.txt
+Kept edited/added: history/states/269-British Somaliland.txt
+Kept edited/added: history/states/27-Champagne2.txt
+Kept edited/added: history/states/270-Pitcarin Island.txt
+Kept edited/added: history/states/271-ethiopia.txt
+Kept edited/added: history/states/272-French Africa.txt
+Kept edited/added: history/states/273-Italian Africa.txt
+Kept edited/added: history/states/274-British Africa.txt
+Kept edited/added: history/states/275-South Africa.txt
+Kept edited/added: history/states/276-Canada.txt
+Kept edited/added: history/states/277-Mexico.txt
+Kept edited/added: history/states/278-Argentina.txt
+Kept edited/added: history/states/279-Chile.txt
+Kept edited/added: history/states/28-Alcase.txt
+Kept edited/added: history/states/280-Brazil.txt
+Kept edited/added: history/states/281-India.txt
+Kept edited/added: history/states/282-Japan.txt
+Kept edited/added: history/states/283-China.txt
+Kept edited/added: history/states/284-New Zealand.txt
+Kept edited/added: history/states/285-Austraila.txt
+Kept edited/added: history/states/286-Indochina.txt
+Kept edited/added: history/states/287-Sinkiang.txt
+Kept edited/added: history/states/288-Magwe.txt
+Kept edited/added: history/states/289-Western Siam.txt
+Kept edited/added: history/states/29-Pas de Calais.txt
+Kept edited/added: history/states/290-Spanish Africa.txt
+Kept edited/added: history/states/291-Iraq.txt
+Kept edited/added: history/states/292-Saudi Arabia.txt
+Kept edited/added: history/states/293-Yemen.txt
+Kept edited/added: history/states/294-Oman.txt
+Kept edited/added: history/states/295-Congo.txt
+Kept edited/added: history/states/296-Portugal Africa.txt
+Kept edited/added: history/states/297-Belgian Africa.txt
+Kept edited/added: history/states/298-Liberia.txt
+Kept edited/added: history/states/299-Falkand Islands.txt
+Kept edited/added: history/states/3-Swiss Plateau.txt
+Kept edited/added: history/states/30-Loire.txt
+Kept edited/added: history/states/300-Uruguay.txt
+Kept edited/added: history/states/301-paraguay.txt
+Kept edited/added: history/states/302-bolivia.txt
+Kept edited/added: history/states/303-Peru.txt
+Kept edited/added: history/states/304-Panama.txt
+Kept edited/added: history/states/305-Ecuador.txt
+Kept edited/added: history/states/306-Colombia.txt
+Kept edited/added: history/states/307-Venezuela.txt
+Kept edited/added: history/states/308-Britain SA.txt
+Kept edited/added: history/states/309-Dutch SA.txt
+Kept edited/added: history/states/31-Midi Pyrenees.txt
+Kept edited/added: history/states/310-French SA.txt
+Kept edited/added: history/states/311-BritMex.txt
+Kept edited/added: history/states/312-Honduras.txt
+Kept edited/added: history/states/313-Guatemala.txt
+Kept edited/added: history/states/314-El Salvador.txt
+Kept edited/added: history/states/315-Cuba.txt
+Kept edited/added: history/states/316-Costa Rica.txt
+Kept edited/added: history/states/317-Nicaragua.txt
+Kept edited/added: history/states/318-Haiti.txt
+Kept edited/added: history/states/319-Dominican Republic.txt
+Kept edited/added: history/states/32-Rhone Alpes.txt
+Kept edited/added: history/states/320-French India.txt
+Kept edited/added: history/states/321-Goa.txt
+Kept edited/added: history/states/322-Tibet.txt
+Kept edited/added: history/states/323-Nepal.txt
+Kept edited/added: history/states/324-Bhutan.txt
+Kept edited/added: history/states/325-Yunnan.txt
+Kept edited/added: history/states/326-HongKong.txt
+Kept edited/added: history/states/327-Philippines.txt
+Kept edited/added: history/states/328-Manchukuo.txt
+Kept edited/added: history/states/329-Tannu Tuva.txt
+Kept edited/added: history/states/33-Centre sud.txt
+Kept edited/added: history/states/330-Mongolia.txt
+Kept edited/added: history/states/331-Newfoundland.txt
+Kept edited/added: history/states/332-Labrador.txt
+Kept edited/added: history/states/333-British Borneo.txt
+Kept edited/added: history/states/334-Kalimantan Barat.txt
+Kept edited/added: history/states/335-West Java.txt
+Kept edited/added: history/states/336-Singapore.txt
+Kept edited/added: history/states/337-Faroe Islands.txt
+Kept edited/added: history/states/338-Gloucestershire.txt
+Kept edited/added: history/states/339-Izmir.txt
+Kept edited/added: history/states/34-Wallonie.txt
+Kept edited/added: history/states/340-Bursa.txt
+Kept edited/added: history/states/341-Edirne.txt
+Kept edited/added: history/states/342-Antalya.txt
+Kept edited/added: history/states/343-Afyon.txt
+Kept edited/added: history/states/344-Adana.txt
+Kept edited/added: history/states/345-Mersin.txt
+Kept edited/added: history/states/346-Konya.txt
+Kept edited/added: history/states/347-Izmit.txt
+Kept edited/added: history/states/348-Kayseri.txt
+Kept edited/added: history/states/349-Silvas.txt
+Kept edited/added: history/states/35-Gelderland.txt
+Kept edited/added: history/states/350-Diyarbekir.txt
+Kept edited/added: history/states/351-Vologda.txt
+Kept edited/added: history/states/352-Hakkari.txt
+Kept edited/added: history/states/353-Erzurum.txt
+Kept edited/added: history/states/354-Trabzon.txt
+Kept edited/added: history/states/355-Samsun.txt
+Kept edited/added: history/states/356-Sinop.txt
+Kept edited/added: history/states/357-New England.txt
+Kept edited/added: history/states/358-New York.txt
+Kept edited/added: history/states/359-New Jersey.txt
+Kept edited/added: history/states/36-Friesland.txt
+Kept edited/added: history/states/360-Pennsylvania.txt
+Kept edited/added: history/states/361-Maryland.txt
+Kept edited/added: history/states/362-Virginia.txt
+Kept edited/added: history/states/363-North Carolina.txt
+Kept edited/added: history/states/364-South Carolina.txt
+Kept edited/added: history/states/365-Georgia.txt
+Kept edited/added: history/states/366-Florida.txt
+Kept edited/added: history/states/367-Alabama.txt
+Kept edited/added: history/states/368-Tennesse.txt
+Kept edited/added: history/states/369-Kentucky.txt
+Kept edited/added: history/states/37-Denmark.txt
+Kept edited/added: history/states/370-Mississippi.txt
+Kept edited/added: history/states/371-Louisiana.txt
+Kept edited/added: history/states/372-Arkansas.txt
+Kept edited/added: history/states/373-Missouri.txt
+Kept edited/added: history/states/374-Oklahoma.txt
+Kept edited/added: history/states/375-Texas.txt
+Kept edited/added: history/states/376-New Mexico.txt
+Kept edited/added: history/states/377-Arizona.txt
+Kept edited/added: history/states/378-California.txt
+Kept edited/added: history/states/379-Nevada.txt
+Kept edited/added: history/states/38-Sweden.txt
+Kept edited/added: history/states/380-Utah.txt
+Kept edited/added: history/states/381-Wyoming.txt
+Kept edited/added: history/states/382-Colorado.txt
+Kept edited/added: history/states/383-Kansas.txt
+Kept edited/added: history/states/384-Nebraska.txt
+Kept edited/added: history/states/385-Oregon.txt
+Kept edited/added: history/states/386-Washington.txt
+Kept edited/added: history/states/387-Idaho.txt
+Kept edited/added: history/states/388-Montana.txt
+Kept edited/added: history/states/389-North Dakota.txt
+Kept edited/added: history/states/39-South Tyrol.txt
+Kept edited/added: history/states/390-South Dakota.txt
+Kept edited/added: history/states/391-Minnesota.txt
+Kept edited/added: history/states/392-Iowa.txt
+Kept edited/added: history/states/393-Michigan.txt
+Kept edited/added: history/states/394-Wisconsin.txt
+Kept edited/added: history/states/395-Illinois.txt
+Kept edited/added: history/states/396-Indiana.txt
+Kept edited/added: history/states/397-Syktyvkar.txt
+Kept edited/added: history/states/398-Perm.txt
+Kept edited/added: history/states/399-Izhevsk.txt
+Kept edited/added: history/states/4-Austria.txt
+Kept edited/added: history/states/40-USSR.txt
+Kept edited/added: history/states/400-Kirov.txt
+Kept edited/added: history/states/401-Engels.txt
+Kept edited/added: history/states/402-Akhtubinsk.txt
+Kept edited/added: history/states/403-Kharabali.txt
+Kept edited/added: history/states/404-Saykhin.txt
+Kept edited/added: history/states/405-Atyrau.txt
+Kept edited/added: history/states/406-Krasnyy Yar.txt
+Kept edited/added: history/states/407-Uralsk.txt
+Kept edited/added: history/states/408-Vladivostok.txt
+Kept edited/added: history/states/409-Khabarovsk.txt
+Kept edited/added: history/states/41-Madrid.txt
+Kept edited/added: history/states/410-Sistan.txt
+Kept edited/added: history/states/411-Hormozgan.txt
+Kept edited/added: history/states/412-Fars.txt
+Kept edited/added: history/states/413-Khuzestan.txt
+Kept edited/added: history/states/414-Kerman.txt
+Kept edited/added: history/states/415-South Khorasan.txt
+Kept edited/added: history/states/416-Razavi Khorasan.txt
+Kept edited/added: history/states/417-Golestan.txt
+Kept edited/added: history/states/418-Semnan.txt
+Kept edited/added: history/states/419-Azerbaijan.txt
+Kept edited/added: history/states/42-Rhineland.txt
+Kept edited/added: history/states/420-Gilan.txt
+Kept edited/added: history/states/421-Kurdistan.txt
+Kept edited/added: history/states/422-Ceylon.txt
+Kept edited/added: history/states/423-Madras.txt
+Kept edited/added: history/states/424-Andra Pradesh.txt
+Kept edited/added: history/states/425-Mysore.txt
+Kept edited/added: history/states/426-Orissa.txt
+Kept edited/added: history/states/427-Hyderabad.txt
+Kept edited/added: history/states/428-Western Indian States.txt
+Kept edited/added: history/states/429-Bombay.txt
+Kept edited/added: history/states/43-Hungary.txt
+Kept edited/added: history/states/430-Bangladesh.txt
+Kept edited/added: history/states/431-Calcutta.txt
+Kept edited/added: history/states/432-Assam.txt
+Kept edited/added: history/states/433-Rajputana.txt
+Kept edited/added: history/states/434-Arunachal Pradesh.txt
+Kept edited/added: history/states/435-Bihar.txt
+Kept edited/added: history/states/436-Central Provinces.txt
+Kept edited/added: history/states/437-Central Indian Provinces.txt
+Kept edited/added: history/states/438-United Provinces.txt
+Kept edited/added: history/states/439-Delhi.txt
+Kept edited/added: history/states/44-Albania.txt
+Kept edited/added: history/states/440-West Punjab.txt
+Kept edited/added: history/states/441-Kashmir.txt
+Kept edited/added: history/states/442-Peshawar.txt
+Kept edited/added: history/states/443-Sind.txt
+Kept edited/added: history/states/444-Baluchistan States.txt
+Kept edited/added: history/states/445-Quetta.txt
+Kept edited/added: history/states/446-Cairo.txt
+Kept edited/added: history/states/447-Alexandria.txt
+Kept edited/added: history/states/448-Tripoli.txt
+Kept edited/added: history/states/449-Libyan Coast.txt
+Kept edited/added: history/states/45-Yugoslavia.txt
+Kept edited/added: history/states/450-Benghasi.txt
+Kept edited/added: history/states/451-Derna.txt
+Kept edited/added: history/states/452-Marsa Matruh.txt
+Kept edited/added: history/states/453-Sinai.txt
+Kept edited/added: history/states/454-Israel.txt
+Kept edited/added: history/states/455-Jordan.txt
+Kept edited/added: history/states/456-Luxor.txt
+Kept edited/added: history/states/457-Aswan.txt
+Kept edited/added: history/states/458-Tunisia.txt
+Kept edited/added: history/states/459-Western Algeria.txt
+Kept edited/added: history/states/46-Romania.txt
+Kept edited/added: history/states/460-Eastern Algeria.txt
+Kept edited/added: history/states/461-Northern Morocco.txt
+Kept edited/added: history/states/462-Southern Morocco.txt
+Kept edited/added: history/states/463-Alaska.txt
+Kept edited/added: history/states/464-Nova Scotia.txt
+Kept edited/added: history/states/465-New Brunswick.txt
+Kept edited/added: history/states/466-Quebec.txt
+Kept edited/added: history/states/467-Manitoba.txt
+Kept edited/added: history/states/468-Nunavut.txt
+Kept edited/added: history/states/469-Saskatchewan.txt
+Kept edited/added: history/states/47-Greece.txt
+Kept edited/added: history/states/470-Alberta.txt
+Kept edited/added: history/states/471-Northwestern Canada.txt
+Kept edited/added: history/states/472-Northwest Territories.txt
+Kept edited/added: history/states/473-British Columbia.txt
+Kept edited/added: history/states/474-Yucatan.txt
+Kept edited/added: history/states/475-Chiapas.txt
+Kept edited/added: history/states/476-Oaxaca.txt
+Kept edited/added: history/states/477-Veracruz.txt
+Kept edited/added: history/states/478-Nayarit.txt
+Kept edited/added: history/states/479-Tamaulipas.txt
+Kept edited/added: history/states/48-Bulgaria.txt
+Kept edited/added: history/states/480-Coahuila.txt
+Kept edited/added: history/states/481-Sinaloa.txt
+Kept edited/added: history/states/482-Chihuahua.txt
+Kept edited/added: history/states/483-Sonora.txt
+Kept edited/added: history/states/484-Baja California.txt
+Kept edited/added: history/states/485-Guerrero.txt
+Kept edited/added: history/states/486-Meta.txt
+Kept edited/added: history/states/487-Amazinas.txt
+Kept edited/added: history/states/488-Bolivar.txt
+Kept edited/added: history/states/489-Monagas.txt
+Kept edited/added: history/states/49-Turkey.txt
+Kept edited/added: history/states/490-Pastaza.txt
+Kept edited/added: history/states/491-Loreto.txt
+Kept edited/added: history/states/492-Piura.txt
+Kept edited/added: history/states/493-La Libertad.txt
+Kept edited/added: history/states/494-Ucayali.txt
+Kept edited/added: history/states/495-Amazonas.txt
+Kept edited/added: history/states/496-Para.txt
+Kept edited/added: history/states/497-Maranhao.txt
+Kept edited/added: history/states/498-Rio Grande.txt
+Kept edited/added: history/states/499-Bahia.txt
+Kept edited/added: history/states/5-Germany.txt
+Kept edited/added: history/states/50-Baden.txt
+Kept edited/added: history/states/500-Rio de Janerio.txt
+Kept edited/added: history/states/501-Saol Paulo.txt
+Kept edited/added: history/states/502-Rio Grande Sul.txt
+Kept edited/added: history/states/503-Santa Catarina.txt
+Kept edited/added: history/states/504-Iguacu.txt
+Kept edited/added: history/states/505-Goias.txt
+Kept edited/added: history/states/506-Northern Chile.txt
+Kept edited/added: history/states/507-Southern Chile.txt
+Kept edited/added: history/states/508-Argentine Northwest.txt
+Kept edited/added: history/states/509-Gran Chaco.txt
+Kept edited/added: history/states/51-Moselland.txt
+Kept edited/added: history/states/510-Mesopotamia.txt
+Kept edited/added: history/states/511-Cuyo.txt
+Kept edited/added: history/states/512-Patagonia.txt
+Kept edited/added: history/states/513-Southern Algeria.txt
+Kept edited/added: history/states/514-North Africa.txt
+Kept edited/added: history/states/515-Central Africa.txt
+Kept edited/added: history/states/516-Northern Siberia.txt
+Kept edited/added: history/states/517-Victoria.txt
+Kept edited/added: history/states/518-Tasmania.txt
+Kept edited/added: history/states/519-South Australia.txt
+Kept edited/added: history/states/52-Wuttemberg.txt
+Kept edited/added: history/states/520-Northern Territory.txt
+Kept edited/added: history/states/521-Queensland.txt
+Kept edited/added: history/states/522-Western Australia.txt
+Kept edited/added: history/states/523-New Guinea.txt
+Kept edited/added: history/states/524-Taiwan.txt
+Kept edited/added: history/states/525-South Korea.txt
+Kept edited/added: history/states/526-Okinawa.txt
+Kept edited/added: history/states/527-North Korea.txt
+Kept edited/added: history/states/528-Nagasaki.txt
+Kept edited/added: history/states/529-Hiroshima.txt
+Kept edited/added: history/states/53-Oberbayern.txt
+Kept edited/added: history/states/530-Tokushima.txt
+Kept edited/added: history/states/531-Osaka.txt
+Kept edited/added: history/states/532-Nagoya.txt
+Kept edited/added: history/states/533-Akita.txt
+Kept edited/added: history/states/534-Niigata.txt
+Kept edited/added: history/states/535-Nagano.txt
+Kept edited/added: history/states/536-Hokkaido.txt
+Kept edited/added: history/states/537-South Sakhalin.txt
+Kept edited/added: history/states/538-Cameroun.txt
+Kept edited/added: history/states/539-Gabon.txt
+Kept edited/added: history/states/54-Bayreuth.txt
+Kept edited/added: history/states/540-Angola.txt
+Kept edited/added: history/states/541-South West Africa.txt
+Kept edited/added: history/states/542-Bechuana Land.txt
+Kept edited/added: history/states/543-Madagascar.txt
+Kept edited/added: history/states/544-East Africa.txt
+Kept edited/added: history/states/545-Rhodessa.txt
+Kept edited/added: history/states/546-Tanganyika.txt
+Kept edited/added: history/states/547-East Africa.txt
+Kept edited/added: history/states/548-Uganda.txt
+Kept edited/added: history/states/549-Sudan.txt
+Kept edited/added: history/states/55-Nassau.txt
+Kept edited/added: history/states/550-Eritrea.txt
+Kept edited/added: history/states/551-Khartoum.txt
+Kept edited/added: history/states/552-Western Egypt.txt
+Kept edited/added: history/states/553-Lebanon.txt
+Kept edited/added: history/states/554-Syria.txt
+Kept edited/added: history/states/555-Lagos.txt
+Kept edited/added: history/states/556-Mali.txt
+Kept edited/added: history/states/557-Mauritania.txt
+Kept edited/added: history/states/558-Nigeria.txt
+Kept edited/added: history/states/559-Somaliland.txt
+Kept edited/added: history/states/56-Weser-Ems.txt
+Kept edited/added: history/states/560-TS 2.txt
+Kept edited/added: history/states/561-TS 3.txt
+Kept edited/added: history/states/562-TS 4.txt
+Kept edited/added: history/states/563-TS 5.txt
+Kept edited/added: history/states/564-TS 6.txt
+Kept edited/added: history/states/565-TS 7.txt
+Kept edited/added: history/states/566-TS 8.txt
+Kept edited/added: history/states/567-TS 9.txt
+Kept edited/added: history/states/568-TS 10.txt
+Kept edited/added: history/states/569-TS 11.txt
+Kept edited/added: history/states/57-Westfalen.txt
+Kept edited/added: history/states/570-TS 12.txt
+Kept edited/added: history/states/571-TS 13.txt
+Kept edited/added: history/states/572-TS 14.txt
+Kept edited/added: history/states/573-Ts 15.txt
+Kept edited/added: history/states/574-Siberia 1.txt
+Kept edited/added: history/states/575-Siberia 2.txt
+Kept edited/added: history/states/576-Siberia 3.txt
+Kept edited/added: history/states/577-Siberia 4.txt
+Kept edited/added: history/states/578-Siberia 5.txt
+Kept edited/added: history/states/579-Siberia 6.txt
+Kept edited/added: history/states/58-Schleswig - Holstein.txt
+Kept edited/added: history/states/580-Siberia 7.txt
+Kept edited/added: history/states/581-Northern Urals.txt
+Kept edited/added: history/states/582-Sourthern Urals.txt
+Kept edited/added: history/states/583-Kazakhstan.txt
+Kept edited/added: history/states/584-Turkmenistan.txt
+Kept edited/added: history/states/585-Uzbekistan.txt
+Kept edited/added: history/states/586-Kyrgyzstan.txt
+Kept edited/added: history/states/587-Western Kazakstan.txt
+Kept edited/added: history/states/588-Some Mountains.txt
+Kept edited/added: history/states/589-Eastern Kazakhstan.txt
+Kept edited/added: history/states/59-Ost - Hannover.txt
+Kept edited/added: history/states/590-Northern Kazakhstan.txt
+Kept edited/added: history/states/591-Hainan.txt
+Kept edited/added: history/states/592-Guangzhou.txt
+Kept edited/added: history/states/593-Guangdong.txt
+Kept edited/added: history/states/594-Nanning.txt
+Kept edited/added: history/states/595-Fujian.txt
+Kept edited/added: history/states/596-Zhejiang.txt
+Kept edited/added: history/states/597-Shandong.txt
+Kept edited/added: history/states/598-Jiansu.txt
+Kept edited/added: history/states/599-Guanxi.txt
+Kept edited/added: history/states/6-Belgium.txt
+Kept edited/added: history/states/60-Sud-Hannover.txt
+Kept edited/added: history/states/600-Jiangxi.txt
+Kept edited/added: history/states/601-China 1.txt
+Kept edited/added: history/states/602-China 2.txt
+Kept edited/added: history/states/603-China 3.txt
+Kept edited/added: history/states/604-China 4.txt
+Kept edited/added: history/states/605-China 5.txt
+Kept edited/added: history/states/606-China 6.txt
+Kept edited/added: history/states/607-China 7.txt
+Kept edited/added: history/states/608-Beijing.txt
+Kept edited/added: history/states/609-China 8.txt
+Kept edited/added: history/states/61-Mecklenburg.txt
+Kept edited/added: history/states/610-China 9.txt
+Kept edited/added: history/states/611-China 10.txt
+Kept edited/added: history/states/612-China 11.txt
+Kept edited/added: history/states/613-China 12.txt
+Kept edited/added: history/states/614-China 13.txt
+Kept edited/added: history/states/615-Shanxi.txt
+Kept edited/added: history/states/616-China 14.txt
+Kept edited/added: history/states/617-Xinjiang.txt
+Kept edited/added: history/states/618-China 15.txt
+Kept edited/added: history/states/619-China 16.txt
+Kept edited/added: history/states/62-Pommern.txt
+Kept edited/added: history/states/620-China 17.txt
+Kept edited/added: history/states/621-China 18.txt
+Kept edited/added: history/states/622-China 19.txt
+Kept edited/added: history/states/623-Luzon.txt
+Kept edited/added: history/states/624-Central islands.txt
+Kept edited/added: history/states/625-Samar.txt
+Kept edited/added: history/states/626-Palawan.txt
+Kept edited/added: history/states/627-Mindanao.txt
+Kept edited/added: history/states/628-Cebu.txt
+Kept edited/added: history/states/629-Hawaii.txt
+Kept edited/added: history/states/63-WestPrussen.txt
+Kept edited/added: history/states/630-Johnston Atoll.txt
+Kept edited/added: history/states/631-Midway Island.txt
+Kept edited/added: history/states/632-Wake Island.txt
+Kept edited/added: history/states/633-Marshall Islands.txt
+Kept edited/added: history/states/634-Solomon Islands.txt
+Kept edited/added: history/states/635-New Caledonia.txt
+Kept edited/added: history/states/636-Fiji.txt
+Kept edited/added: history/states/637-State 1.txt
+Kept edited/added: history/states/638-Guam.txt
+Kept edited/added: history/states/639-Maiana.txt
+Kept edited/added: history/states/64-Brandenburg.txt
+Kept edited/added: history/states/640-Mandalay.txt
+Kept edited/added: history/states/641-Tahiti.txt
+Kept edited/added: history/states/642-Phoenix Island.txt
+Kept edited/added: history/states/643-Fongafale.txt
+Kept edited/added: history/states/644-state 3.txt
+Kept edited/added: history/states/645-Iwo Jima.txt
+Kept edited/added: history/states/646-Saipan.txt
+Kept edited/added: history/states/647-Palau.txt
+Kept edited/added: history/states/648-Marcus Island.txt
+Kept edited/added: history/states/649-Galapagos Islands.txt
+Kept edited/added: history/states/65-Sachsen.txt
+Kept edited/added: history/states/650-Attu Island.txt
+Kept edited/added: history/states/651-Sov state 5.txt
+Kept edited/added: history/states/652-Sov state 6.txt
+Kept edited/added: history/states/653-Sov state 7.txt
+Kept edited/added: history/states/654-sov state 8.txt
+Kept edited/added: history/states/655-North Sakhalin.txt
+Kept edited/added: history/states/656-Kuwait.txt
+Kept edited/added: history/states/657-Border state.txt
+Kept edited/added: history/states/658-Arab UK 1.txt
+Kept edited/added: history/states/659-Arabian UK 2.txt
+Kept edited/added: history/states/66-Niederschlesien.txt
+Kept edited/added: history/states/660-Equatorial Africa.txt
+Kept edited/added: history/states/661-Tripolitania.txt
+Kept edited/added: history/states/662-Sirte.txt
+Kept edited/added: history/states/663-Cyrenaica.txt
+Kept edited/added: history/states/664-Southern Slovakia.txt
+Kept edited/added: history/states/665-Gabes.txt
+Kept edited/added: history/states/666-Norrnorrland.txt
+Kept edited/added: history/states/667-West Nusa Tenggara.txt
+Kept edited/added: history/states/668-The Moluccas.txt
+Kept edited/added: history/states/669-Dutch New Guinea.txt
+Kept edited/added: history/states/67-Oberschlesien.txt
+Kept edited/added: history/states/670-Laos.txt
+Kept edited/added: history/states/671-Annam.txt
+Kept edited/added: history/states/672-South Sumatra.txt
+Kept edited/added: history/states/673-Sulawesi.txt
+Kept edited/added: history/states/674-Central Australia.txt
+Kept edited/added: history/states/675-Al Hajara.txt
+Kept edited/added: history/states/676-Mosul.txt
+Kept edited/added: history/states/677-Aleppo.txt
+Kept edited/added: history/states/678-Rub al Khali.txt
+Kept edited/added: history/states/679-Hejaz.txt
+Kept edited/added: history/states/68-Wartheland.txt
+Kept edited/added: history/states/680-Deir-az-Zur.txt
+Kept edited/added: history/states/681-Soviet Lakes.txt
+Kept edited/added: history/states/682-Northern Ontario.txt
+Kept edited/added: history/states/683-Northeastern Canada.txt
+Kept edited/added: history/states/684-Caroline Islands.txt
+Kept edited/added: history/states/685-Panama Canal.txt
+Kept edited/added: history/states/686-Puerto Rico.txt
+Kept edited/added: history/states/687-British Guyana.txt
+Kept edited/added: history/states/688-Chaco Boreal.txt
+Kept edited/added: history/states/689-Jamaica.txt
+Kept edited/added: history/states/69-Sudatenland.txt
+Kept edited/added: history/states/690-Bahama Islands.txt
+Kept edited/added: history/states/691-Trinidad.txt
+Kept edited/added: history/states/692-Windward Islands.txt
+Kept edited/added: history/states/693-Southern Bahamas.txt
+Kept edited/added: history/states/694-French Caribbean.txt
+Kept edited/added: history/states/695-Curacao.txt
+Kept edited/added: history/states/696-Bermuda.txt
+Kept edited/added: history/states/697-Madeira.txt
+Kept edited/added: history/states/698-Azores.txt
+Kept edited/added: history/states/699-Rio de Oro.txt
+Kept edited/added: history/states/7-Holland.txt
+Kept edited/added: history/states/70-Slovakia.txt
+Kept edited/added: history/states/700-Sierra Leone.txt
+Kept edited/added: history/states/701-Gambia.txt
+Kept edited/added: history/states/702-Cape Verde.txt
+Kept edited/added: history/states/703-Ascension.txt
+Kept edited/added: history/states/704-Saint Helena.txt
+Kept edited/added: history/states/705-Sao Tome.txt
+Kept edited/added: history/states/706-Reunion.txt
+Kept edited/added: history/states/707-Mauritius.txt
+Kept edited/added: history/states/708-Comoro Islands.txt
+Kept edited/added: history/states/709-Seychelles.txt
+Kept edited/added: history/states/71-East Slovakia.txt
+Kept edited/added: history/states/710-Diego Garcia.txt
+Kept edited/added: history/states/711-Christmas Island.txt
+Kept edited/added: history/states/712-Cocos Islands.txt
+Kept edited/added: history/states/713-Kerguelen.txt
+Kept edited/added: history/states/714-Heilungkiang.txt
+Kept edited/added: history/states/715-Liaoning.txt
+Kept edited/added: history/states/716-Liaotung.txt
+Kept edited/added: history/states/717-Chuho.txt
+Kept edited/added: history/states/718-Stanleyville.txt
+Kept edited/added: history/states/719-Natal.txt
+Kept edited/added: history/states/72-Zaolzie.txt
+Kept edited/added: history/states/720-South Georgia.txt
+Kept edited/added: history/states/721-Portuguese Timor.txt
+Kept edited/added: history/states/722-Petsamo.txt
+Kept edited/added: history/states/723-Southern Island.txt
+Kept edited/added: history/states/724-Southern Siam.txt
+Kept edited/added: history/states/725-Nauru.txt
+Kept edited/added: history/states/726-Samoa.txt
+Kept edited/added: history/states/727-Line Islands.txt
+Kept edited/added: history/states/728-Guangzhouwan.txt
+Kept edited/added: history/states/729-Macau.txt
+Kept edited/added: history/states/73-Carpathian Ruthenia.txt
+Kept edited/added: history/states/730-St Pierre and Miquelon .txt
+Kept edited/added: history/states/731-Central Macedonia.txt
+Kept edited/added: history/states/732-Pamir.txt
+Kept edited/added: history/states/733-Andaman.txt
+Kept edited/added: history/states/734-Nendo.txt
+Kept edited/added: history/states/735-Savoy.txt
+Kept edited/added: history/states/736-Litorale.txt
+Kept edited/added: history/states/737-New Britain.txt
+Kept edited/added: history/states/738-Aru Islands.txt
+Kept edited/added: history/states/739-Haida Gwaii.txt
+Kept edited/added: history/states/74-East Sudatenland.txt
+Kept edited/added: history/states/740-Vancouver Island.txt
+Kept edited/added: history/states/741-Cambodia.txt
+Kept edited/added: history/states/742-Stalinabad.txt
+Kept edited/added: history/states/743-Qingdao.txt
+Kept edited/added: history/states/744-Xian.txt
+Kept edited/added: history/states/745-Dalian.txt
+Kept edited/added: history/states/746-Ordos.txt
+Kept edited/added: history/states/747-Dali Bai.txt
+Kept edited/added: history/states/748-Zunyi.txt
+Kept edited/added: history/states/749-Huangshan.txt
+Kept edited/added: history/states/75-Moravia.txt
+Kept edited/added: history/states/750-Changde.txt
+Kept edited/added: history/states/751-Liangshan.txt
+Kept edited/added: history/states/752-Chamdo.txt
+Kept edited/added: history/states/753-Gannan.txt
+Kept edited/added: history/states/754-Golog.txt
+Kept edited/added: history/states/755-Haixi.txt
+Kept edited/added: history/states/756-Jiuquan.txt
+Kept edited/added: history/states/757-Shigatse.txt
+Kept edited/added: history/states/758-Ngari.txt
+Kept edited/added: history/states/759-Kunlun.txt
+Kept edited/added: history/states/76-Northern Transylvania.txt
+Kept edited/added: history/states/760-Dabancheng.txt
+Kept edited/added: history/states/761-Hulunbuir.txt
+Kept edited/added: history/states/762-Katowice.txt
+Kept edited/added: history/states/763-Konigsberg.txt
+Kept edited/added: history/states/764-West Banat.txt
+Kept edited/added: history/states/765-Qatar.txt
+Kept edited/added: history/states/766-Southern Bessarabia.txt
+Kept edited/added: history/states/767-North Darfur.txt
+Kept edited/added: history/states/768-Rwanda.txt
+Kept edited/added: history/states/769-Burundi.txt
+Kept edited/added: history/states/77-Dobrogea.txt
+Kept edited/added: history/states/770-Malawi.txt
+Kept edited/added: history/states/771-Zambia.txt
+Kept edited/added: history/states/772-Middle Congo.txt
+Kept edited/added: history/states/773-Cameroon.txt
+Kept edited/added: history/states/774-Chad.txt
+Kept edited/added: history/states/775-B.E.T..txt
+Kept edited/added: history/states/776-Dahomey.txt
+Kept edited/added: history/states/777-Togo.txt
+Kept edited/added: history/states/778-Upper Volta.txt
+Kept edited/added: history/states/779-Ivory Coast.txt
+Kept edited/added: history/states/78-Bessarabia.txt
+Kept edited/added: history/states/780-Guinea.txt
+Kept edited/added: history/states/781-Niger.txt
+Kept edited/added: history/states/782-Tombouctou.txt
+Kept edited/added: history/states/783-Sidi Ifni.txt
+Kept edited/added: history/states/784-Ermland-Masuren.txt
+Kept edited/added: history/states/785-Picardy.txt
+Kept edited/added: history/states/786-Mauritanian Desert.txt
+Kept edited/added: history/states/787-North Kashmir.txt
+Kept edited/added: history/states/788-Salamanca.txt
+Kept edited/added: history/states/789-Cordoba.txt
+Kept edited/added: history/states/79-moldovia.txt
+Kept edited/added: history/states/790-Asturias.txt
+Kept edited/added: history/states/791-Valladolid.txt
+Kept edited/added: history/states/792-Basque Country.txt
+Kept edited/added: history/states/793-Guadalajara.txt
+Kept edited/added: history/states/794-Eastern Aragon.txt
+Kept edited/added: history/states/795-Santarem.txt
+Kept edited/added: history/states/796-North Angola.txt
+Kept edited/added: history/states/797-Istanbul.txt
+Kept edited/added: history/states/798-Amasya.txt
+Kept edited/added: history/states/799-Hatay.txt
+Kept edited/added: history/states/8-Luxemburg.txt
+Kept edited/added: history/states/80-Bocovina.txt
+Kept edited/added: history/states/800-Van.txt
+Kept edited/added: history/states/801-Moesia.txt
+Kept edited/added: history/states/802-Kosovo.txt
+Kept edited/added: history/states/803-Southern Serbia.txt
+Kept edited/added: history/states/804-Herzegovina.txt
+Kept edited/added: history/states/805-Northern Epirus.txt
+Kept edited/added: history/states/806-French Basque Country.txt
+Kept edited/added: history/states/807-Gdynia.txt
+Kept edited/added: history/states/808-Riga.txt
+Kept edited/added: history/states/809-Latgale.txt
+Kept edited/added: history/states/81-Oltenia.txt
+Kept edited/added: history/states/810-Zemgale.txt
+Kept edited/added: history/states/811-Saaremaa.txt
+Kept edited/added: history/states/812-Tallinn.txt
+Kept edited/added: history/states/813-Rakvere.txt
+Kept edited/added: history/states/814-Suduva.txt
+Kept edited/added: history/states/815-Aukstaitija.txt
+Kept edited/added: history/states/816-West Virginia.txt
+Kept edited/added: history/states/817-Gobi.txt
+Kept edited/added: history/states/818-Khovd.txt
+Kept edited/added: history/states/819-Dornod.txt
+Kept edited/added: history/states/82-Banat.txt
+Kept edited/added: history/states/820-Khovsgol.txt
+Kept edited/added: history/states/821 - Chenchnya-Ingushetia.txt
+Kept edited/added: history/states/822 - Chukotka.txt
+Kept edited/added: history/states/823 - Karakalpakstan.txt
+Kept edited/added: history/states/824 - Yamalia.txt
+Kept edited/added: history/states/825 - Nenetsia.txt
+Kept edited/added: history/states/826 - Abkhazia.txt
+Kept edited/added: history/states/827 - Kabardino-Balkaria.txt
+Kept edited/added: history/states/828 - North Ossetia.txt
+Kept edited/added: history/states/829 - Volga Germany.txt
+Kept edited/added: history/states/83-crisana.txt
+Kept edited/added: history/states/830 - Bukhara.txt
+Kept edited/added: history/states/831 - Khiva.txt
+Kept edited/added: history/states/832 - Dashhowuz.txt
+Kept edited/added: history/states/833 - Mari El.txt
+Kept edited/added: history/states/834 - Balta.txt
+Kept edited/added: history/states/835-Haraghe.txt
+Kept edited/added: history/states/836-Bale.txt
+Kept edited/added: history/states/837-Sidamo.txt
+Kept edited/added: history/states/838-Illubabor.txt
+Kept edited/added: history/states/839-Welega.txt
+Kept edited/added: history/states/84-Transylvania.txt
+Kept edited/added: history/states/840-Gojjam.txt
+Kept edited/added: history/states/841-Begemder.txt
+Kept edited/added: history/states/842-Tigray.txt
+Kept edited/added: history/states/843-Wello.txt
+Kept edited/added: history/states/844-jubaland.txt
+Kept edited/added: history/states/845-Jura Mountains.txt
+Kept edited/added: history/states/846-Ticino.txt
+Kept edited/added: history/states/847-Western Swiss Alps.txt
+Kept edited/added: history/states/848-Voralberg.txt
+Kept edited/added: history/states/849-Puglia.txt
+Kept edited/added: history/states/85-Danzig.txt
+Kept edited/added: history/states/850-Trentino.txt
+Kept edited/added: history/states/851-Var.txt
+Kept edited/added: history/states/852-Istria.txt
+Kept edited/added: history/states/853-Ljubljana.txt
+Kept edited/added: history/states/854-Jawf.txt
+Kept edited/added: history/states/855-Tabuk.txt
+Kept edited/added: history/states/856-Asir-Makkah.txt
+Kept edited/added: history/states/857-Ha'il.txt
+Kept edited/added: history/states/858-Najiran.txt
+Kept edited/added: history/states/859-Dammam.txt
+Kept edited/added: history/states/86-Poznan.txt
+Kept edited/added: history/states/860-Cote-Nord.txt
+Kept edited/added: history/states/861-Saguenay.txt
+Kept edited/added: history/states/862-ouest du quebec.txt
+Kept edited/added: history/states/863-Maurice.txt
+Kept edited/added: history/states/864-Yukon.txt
+Kept edited/added: history/states/865-Northern Saskatchewan.txt
+Kept edited/added: history/states/866-Districts of Ontario.txt
+Kept edited/added: history/states/867-Northern Manitoba.txt
+Kept edited/added: history/states/868-Isan.txt
+Kept edited/added: history/states/869-Lanna.txt
+Kept edited/added: history/states/87-Lodz.txt
+Kept edited/added: history/states/870-Pilbara-Kimberley.txt
+Kept edited/added: history/states/871-Esperence-Goldfields.txt
+Kept edited/added: history/states/872-North Queensland.txt
+Kept edited/added: history/states/873-Channel Country.txt
+Kept edited/added: history/states/874-Magadan.txt
+Kept edited/added: history/states/875-Chukchi Peninsulay.txt
+Kept edited/added: history/states/876-Udachny.txt
+Kept edited/added: history/states/877-Verkhoyansk.txt
+Kept edited/added: history/states/878-Khatangsky.txt
+Kept edited/added: history/states/879-Kargopol.txt
+Kept edited/added: history/states/88-Kielce.txt
+Kept edited/added: history/states/880-Kotlas.txt
+Kept edited/added: history/states/881-Karagandy.txt
+Kept edited/added: history/states/882-Pavlodar.txt
+Kept edited/added: history/states/883-Kassala.txt
+Kept edited/added: history/states/884-Upper Nile.txt
+Kept edited/added: history/states/885-Bahr al Ghazal.txt
+Kept edited/added: history/states/886-Blue Nile.txt
+Kept edited/added: history/states/887-South Darfur.txt
+Kept edited/added: history/states/888-Lusambo.txt
+Kept edited/added: history/states/889-Elisabethville.txt
+Kept edited/added: history/states/89-Krakow.txt
+Kept edited/added: history/states/890-Costermansville.txt
+Kept edited/added: history/states/891-Zambesi.txt
+Kept edited/added: history/states/892-South West Angola.txt
+Kept edited/added: history/states/893-Karas.txt
+Kept edited/added: history/states/894-Kuneme.txt
+Kept edited/added: history/states/895-Kavango.txt
+Kept edited/added: history/states/896-Manica e Sofala.txt
+Kept edited/added: history/states/897-Zambezia-Mocambique.txt
+Kept edited/added: history/states/898-Gao.txt
+Kept edited/added: history/states/899-Kayes-Koulikoro.txt
+Kept edited/added: history/states/9-Czechoslovakia.txt
+Kept edited/added: history/states/90-Lwow.txt
+Kept edited/added: history/states/900-Benue.txt
+Kept edited/added: history/states/901-Borno.txt
+Kept edited/added: history/states/902-Sokoto.txt
+Kept edited/added: history/states/903-Garissa.txt
+Kept edited/added: history/states/904-Nyanza-Rift Valley.txt
+Kept edited/added: history/states/905-Mombasa.txt
+Kept edited/added: history/states/906-Socotra.txt
+Kept edited/added: history/states/907-Cairo.txt
+Kept edited/added: history/states/908-Afar.txt
+Kept edited/added: history/states/909-South Schleswig.txt
+Kept edited/added: history/states/91-Tarnopol.txt
+Kept edited/added: history/states/910-Bornholm.txt
+Kept edited/added: history/states/911-Fyn.txt
+Kept edited/added: history/states/912-Sonderjylland.txt
+Kept edited/added: history/states/913-Ostergotland.txt
+Kept edited/added: history/states/914-JanMayen.txt
+Kept edited/added: history/states/915-Bohuslan.txt
+Kept edited/added: history/states/916-Dalarna.txt
+Kept edited/added: history/states/917-Jamtland.txt
+Kept edited/added: history/states/918-Vasterbotten.txt
+Kept edited/added: history/states/919-Varmland.txt
+Kept edited/added: history/states/92-Lublin.txt
+Kept edited/added: history/states/920-Opplandene.txt
+Kept edited/added: history/states/921-Telemark.txt
+Kept edited/added: history/states/922-Agder.txt
+Kept edited/added: history/states/923-Helgeland.txt
+Kept edited/added: history/states/924-Troms.txt
+Kept edited/added: history/states/925-Finnmark.txt
+Kept edited/added: history/states/926-Turku.txt
+Kept edited/added: history/states/927-Hame.txt
+Kept edited/added: history/states/928-Kyme.txt
+Kept edited/added: history/states/929-Oulu.txt
+Kept edited/added: history/states/93-Volhynian.txt
+Kept edited/added: history/states/930-Mikkeli.txt
+Kept edited/added: history/states/931-Cumbria.txt
+Kept edited/added: history/states/932-Isle of Man.txt
+Kept edited/added: history/states/933-Shetland.txt
+Kept edited/added: history/states/934-Shkoder.txt
+Kept edited/added: history/states/935 - Ceara.txt
+Kept edited/added: history/states/936 - Pernambuco.txt
+Kept edited/added: history/states/937 - Piaui.txt
+Kept edited/added: history/states/938 - Para.txt
+Kept edited/added: history/states/939 - Amapa.txt
+Kept edited/added: history/states/94-Polesie.txt
+Kept edited/added: history/states/940 - Acre.txt
+Kept edited/added: history/states/941 - Tocantins.txt
+Kept edited/added: history/states/942 - Rondonia.txt
+Kept edited/added: history/states/943 - Espirito Santo.txt
+Kept edited/added: history/states/944 - Parana.txt
+Kept edited/added: history/states/945 - Cerro Largo.txt
+Kept edited/added: history/states/946 - Paysandu.txt
+Kept edited/added: history/states/947 - Tacna.txt
+Kept edited/added: history/states/948 - Easter Island.txt
+Kept edited/added: history/states/949 - Aysen.txt
+Kept edited/added: history/states/95-Nowogrodek.txt
+Kept edited/added: history/states/950 - Araucania.txt
+Kept edited/added: history/states/951 - Arica.txt
+Kept edited/added: history/states/952 - Atacama.txt
+Kept edited/added: history/states/953 - Tierra del Fuego.txt
+Kept edited/added: history/states/954 - Santa Cruz.txt
+Kept edited/added: history/states/955 - Chubut.txt
+Kept edited/added: history/states/956 - Santa Fe.txt
+Kept edited/added: history/states/957 - Formosa.txt
+Kept edited/added: history/states/958 - San Luis.txt
+Kept edited/added: history/states/959 - Los Andes.txt
+Kept edited/added: history/states/96-Wilejka.txt
+Kept edited/added: history/states/960 - San Juan.txt
+Kept edited/added: history/states/961-Deep Amazonas.txt
+Kept edited/added: history/states/962-Deep Amazonas.txt
+Kept edited/added: history/states/963-Deep Amazonas.txt
+Kept edited/added: history/states/964-Deep Amazonas.txt
+Kept edited/added: history/states/965-Deep Amazonas.txt
+Kept edited/added: history/states/966-Deep Amazonas.txt
+Kept edited/added: history/states/967-Deep Amazonas.txt
+Kept edited/added: history/states/968-Deep Amazonas.txt
+Kept edited/added: history/states/969-Rio Branco.txt
+Kept edited/added: history/states/97-Bialystok.txt
+Kept edited/added: history/states/970 - Western Macedonia.txt
+Kept edited/added: history/states/971 - Northern Dobruja.txt
+Kept edited/added: history/states/972 - South Sudetenland.txt
+Kept edited/added: history/states/973 - Bacs.txt
+Kept edited/added: history/states/974 - South Transdanubia.txt
+Kept edited/added: history/states/975 - Burgenland.txt
+Kept edited/added: history/states/976 - Steiermark Karnten.txt
+Kept edited/added: history/states/977 - Antwerp.txt
+Kept edited/added: history/states/978 - Actual Baden.txt
+Kept edited/added: history/states/979 - Kaiser Wilhelms Land.txt
+Kept edited/added: history/states/98-Mazurskie.txt
+Kept edited/added: history/states/980 - Ardennes.txt
+Kept edited/added: history/states/981 - Barotseland.txt
+Kept edited/added: history/states/982 - Madras States.txt
+Kept edited/added: history/states/983 - Deccan States.txt
+Kept edited/added: history/states/984 - Bastar.txt
+Kept edited/added: history/states/985 - Sikkim.txt
+Kept edited/added: history/states/986 - East Punjab.txt
+Kept edited/added: history/states/987 - Waziristan.txt
+Kept edited/added: history/states/988-Baluchistan.txt
+Kept edited/added: history/states/989-Bahawalpur.txt
+Kept edited/added: history/states/99-Jutland.txt
+Kept edited/added: history/states/990-Manipur.txt
+Kept edited/added: history/states/991-Gwalior.txt
+Kept edited/added: history/states/992-Province of Aden.txt
+Kept edited/added: history/states/993-Kentung and Yawnghwe.txt
+Kept edited/added: history/states/994-Tenasserim.txt
+Kept edited/added: history/states/995-Pegu.txt
+Kept edited/added: history/states/996-Irrawaddy.txt
+Kept edited/added: history/states/997-Arakan.txt
+Kept edited/added: history/states/998-Sagaing.txt
+Kept edited/added: history/states/999-Federated Shan States.txt
+Kept deleted: history/units/JAS_1936.txt

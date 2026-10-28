@@ -1,0 +1,28 @@
+bookmarks = {
+	bookmark = {
+		name = "TOWE_TWILIGHT_NAME"
+		desc = "TOWE_TWILIGHT_DESC"
+		date = 1905.12.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "JAS"
+		default = yes
+
+		"JAS" = {
+			history = "JAS_TWILIGHT_HISTORY"
+			ideology = neutrality
+			ideas = {
+				JAS_legacy_of_the_mandate
+				JAS_cracks_in_the_edifice
+			}
+		}
+
+		"FUD" = {
+			history = "FUD_TWILIGHT_HISTORY"
+			ideology = fascism
+		}
+
+		effect = {
+			randomize_weather = 31415
+		}
+	}
+}

@@ -1,0 +1,1 @@
+NDefines.NGame.START_DATE = "1905.12.1.12"

@@ -1,0 +1,188 @@
+add_namespace = towe_chronicle
+
+# The Imperial Chronicle: original event-driven narrative and war escalation.
+country_event = {
+ id = towe_chronicle.1
+ title = towe_chronicle.1.t
+ desc = towe_chronicle.1.d
+ picture = GFX_towe_event_balkan_crisis
+ is_triggered_only = yes
+ major = yes
+ option = {
+  name = towe_chronicle.1.a
+  add_war_support = 0.05
+  add_political_power = -20
+  set_country_flag = towe_chronicle_balkan_cabinet_met
+  country_event = { id = towe_chronicle.2 days = 4 }
+ }
+ option = {
+  name = towe_chronicle.1.b
+  add_stability = 0.02
+  add_war_support = -0.03
+  set_country_flag = towe_chronicle_balkan_conciliation
+  country_event = { id = towe_chronicle.2 days = 8 }
+ }
+}
+
+country_event = {
+ id = towe_chronicle.2
+ title = towe_chronicle.2.t
+ desc = towe_chronicle.2.d
+ picture = GFX_towe_event_cabinet
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.2.a
+  add_war_support = 0.05
+  add_political_power = 25
+  set_country_flag = towe_chronicle_mobilisation_authorised
+  if = { limit = { has_country_flag = towe_chronicle_balkan_conciliation } add_stability = -0.02 }
+  country_event = { id = towe_chronicle.3 days = 5 }
+ }
+ option = {
+  name = towe_chronicle.2.b
+  add_stability = -0.03
+  add_political_power = 35
+  set_country_flag = towe_chronicle_emergency_council
+  country_event = { id = towe_chronicle.3 days = 2 }
+ }
+}
+
+country_event = {
+ id = towe_chronicle.3
+ title = towe_chronicle.3.t
+ desc = towe_chronicle.3.d
+ picture = GFX_towe_event_mobilisation
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.3.a
+  add_war_support = 0.05
+  army_experience = 10
+  add_manpower = 20000
+  set_country_flag = towe_chronicle_frontier_orders_issued
+ }
+}
+
+# War-opening sequence for the second Asian war.
+country_event = {
+ id = towe_chronicle.10
+ title = towe_chronicle.10.t
+ desc = towe_chronicle.10.d
+ picture = GFX_towe_event_asian_war
+ is_triggered_only = yes
+ major = yes
+ option = {
+  name = towe_chronicle.10.a
+  add_war_support = 0.10
+  add_political_power = -35
+  set_country_flag = towe_chronicle_asian_war_opened
+  country_event = { id = towe_chronicle.11 days = 3 }
+ }
+ option = {
+  name = towe_chronicle.10.b
+  add_stability = 0.02
+  add_war_support = -0.05
+  set_country_flag = towe_chronicle_asian_war_cautious
+  country_event = { id = towe_chronicle.11 days = 7 }
+ }
+}
+
+country_event = {
+ id = towe_chronicle.11
+ title = towe_chronicle.11.t
+ desc = towe_chronicle.11.d
+ picture = GFX_towe_event_intelligence
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.11.a
+  add_political_power = 25
+  add_war_support = 0.03
+  if = { limit = { exists = FUD } FUD = { country_event = { id = towe_asia.1 days = 1 } } }
+  if = { limit = { exists = MGL } MGL = { country_event = { id = towe_asia.1 days = 2 } } }
+ }
+}
+
+# Campaign report is called from the Asian-war opening sequence after the first reports arrive.
+country_event = {
+ id = towe_chronicle.12
+ title = towe_chronicle.12.t
+ desc = towe_chronicle.12.d
+ picture = GFX_towe_event_armistice
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.12.a
+  add_stability = 0.03
+  add_political_power = 40
+ }
+ option = {
+  name = towe_chronicle.12.b
+  add_war_support = 0.05
+  army_experience = 15
+ }
+}
+
+# A reusable diplomatic breakdown event for the European confrontation.
+country_event = {
+ id = towe_chronicle.20
+ title = towe_chronicle.20.t
+ desc = towe_chronicle.20.d
+ picture = GFX_towe_event_european_war
+ is_triggered_only = yes
+ major = yes
+ option = {
+  name = towe_chronicle.20.a
+  add_war_support = 0.10
+  add_political_power = -25
+  set_country_flag = towe_chronicle_european_guarantees_expired
+ }
+ option = {
+  name = towe_chronicle.20.b
+  add_stability = 0.03
+  add_war_support = -0.05
+  set_country_flag = towe_chronicle_european_last_offer
+ }
+}
+
+
+# Great Fu: a court divided between obligation and survival.
+country_event = {
+ id = towe_chronicle.30
+ title = towe_chronicle.30.t
+ desc = towe_chronicle.30.d
+ picture = GFX_towe_event_cabinet
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.30.a
+  add_war_support = 0.05
+  add_political_power = -15
+  add_manpower = 10000
+  set_country_flag = towe_fud_imperial_obligation
+ }
+ option = {
+  name = towe_chronicle.30.b
+  add_stability = 0.03
+  add_war_support = -0.03
+  set_country_flag = towe_fud_cautious_commitment
+ }
+}
+
+# Mongol Confederation: mobilisation is also a negotiation among the clans.
+country_event = {
+ id = towe_chronicle.31
+ title = towe_chronicle.31.t
+ desc = towe_chronicle.31.d
+ picture = GFX_towe_event_mobilisation
+ is_triggered_only = yes
+ option = {
+  name = towe_chronicle.31.a
+  add_war_support = 0.07
+  army_experience = 10
+  add_manpower = 8000
+  set_country_flag = towe_mgl_horde_mobilised
+ }
+ option = {
+  name = towe_chronicle.31.b
+  add_stability = 0.03
+  add_political_power = 20
+  set_country_flag = towe_mgl_clan_compact
+ }
+}

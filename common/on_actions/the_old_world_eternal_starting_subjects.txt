@@ -1,0 +1,49 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            FUD = {
+                set_autonomy = {
+                    target = FNW
+                    autonomy_state = autonomy_wtt_imperial_subject
+                    freedom_level = 0
+                }
+            }
+            IRE = {
+                set_autonomy = {
+                    target = IAC
+                    autonomy_state = autonomy_wtt_imperial_protectorate
+                    freedom_level = 0
+                }
+            }
+            JAS = {
+                set_autonomy = {
+                    target = JSA
+                    autonomy_state = autonomy_wtt_imperial_protectorate
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = JSE
+                    autonomy_state = autonomy_wtt_imperial_protectorate
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = JSI
+                    autonomy_state = autonomy_wtt_imperial_protectorate
+                    freedom_level = 0
+                }
+                set_autonomy = {
+                    target = JNW
+                    autonomy_state = autonomy_wtt_imperial_protectorate
+                    freedom_level = 0
+                }
+            }
+            PPL = {
+                set_autonomy = {
+                    target = SIS
+                    autonomy_state = autonomy_integrated_puppet
+                    freedom_level = 0
+                }
+            }
+        }
+    }
+}
