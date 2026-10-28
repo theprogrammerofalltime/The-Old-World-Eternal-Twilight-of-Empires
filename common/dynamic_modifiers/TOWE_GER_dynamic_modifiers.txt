@@ -127,7 +127,7 @@ GER_BOR_Econ_a_modern_wundewaffe_modifier = {
 
 #Bormann cybersyn
 GER_BOR_Econ_entscheidungsnetzwerk = {
-	icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { always = yes }
 	annual_gdp_growth_factor = BOR_Econ_ONE_GER_cybersyn_gdp_growth_factor
 	civilian_expenditures_factor = BOR_Econ_ONE_GER_cybersyn_gdp_cost
@@ -199,21 +199,21 @@ GER_BOR_OC_intervention_dynamic_modifier = {
 #################################################
 
 GER_SGR_zollverein_dynamic_modifier = {
-	#icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	#icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { always = yes }
 	# min_export = SGR_export_factor
 	consumer_goods_use_modifier = SGR_consumer_goods
 }
 
 GER_SGR_repatriation_dynamic_modifier = {
-	#icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	#icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { always = yes }
 	misc_costs_modifier = SGR_total_cost
 }
 
 
 GER_SGR_the_wirtschaftswunder_dynamic_modifier = {
-	#icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	#icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { NOT = { has_country_flag = SGR_phase3 } }
 	production_speed_buildings_factor = SGR_youth_productivity
 	industrial_capacity_factory = SGR_youth_industry
@@ -223,7 +223,7 @@ GER_SGR_the_wirtschaftswunder_dynamic_modifier = {
 }
 
 GER_SGR_tax_cuts_dynamic_modifier = {
-	#icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	#icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { always = yes }
 	misc_income_modifier = SGR_deficit_offset
 	misc_costs_modifier = SGR_costs_save
@@ -232,7 +232,7 @@ GER_SGR_tax_cuts_dynamic_modifier = {
 }
 
 GER_SGR_oil_crisis_spending = {
-	#icon = "GFX_idea_GER_wirtschaftswunder_tno"
+	#icon = "GFX_idea_GER_wirtschaftswunder_towe"
 	enable = { always = yes }
 	civilian_expenditures_factor = SGR_OC_civ
 }
