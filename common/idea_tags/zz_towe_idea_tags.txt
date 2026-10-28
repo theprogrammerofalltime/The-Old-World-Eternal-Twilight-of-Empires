@@ -1,55 +1,55 @@
-# TOWE/TNO law and social-development idea slots.
+# TOWE/TOWE law and social-development idea slots.
 # Only top-level idea categories are slots; individual idea names are NOT slots.
 idea_categories = {
-	towe_tno_laws = {
+	towe_laws = {
 		ledger = civilian
 		cost = 0
 		removal_cost = -1
-		# TNO_zz_laws_economic.txt
-		slot = tno_trade_laws
-		slot = tno_income_taxation
-		slot = tno_minimum_wage
-		slot = tno_max_workhours
-		slot = tno_pensions
-		slot = tno_unemployment
-		# TNO_zz_laws_military.txt
-		slot = tno_conscription
-		slot = tno_military_supervision
-		slot = tno_training
-		slot = tno_draft_exemptions
-		# TNO_zz_laws_misc.txt
-		slot = tno_pollution
-		slot = tno_safety
-		slot = tno_refugees
-		slot = tno_child_labor
-		slot = tno_minorities
-		slot = tno_lgbt_rights
-		slot = tno_racial_integration
-		slot = tno_women
-		# TNO_zz_laws_political.txt
-		slot = tno_political_parties
-		slot = tno_religious_rights
-		slot = tno_trade_unions
-		slot = tno_immigration
-		slot = tno_slavery
-		slot = tno_public_meetings
-		slot = tno_press_rights
-		slot = tno_vote_franchise
-		# TNO_zz_laws_social.txt
-		slot = tno_health_care
-		slot = tno_education
-		slot = tno_penal_system
-		slot = tno_gender_rights
-		slot = tno_security
-		slot = tno_regulations
-		# TNO_zz_social_development.txt
-		slot = tno_academic_base
-		slot = tno_research_facilities
-		slot = tno_agriculture
-		slot = tno_healthcare_quality
-		slot = tno_industrial_equipment
-		slot = tno_industrial_expertise
-		slot = tno_army_professionalism
-		slot = tno_admin_efficiency
+		# TOWE_zz_laws_economic.txt
+		slot = towe_trade_laws
+		slot = towe_income_taxation
+		slot = towe_minimum_wage
+		slot = towe_max_workhours
+		slot = towe_pensions
+		slot = towe_unemployment
+		# TOWE_zz_laws_military.txt
+		slot = towe_conscription
+		slot = towe_military_supervision
+		slot = towe_training
+		slot = towe_draft_exemptions
+		# TOWE_zz_laws_misc.txt
+		slot = towe_pollution
+		slot = towe_safety
+		slot = towe_refugees
+		slot = towe_child_labor
+		slot = towe_minorities
+		slot = towe_lgbt_rights
+		slot = towe_racial_integration
+		slot = towe_women
+		# TOWE_zz_laws_political.txt
+		slot = towe_political_parties
+		slot = towe_religious_rights
+		slot = towe_trade_unions
+		slot = towe_immigration
+		slot = towe_slavery
+		slot = towe_public_meetings
+		slot = towe_press_rights
+		slot = towe_vote_franchise
+		# TOWE_zz_laws_social.txt
+		slot = towe_health_care
+		slot = towe_education
+		slot = towe_penal_system
+		slot = towe_gender_rights
+		slot = towe_security
+		slot = towe_regulations
+		# TOWE_zz_social_development.txt
+		slot = towe_academic_base
+		slot = towe_research_facilities
+		slot = towe_agriculture
+		slot = towe_healthcare_quality
+		slot = towe_industrial_equipment
+		slot = towe_industrial_expertise
+		slot = towe_army_professionalism
+		slot = towe_admin_efficiency
 	}
 }
