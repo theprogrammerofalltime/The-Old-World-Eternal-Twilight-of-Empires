@@ -1,23 +1,4 @@
+# The legacy politics windows have been disabled pending a compatible redesign.
+# Keep law and ideology mechanics loaded independently of the visual overlay.
 scripted_gui = {
-	# TOWE politics tab mount point. The law grid itself is driven by the
-	# idea categories installed in common/ideas/TOWE_zz_laws_*.txt
-	TOWE_SG_politics = {
-		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "TOWE_SG_politics_faction_leader_container"
-
-		visible = {
-			always = yes
-		}
-	}
-
-	TOWE_SG_politics_laws = {
-		context_type = player_context
-		parent_window_token = politics_tab
-		window_name = "TOWE_SG_politics_laws"
-
-		visible = {
-			always = yes
-		}
-	}
 }
