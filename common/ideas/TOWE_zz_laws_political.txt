@@ -1,14 +1,14 @@
-### TNO Laws
+### TOWE Laws
 ### Political Laws
 ### ALL LAW EFFECTS MOVED TO DYNAMIC MODIFIERS
 ideas = {
-	tno_political_parties = {
+	towe_political_parties = {
 		law = yes
-		tno_political_parties_not_applicable = {
+		towe_political_parties_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_not_applicable"
-				tno_political_parties_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_not_applicable"
+				towe_political_parties_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -17,11 +17,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_political_parties_nonpartisan_system = {
+		towe_political_parties_nonpartisan_system = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_nonpartisan_system"
-				tno_political_parties_nonpartisan_system_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_nonpartisan_system"
+				towe_political_parties_nonpartisan_system_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -31,11 +31,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_political_parties_one_party_state = {
+		towe_political_parties_one_party_state = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_one_party_state"
-				tno_political_parties_one_party_state_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_one_party_state"
+				towe_political_parties_one_party_state_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -44,11 +44,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_political_parties_controlled_opposition = {
+		towe_political_parties_controlled_opposition = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_controlled_opposition"
-				tno_political_parties_controlled_opposition_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_controlled_opposition"
+				towe_political_parties_controlled_opposition_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -57,11 +57,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_political_parties_dominant_party_system = {
+		towe_political_parties_dominant_party_system = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_dominant_party_system"
-				tno_political_parties_dominant_party_system_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_dominant_party_system"
+				towe_political_parties_dominant_party_system_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -70,11 +70,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_political_parties_multiparty_system = {
+		towe_political_parties_multiparty_system = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_political_parties_multiparty_system"
-				tno_political_parties_multiparty_system_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_political_parties_multiparty_system"
+				towe_political_parties_multiparty_system_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -84,13 +84,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_religious_rights = {
+	towe_religious_rights = {
 		law = yes
-		tno_religious_rights_not_applicable = {
+		towe_religious_rights_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_not_applicable"
-				tno_religious_rights_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_not_applicable"
+				towe_religious_rights_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -99,11 +99,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_state_religion = {
+		towe_religious_rights_state_religion = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_state_religion"
-				tno_religious_rights_state_religion_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_state_religion"
+				towe_religious_rights_state_religion_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -113,11 +113,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_pluralism = {
+		towe_religious_rights_pluralism = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_pluralism"
-				tno_religious_rights_pluralism_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_pluralism"
+				towe_religious_rights_pluralism_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -127,11 +127,11 @@ ideas = {
 				}
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_secularism = {
+		towe_religious_rights_secularism = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_secularism"
-				tno_religious_rights_secularism_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_secularism"
+				towe_religious_rights_secularism_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -141,11 +141,11 @@ ideas = {
 				}
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_laicism = {
+		towe_religious_rights_laicism = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_laicism"
-				tno_religious_rights_laicism_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_laicism"
+				towe_religious_rights_laicism_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -155,11 +155,11 @@ ideas = {
 				}
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_suppression_of_churches = {
+		towe_religious_rights_suppression_of_churches = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_suppression_of_churches"
-				tno_religious_rights_suppression_of_churches_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_suppression_of_churches"
+				towe_religious_rights_suppression_of_churches_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -168,80 +168,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_religious_rights_state_atheism = {
+		towe_religious_rights_state_atheism = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_religious_rights_state_atheism"
-				tno_religious_rights_state_atheism_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-	}
-	tno_trade_unions = {
-		law = yes
-		tno_trade_unions_not_applicable = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_trade_unions_not_applicable"
-				tno_trade_unions_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_trade_unions_illegal = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_trade_unions_illegal"
-				tno_trade_unions_illegal_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			default = yes
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_trade_unions_state_controlled = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_trade_unions_state_controlled"
-				tno_trade_unions_state_controlled_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_trade_unions_nonsocialist_allowed = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_trade_unions_nonsocialist_allowed"
-				tno_trade_unions_nonsocialist_allowed_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_trade_unions_all_allowed = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_trade_unions_all_allowed"
-				tno_trade_unions_all_allowed_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_religious_rights_state_atheism"
+				towe_religious_rights_state_atheism_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -251,13 +182,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_immigration = {
+	towe_trade_unions = {
 		law = yes
-		tno_immigration_not_applicable = {
+		towe_trade_unions_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_not_applicable"
-				tno_immigration_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_unions_not_applicable"
+				towe_trade_unions_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -266,37 +197,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_immigration_closed_borders = {
+		towe_trade_unions_illegal = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_closed_borders"
-				tno_immigration_closed_borders_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_immigration_skilled_labor_only = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_skilled_labor_only"
-				tno_immigration_skilled_labor_only_effect = yes
-				TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
-
-			removal_cost = -1
-			ledger = civilian
-			modifier = {  }
-			cancel_if_invalid = no
-		}
-		tno_immigration_quota_immigration = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_quota_immigration"
-				tno_immigration_quota_immigration_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_unions_illegal"
+				towe_trade_unions_illegal_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -306,11 +211,106 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_immigration_open_immigration = {
+		towe_trade_unions_state_controlled = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_open_immigration"
-				tno_immigration_open_immigration_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_unions_state_controlled"
+				towe_trade_unions_state_controlled_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_unions_nonsocialist_allowed = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_unions_nonsocialist_allowed"
+				towe_trade_unions_nonsocialist_allowed_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_unions_all_allowed = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_unions_all_allowed"
+				towe_trade_unions_all_allowed_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_immigration = {
+		law = yes
+		towe_immigration_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_not_applicable"
+				towe_immigration_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_immigration_closed_borders = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_closed_borders"
+				towe_immigration_closed_borders_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_immigration_skilled_labor_only = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_skilled_labor_only"
+				towe_immigration_skilled_labor_only_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_immigration_quota_immigration = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_quota_immigration"
+				towe_immigration_quota_immigration_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_immigration_open_immigration = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_open_immigration"
+				towe_immigration_open_immigration_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -321,11 +321,11 @@ ideas = {
 			}
 			cancel_if_invalid = no
 		}
-		tno_immigration_encouraged_immigration = {
+		towe_immigration_encouraged_immigration = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_encouraged_immigration"
-				tno_immigration_encouraged_immigration_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_encouraged_immigration"
+				towe_immigration_encouraged_immigration_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -334,11 +334,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_immigration_ethnic_immigration = {
+		towe_immigration_ethnic_immigration = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_immigration_ethnic_immigration"
-				tno_immigration_ethnic_immigration_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_immigration_ethnic_immigration"
+				towe_immigration_ethnic_immigration_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -348,13 +348,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_slavery = { #Forced Labor
+	towe_slavery = { #Forced Labor
 		law = yes
-		tno_slavery_chattel = {
+		towe_slavery_chattel = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_chattel"
-				tno_slavery_chattel_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_chattel"
+				towe_slavery_chattel_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -363,11 +363,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_corvee = {
+		towe_slavery_corvee = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_corvee"
-				tno_slavery_corvee_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_corvee"
+				towe_slavery_corvee_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -376,11 +376,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_penal_labor = {
+		towe_slavery_penal_labor = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_penal_labor"
-				tno_slavery_penal_labor_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_penal_labor"
+				towe_slavery_penal_labor_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -389,11 +389,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_work_programs = {
+		towe_slavery_work_programs = {
 			on_add = {
 				log = "[GetDateText]: [Root.GetName]: add idea no_slavery_work_programs"
-				tno_slavery_work_programs_effect = yes
-				TNO_update_policy_effectiveness = yes
+				towe_slavery_work_programs_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -402,11 +402,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_pow_only = {
+		towe_slavery_pow_only = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_pow_only"
-				tno_slavery_pow_only_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_pow_only"
+				towe_slavery_pow_only_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -415,11 +415,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_outlawed = {
+		towe_slavery_outlawed = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_outlawed"
-				tno_slavery_outlawed_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_outlawed"
+				towe_slavery_outlawed_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -429,11 +429,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_slavery_not_applicable = {
+		towe_slavery_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_slavery_not_applicable"
-				tno_slavery_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_slavery_not_applicable"
+				towe_slavery_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -443,13 +443,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_public_meetings = {
+	towe_public_meetings = {
 		law = yes
-		tno_public_meetings_not_applicable = {
+		towe_public_meetings_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_public_meetings_not_applicable"
-				tno_public_meetings_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_public_meetings_not_applicable"
+				towe_public_meetings_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -458,11 +458,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_public_meetings_outlawed = {
+		towe_public_meetings_outlawed = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_public_meetings_outlawed"
-				tno_public_meetings_outlawed_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_public_meetings_outlawed"
+				towe_public_meetings_outlawed_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -471,11 +471,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_public_meetings_regulated = {
+		towe_public_meetings_regulated = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_public_meetings_regulated"
-				tno_public_meetings_regulated_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_public_meetings_regulated"
+				towe_public_meetings_regulated_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -485,11 +485,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_public_meetings_allowed = {
+		towe_public_meetings_allowed = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_public_meetings_allowed"
-				tno_public_meetings_allowed_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_public_meetings_allowed"
+				towe_public_meetings_allowed_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -499,13 +499,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_press_rights = {
+	towe_press_rights = {
 		law = yes
-		tno_press_rights_not_applicable = {
+		towe_press_rights_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_press_rights_not_applicable"
-				tno_press_rights_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_press_rights_not_applicable"
+				towe_press_rights_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -514,11 +514,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_press_rights_propaganda_press = {
+		towe_press_rights_propaganda_press = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_press_rights_propaganda_press"
-				tno_press_rights_propaganda_press_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_press_rights_propaganda_press"
+				towe_press_rights_propaganda_press_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -527,11 +527,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_press_rights_state_press_only = {
+		towe_press_rights_state_press_only = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_press_rights_state_press_only"
-				tno_press_rights_state_press_only_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_press_rights_state_press_only"
+				towe_press_rights_state_press_only_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -541,11 +541,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_press_rights_censored_press = {
+		towe_press_rights_censored_press = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_press_rights_censored_press"
-				tno_press_rights_censored_press_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_press_rights_censored_press"
+				towe_press_rights_censored_press_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -554,11 +554,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_press_rights_free_press = {
+		towe_press_rights_free_press = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_press_rights_free_press"
-				tno_press_rights_free_press_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_press_rights_free_press"
+				towe_press_rights_free_press_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -568,13 +568,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_vote_franchise = {
+	towe_vote_franchise = {
 		law = yes
-		tno_vote_franchise_not_applicable = {
+		towe_vote_franchise_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_not_applicable"
-				tno_vote_franchise_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_not_applicable"
+				towe_vote_franchise_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -583,11 +583,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_no_voting = {
+		towe_vote_franchise_no_voting = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_no_voting"
-				tno_vote_franchise_no_voting_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_no_voting"
+				towe_vote_franchise_no_voting_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -597,11 +597,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_elite_voting = {
+		towe_vote_franchise_elite_voting = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_elite_voting"
-				tno_vote_franchise_elite_voting_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_elite_voting"
+				towe_vote_franchise_elite_voting_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -611,11 +611,11 @@ ideas = {
 				}
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_inequal_voting = {
+		towe_vote_franchise_inequal_voting = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_inequal_voting"
-				tno_vote_franchise_inequal_voting_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_inequal_voting"
+				towe_vote_franchise_inequal_voting_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -624,11 +624,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_registered_voting = {
+		towe_vote_franchise_registered_voting = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_registered_voting"
-				tno_vote_franchise_registered_voting_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_registered_voting"
+				towe_vote_franchise_registered_voting_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -637,11 +637,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_universal = {
+		towe_vote_franchise_universal = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_universal"
-				tno_vote_franchise_universal_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_universal"
+				towe_vote_franchise_universal_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -652,11 +652,11 @@ ideas = {
 			}
 			cancel_if_invalid = no
 		}
-		tno_vote_franchise_promoted_voting = {
+		towe_vote_franchise_promoted_voting = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_vote_franchise_promoted_voting"
-				tno_vote_franchise_promoted_voting_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_vote_franchise_promoted_voting"
+				towe_vote_franchise_promoted_voting_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
