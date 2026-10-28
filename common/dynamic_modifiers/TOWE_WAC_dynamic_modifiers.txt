@@ -1,7 +1,7 @@
 WEST_AFRICA_modifier_rubber_band = {
 	enable = { always = yes }
-	army_core_attack_factor = TNO_WAC_rubber_band_modifier
-	army_core_defence_factor = TNO_WAC_rubber_band_modifier
+	army_core_attack_factor = TOWE_WAC_rubber_band_modifier
+	army_core_defence_factor = TOWE_WAC_rubber_band_modifier
 }
 
 WEST_AFRICA_JAP_offensive_campaign = {
