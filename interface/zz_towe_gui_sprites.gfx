@@ -1036,73 +1036,7 @@ spriteTypes = {
 	}
 
 	
-	progressbartype = {
-		name = "GFX_towe_politics_circular_progress_bar"
-		textureFile2 = "gfx/interface/SocDevIcons/pol_progbar_bad.dds"
-		textureFile1 = "gfx/interface/SocDevIcons/pol_progbar_good.dds"
-		color = {
-			0.0
-			0.0
-			0.0
-		}
-		colortwo = {
-			0.0
-			0.0
-			0.0
-		}
-		size = {
-			x = 162
-			y = 11
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
-	}
-
-	progressbartype = {
-		name = "GFX_towe_politics_circular_progress_bar_actual"
-		textureFile2 = "gfx/interface/blank.dds"
-		textureFile1 = "gfx/interface/SocDevIcons/pol_progbar_good.dds"
-		color = {
-			0.0
-			0.0
-			0.0
-		}
-		colortwo = {
-			0.0
-			0.0
-			0.0
-		}
-		size = {
-			x = 162
-			y = 11
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
-	}
-
-		progressbartype = {
-		name = "GFX_towe_politics_circular_progress_bar_yellow"
-		textureFile2 = "gfx/interface/SocDevIcons/pol_progbar_bad.dds"
-		textureFile1 = "gfx/interface/SocDevIcons/pol_progbar_yellow.dds"
-		color = {
-			0.0
-			0.0
-			0.0
-		}
-		colortwo = {
-			0.0
-			0.0
-			0.0
-		}
-		size = {
-			x = 162
-			y = 11
-		}
-		effectFile = "gfx/FX/progress.lua"
-		horizontal = yes
-	}
-
-	
+					
 			spriteType = {
 		name = "GFX_topbar_convoys"
 		texturefile = "gfx/interface/topbar/topbar_convoys.dds"
