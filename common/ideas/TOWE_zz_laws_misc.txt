@@ -258,20 +258,7 @@ ideas = {
 				}
 			cancel_if_invalid = no
 		}
-		tno_refugees_give_me_your_poor = {
-			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_refugees_give_me_your_poor"
-				#tno_refugees_give_me_your_poor_effect = yes
-				#TNO_update_policy_effectiveness = yes
-			}
-			available = { always = no }
 
-			removal_cost = -1
-			ledger = civilian
-			modifier = {
-				}
-			cancel_if_invalid = no
-		}
 	}
 	tno_child_labor = {
 		law = yes
