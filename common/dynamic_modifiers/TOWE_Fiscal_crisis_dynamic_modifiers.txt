@@ -21,19 +21,19 @@ combatting_fiscal_crisis = {
 	civilian_expenditures_factor = civilian_fc
 }
 
-TNO_fiscal_crisis_modifier = {
+TOWE_fiscal_crisis_modifier = {
 	enable = { always = yes }
 	icon = "GFX_idea_generic_ongoing_fiscal_crisis"
-	gdp_growth_modifier = TNO_fiscal_crisis_gdp_growth_effect
-	annual_gdp_growth_factor = TNO_fiscal_crisis_gdp_growth_multiplier_effect 
-	inflation_rate_modifier = TNO_fiscal_crisis_inflation_rate_effect
-	stability_weekly = TNO_fiscal_crisis_stability_effect
-	war_support_factor = TNO_fiscal_crisis_war_support_effect 
-	political_power_factor = TNO_fiscal_crisis_pp_effect 
-	land_reinforce_rate = TNO_fiscal_crisis_reinforce_effect
-	army_attack_factor = TNO_fiscal_crisis_army_attack_factor
-	army_defence_factor = TNO_fiscal_crisis_army_defence_factor
-	army_org_factor = TNO_fiscal_crisis_army_org_factor 
-	industrial_capacity_factory = TNO_fiscal_crisis_factory_output 
-	industrial_capacity_dockyard = TNO_fiscal_crisis_factory_output
+	gdp_growth_modifier = TOWE_fiscal_crisis_gdp_growth_effect
+	annual_gdp_growth_factor = TOWE_fiscal_crisis_gdp_growth_multiplier_effect 
+	inflation_rate_modifier = TOWE_fiscal_crisis_inflation_rate_effect
+	stability_weekly = TOWE_fiscal_crisis_stability_effect
+	war_support_factor = TOWE_fiscal_crisis_war_support_effect 
+	political_power_factor = TOWE_fiscal_crisis_pp_effect 
+	land_reinforce_rate = TOWE_fiscal_crisis_reinforce_effect
+	army_attack_factor = TOWE_fiscal_crisis_army_attack_factor
+	army_defence_factor = TOWE_fiscal_crisis_army_defence_factor
+	army_org_factor = TOWE_fiscal_crisis_army_org_factor 
+	industrial_capacity_factory = TOWE_fiscal_crisis_factory_output 
+	industrial_capacity_dockyard = TOWE_fiscal_crisis_factory_output
 }
