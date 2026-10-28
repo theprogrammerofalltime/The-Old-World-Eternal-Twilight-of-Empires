@@ -1,4 +1,4 @@
-TNO_buildings_coverage_modifier = {
+TOWE_buildings_coverage_modifier = {
 	enable = {
 		always = yes
 	}
@@ -19,12 +19,12 @@ TNO_buildings_coverage_modifier = {
 	required_garrison_factor = prisons_garrisons_modifier
 }
 #+GDP doubled and multiplied by poverty and consumer goods ratio
-TNO_other_power_costs = {
+TOWE_other_power_costs = {
 	enable = { always = yes }
 	country_resource_cost_power = power_demand_GDP
 }
 
-TNO_building_resource_consumption_modifier = {
+TOWE_building_resource_consumption_modifier = {
 	enable = {
 		always = yes
 	}
