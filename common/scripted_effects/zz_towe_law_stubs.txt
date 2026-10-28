@@ -1,7 +1,7 @@
 # Native TOWE social-law effects. Legacy helper identifiers are preserved for existing idea calls.
 # Values are intentionally modest; they can be balanced after actual game testing.
 
-tno_child_labor_illegal_effect = {
+towe_child_labor_illegal_effect = {
     set_variable = { var = towe_policy_child_labor_stability value = 0.025 }
     set_variable = { var = towe_policy_child_labor_industry value = -0.015 }
     if = {
@@ -11,7 +11,7 @@ tno_child_labor_illegal_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_child_labor_legal_effect = {
+towe_child_labor_legal_effect = {
     set_variable = { var = towe_policy_child_labor_stability value = -0.03 }
     set_variable = { var = towe_policy_child_labor_industry value = 0.025 }
     if = {
@@ -21,7 +21,7 @@ tno_child_labor_legal_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_child_labor_restricted_effect = {
+towe_child_labor_restricted_effect = {
     set_variable = { var = towe_policy_child_labor_stability value = 0 }
     set_variable = { var = towe_policy_child_labor_industry value = 0 }
     if = {
@@ -31,7 +31,7 @@ tno_child_labor_restricted_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_lgbt_rights_equal_rights_effect = {
+towe_lgbt_rights_equal_rights_effect = {
     set_variable = { var = towe_policy_lgbt_rights_stability value = 0.015 }
     set_variable = { var = towe_policy_lgbt_rights_industry value = 0.02 }
     if = {
@@ -41,7 +41,7 @@ tno_lgbt_rights_equal_rights_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_lgbt_rights_lgbt_allowed_effect = {
+towe_lgbt_rights_lgbt_allowed_effect = {
     set_variable = { var = towe_policy_lgbt_rights_stability value = 0 }
     set_variable = { var = towe_policy_lgbt_rights_industry value = 0.01 }
     if = {
@@ -51,7 +51,7 @@ tno_lgbt_rights_lgbt_allowed_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_lgbt_rights_lgbt_outlawed_effect = {
+towe_lgbt_rights_lgbt_outlawed_effect = {
     set_variable = { var = towe_policy_lgbt_rights_stability value = -0.02 }
     set_variable = { var = towe_policy_lgbt_rights_industry value = 0 }
     if = {
@@ -61,7 +61,7 @@ tno_lgbt_rights_lgbt_outlawed_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_minorities_affirmative_action_effect = {
+towe_minorities_affirmative_action_effect = {
     set_variable = { var = towe_policy_minorities_stability value = 0.025 }
     set_variable = { var = towe_policy_minorities_industry value = 0.025 }
     if = {
@@ -71,7 +71,7 @@ tno_minorities_affirmative_action_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_minorities_equal_rights_effect = {
+towe_minorities_equal_rights_effect = {
     set_variable = { var = towe_policy_minorities_stability value = 0.015 }
     set_variable = { var = towe_policy_minorities_industry value = 0.02 }
     if = {
@@ -81,7 +81,7 @@ tno_minorities_equal_rights_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_minorities_institutional_discrimination_effect = {
+towe_minorities_institutional_discrimination_effect = {
     set_variable = { var = towe_policy_minorities_stability value = -0.01 }
     set_variable = { var = towe_policy_minorities_industry value = 0 }
     if = {
@@ -91,7 +91,7 @@ tno_minorities_institutional_discrimination_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_minorities_oppression_effect = {
+towe_minorities_oppression_effect = {
     set_variable = { var = towe_policy_minorities_stability value = -0.04 }
     set_variable = { var = towe_policy_minorities_industry value = -0.03 }
     if = {
@@ -101,7 +101,7 @@ tno_minorities_oppression_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_minorities_segregation_effect = {
+towe_minorities_segregation_effect = {
     set_variable = { var = towe_policy_minorities_stability value = -0.02 }
     set_variable = { var = towe_policy_minorities_industry value = -0.01 }
     if = {
@@ -111,7 +111,7 @@ tno_minorities_segregation_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_pollution_few_regulations_effect = {
+towe_pollution_few_regulations_effect = {
     set_variable = { var = towe_policy_pollution_stability value = -0.01 }
     set_variable = { var = towe_policy_pollution_industry value = 0.015 }
     if = {
@@ -121,7 +121,7 @@ tno_pollution_few_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_pollution_good_regulations_effect = {
+towe_pollution_good_regulations_effect = {
     set_variable = { var = towe_policy_pollution_stability value = 0.01 }
     set_variable = { var = towe_policy_pollution_industry value = -0.01 }
     if = {
@@ -131,7 +131,7 @@ tno_pollution_good_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_pollution_no_controls_effect = {
+towe_pollution_no_controls_effect = {
     set_variable = { var = towe_policy_pollution_stability value = -0.025 }
     set_variable = { var = towe_policy_pollution_industry value = 0.025 }
     if = {
@@ -141,7 +141,7 @@ tno_pollution_no_controls_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_pollution_some_regulations_effect = {
+towe_pollution_some_regulations_effect = {
     set_variable = { var = towe_policy_pollution_stability value = 0 }
     set_variable = { var = towe_policy_pollution_industry value = 0 }
     if = {
@@ -151,7 +151,7 @@ tno_pollution_some_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_pollution_strict_regulations_effect = {
+towe_pollution_strict_regulations_effect = {
     set_variable = { var = towe_policy_pollution_stability value = 0.02 }
     set_variable = { var = towe_policy_pollution_industry value = -0.02 }
     if = {
@@ -161,7 +161,7 @@ tno_pollution_strict_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_racial_integration_enforced_integration_effect = {
+towe_racial_integration_enforced_integration_effect = {
     set_variable = { var = towe_policy_racial_integration_stability value = 0.02 }
     set_variable = { var = towe_policy_racial_integration_industry value = 0.015 }
     if = {
@@ -171,7 +171,7 @@ tno_racial_integration_enforced_integration_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_racial_integration_integrated_military_effect = {
+towe_racial_integration_integrated_military_effect = {
     set_variable = { var = towe_policy_racial_integration_stability value = 0.01 }
     set_variable = { var = towe_policy_racial_integration_industry value = 0.01 }
     if = {
@@ -181,7 +181,7 @@ tno_racial_integration_integrated_military_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_racial_integration_none_effect = {
+towe_racial_integration_none_effect = {
     set_variable = { var = towe_policy_racial_integration_stability value = -0.02 }
     set_variable = { var = towe_policy_racial_integration_industry value = -0.01 }
     if = {
@@ -191,7 +191,7 @@ tno_racial_integration_none_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_racial_integration_not_applicable_effect = {
+towe_racial_integration_not_applicable_effect = {
     set_variable = { var = towe_policy_racial_integration_stability value = 0 }
     set_variable = { var = towe_policy_racial_integration_industry value = 0 }
     if = {
@@ -201,7 +201,7 @@ tno_racial_integration_not_applicable_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_racial_integration_segregated_regiments_effect = {
+towe_racial_integration_segregated_regiments_effect = {
     set_variable = { var = towe_policy_racial_integration_stability value = -0.01 }
     set_variable = { var = towe_policy_racial_integration_industry value = 0 }
     if = {
@@ -211,7 +211,7 @@ tno_racial_integration_segregated_regiments_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_banned_effect = {
+towe_refugees_banned_effect = {
     set_variable = { var = towe_policy_refugees_stability value = -0.01 }
     set_variable = { var = towe_policy_refugees_industry value = -0.015 }
     if = {
@@ -221,7 +221,7 @@ tno_refugees_banned_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_give_me_your_poor_effect = {
+towe_refugees_give_me_your_poor_effect = {
     set_variable = { var = towe_policy_refugees_stability value = 0.01 }
     set_variable = { var = towe_policy_refugees_industry value = 0.03 }
     if = {
@@ -231,7 +231,7 @@ tno_refugees_give_me_your_poor_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_not_applicable_effect = {
+towe_refugees_not_applicable_effect = {
     set_variable = { var = towe_policy_refugees_stability value = 0 }
     set_variable = { var = towe_policy_refugees_industry value = 0 }
     if = {
@@ -241,7 +241,7 @@ tno_refugees_not_applicable_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_open_effect = {
+towe_refugees_open_effect = {
     set_variable = { var = towe_policy_refugees_stability value = 0.005 }
     set_variable = { var = towe_policy_refugees_industry value = 0.02 }
     if = {
@@ -251,7 +251,7 @@ tno_refugees_open_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_skilled_effect = {
+towe_refugees_skilled_effect = {
     set_variable = { var = towe_policy_refugees_stability value = 0 }
     set_variable = { var = towe_policy_refugees_industry value = 0.01 }
     if = {
@@ -261,7 +261,7 @@ tno_refugees_skilled_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_refugees_vetted_entry_effect = {
+towe_refugees_vetted_entry_effect = {
     set_variable = { var = towe_policy_refugees_stability value = 0.005 }
     set_variable = { var = towe_policy_refugees_industry value = 0.01 }
     if = {
@@ -271,7 +271,7 @@ tno_refugees_vetted_entry_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_safety_acceptable_regulations_effect = {
+towe_safety_acceptable_regulations_effect = {
     set_variable = { var = towe_policy_safety_stability value = 0.01 }
     set_variable = { var = towe_policy_safety_industry value = -0.01 }
     if = {
@@ -281,7 +281,7 @@ tno_safety_acceptable_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_safety_excellent_regulations_effect = {
+towe_safety_excellent_regulations_effect = {
     set_variable = { var = towe_policy_safety_stability value = 0.025 }
     set_variable = { var = towe_policy_safety_industry value = -0.02 }
     if = {
@@ -291,7 +291,7 @@ tno_safety_excellent_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_safety_limited_regulations_effect = {
+towe_safety_limited_regulations_effect = {
     set_variable = { var = towe_policy_safety_stability value = 0 }
     set_variable = { var = towe_policy_safety_industry value = 0 }
     if = {
@@ -301,7 +301,7 @@ tno_safety_limited_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_safety_minimal_regulations_effect = {
+towe_safety_minimal_regulations_effect = {
     set_variable = { var = towe_policy_safety_stability value = -0.01 }
     set_variable = { var = towe_policy_safety_industry value = 0.015 }
     if = {
@@ -311,7 +311,7 @@ tno_safety_minimal_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_safety_no_regulations_effect = {
+towe_safety_no_regulations_effect = {
     set_variable = { var = towe_policy_safety_stability value = -0.025 }
     set_variable = { var = towe_policy_safety_industry value = 0.025 }
     if = {
@@ -321,7 +321,7 @@ tno_safety_no_regulations_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_banned_effect = {
+towe_women_banned_effect = {
     set_variable = { var = towe_policy_women_stability value = -0.03 }
     set_variable = { var = towe_policy_women_industry value = -0.015 }
     if = {
@@ -331,7 +331,7 @@ tno_women_banned_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_combat_roles_effect = {
+towe_women_combat_roles_effect = {
     set_variable = { var = towe_policy_women_stability value = 0.01 }
     set_variable = { var = towe_policy_women_industry value = 0.015 }
     if = {
@@ -341,7 +341,7 @@ tno_women_combat_roles_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_military_assistance_effect = {
+towe_women_military_assistance_effect = {
     set_variable = { var = towe_policy_women_stability value = -0.01 }
     set_variable = { var = towe_policy_women_industry value = 0 }
     if = {
@@ -351,7 +351,7 @@ tno_women_military_assistance_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_noncombat_only_effect = {
+towe_women_noncombat_only_effect = {
     set_variable = { var = towe_policy_women_stability value = 0 }
     set_variable = { var = towe_policy_women_industry value = 0.005 }
     if = {
@@ -361,7 +361,7 @@ tno_women_noncombat_only_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_not_applicable_effect = {
+towe_women_not_applicable_effect = {
     set_variable = { var = towe_policy_women_stability value = 0 }
     set_variable = { var = towe_policy_women_industry value = 0 }
     if = {
@@ -371,7 +371,7 @@ tno_women_not_applicable_effect = {
     force_update_dynamic_modifier = yes
 }
 
-tno_women_total_equality_effect = {
+towe_women_total_equality_effect = {
     set_variable = { var = towe_policy_women_stability value = 0.025 }
     set_variable = { var = towe_policy_women_industry value = 0.025 }
     if = {
