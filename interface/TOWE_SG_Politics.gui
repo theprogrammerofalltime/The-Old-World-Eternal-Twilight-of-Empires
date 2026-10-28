@@ -1,6 +1,6 @@
 guiTypes = { 
 	extendedScrollbarType = {
-		name = "right_vertical_slider_tno_laws"
+		name = "right_vertical_slider_towe_laws"
 		position = { x = -10 y = 0 }
 		size = { width = 18 height = 18 }
 		startValue = 0
@@ -39,7 +39,7 @@ guiTypes = {
 		}
 	}
 	extendedScrollbarType = {
-		name = "right_vertical_slider_tno_laws_2"
+		name = "right_vertical_slider_towe_laws_2"
 		position = { x = -12 y = 0 }
 		size = { width = 18 height = 18 }
 		startValue = 0
@@ -78,7 +78,7 @@ guiTypes = {
 		}
 	}
 	extendedScrollbarType = {
-		name = "right_vertical_slider_tno_laws_3"
+		name = "right_vertical_slider_towe_laws_3"
 		position = { x = -10 y = 0 }
 		size = { width = 18 height = 18 }
 		startValue = 0
@@ -117,7 +117,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "TNO_SG_politics_faction_leader_container"
+		name = "TOWE_SG_politics_faction_leader_container"
 		position = { x = 230 y = 270 }
 		size = { width = 193 height = 20 }
 
@@ -326,7 +326,7 @@ guiTypes = {
 			pdx_tooltip = Unitarian_Bolivarian_Alliance
 		}
 		instantTextboxType = {
-			name = "TNO_subideology"
+			name = "TOWE_subideology"
 			position = { x = 153 y = 0 }
 			font = "aldrich_18_outline"
 			text = [GetSubIdeologyLoc]
@@ -335,11 +335,11 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "TNO_SG_politics_bop_cover"
+		name = "TOWE_SG_politics_bop_cover"
 		position = { x = 367 y = 483 }
 		buttonType = {
 			name = "cover_button"
-			quadTextureSprite = "GFX_tno_button_148x34"
+			quadTextureSprite = "GFX_towe_button_148x34"
 			buttonFont = "Bomb_16"
 			Orientation = "UPPER_LEFT"
 			text = "BOP_BUTTON"
@@ -352,10 +352,10 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_SG_politics_laws"
+		name = "TOWE_SG_politics_laws"
 		position = { x = 2 y = 520 }
 		size = { width = 100%% height = 100%% }
-		verticalScrollbar = "right_vertical_slider_tno_laws_3"
+		verticalScrollbar = "right_vertical_slider_towe_laws_3"
 		margin = { top = 13 bottom = 10 }
 		
 		background = {
@@ -364,7 +364,7 @@ guiTypes = {
 		}
 
 		gridBoxType = {
-			name = "TNO_Politics_Law_Grid"
+			name = "TOWE_Politics_Law_Grid"
 			slotsize = { width = 515 height = 75 }
 			position = { x = 280 y = 0 }
 			max_slots_horizontal = 1
@@ -384,13 +384,13 @@ guiTypes = {
 #############################################################################################
 
 	containerWindowType = {
-		name = "TNO_politics_laws_socdev_window"
+		name = "TOWE_politics_laws_socdev_window"
 		position = { x = 547 y = 0 }
 		size = { width = 730 height = 100%% }
 		clipping = yes
 
 		containerWindowType = { # This double container thing is just to ensure that the animation plays correctly and that the windows show up where they should be
-			name = "TNO_politics_laws_socdev_window_content"
+			name = "TOWE_politics_laws_socdev_window_content"
 			size = { width = 730 height = 100%% }
 			position = { x = -1000 y = 0 }
 			hide_position = { x = -1000 y = 0 }
@@ -405,21 +405,21 @@ guiTypes = {
 			}
 
 			instantTextboxType = {
-				name = "TNO_politics_laws_socdev_title"
+				name = "TOWE_politics_laws_socdev_title"
 				position = { x = 16 y = 9 }
 				font = "Bomb_36"
-				text = "[TNO_GetLawSocdevCategoryTitle]"
-				pdx_tooltip = "[TNO_GetLawSocdevCategoryDesc]"
+				text = "[TOWE_GetLawSocdevCategoryTitle]"
+				pdx_tooltip = "[TOWE_GetLawSocdevCategoryDesc]"
 				maxWidth = 450
 				maxHeight = 30
 				format = left
 			}
 
 			containerWindowType = {
-				name = "TNO_politics_laws_socdev_contrainer"
+				name = "TOWE_politics_laws_socdev_contrainer"
 				position = { x = 0 y = 50 }
 				size = { width = 730 height = 100%% }
-				verticalScrollbar = "right_vertical_slider_tno_laws_2"
+				verticalScrollbar = "right_vertical_slider_towe_laws_2"
 				margin = { top = 15 bottom = 12 }
 
 				background = {
@@ -428,7 +428,7 @@ guiTypes = {
 				}
 
 				gridboxtype = {
-					name = "TNO_politics_laws_socdev_gridbox"
+					name = "TOWE_politics_laws_socdev_gridbox"
 					position = { x = 355 y = 10 }
 					add_horizontal = no
 					max_slots_horizontal = 1
@@ -436,9 +436,9 @@ guiTypes = {
 				}
 			}
 			buttonType = {
-				name = "TNO_politics_laws_socdev_close"
+				name = "TOWE_politics_laws_socdev_close"
 				position = { x = -39 y = 8 }
-				quadTextureSprite = "GFX_tno_close_button"
+				quadTextureSprite = "GFX_towe_close_button"
 				buttonFont = "Main_14_black"
 				shortcut = "ESCAPE"
 				Orientation = "UPPER_RIGHT"
@@ -448,7 +448,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "TNO_politics_laws_socdev_entry"
+		name = "TOWE_politics_laws_socdev_entry"
 		size = { width = 685 height = 156 }
 
 		background = {
@@ -457,7 +457,7 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "TNO_politics_laws_socdev_gridbox_header"
+			name = "TOWE_politics_laws_socdev_gridbox_header"
 			position = { x = 18 y = 12 }
 			font = "aldrich_24_outline"
 			text = "[?law_v.GetTokenLocalizedKey]"
@@ -466,26 +466,26 @@ guiTypes = {
 			format = left
 		}
 		instantTextboxType = {
-			name = "TNO_politics_laws_socdev_gridbox_txt"
+			name = "TOWE_politics_laws_socdev_gridbox_txt"
 			position = { x = 18 y = 38 }
 			font = "aldrich_18_outline"
-			text = "[TNO_GetLawSocdevModifierText_1]"
+			text = "[TOWE_GetLawSocdevModifierText_1]"
 			maxWidth = 305
 			maxHeight = 100
 			format = left
 		}
 		instantTextboxType = {
-			name = "TNO_politics_laws_socdev_gridbox_txt_2"
+			name = "TOWE_politics_laws_socdev_gridbox_txt_2"
 			position = { x = 325 y = 38 }
 			font = "aldrich_18_outline"
-			text = "[TNO_GetLawSocdevModifierText_2]"
+			text = "[TOWE_GetLawSocdevModifierText_2]"
 			maxWidth = 305
 			maxHeight = 100
 			format = left
 		}
 		iconType = {
-			name = "TNO_politics_laws_socdev_gridbox_icon"
-			spriteType = "GFX_idea_tno_academic_base_mass_illiteracy"
+			name = "TOWE_politics_laws_socdev_gridbox_icon"
+			spriteType = "GFX_idea_towe_academic_base_mass_illiteracy"
 			position = { x = 615 y = 45 }
 		}
 	}
@@ -504,7 +504,7 @@ guiTypes = {
 
 
 	containerWindowType = {
-		name = "TNO_pol_category_0"
+		name = "TOWE_pol_category_0"
 		buttonType = {
 			name = "category_header_1"
 			pdx_tooltip = "GetCategory_header_1_text"
@@ -540,130 +540,130 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_1"
+		name = "TOWE_pol_category_1"
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_political_parties"
+			name = "TOWE_category_1_law_towe_political_parties"
 			position = { x = 32 y = -10 }
 			iconType = {
-				name = "category_1_law_tno_political_parties_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar"
+				name = "category_1_law_towe_political_parties_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_political_parties"
+				pdx_tooltip = "TOWE_policy_trend_political_parties"
 			}
 			iconType = {
-				name = "category_1_law_tno_political_parties_box"
+				name = "category_1_law_towe_political_parties_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {     
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_political_parties"
+				pdx_tooltip = "TOWE_policy_trend_political_parties"
 			}
 			buttontype = {
-				name = "category_1_law_tno_political_parties_icon"
+				name = "category_1_law_towe_political_parties_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_political_parties_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_political_parties_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_political_parties_name"
+				name = "category_1_law_towe_political_parties_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_political_parties_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_political_parties_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_political_parties_status"
+				name = "category_1_law_towe_political_parties_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_political_parties]
+				text = [GetCategory1Lawtowe_political_parties]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_political_parties_trend"
+				name = "category_1_law_towe_political_parties_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_political_parties"
+				pdx_tooltip = "TOWE_policy_trend_political_parties"
 			}
 			iconType = {
-				name = "tno_politics_line"
+				name = "towe_politics_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_religious_rights"
+			name = "TOWE_category_1_law_towe_religious_rights"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_religious_rights_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar"
+				name = "category_1_law_towe_religious_rights_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_religious_rights"
+				pdx_tooltip = "TOWE_policy_trend_religious_rights"
 			}
 			iconType = {
-				name = "category_1_law_tno_religious_rights_box"
+				name = "category_1_law_towe_religious_rights_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_religious_rights"
+				pdx_tooltip = "TOWE_policy_trend_religious_rights"
 			}
 			buttontype = {
-				name = "category_1_law_tno_religious_rights_icon"
+				name = "category_1_law_towe_religious_rights_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_religious_rights_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_religious_rights_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_religious_rights_name"
+				name = "category_1_law_towe_religious_rights_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_religious_rights_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_religious_rights_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_religious_rights_status"
+				name = "category_1_law_towe_religious_rights_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_religious_rights]
+				text = [GetCategory1Lawtowe_religious_rights]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_religious_rights_trend"
+				name = "category_1_law_towe_religious_rights_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_religious_rights"
+				pdx_tooltip = "TOWE_policy_trend_religious_rights"
 			}
 			iconType = {
-				name = "tno_religious_line"
+				name = "towe_religious_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -672,137 +672,137 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "TNO_pol_category_2"
+		name = "TOWE_pol_category_2"
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_trade_unions"
+			name = "TOWE_category_1_law_towe_trade_unions"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_trade_unions_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar"
+				name = "category_1_law_towe_trade_unions_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_trade_unions"
+				pdx_tooltip = "TOWE_policy_trend_trade_unions"
 			}
 			iconType = {
-				name = "category_1_law_tno_trade_unions_box"
+				name = "category_1_law_towe_trade_unions_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_trade_unions"
+				pdx_tooltip = "TOWE_policy_trend_trade_unions"
 			}
 			buttontype = {
-				name = "category_1_law_tno_trade_unions_icon"
+				name = "category_1_law_towe_trade_unions_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }	
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_trade_unions_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_trade_unions_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_trade_unions_name"
+				name = "category_1_law_towe_trade_unions_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_trade_unions_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_trade_unions_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_trade_unions_status"
+				name = "category_1_law_towe_trade_unions_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_trade_unions]
+				text = [GetCategory1Lawtowe_trade_unions]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_trade_unions_trend"
+				name = "category_1_law_towe_trade_unions_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_trade_unions"
+				pdx_tooltip = "TOWE_policy_trend_trade_unions"
 			}
 			iconType = {
-				name = "tno_trade_unions_line"
+				name = "towe_trade_unions_line"
 				spriteType = "GFX_line"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_immigration"
+			name = "TOWE_category_1_law_towe_immigration"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_immigration_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_1_law_towe_immigration_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_immigration"
+				pdx_tooltip = "TOWE_policy_trend_immigration"
 			}
 			iconType = {
-				name = "category_1_law_tno_immigration_box"
+				name = "category_1_law_towe_immigration_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_1_law_tno_immigration_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_1_law_towe_immigration_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_immigration"
+				pdx_tooltip = "TOWE_policy_trend_immigration"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_immigration"
+				pdx_tooltip = "TOWE_policy_trend_immigration"
 			}
 			buttontype = {
-				name = "category_1_law_tno_immigration_icon"
+				name = "category_1_law_towe_immigration_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_immigration_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_immigration_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_immigration_name"
+				name = "category_1_law_towe_immigration_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_immigration_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_immigration_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_immigration_status"
+				name = "category_1_law_towe_immigration_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_immigration]
+				text = [GetCategory1Lawtowe_immigration]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_immigration_trend"
+				name = "category_1_law_towe_immigration_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_immigration"
+				pdx_tooltip = "TOWE_policy_trend_immigration"
 			}
 			iconType = {
-				name = "tno_immigration_line"
+				name = "towe_immigration_line"
 				spriteType = "GFX_line"
 				position = { x = 243 y = 33 }
 			}
@@ -810,143 +810,143 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "TNO_pol_category_3"
+		name = "TOWE_pol_category_3"
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_slavery"
+			name = "TOWE_category_1_law_towe_slavery"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_slavery_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_1_law_towe_slavery_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_slavery"
+				pdx_tooltip = "TOWE_policy_trend_slavery"
 			}
 			iconType = {
-				name = "category_1_law_tno_slavery_box"
+				name = "category_1_law_towe_slavery_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_1_law_tno_slavery_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_1_law_towe_slavery_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_slavery"
+				pdx_tooltip = "TOWE_policy_trend_slavery"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_slavery"
+				pdx_tooltip = "TOWE_policy_trend_slavery"
 			}
 			buttontype = {
-				name = "category_1_law_tno_slavery_icon"
+				name = "category_1_law_towe_slavery_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_slavery_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_slavery_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_slavery_name"
+				name = "category_1_law_towe_slavery_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_slavery_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_slavery_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_slavery_status"
+				name = "category_1_law_towe_slavery_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_slavery]
+				text = [GetCategory1Lawtowe_slavery]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_slavery_trend"
+				name = "category_1_law_towe_slavery_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_slavery"
+				pdx_tooltip = "TOWE_policy_trend_slavery"
 			}
 			iconType = {
-				name = "tno_slavery_line"
+				name = "towe_slavery_line"
 				spriteType = "GFX_line"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_public_meetings"
+			name = "TOWE_category_1_law_towe_public_meetings"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_public_meetings_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_1_law_towe_public_meetings_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_public_meetings"
+				pdx_tooltip = "TOWE_policy_trend_public_meetings"
 			}
 			iconType = {
-				name = "category_1_law_tno_meetings_box"
+				name = "category_1_law_towe_meetings_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_1_law_tno_public_meetings_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_1_law_towe_public_meetings_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_public_meetings"
+				pdx_tooltip = "TOWE_policy_trend_public_meetings"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_public_meetings"
+				pdx_tooltip = "TOWE_policy_trend_public_meetings"
 			}
 			buttontype = {
-				name = "category_1_law_tno_public_meetings_icon"
+				name = "category_1_law_towe_public_meetings_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_public_meetings_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_public_meetings_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_public_meetings_name"
+				name = "category_1_law_towe_public_meetings_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_public_meetings_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_public_meetings_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_public_meetings_status"
+				name = "category_1_law_towe_public_meetings_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_public_meetings]
+				text = [GetCategory1Lawtowe_public_meetings]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_public_meetings_trend"
+				name = "category_1_law_towe_public_meetings_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_public_meetings"
+				pdx_tooltip = "TOWE_policy_trend_public_meetings"
 			}
 			iconType = {
-				name = "tno_meetings_line"
+				name = "towe_meetings_line"
 				spriteType = "GFX_line"
 				position = { x = 243 y = 33 }
 			}
@@ -954,137 +954,137 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_4"
+		name = "TOWE_pol_category_4"
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_press_rights"
+			name = "TOWE_category_1_law_towe_press_rights"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_press_rights_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_1_law_towe_press_rights_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_press_rights"
+				pdx_tooltip = "TOWE_policy_trend_press_rights"
 			}
 			iconType = {
-				name = "category_1_law_tno_press_box"
+				name = "category_1_law_towe_press_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_1_law_tno_press_rights_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_1_law_towe_press_rights_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_press_rights"
+				pdx_tooltip = "TOWE_policy_trend_press_rights"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_press_rights"
+				pdx_tooltip = "TOWE_policy_trend_press_rights"
 			}
 			buttontype = {
-				name = "category_1_law_tno_press_rights_icon"
+				name = "category_1_law_towe_press_rights_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_press_rights_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_press_rights_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_press_rights_name"
+				name = "category_1_law_towe_press_rights_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_press_rights_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_press_rights_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_press_rights_status"
+				name = "category_1_law_towe_press_rights_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_press_rights]
+				text = [GetCategory1Lawtowe_press_rights]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_press_rights_trend"
+				name = "category_1_law_towe_press_rights_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_press_rights"
+				pdx_tooltip = "TOWE_policy_trend_press_rights"
 			}
 			iconType = {
-				name = "tno_press_line"
+				name = "towe_press_line"
 				spriteType = "GFX_line"
 				position = { x = 89 y = 33 }
 			}
 		}
 
 		containerWindowType = {
-			name = "TNO_category_1_law_tno_vote_franchise"
+			name = "TOWE_category_1_law_towe_vote_franchise"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_1_law_tno_vote_franchise_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar"
+				name = "category_1_law_towe_vote_franchise_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_vote_franchise"
+				pdx_tooltip = "TOWE_policy_trend_vote_franchise"
 			}
 			iconType = {
-				name = "category_1_law_tno_vote_box"
+				name = "category_1_law_towe_vote_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_vote_franchise"
+				pdx_tooltip = "TOWE_policy_trend_vote_franchise"
 			}
 			buttontype = {
-				name = "category_1_law_tno_vote_franchise_icon"
+				name = "category_1_law_towe_vote_franchise_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_1_LAW_tno_vote_franchise_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_1_LAW_towe_vote_franchise_TT"
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_vote_franchise_name"
+				name = "category_1_law_towe_vote_franchise_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_1_LAW_tno_vote_franchise_name
+				text = TOWE_POLITICS_CATEGORY_1_LAW_towe_vote_franchise_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_1_law_tno_vote_franchise_status"
+				name = "category_1_law_towe_vote_franchise_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory1Lawtno_vote_franchise]
+				text = [GetCategory1Lawtowe_vote_franchise]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_1_law_tno_vote_franchise_trend"
+				name = "category_1_law_towe_vote_franchise_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_vote_franchise"
+				pdx_tooltip = "TOWE_policy_trend_vote_franchise"
 			}
 			iconType = {
-				name = "tno_vote_line"
+				name = "towe_vote_line"
 				spriteType = "GFX_line"
 				position = { x = 243 y = 33 }
 			}
@@ -1092,7 +1092,7 @@ guiTypes = {
 	}
 		
 	containerWindowType = {
-		name = "TNO_pol_category_10"
+		name = "TOWE_pol_category_10"
 		buttonType = {
 			name = "category_header_2"
 			pdx_tooltip = "GetCategory_header_2_text"
@@ -1128,144 +1128,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_11"
+		name = "TOWE_pol_category_11"
 		containerWindowType = {
-			name = "TNO_category_2_law_tno_conscription"
+			name = "TOWE_category_2_law_towe_conscription"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_2_law_tno_conscription_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_2_law_towe_conscription_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_conscription"
+				pdx_tooltip = "TOWE_policy_trend_conscription"
 			}
 			iconType = {
-				name = "category_2_law_tno_conscription_box"
+				name = "category_2_law_towe_conscription_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_2_law_tno_conscription_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_2_law_towe_conscription_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_conscription"
+				pdx_tooltip = "TOWE_policy_trend_conscription"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_conscription"
+				pdx_tooltip = "TOWE_policy_trend_conscription"
 			}
 			buttontype = {
-				name = "category_2_law_tno_conscription_icon"
+				name = "category_2_law_towe_conscription_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_2_LAW_tno_conscription_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_2_LAW_towe_conscription_TT"
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_conscription_name"
+				name = "category_2_law_towe_conscription_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_2_LAW_tno_conscription_name
+				text = TOWE_POLITICS_CATEGORY_2_LAW_towe_conscription_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_conscription_status"
+				name = "category_2_law_towe_conscription_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory2Lawtno_conscription]
+				text = [GetCategory2Lawtowe_conscription]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_2_law_tno_conscription_trend"
+				name = "category_2_law_towe_conscription_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_conscription"
+				pdx_tooltip = "TOWE_policy_trend_conscription"
 			}
 			iconType = {
-				name = "tno_conscription_line"
+				name = "towe_conscription_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_2_law_tno_military_supervision"
+			name = "TOWE_category_2_law_towe_military_supervision"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_2_law_tno_military_supervision_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_2_law_towe_military_supervision_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_military_supervision"
+				pdx_tooltip = "TOWE_policy_trend_military_supervision"
 			}
 			iconType = {
-				name = "category_2_law_tno_supervision_box"
+				name = "category_2_law_towe_supervision_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_2_law_tno_military_supervision_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_2_law_towe_military_supervision_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_military_supervision"
+				pdx_tooltip = "TOWE_policy_trend_military_supervision"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_military_supervision"
+				pdx_tooltip = "TOWE_policy_trend_military_supervision"
 			}
 			buttontype = {
-				name = "category_2_law_tno_military_supervision_icon"
+				name = "category_2_law_towe_military_supervision_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_2_LAW_tno_military_supervision_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_2_LAW_towe_military_supervision_TT"
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_military_supervision_name"
+				name = "category_2_law_towe_military_supervision_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_2_LAW_tno_military_supervision_name
+				text = TOWE_POLITICS_CATEGORY_2_LAW_towe_military_supervision_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_military_supervision_status"
+				name = "category_2_law_towe_military_supervision_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory2Lawtno_military_supervision]
+				text = [GetCategory2Lawtowe_military_supervision]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_2_law_tno_military_supervision_trend"
+				name = "category_2_law_towe_military_supervision_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_military_supervision"
+				pdx_tooltip = "TOWE_policy_trend_military_supervision"
 			}
 			iconType = {
-				name = "tno_supervision_line"
+				name = "towe_supervision_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -1274,144 +1274,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_12"
+		name = "TOWE_pol_category_12"
 		containerWindowType = {
-			name = "TNO_category_2_law_tno_training"
+			name = "TOWE_category_2_law_towe_training"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_2_law_tno_training_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_2_law_towe_training_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_training"
+				pdx_tooltip = "TOWE_policy_trend_training"
 			}
 			iconType = {
-				name = "category_2_law_tno_training_box"
+				name = "category_2_law_towe_training_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_2_law_tno_training_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_2_law_towe_training_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_training"
+				pdx_tooltip = "TOWE_policy_trend_training"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_training"
+				pdx_tooltip = "TOWE_policy_trend_training"
 			}
 			buttontype = {
-				name = "category_2_law_tno_training_icon"
+				name = "category_2_law_towe_training_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_2_LAW_tno_training_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_2_LAW_towe_training_TT"
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_training_name"
+				name = "category_2_law_towe_training_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_2_LAW_tno_training_name
+				text = TOWE_POLITICS_CATEGORY_2_LAW_towe_training_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_training_status"
+				name = "category_2_law_towe_training_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory2Lawtno_training]
+				text = [GetCategory2Lawtowe_training]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_2_law_tno_training_trend"
+				name = "category_2_law_towe_training_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_training"
+				pdx_tooltip = "TOWE_policy_trend_training"
 			}
 			iconType = {
-				name = "tno_training_line"
+				name = "towe_training_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_2_law_tno_draft_exemptions"
+			name = "TOWE_category_2_law_towe_draft_exemptions"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_2_law_tno_draft_exemptions_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_2_law_towe_draft_exemptions_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_draft_exemptions"
+				pdx_tooltip = "TOWE_policy_trend_draft_exemptions"
 			}
 			iconType = {
-				name = "category_2_law_tno_draft_box"
+				name = "category_2_law_towe_draft_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_2_law_tno_draft_exemptions_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_2_law_towe_draft_exemptions_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_draft_exemptions"
+				pdx_tooltip = "TOWE_policy_trend_draft_exemptions"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_draft_exemptions"
+				pdx_tooltip = "TOWE_policy_trend_draft_exemptions"
 			}
 			buttontype = {
-				name = "category_2_law_tno_draft_exemptions_icon"
+				name = "category_2_law_towe_draft_exemptions_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_2_LAW_tno_draft_exemptions_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_2_LAW_towe_draft_exemptions_TT"
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_draft_exemptions_name"
+				name = "category_2_law_towe_draft_exemptions_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_2_LAW_tno_draft_exemptions_name
+				text = TOWE_POLITICS_CATEGORY_2_LAW_towe_draft_exemptions_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_2_law_tno_draft_exemptions_status"
+				name = "category_2_law_towe_draft_exemptions_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory2Lawtno_draft_exemptions]
+				text = [GetCategory2Lawtowe_draft_exemptions]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_2_law_tno_draft_exemptions_trend"
+				name = "category_2_law_towe_draft_exemptions_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_draft_exemptions"
+				pdx_tooltip = "TOWE_policy_trend_draft_exemptions"
 			}
 			iconType = {
-				name = "tno_draft_line"
+				name = "towe_draft_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -1420,7 +1420,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "TNO_pol_category_20"
+		name = "TOWE_pol_category_20"
 		buttonType = {
 			name = "category_header_3"
 			pdx_tooltip = "GetCategory_header_3_text"
@@ -1456,59 +1456,59 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_21"
+		name = "TOWE_pol_category_21"
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_trade_laws"
+			name = "TOWE_category_3_law_towe_trade_laws"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_3_law_tno_trade_laws_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_trade_laws_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_trade_laws"
+				pdx_tooltip = "TOWE_policy_trend_trade_laws"
 			}
 			iconType = {
-				name = "category_3_law_tno_trade_laws_box"
+				name = "category_3_law_towe_trade_laws_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_trade_laws_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_trade_laws_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_trade_laws"
+				pdx_tooltip = "TOWE_policy_trend_trade_laws"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_trade_laws"
+				pdx_tooltip = "TOWE_policy_trend_trade_laws"
 			}
 			buttontype = {
-				name = "category_3_law_tno_trade_laws_icon"
+				name = "category_3_law_towe_trade_laws_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_trade_laws_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_trade_laws_TT"
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_trade_laws_name"
+				name = "category_3_law_towe_trade_laws_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_trade_laws_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_trade_laws_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_trade_laws_status"
+				name = "category_3_law_towe_trade_laws_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_trade_laws]
+				text = [GetCategory3Lawtowe_trade_laws]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
@@ -1516,85 +1516,85 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "category_3_law_tno_trade_laws_trend"
+				name = "category_3_law_towe_trade_laws_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_trade_laws"
+				pdx_tooltip = "TOWE_policy_trend_trade_laws"
 			}
 			iconType = {
-				name = "tno_trade_line"
+				name = "towe_trade_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_income_taxation"
+			name = "TOWE_category_3_law_towe_income_taxation"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_3_law_tno_income_taxation_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_income_taxation_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_income_taxation"
+				pdx_tooltip = "TOWE_policy_trend_income_taxation"
 			}
 			iconType = {
-				name = "category_3_law_tno_income_taxation_box"
+				name = "category_3_law_towe_income_taxation_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_income_taxation_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_income_taxation_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_income_taxation"
+				pdx_tooltip = "TOWE_policy_trend_income_taxation"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_income_taxation"
+				pdx_tooltip = "TOWE_policy_trend_income_taxation"
 			}
 			buttontype = {
-				name = "category_3_law_tno_income_taxation_icon"
+				name = "category_3_law_towe_income_taxation_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_income_taxation_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_income_taxation_TT"
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_income_taxation_name"
+				name = "category_3_law_towe_income_taxation_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_income_taxation_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_income_taxation_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_income_taxation_status"
+				name = "category_3_law_towe_income_taxation_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_income_taxation]
+				text = [GetCategory3Lawtowe_income_taxation]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_3_law_tno_income_taxation_trend"
+				name = "category_3_law_towe_income_taxation_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_income_taxation"
+				pdx_tooltip = "TOWE_policy_trend_income_taxation"
 			}
 			iconType = {
-				name = "tno_income_line"
+				name = "towe_income_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -1603,144 +1603,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_22"
+		name = "TOWE_pol_category_22"
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_minimum_wage"
+			name = "TOWE_category_3_law_towe_minimum_wage"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_3_law_tno_minimum_wage_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_minimum_wage_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_minimum_wage"
+				pdx_tooltip = "TOWE_policy_trend_minimum_wage"
 			}
 			iconType = {
-				name = "category_3_law_tno_minimum_box"
+				name = "category_3_law_towe_minimum_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_minimum_wage_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_minimum_wage_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_minimum_wage"
+				pdx_tooltip = "TOWE_policy_trend_minimum_wage"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_minimum_wage"
+				pdx_tooltip = "TOWE_policy_trend_minimum_wage"
 			}
 			buttontype = {
-				name = "category_3_law_tno_minimum_wage_icon"
+				name = "category_3_law_towe_minimum_wage_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_minimum_wage_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_minimum_wage_TT"
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_minimum_wage_name"
+				name = "category_3_law_towe_minimum_wage_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_minimum_wage_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_minimum_wage_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_minimum_wage_status"
+				name = "category_3_law_towe_minimum_wage_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_minimum_wage]
+				text = [GetCategory3Lawtowe_minimum_wage]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_3_law_tno_minimum_wage_trend"
+				name = "category_3_law_towe_minimum_wage_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_minimum_wage"
+				pdx_tooltip = "TOWE_policy_trend_minimum_wage"
 			}
 			iconType = {
-				name = "tno_minimum_line"
+				name = "towe_minimum_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_max_workhours"
+			name = "TOWE_category_3_law_towe_max_workhours"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 		
 			iconType = {
-				name = "category_3_law_tno_max_workhours_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_max_workhours_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_max_workhours"
+				pdx_tooltip = "TOWE_policy_trend_max_workhours"
 			}
 			iconType = {
-				name = "category_3_law_tno_max_workhours_box"
+				name = "category_3_law_towe_max_workhours_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_max_workhours_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_max_workhours_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_max_workhours"
+				pdx_tooltip = "TOWE_policy_trend_max_workhours"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_max_workhours"
+				pdx_tooltip = "TOWE_policy_trend_max_workhours"
 			}
 			buttontype = {
-				name = "category_3_law_tno_max_workhours_icon"
+				name = "category_3_law_towe_max_workhours_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_max_workhours_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_max_workhours_TT"
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_max_workhours_name"
+				name = "category_3_law_towe_max_workhours_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_max_workhours_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_max_workhours_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_max_workhours_status"
+				name = "category_3_law_towe_max_workhours_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_max_workhours]
+				text = [GetCategory3Lawtowe_max_workhours]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_3_law_tno_max_workhours_trend"
+				name = "category_3_law_towe_max_workhours_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_max_workhours"
+				pdx_tooltip = "TOWE_policy_trend_max_workhours"
 			}
 			iconType = {
-				name = "tno_workhours_line"
+				name = "towe_workhours_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -1749,144 +1749,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_23"
+		name = "TOWE_pol_category_23"
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_unemployment"
+			name = "TOWE_category_3_law_towe_unemployment"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_3_law_tno_unemployment_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_unemployment_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_unemployment"
+				pdx_tooltip = "TOWE_policy_trend_unemployment"
 			}
 			iconType = {
-				name = "category_3_law_tno_unemployment_box"
+				name = "category_3_law_towe_unemployment_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_unemployment_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_unemployment_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_unemployment"
+				pdx_tooltip = "TOWE_policy_trend_unemployment"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_unemployment"
+				pdx_tooltip = "TOWE_policy_trend_unemployment"
 			}
 			buttontype = {
-				name = "category_3_law_tno_unemployment_icon"
+				name = "category_3_law_towe_unemployment_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_unemployment_TT" 
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_unemployment_TT" 
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_unemployment_name"
+				name = "category_3_law_towe_unemployment_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_unemployment_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_unemployment_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_unemployment_status"
+				name = "category_3_law_towe_unemployment_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_unemployment]
+				text = [GetCategory3Lawtowe_unemployment]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_3_law_tno_unemployment_trend"
+				name = "category_3_law_towe_unemployment_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_unemployment"
+				pdx_tooltip = "TOWE_policy_trend_unemployment"
 			}
 			iconType = {
-				name = "tno_unemployment_line"
+				name = "towe_unemployment_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_3_law_tno_pensions"
+			name = "TOWE_category_3_law_towe_pensions"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_3_law_tno_pensions_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_3_law_towe_pensions_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_pensions"
+				pdx_tooltip = "TOWE_policy_trend_pensions"
 			}
 			iconType = {
-				name = "category_3_law_tno_pensions_box"
+				name = "category_3_law_towe_pensions_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_3_law_tno_pensions_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_3_law_towe_pensions_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_pensions"
+				pdx_tooltip = "TOWE_policy_trend_pensions"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_pensions"
+				pdx_tooltip = "TOWE_policy_trend_pensions"
 			}
 			buttontype = {
-				name = "category_3_law_tno_pensions_icon"
+				name = "category_3_law_towe_pensions_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_3_LAW_tno_pensions_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_3_LAW_towe_pensions_TT"
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_pensions_name"
+				name = "category_3_law_towe_pensions_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_3_LAW_tno_pensions_name
+				text = TOWE_POLITICS_CATEGORY_3_LAW_towe_pensions_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_3_law_tno_pensions_status"
+				name = "category_3_law_towe_pensions_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory3Lawtno_pensions]
+				text = [GetCategory3Lawtowe_pensions]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_3_law_tno_pensions_trend"
+				name = "category_3_law_towe_pensions_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_pensions"
+				pdx_tooltip = "TOWE_policy_trend_pensions"
 			}
 			iconType = {
-				name = "tno_pensions_line"
+				name = "towe_pensions_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -1895,7 +1895,7 @@ guiTypes = {
 	}
 	
 	containerWindowType = {
-		name = "TNO_pol_category_30"
+		name = "TOWE_pol_category_30"
 		buttonType = {
 			name = "category_header_4"
 			pdx_tooltip = "GetCategory_header_4_text"
@@ -1931,144 +1931,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_31"
+		name = "TOWE_pol_category_31"
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_health_care"
+			name = "TOWE_category_4_law_towe_health_care"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_health_care_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_4_law_towe_health_care_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_health_care"
+				pdx_tooltip = "TOWE_policy_trend_health_care"
 			}
 			iconType = {
-				name = "category_4_law_tno_health_box"
+				name = "category_4_law_towe_health_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_4_law_tno_health_care_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_4_law_towe_health_care_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_health_care"
+				pdx_tooltip = "TOWE_policy_trend_health_care"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_health_care"
+				pdx_tooltip = "TOWE_policy_trend_health_care"
 			}
 			buttontype = {
-				name = "category_4_law_tno_health_care_icon"
+				name = "category_4_law_towe_health_care_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_health_care_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_health_care_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_health_care_name"
+				name = "category_4_law_towe_health_care_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_health_care_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_health_care_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_health_care_status"
+				name = "category_4_law_towe_health_care_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_health_care]
+				text = [GetCategory4Lawtowe_health_care]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_health_care_trend"
+				name = "category_4_law_towe_health_care_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_health_care"
+				pdx_tooltip = "TOWE_policy_trend_health_care"
 			}
 			iconType = {
-				name = "tno_health_line"
+				name = "towe_health_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_education"
+			name = "TOWE_category_4_law_towe_education"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_education_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_4_law_towe_education_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_education"
+				pdx_tooltip = "TOWE_policy_trend_education"
 			}
 			iconType = {
-				name = "category_4_law_tno_education_box"
+				name = "category_4_law_towe_education_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_4_law_tno_education_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_4_law_towe_education_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_education"
+				pdx_tooltip = "TOWE_policy_trend_education"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_education"
+				pdx_tooltip = "TOWE_policy_trend_education"
 			}
 			buttontype = {
-				name = "category_4_law_tno_education_icon"
+				name = "category_4_law_towe_education_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_education_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_education_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_education_name"
+				name = "category_4_law_towe_education_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_education_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_education_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_education_status"
+				name = "category_4_law_towe_education_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_education]
+				text = [GetCategory4Lawtowe_education]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_education_trend"
+				name = "category_4_law_towe_education_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_education"
+				pdx_tooltip = "TOWE_policy_trend_education"
 			}
 			iconType = {
-				name = "tno_education_line"
+				name = "towe_education_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -2077,144 +2077,144 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_32"
+		name = "TOWE_pol_category_32"
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_penal_system"
+			name = "TOWE_category_4_law_towe_penal_system"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_penal_system_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_4_law_towe_penal_system_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_penal_system"
+				pdx_tooltip = "TOWE_policy_trend_penal_system"
 			}
 			iconType = {
-				name = "category_4_law_tno_penal_box"
+				name = "category_4_law_towe_penal_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_4_law_tno_penal_system_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_4_law_towe_penal_system_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_penal_system"
+				pdx_tooltip = "TOWE_policy_trend_penal_system"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_penal_system"
+				pdx_tooltip = "TOWE_policy_trend_penal_system"
 			}
 			buttontype = {
-				name = "category_4_law_tno_penal_system_icon"
+				name = "category_4_law_towe_penal_system_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_penal_system_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_penal_system_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_penal_system_name"
+				name = "category_4_law_towe_penal_system_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_penal_system_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_penal_system_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_penal_system_status"
+				name = "category_4_law_towe_penal_system_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_penal_system]
+				text = [GetCategory4Lawtowe_penal_system]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_penal_system_trend"
+				name = "category_4_law_towe_penal_system_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_penal_system"
+				pdx_tooltip = "TOWE_policy_trend_penal_system"
 			}
 			iconType = {
-				name = "tno_penal_line"
+				name = "towe_penal_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_security"
+			name = "TOWE_category_4_law_towe_security"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_security_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_4_law_towe_security_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_security"
+				pdx_tooltip = "TOWE_policy_trend_security"
 			}
 			iconType = {
-				name = "category_4_law_tno_security_box"
+				name = "category_4_law_towe_security_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "category_4_law_tno_security_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_4_law_towe_security_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_security"
+				pdx_tooltip = "TOWE_policy_trend_security"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_security"
+				pdx_tooltip = "TOWE_policy_trend_security"
 			}
 			buttontype = {
-				name = "category_4_law_tno_security_icon"
+				name = "category_4_law_towe_security_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 151 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_security_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_security_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_security_name"
+				name = "category_4_law_towe_security_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_security_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_security_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_security_status"
+				name = "category_4_law_towe_security_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_security]
+				text = [GetCategory4Lawtowe_security]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_security_trend"
+				name = "category_4_law_towe_security_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_security"
+				pdx_tooltip = "TOWE_policy_trend_security"
 			}
 			iconType = {
-				name = "tno_security_line"
+				name = "towe_security_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -2223,138 +2223,138 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_33"
+		name = "TOWE_pol_category_33"
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_regulations"
+			name = "TOWE_category_4_law_towe_regulations"
 			position = { x = 32 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_regulations_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar_yellow"
+				name = "category_4_law_towe_regulations_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar_yellow"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_regulations"
+				pdx_tooltip = "TOWE_policy_trend_regulations"
 			}
 			iconType = {
-				name = "category_4_law_tno_regulations_box"
+				name = "category_4_law_towe_regulations_box"
 				spriteType = "GFX_law_box"
 				position = { x = -35 y = 10 }
 			}
 			iconType = {
-				name = "category_4_law_tno_regulations_bar_actual"
-				spriteType = "GFX_tno_politics_circular_progress_bar_actual"
+				name = "category_4_law_towe_regulations_bar_actual"
+				spriteType = "GFX_towe_politics_circular_progress_bar_actual"
 				position = { x = 38 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_regulations"
+				pdx_tooltip = "TOWE_policy_trend_regulations"
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 36 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_regulations"
+				pdx_tooltip = "TOWE_policy_trend_regulations"
 			}
 			buttontype = {
-				name = "category_4_law_tno_regulations_icon"
+				name = "category_4_law_towe_regulations_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = -3 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_regulations_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_regulations_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_regulations_name"
+				name = "category_4_law_towe_regulations_name"
 				position = { x = 29 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_regulations_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_regulations_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_regulations_status"
+				name = "category_4_law_towe_regulations_status"
 				position = { x = 29 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_regulations]
+				text = [GetCategory4Lawtowe_regulations]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_regulations_trend"
+				name = "category_4_law_towe_regulations_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 187 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_regulations"
+				pdx_tooltip = "TOWE_policy_trend_regulations"
 			}
 			iconType = {
-				name = "tno_regulations_line"
+				name = "towe_regulations_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 89 y = 33 }
 			}
 		}
 		containerWindowType = {
-			name = "TNO_category_4_law_tno_gender_rights"
+			name = "TOWE_category_4_law_towe_gender_rights"
 			position = { x = 132 y = -10 }
 			size = { width = 0 height = 0 }
 			
 			iconType = {
-				name = "category_4_law_tno_gender_rights_bar"
-				spriteType = "GFX_tno_politics_circular_progress_bar"
+				name = "category_4_law_towe_gender_rights_bar"
+				spriteType = "GFX_towe_politics_circular_progress_bar"
 				position = { x = 192 y = 57 }
-				pdx_tooltip = "TNO_policy_trend_gender_rights"
+				pdx_tooltip = "TOWE_policy_trend_gender_rights"
 			}
 			iconType = {
-				name = "category_4_law_tno_gender_rights_box"
+				name = "category_4_law_towe_gender_rights_box"
 				spriteType = "GFX_law_box"
 				position = { x = 119 y = 10 }
 			}
 			iconType = {
-				name = "tno_politics_circular_progress_bar_outline"
-				spriteType = "GFX_tno_politics_circular_progress_bar_outline"
+				name = "towe_politics_circular_progress_bar_outline"
+				spriteType = "GFX_towe_politics_circular_progress_bar_outline"
 				position = { x = 190 y = 56 }
-				pdx_tooltip = "TNO_policy_trend_gender_rights"
+				pdx_tooltip = "TOWE_policy_trend_gender_rights"
 			}
 			buttontype = {
-				name = "category_4_law_tno_gender_rights_icon"
+				name = "category_4_law_towe_gender_rights_icon"
 				quadTextureSprite = GFX_blank
 				clicksound = "open_sub_window"
 				oversound = "ui_menu_over"
 				position = { x = 150 y = 42 }
 				centerposition = yes
 				alwaystransparent = no
-				pdx_tooltip = "TNO_POLITICS_CATEGORY_4_LAW_tno_gender_rights_TT"
+				pdx_tooltip = "TOWE_POLITICS_CATEGORY_4_LAW_towe_gender_rights_TT"
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_gender_rights_name"
+				name = "category_4_law_towe_gender_rights_name"
 				position = { x = 183 y = 14 }
 				font = "aldrich_18_outline"
-				text = TNO_POLITICS_CATEGORY_4_LAW_tno_gender_rights_name
+				text = TOWE_POLITICS_CATEGORY_4_LAW_towe_gender_rights_name
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 			}
 			instantTextboxType = {
-				name = "category_4_law_tno_gender_rights_status"
+				name = "category_4_law_towe_gender_rights_status"
 				position = { x = 183 y = 35 }
 				font = "aldrich_18_outline"
-				text = [GetCategory4Lawtno_gender_rights]
+				text = [GetCategory4Lawtowe_gender_rights]
 				maxWidth = 180
 				maxHeight = 20
 				format = center
 				fixedsize = yes
 			}
 			iconType = {
-				name = "category_4_law_tno_gender_rights_trend"
+				name = "category_4_law_towe_gender_rights_trend"
 				spriteType = "GFX_policy_effectiveness_arrow_flat"
 				position = { x = 341 y = 11 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_policy_trend_gender_rights"
+				pdx_tooltip = "TOWE_policy_trend_gender_rights"
 			}
 			iconType = {
-				name = "tno_gender_rights_line"
+				name = "towe_gender_rights_line"
 				spriteType = "GFX_line"
 				Orientation = "UPPER_LEFT"
 				position = { x = 243 y = 33 }
@@ -2363,7 +2363,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_40"
+		name = "TOWE_pol_category_40"
 		iconType = {
 			name = "category_header_5"
 			quadTextureSprite = "GFX_category_header_assorted_laws"
@@ -2382,7 +2382,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = -3 y = 15 }
 			font = "aldrich_36_outline"
-			text = "tno_assorted_laws"
+			text = "towe_assorted_laws"
 			format = center
 			maxWidth = 498
 		}
@@ -2397,7 +2397,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_50"
+		name = "TOWE_pol_category_50"
 		buttonType = {
 			name = "category_header_6"
 			pdx_tooltip = "GetCategory_header_6_text"
@@ -2419,7 +2419,7 @@ guiTypes = {
 			alwaystransparent = yes
 			position = { x = -3 y = 15 }
 			font = "aldrich_36_outline"
-			text = "tno_societal_development"
+			text = "towe_societal_development"
 			format = center
 			maxWidth = 498
 		}
@@ -2433,7 +2433,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "TNO_pol_category_51"
+		name = "TOWE_pol_category_51"
 		position = { x = 4 y = 12 }
 		containerWindowType = { # Poverty
 			name = "category_6_sd_poverty"
@@ -2484,46 +2484,46 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "TNO_pol_category_52"
+		name = "TOWE_pol_category_52"
 		position = { x = 0 y = -15 }
 		containerWindowType = { # Academic Base
-			name = "category_6_sd_tno_academic_base"
+			name = "category_6_sd_towe_academic_base"
 			position = { x = 8 y = -10 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_academic_base_name"
+				name = "category_6_sd_towe_academic_base_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_academic_base"
-				pdx_tooltip = "tno_academic_base_d"
+				text = "towe_academic_base"
+				pdx_tooltip = "towe_academic_base_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_academic_base_btn"
+				name = "category_6_sd_towe_academic_base_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_academic_base_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_academic_base_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_academic_base_text"
+				name = "category_6_sd_towe_academic_base_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_AcademicBase]"
-				pdx_tooltip = "TNO_POLITICS_SD_academic_base_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_academic_base_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_academic_base_trend_text"
+				name = "category_6_sd_towe_academic_base_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2534,47 +2534,47 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_academic_base"
+				pdx_tooltip = "TOWE_SD_Trend_academic_base"
 			}
 		}
 		containerWindowType = { # Research
-			name = "category_6_sd_tno_research_facilities"
+			name = "category_6_sd_towe_research_facilities"
 			position = { x = 8 y = 20 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_research_facilities_name"
+				name = "category_6_sd_towe_research_facilities_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_research_facilities"
-				pdx_tooltip = "tno_research_facilities_d"
+				text = "towe_research_facilities"
+				pdx_tooltip = "towe_research_facilities_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_research_facilities_btn"
+				name = "category_6_sd_towe_research_facilities_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_research_facilities_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_research_facilities_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_research_facilities_text"
+				name = "category_6_sd_towe_research_facilities_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_ResearchFacilities]"
-				pdx_tooltip = "TNO_POLITICS_SD_research_facilities_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_research_facilities_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_research_facilities_trend_text"
+				name = "category_6_sd_towe_research_facilities_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2585,47 +2585,47 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_research_facilities"
+				pdx_tooltip = "TOWE_SD_Trend_research_facilities"
 			}
 		}
 		containerWindowType = { # Agriculture
-			name = "category_6_sd_tno_agriculture"
+			name = "category_6_sd_towe_agriculture"
 			position = { x = 8 y = 50 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_agriculture_name"
+				name = "category_6_sd_towe_agriculture_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_agriculture"
-				pdx_tooltip = "tno_agriculture_d"
+				text = "towe_agriculture"
+				pdx_tooltip = "towe_agriculture_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_agriculture_btn"
+				name = "category_6_sd_towe_agriculture_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_agriculture_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_agriculture_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_agriculture_text"
+				name = "category_6_sd_towe_agriculture_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_Agriculture]"
-				pdx_tooltip = "TNO_POLITICS_SD_agriculture_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_agriculture_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_agriculture_trend_text"
+				name = "category_6_sd_towe_agriculture_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2636,51 +2636,51 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_agriculture"
+				pdx_tooltip = "TOWE_SD_Trend_agriculture"
 			}	
 		}
 	}
 	containerWindowType = {
-		name = "TNO_pol_category_53"
+		name = "TOWE_pol_category_53"
 		position = { x = 0 y = 30 }
 		containerWindowType = { # Healthcare
-			name = "category_6_sd_tno_healthcare"
+			name = "category_6_sd_towe_healthcare"
 			position = { x = 8 y = -40 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_healthcare_name"
+				name = "category_6_sd_towe_healthcare_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_healthcare"
-				pdx_tooltip = "tno_healthcare_d"
+				text = "towe_healthcare"
+				pdx_tooltip = "towe_healthcare_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_healthcare_btn"
+				name = "category_6_sd_towe_healthcare_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_healthcare_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_healthcare_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_healthcare_text"
+				name = "category_6_sd_towe_healthcare_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_Healthcare]"
-				pdx_tooltip = "TNO_POLITICS_SD_healthcare_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_healthcare_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_healthcare_trend_text"
+				name = "category_6_sd_towe_healthcare_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2691,47 +2691,47 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_healthcare"
+				pdx_tooltip = "TOWE_SD_Trend_healthcare"
 			}
 		}
 		containerWindowType = { # Admin
-			name = "category_6_sd_tno_admin_efficiency"
+			name = "category_6_sd_towe_admin_efficiency"
 			position = { x = 8 y = -10 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_admin_efficiency_name"
+				name = "category_6_sd_towe_admin_efficiency_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_admin_efficiency"
-				pdx_tooltip = "tno_admin_efficiency_d"
+				text = "towe_admin_efficiency"
+				pdx_tooltip = "towe_admin_efficiency_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = { 
-				name = "category_6_sd_tno_admin_efficiency_btn"
+				name = "category_6_sd_towe_admin_efficiency_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_admin_efficiency_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_admin_efficiency_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_admin_efficiency_text"
+				name = "category_6_sd_towe_admin_efficiency_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_AdminEfficiency]"
-				pdx_tooltip = "TNO_POLITICS_SD_admin_efficiency_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_admin_efficiency_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_admin_efficiency_trend_text"
+				name = "category_6_sd_towe_admin_efficiency_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2742,47 +2742,47 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_admin_efficiency"
+				pdx_tooltip = "TOWE_SD_Trend_admin_efficiency"
 			}
 		}
 		containerWindowType = { # Ind Expertise
-			name = "category_6_sd_tno_industrial_expertise"
+			name = "category_6_sd_towe_industrial_expertise"
 			position = { x = 8 y = 20 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_expertise_name"
+				name = "category_6_sd_towe_industrial_expertise_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_industrial_expertise"
-				pdx_tooltip = "tno_industrial_expertise_d"
+				text = "towe_industrial_expertise"
+				pdx_tooltip = "towe_industrial_expertise_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_industrial_expertise_btn"
+				name = "category_6_sd_towe_industrial_expertise_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_industrial_expertise_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_industrial_expertise_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_expertise_text"
+				name = "category_6_sd_towe_industrial_expertise_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_IndustrialExpertise]"
-				pdx_tooltip = "TNO_POLITICS_SD_industrial_expertise_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_industrial_expertise_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_expertise_trend_text"
+				name = "category_6_sd_towe_industrial_expertise_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2793,53 +2793,53 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_industrial_expertise"
+				pdx_tooltip = "TOWE_SD_Trend_industrial_expertise"
 			}
 		}
 
 	}
 	containerWindowType = {
-		name = "TNO_pol_category_54"
+		name = "TOWE_pol_category_54"
 		position = { x = 0 y = 45 }
 
 		containerWindowType = { # Ind Equipment
-			name = "category_6_sd_tno_industrial_equipment"
+			name = "category_6_sd_towe_industrial_equipment"
 			position = { x = 8 y = -40 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_equipment_name"
+				name = "category_6_sd_towe_industrial_equipment_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_industrial_equipment"
-				pdx_tooltip = "tno_industrial_equipment_d"
+				text = "towe_industrial_equipment"
+				pdx_tooltip = "towe_industrial_equipment_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_industrial_equipment_btn"
+				name = "category_6_sd_towe_industrial_equipment_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_industrial_equipment_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_industrial_equipment_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_equipment_text"
+				name = "category_6_sd_towe_industrial_equipment_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_IndustrialEquipment]"
-				pdx_tooltip = "TNO_POLITICS_SD_industrial_equipment_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_industrial_equipment_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_industrial_equipment_trend_text"
+				name = "category_6_sd_towe_industrial_equipment_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2850,7 +2850,7 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_industrial_equip"
+				pdx_tooltip = "TOWE_SD_Trend_industrial_equip"
 			}
 		}
 
@@ -2859,39 +2859,39 @@ guiTypes = {
 			position = { x = 8 y = -10 }
 			size = { width = 100%% height = 30 }
 			instantTextboxType = {
-				name = "category_6_sd_tno_army_professionalism_name"
+				name = "category_6_sd_towe_army_professionalism_name"
 				position = { x = -3 y = 6 }
 				font = "aldrich_20_outline"
-				text = "tno_army_professionalism"
-				pdx_tooltip = "tno_army_professionalism_d"
+				text = "towe_army_professionalism"
+				pdx_tooltip = "towe_army_professionalism_d"
 				#maxwidth = 130
 				maxHeight = 15
 				fixedsize = yes
 			}
 			buttonType = {
-				name = "category_6_sd_tno_army_professionalism_btn"
+				name = "category_6_sd_towe_army_professionalism_btn"
 				position = { x = 191 y = 0 }
 				quadTextureSprite = "GFX_sort_button_195x29"
-				pdx_tooltip = "TNO_POLITICS_SD_army_professionalism_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_army_professionalism_TT"
 				buttonFont = "aldrich_18_outline"
 				Orientation = "UPPER_LEFT"
 			}
 			instantTextboxType = {
-				name = "category_6_sd_tno_army_professionalism_text"
+				name = "category_6_sd_towe_army_professionalism_text"
 				position = { x = 200 y = 6 }
 				font = "aldrich_18_outline"
 				text = "[This.GetSocietyDevelopment_ArmyProfessionalism]"
-				pdx_tooltip = "TNO_POLITICS_SD_army_professionalism_TT"
+				pdx_tooltip = "TOWE_POLITICS_SD_army_professionalism_TT"
 				maxWidth = 175
 				maxHeight = 15
 				fixedsize = yes
 			}
 
 			instantTextboxType = {
-				name = "category_6_sd_tno_army_professionalism_trend_text"
+				name = "category_6_sd_towe_army_professionalism_trend_text"
 				position = { x = 400 y = 6 }
 				font = "aldrich_18_outline"
-				text = "TNO_SD_Trend"
+				text = "TOWE_SD_Trend"
 				maxWidth = 50
 				maxHeight = 15
 				fixedsize = yes
@@ -2902,12 +2902,12 @@ guiTypes = {
 				spriteType = "GFX_idea_flat_line"
 				position = { x = 450 y = 0 }
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "TNO_SD_Trend_army_professionalism"
+				pdx_tooltip = "TOWE_SD_Trend_army_professionalism"
 			}
 		}
 	}
 	containerWindowType = {
-		name = "TNO_pol_category_55"
+		name = "TOWE_pol_category_55"
 		#dummy container for spacing
 	}
 }
