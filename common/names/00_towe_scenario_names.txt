@@ -1,0 +1,219 @@
+# TOWE original 1905 name pools for the playable scenario tags.
+# These prevent random commander/character generation failures.
+
+JAS = {
+	male = { names = { Amir Farid Kamran Darius Navid Rahim Arman Tariq } }
+	female = { names = { Lila Samira Yasmin Zahra Leila Farah Amira Nasrin } }
+	surnames = { Rahmani Farouqi Shirazi Barzani Kamali Mansouri Azadi Darvish }
+}
+
+FUD = {
+	male = { names = { Wei Jian Ming Zhi Hao Cheng Liang Bo } }
+	female = { names = { Mei Lan Hua Lin Ying Xiu Yue Qing } }
+	surnames = { Zhang Wang Li Chen Liu Zhao Sun Zhou }
+}
+
+KSE = {
+	male = { names = { Milan Petar Nikola Aleksandar Stefan Vuk Dimitrije Jovan } }
+	female = { names = { Milena Jelena Ana Katarina Sofija Zora Marija } }
+	surnames = { Petrovic Jovanovic Markovic Nikolic Vukovic Stojanovic }
+}
+
+HAS = {
+	male = { names = { Otto Wilhelm Friedrich Karl Ludwig Heinrich Ernst Albert } }
+	female = { names = { Anna Maria Elisabeth Clara Helene Greta Frieda } }
+	surnames = { Schmidt Mueller Weber Fischer Hoffmann Richter Wagner }
+}
+
+SIB = {
+	male = { names = { Milan Petar Nikola Aleksandar Stefan Vuk Dimitrije Jovan } }
+	female = { names = { Milena Jelena Ana Katarina Sofija Zora Marija } }
+	surnames = { Petrovic Jovanovic Markovic Nikolic Vukovic Stojanovic }
+}
+
+IME = {
+	male = { names = { Sean Liam Patrick Eamon Ciaran Finn Declan Aidan } }
+	female = { names = { Siobhan Maeve Aoife Brigid Niamh Fiona Orla } }
+	surnames = { OBrien Murphy Kelly Walsh Byrne Ryan Doyle }
+}
+
+IRE = {
+	male = { names = { Sean Liam Patrick Eamon Ciaran Finn Declan Aidan } }
+	female = { names = { Siobhan Maeve Aoife Brigid Niamh Fiona Orla } }
+	surnames = { OBrien Murphy Kelly Walsh Byrne Ryan Doyle }
+}
+
+JSA = {
+	male = { names = { Kofi Kwame Ade Chidi Tunde Amadou Issa } }
+	female = { names = { Ama Abena Adaeze Nia Amina Fatou Zainab } }
+	surnames = { Mensah Diallo Okafor Traore Konate Ndlovu Banda }
+}
+
+JSE = {
+	male = { names = { Milan Petar Nikola Aleksandar Stefan Vuk Dimitrije Jovan } }
+	female = { names = { Milena Jelena Ana Katarina Sofija Zora Marija } }
+	surnames = { Petrovic Jovanovic Markovic Nikolic Vukovic Stojanovic }
+}
+
+IBE = {
+	male = { names = { Miguel Carlos Diego Rafael Fernando Luis Manuel } }
+	female = { names = { Isabel Maria Carmen Lucia Elena Sofia Beatriz } }
+	surnames = { Garcia Silva Pereira Costa Fernandez Lopez Santos }
+}
+
+BRC = {
+	male = { names = { James William Charles Thomas Robert Edward Henry } }
+	female = { names = { Elizabeth Mary Margaret Alice Sarah Catherine Grace } }
+	surnames = { Smith Johnson Williams Brown Miller Taylor Wilson }
+}
+
+GAU = {
+	male = { names = { Jean Pierre Louis Henri Charles Marcel Andre Lucien } }
+	female = { names = { Marie Jeanne Louise Claire Elise Camille Juliette } }
+	surnames = { Martin Dubois Bernard Petit Moreau Laurent Girard }
+}
+
+PRG = {
+	male = { names = { Otto Wilhelm Friedrich Karl Ludwig Heinrich Ernst Albert } }
+	female = { names = { Anna Maria Elisabeth Clara Helene Greta Frieda } }
+	surnames = { Schmidt Mueller Weber Fischer Hoffmann Richter Wagner }
+}
+
+PLC = {
+	male = { names = { Jan Piotr Kazimierz Marek Stanislaw Tomasz Antoni } }
+	female = { names = { Anna Zofia Katarzyna Maria Jadwiga Helena Ewa } }
+	surnames = { Kowalski Nowak Wisniewski Jankowski Zielinski Mazur }
+}
+
+NUO = {
+	male = { names = { Erik Leif Harald Olaf Magnus Sven Bjorn Knut } }
+	female = { names = { Astrid Ingrid Freya Sigrid Helga Liv Runa } }
+	surnames = { Andersen Hansen Eriksen Olsen Larsen Nilsen }
+}
+
+MGL = {
+	male = { names = { Batu Temujin Baatar Naran Ganbold Altan Dorj } }
+	female = { names = { Saran Tuya Bolormaa Enkhjin Oyun Nomin } }
+	surnames = { Batbayar Ganbaatar Enkhbold Dorjsuren Batsaikhan }
+}
+
+PPL = {
+	male = { names = { Giovanni Marco Antonio Luigi Pietro Lorenzo Enzo } }
+	female = { names = { Giulia Sofia Lucia Rosa Isabella Elena Francesca } }
+	surnames = { Rossi Romano Ricci Bianchi Moretti Esposito Conti }
+}
+
+SIS = {
+	male = { names = { Giovanni Marco Antonio Luigi Pietro Lorenzo Enzo } }
+	female = { names = { Giulia Sofia Lucia Rosa Isabella Elena Francesca } }
+	surnames = { Rossi Romano Ricci Bianchi Moretti Esposito Conti }
+}
+
+APL = {
+	male = { names = { Otto Wilhelm Friedrich Karl Ludwig Heinrich Ernst Albert } }
+	female = { names = { Anna Maria Elisabeth Clara Helene Greta Frieda } }
+	surnames = { Schmidt Mueller Weber Fischer Hoffmann Richter Wagner }
+}
+
+KSA = {
+	male = { names = { Giovanni Marco Antonio Luigi Pietro Lorenzo Enzo } }
+	female = { names = { Giulia Sofia Lucia Rosa Isabella Elena Francesca } }
+	surnames = { Rossi Romano Ricci Bianchi Moretti Esposito Conti }
+}
+
+WAU = {
+	male = { names = { Kofi Kwame Ade Chidi Tunde Amadou Issa } }
+	female = { names = { Ama Abena Adaeze Nia Amina Fatou Zainab } }
+	surnames = { Mensah Diallo Okafor Traore Konate Ndlovu Banda }
+}
+
+CAS = {
+	male = { names = { Kofi Kwame Ade Chidi Tunde Amadou Issa } }
+	female = { names = { Ama Abena Adaeze Nia Amina Fatou Zainab } }
+	surnames = { Mensah Diallo Okafor Traore Konate Ndlovu Banda }
+}
+
+ISY = {
+	male = { names = { Hiroshi Takashi Kenji Masaru Haruto Takeshi Akira } }
+	female = { names = { Yuki Aiko Haruka Hana Sakura Emi Yuna } }
+	surnames = { Sato Suzuki Tanaka Yamamoto Ito Watanabe Kobayashi }
+}
+
+ZUL = {
+	male = { names = { Sibusiso Sipho Themba Thabo Mandla Bheki Bongani } }
+	female = { names = { Nomsa Thandiwe Zanele Nandi Ayanda Busisiwe } }
+	surnames = { Dlamini Mthembu Khumalo Ndlovu Zulu Mkhize }
+}
+
+JSI = {
+	male = { names = { Arjun Vikram Ravi Dev Anand Kiran Rajiv } }
+	female = { names = { Anjali Asha Meera Priya Kavita Sita Rani } }
+	surnames = { Sharma Singh Rao Patel Gupta Das Iyer }
+}
+
+PAG = {
+	male = { names = { Arif Budi Hadi Surya Wayan Made Putra } }
+	female = { names = { Sari Dewi Ayu Intan Putri Ratna Wulan } }
+	surnames = { Santoso Wijaya Pratama Nugroho Suryadi Saputra }
+}
+
+ESS = {
+	male = { names = { Arif Budi Hadi Surya Wayan Made Putra } }
+	female = { names = { Sari Dewi Ayu Intan Putri Ratna Wulan } }
+	surnames = { Santoso Wijaya Pratama Nugroho Suryadi Saputra }
+}
+
+IAC = {
+	male = { names = { Sean Liam Patrick Eamon Ciaran Finn Declan Aidan } }
+	female = { names = { Siobhan Maeve Aoife Brigid Niamh Fiona Orla } }
+	surnames = { OBrien Murphy Kelly Walsh Byrne Ryan Doyle }
+}
+
+JNW = {
+	male = { names = { Amir Farid Kamran Darius Navid Rahim Arman Tariq } }
+	female = { names = { Lila Samira Yasmin Zahra Leila Farah Amira Nasrin } }
+	surnames = { Rahmani Farouqi Shirazi Barzani Kamali Mansouri Azadi Darvish }
+}
+
+AZT = {
+	male = { names = { Cuauhtemoc Itzcoatl Nezahual Tlacaelel Xochipilli Tezozomoc } }
+	female = { names = { Xochitl Citlali Izel Yaretzi Metztli Tonalli } }
+	surnames = { Tenoch Tizoc Acamapichtli Tecuhtli Cuitlahuac }
+}
+
+FNW = {
+	male = { names = { Wei Jian Ming Zhi Hao Cheng Liang Bo } }
+	female = { names = { Mei Lan Hua Lin Ying Xiu Yue Qing } }
+	surnames = { Zhang Wang Li Chen Liu Zhao Sun Zhou }
+}
+
+UCP = {
+	male = { names = { James William Charles Thomas Robert Edward Henry } }
+	female = { names = { Elizabeth Mary Margaret Alice Sarah Catherine Grace } }
+	surnames = { Smith Johnson Williams Brown Miller Taylor Wilson }
+}
+
+ICA = {
+	male = { names = { Inti Tupac Amaru Manco Huayna Rumi } }
+	female = { names = { Quilla Killa Sumaq Chaska Nayra Mayu } }
+	surnames = { Yupanqui Atahualpa Huaranca Condori Quispe }
+}
+
+ATS = {
+	male = { names = { Aruan Iara Tupa Ubiraja Poti Araci } }
+	female = { names = { Iara Jaci Tainara Yara Moema Anahi } }
+	surnames = { Araguaia Tupi Pataxo Xingu Guarani }
+}
+
+SAT = {
+	male = { names = { Jose Carlos Miguel Pedro Luis Rafael Andres } }
+	female = { names = { Maria Ana Lucia Camila Sofia Elena Isabel } }
+	surnames = { Silva Rojas Fernandez Ramirez Morales Vargas Castro }
+}
+
+AOR = {
+	male = { names = { Jack William Thomas Henry Arthur Edward Alfred } }
+	female = { names = { Alice Edith Margaret Mary Nellie Clara Ada } }
+	surnames = { Thompson Martin Walker Bennett Taylor Murray }
+}
+
