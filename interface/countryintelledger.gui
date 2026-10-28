@@ -1,4 +1,0 @@
-# Fallback to the installed HOI4 country intel ledger definition.
-# The prior imported layout could overlap the diplomacy view.
-guiTypes = {
-}
