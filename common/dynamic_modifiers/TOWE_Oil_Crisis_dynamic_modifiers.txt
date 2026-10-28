@@ -2,7 +2,7 @@
  # Oil Crisis dynamic modifier #
  ###############################
 
-TNO_Oil_Crisis_dynamic_modifier = {
+TOWE_Oil_Crisis_dynamic_modifier = {
 	icon = "GFX_idea_generic_oil_fire"
 	enable = { always = yes }
 
@@ -20,7 +20,7 @@ TNO_Oil_Crisis_dynamic_modifier = {
 }
 
 # Alt Oil Crisis which accepts modifier
-TNO_Alt_Oil_Crisis_dynamic_modifier = {
+TOWE_Alt_Oil_Crisis_dynamic_modifier = {
 	icon = "GFX_idea_generic_oil_fire"
 	enable = { always = yes }
 
