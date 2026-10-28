@@ -31,7 +31,7 @@ country_event = {
 		name = towe_balkan.1.a
 		custom_effect_tooltip = towe_balkan_revolt_tt
 
-		load_focus_tree = JAS_balkan_crisis_focus
+		# Retain the expanded Jasmine tree; the legacy Balkan focus tree is disabled.
 
 
 		every_other_country = {
