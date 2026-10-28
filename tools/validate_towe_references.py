@@ -15,7 +15,7 @@ def strings(path):
 
 
 def blocks(text, key):
-    pattern = re.compile(r"(?m)\\b" + re.escape(key) + r"\\s*=\\s*\\{")
+    pattern = re.compile(r"(?m)\b" + re.escape(key) + r"\s*=\s*\{")
     for match in pattern.finditer(text):
         opening = text.find("{", match.start())
         level = 0
@@ -33,7 +33,7 @@ def blocks(text, key):
                     if level == 0:
                         yield text[opening + 1:i]
                         break
-            escaped = char == "\\\\" and not escaped
+            escaped = char == "\\" and not escaped
 
 
 def main():
@@ -42,7 +42,7 @@ def main():
     definitions = set()
     for path in idea_files:
         txt = strings(path)
-        definitions.update(re.findall(r"(?m)^\\s*(towe_[A-Za-z_0-9]+)\\s*=\\s*\\{", txt, re.IGNORECASE))
+        definitions.update(re.findall(r"(?m)^\s*(towe_[A-Za-z_0-9]+)\s*=\s*\{", txt, re.IGNORECASE))
 
     for path in sorted((ROOT / "history/countries").glob("*.txt")):
         txt = strings(path)
@@ -54,11 +54,11 @@ def main():
 
     # The social-law helpers are expected to be defined and actually called.
     helper_file = ROOT / "common/scripted_effects/zz_towe_law_stubs.txt"
-    helpers = set(re.findall(r"(?m)^(towe_[a-z0-9_]+_effect)\\s*=\\s*\\{", strings(helper_file)))
+    helpers = set(re.findall(r"(?m)^(towe_[a-z0-9_]+_effect)\s*=\s*\{", strings(helper_file)))
     laws_path = ROOT / "common/ideas/TOWE_zz_laws_misc.txt"
     laws = strings(laws_path)
     for helper in sorted(helpers):
-        if not re.search(r"(?m)^\\s*" + re.escape(helper) + r"\\s*=\\s*yes", laws):
+        if not re.search(r"(?m)^\s*" + re.escape(helper) + r"\s*=\s*yes", laws):
             # Only an unavailable refugee art-dependent variant may be absent.
             if helper != "towe_refugees_give_me_your_poor_effect":
                 problems.append(f"{laws_path.relative_to(ROOT)}: helper never called: {helper}")
