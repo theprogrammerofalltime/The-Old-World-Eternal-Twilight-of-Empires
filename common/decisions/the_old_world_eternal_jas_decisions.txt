@@ -28,7 +28,7 @@ JAS_balkan_aftermath = {
 
 		complete_effect = {
 			set_country_flag = towe_switched_to_main_tree
-			load_focus_tree = JAS_focus_post_1910
+			load_focus_tree = jas_towe_expanded_focus
 			add_political_power = 50
 			add_stability = 0.05
 			custom_effect_tooltip = JAS_return_to_imperial_focus_tt
