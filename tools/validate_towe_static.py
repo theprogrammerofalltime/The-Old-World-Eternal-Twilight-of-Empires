@@ -88,7 +88,7 @@ def check_native_gui_fallback() -> None:
             continue
         contents = path.read_text(encoding="utf-8-sig")
         contents = re.sub(r"(?m)#.*$", "", contents)
-        if re.sub(r"\\s+", "", contents) != f"{root_key}={{}}":
+        if re.sub(r"\s+", "", contents) != f"{root_key}={{}}":
             errors.append(f"conflicting GUI override has been re-enabled: {name}")
 
     throne = ROOT / "common/scripted_guis/towe_custom_panel.txt"
