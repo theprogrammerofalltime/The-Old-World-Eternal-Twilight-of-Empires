@@ -51,6 +51,16 @@ towe_monthly_economy_tick = {
 		subtract_from_variable = { towe_credit_rating = 0.1 }
 	}
 	
+	# Consume TOWE's registered custom social-development indices.
+	# A higher policy growth index increases monthly output; heavier consumer
+	# demand reduces investable output. These are numeric custom modifiers.
+	set_temp_variable = { towe_policy_growth = modifier@annual_gdp_growth_factor }
+	multiply_temp_variable = { towe_policy_growth = 4 }
+	add_to_temp_variable = { temp_growth = towe_policy_growth }
+	set_temp_variable = { towe_policy_consumption = modifier@consumer_goods_use_modifier }
+	multiply_temp_variable = { towe_policy_consumption = 0.5 }
+	subtract_from_temp_variable = { temp_growth = towe_policy_consumption }
+
 	# Apply growth to GDP (clamped)
 	add_to_variable = { towe_gdp = temp_growth }
 	clamp_variable = { var = towe_gdp min = 5 max = 500 }
