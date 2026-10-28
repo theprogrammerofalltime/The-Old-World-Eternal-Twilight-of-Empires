@@ -1,12 +1,13 @@
 scripted_gui = {
-	# Button always available on politics screen
+	# Kept dormant during GUI reconstruction. Enable only after the
+	# independent TOWE panel passes an in-game layout test.
 	towe_throne_button_gui = {
 		context_type = player_context
 		window_name = "towe_custom_political_panel"
 		parent_window_name = "countrypoliticsview"
 
 		visible = {
-			always = yes
+			has_country_flag = towe_throne_ui_enabled
 		}
 
 		effects = {
@@ -34,6 +35,7 @@ scripted_gui = {
 		window_name = "towe_throne_info_window"
 
 		visible = {
+			has_country_flag = towe_throne_ui_enabled
 			has_country_flag = towe_throne_panel_open
 		}
 

@@ -1,0 +1,18 @@
+name: TOWE reconstruction guardrails
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "rebuild/**"
+
+jobs:
+  validate-foundation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate native UI fallback and preserved scenario
+        run: python3 tools/validate_rebuild_foundation.py
+      - name: Check Python audit tools
+        run: python3 -m py_compile tools/validate_rebuild_foundation.py tools/summarize_rebuild_log.py
