@@ -90,7 +90,7 @@ country_event = {
 				set_country_flag = towe_jse_rebelled
 				declare_war_on = {
 					target = JAS
-					type = independence_war
+					type = annex_everything
 				}
 				add_war_support = 0.20
 				add_stability = 0.05
