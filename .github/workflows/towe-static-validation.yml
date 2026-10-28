@@ -15,3 +15,4 @@ jobs:
         run: |
           python3 tools/validate_towe_static.py
           python3 tools/validate_towe_references.py
+          python3 tools/audit_ideology_usage.py
