@@ -75,6 +75,11 @@ def main() -> int:
         relative = path.relative_to(ROOT).as_posix()
         if "tno" in relative.lower():
             errors.append(f"legacy branded filename remains: {relative}")
+        if path.suffix.lower() in {".txt", ".gui", ".gfx", ".yml", ".lua"} and (
+            relative.startswith(("common/", "interface/", "events/", "localisation/", "history/countries/"))
+        ):
+            if "tno" in path.read_text(encoding="utf-8-sig", errors="replace").lower():
+                errors.append(f"legacy TNO identifier or branding remains in: {relative}")
         if path.suffix.lower() in {".txt", ".gfx", ".gui"} and (
             relative.startswith(("common/", "events/", "interface/", "history/countries/", "history/units/"))
         ):
