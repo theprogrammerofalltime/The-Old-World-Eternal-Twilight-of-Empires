@@ -1,0 +1,49 @@
+# TOWE-native dynamic modifiers supporting real effects for imported social laws.
+
+towe_policy_child_labor_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_child_labor_stability
+    production_speed_industrial_complex_factor = towe_policy_child_labor_industry
+}
+
+towe_policy_lgbt_rights_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_lgbt_rights_stability
+    production_speed_industrial_complex_factor = towe_policy_lgbt_rights_industry
+}
+
+towe_policy_minorities_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_minorities_stability
+    production_speed_industrial_complex_factor = towe_policy_minorities_industry
+}
+
+towe_policy_pollution_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_pollution_stability
+    production_speed_industrial_complex_factor = towe_policy_pollution_industry
+}
+
+towe_policy_racial_integration_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_racial_integration_stability
+    production_speed_industrial_complex_factor = towe_policy_racial_integration_industry
+}
+
+towe_policy_refugees_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_refugees_stability
+    production_speed_industrial_complex_factor = towe_policy_refugees_industry
+}
+
+towe_policy_safety_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_safety_stability
+    production_speed_industrial_complex_factor = towe_policy_safety_industry
+}
+
+towe_policy_women_modifier = {
+    enable = { always = yes }
+    stability_factor = towe_policy_women_stability
+    production_speed_industrial_complex_factor = towe_policy_women_industry
+}
