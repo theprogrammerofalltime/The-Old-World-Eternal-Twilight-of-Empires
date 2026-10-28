@@ -1,5 +1,5 @@
 # Basic overrides to reduce vanilla political screen clutter
-# Full TNO-style UI is a large project; this starts locking things down
+# Full TOWE-style UI is a large project; this starts locking things down
 
 guiTypes = {
 
