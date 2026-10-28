@@ -176,7 +176,7 @@ towe_great_game = {
         allowed = { original_tag = JAS }
         visible = { tag = JAS }
         available = {
-            exists = PLC
+            PLC = { exists = yes }
             PLC = { is_subject = no }
             has_war = no
         }
@@ -197,7 +197,7 @@ towe_great_game = {
         allowed = { original_tag = PRG }
         visible = { tag = PRG }
         available = {
-            exists = PLC
+            PLC = { exists = yes }
             PLC = { is_subject = no }
             has_war = no
         }
@@ -217,7 +217,7 @@ towe_great_game = {
         allowed = { original_tag = JAS }
         visible = { tag = JAS }
         available = {
-            exists = AZT
+            AZT = { exists = yes }
             AZT = { is_subject = no }
             has_war = no
         }
@@ -238,7 +238,7 @@ towe_great_game = {
         allowed = { original_tag = PRG }
         visible = { tag = PRG }
         available = {
-            exists = AZT
+            AZT = { exists = yes }
             AZT = { is_subject = no }
             has_war = no
         }
@@ -258,7 +258,7 @@ towe_great_game = {
         allowed = { original_tag = JAS }
         visible = { tag = JAS }
         available = {
-            exists = FUD
+            FUD = { exists = yes }
             FUD = { has_war = yes }
         }
         cost = 70
@@ -281,7 +281,7 @@ towe_great_game = {
         allowed = { original_tag = PRG }
         visible = { tag = PRG }
         available = {
-            exists = GAU
+            GAU = { exists = yes }
             GAU = { has_war = yes }
         }
         cost = 70
