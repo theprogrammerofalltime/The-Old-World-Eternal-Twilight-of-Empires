@@ -1,7 +1,7 @@
 # TOWE Custom Economy System
-# Simplified but functional TNO-inspired economy using HOI4 variables and ideas.
+# Simplified but functional TOWE-inspired economy using HOI4 variables and ideas.
 # GDP is a proxy value (not real currency). Updated monthly via on_actions.
-# Compatible with 1905 start. Does not overwrite TNO defines.
+# Compatible with 1905 start. Does not overwrite TOWE defines.
 
 # Initialize economy variables for a country (call on startup or first focus)
 towe_init_economy = {
