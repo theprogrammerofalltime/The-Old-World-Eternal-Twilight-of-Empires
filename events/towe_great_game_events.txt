@@ -1,0 +1,46 @@
+add_namespace = towe_great_game
+
+# The Great Game: emergent diplomatic crisis triggered by high rivalry tension.
+country_event = {
+    id = towe_great_game.1
+    title = towe_great_game.1.t
+    desc = towe_great_game.1.d
+    picture = GFX_towe_event_cabinet
+    is_triggered_only = yes
+    option = {
+        name = towe_great_game.1.a
+        add_war_support = 0.03
+        add_stability = -0.03
+        add_to_variable = { var = towe_great_game_tension value = 8 }
+        clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+        PRG = { country_event = { id = towe_great_game.2 days = 1 } }
+    }
+    option = {
+        name = towe_great_game.1.b
+        add_stability = 0.02
+        add_to_variable = { var = towe_great_game_tension value = -20 }
+        clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+        PRG = { country_event = { id = towe_great_game.2 days = 1 } }
+    }
+}
+
+country_event = {
+    id = towe_great_game.2
+    title = towe_great_game.2.t
+    desc = towe_great_game.2.d
+    picture = GFX_towe_event_intelligence
+    is_triggered_only = yes
+    option = {
+        name = towe_great_game.2.a
+        add_political_power = 25
+        add_war_support = 0.02
+    }
+    option = {
+        name = towe_great_game.2.b
+        add_stability = 0.02
+        JAS = {
+            add_to_variable = { var = towe_great_game_tension value = -5 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+        }
+    }
+}
