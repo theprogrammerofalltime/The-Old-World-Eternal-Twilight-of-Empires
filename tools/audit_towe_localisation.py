@@ -15,3 +15,6 @@ dupes = {key: origins for key, origins in by_key.items() if len(origins) > 1}
 print(f"TOWE localisation audit: {len(by_key)} keys, {len(dupes)} duplicated")
 for key, locations in sorted(dupes.items()):
     print("DUPLICATE:", key, "|", " ".join(locations))
+
+if dupes:
+    raise SystemExit(1)
