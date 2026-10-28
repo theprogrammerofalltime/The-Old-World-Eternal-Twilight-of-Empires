@@ -1,10 +1,10 @@
 ideas = {
 
 	#Academic Base
-	tno_academic_base = {
+	towe_academic_base = {
 		law = yes
-		tno_academic_base_mass_illiteracy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_mass_illiteracy" }
+		towe_academic_base_mass_illiteracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_mass_illiteracy" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -21,8 +21,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_academic_base_basic_literacy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_basic_literacy" }
+		towe_academic_base_basic_literacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_basic_literacy" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -39,8 +39,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_academic_base_primary_schooling = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_primary_schooling" }
+		towe_academic_base_primary_schooling = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_primary_schooling" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -52,8 +52,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_academic_base_secondary_schooling = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_secondary_schooling" }
+		towe_academic_base_secondary_schooling = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_secondary_schooling" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -69,8 +69,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_academic_base_tertiary_schooling = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_tertiary_schooling" }
+		towe_academic_base_tertiary_schooling = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_tertiary_schooling" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -87,8 +87,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_academic_base_golden_age = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_academic_base_golden_age" }
+		towe_academic_base_golden_age = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_academic_base_golden_age" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -108,10 +108,10 @@ ideas = {
 	}
 
 	#Research Facilities
-	tno_research_facilities = {
+	towe_research_facilities = {
 		law = yes
-		tno_research_facilities_makeshift = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_makeshift" }
+		towe_research_facilities_makeshift = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_makeshift" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -127,8 +127,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_research_facilities_basic = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_basic" }
+		towe_research_facilities_basic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_basic" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -144,8 +144,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_research_facilities_outdated = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_outdated" }
+		towe_research_facilities_outdated = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_outdated" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -160,8 +160,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_research_facilities_modern = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_modern" }
+		towe_research_facilities_modern = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_modern" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -174,8 +174,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_research_facilities_advanced = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_advanced" }
+		towe_research_facilities_advanced = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_advanced" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -191,8 +191,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_research_facilities_cutting_edge = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_research_facilities_cutting_edge" }
+		towe_research_facilities_cutting_edge = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_research_facilities_cutting_edge" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -211,10 +211,10 @@ ideas = {
 	}
 
 	#Agriculture
-	tno_agriculture = {
+	towe_agriculture = {
 		law = yes
-		tno_agriculture_subsistence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_agriculture_subsistence" }
+		towe_agriculture_subsistence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_agriculture_subsistence" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -236,8 +236,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_agriculture_centralized = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_agriculture_centralized" }
+		towe_agriculture_centralized = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_agriculture_centralized" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -258,8 +258,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_agriculture_basic_mechanized = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_agriculture_basic_mechanized" }
+		towe_agriculture_basic_mechanized = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_agriculture_basic_mechanized" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -271,8 +271,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_agriculture_mass_mechanized = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_agriculture_mass_mechanized" }
+		towe_agriculture_mass_mechanized = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_agriculture_mass_mechanized" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -288,8 +288,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_agriculture_modern = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_agriculture_modern" }
+		towe_agriculture_modern = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_agriculture_modern" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -306,10 +306,10 @@ ideas = {
 	}
 	
 	#Healthcare (SocDev)
-	tno_healthcare_quality = {
+	towe_healthcare_quality = {
 		law = yes
-		tno_healthcare_makeshift = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_makeshift" }
+		towe_healthcare_makeshift = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_makeshift" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -325,8 +325,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_healthcare_rudimentary = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_rudimentary" }
+		towe_healthcare_rudimentary = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_rudimentary" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -341,8 +341,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_healthcare_nascent = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_nascent" }
+		towe_healthcare_nascent = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_nascent" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -355,8 +355,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_healthcare_developed = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_developed" }
+		towe_healthcare_developed = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_developed" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -369,8 +369,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_healthcare_advanced = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_advanced" }
+		towe_healthcare_advanced = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_advanced" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -386,8 +386,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_healthcare_world_class = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_healthcare_world_class" }
+		towe_healthcare_world_class = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_healthcare_world_class" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -405,10 +405,10 @@ ideas = {
 		}
 	}
 	#Industrial Equipment
-	tno_industrial_equipment = {
+	towe_industrial_equipment = {
 		law = yes
-		tno_industrial_equipment_hand_tools = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_hand_tools" }
+		towe_industrial_equipment_hand_tools = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_hand_tools" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -427,8 +427,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_equipment_power_tools = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_power_tools" }
+		towe_industrial_equipment_power_tools = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_power_tools" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -447,8 +447,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_equipment_manufacturing_lines = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_manufacturing_lines" }
+		towe_industrial_equipment_manufacturing_lines = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_manufacturing_lines" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -466,8 +466,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_equipment_factory_complexes = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_factory_complexes" }
+		towe_industrial_equipment_factory_complexes = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_factory_complexes" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -479,8 +479,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_equipment_modern = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_modern" }
+		towe_industrial_equipment_modern = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_modern" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -499,8 +499,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_equipment_cutting_edge = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_equipment_cutting_edge" }
+		towe_industrial_equipment_cutting_edge = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_equipment_cutting_edge" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -522,10 +522,10 @@ ideas = {
 	}
 
 	#Industrial Expertise
-	tno_industrial_expertise = {
+	towe_industrial_expertise = {
 		law = yes
-		tno_industrial_expertise_pre_industrial = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_expertise_pre_industrial" }
+		towe_industrial_expertise_pre_industrial = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_expertise_pre_industrial" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -546,8 +546,8 @@ ideas = {
 		}
 
 		
-		tno_industrial_expertise_incompetent = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_expertise_incompetent" }
+		towe_industrial_expertise_incompetent = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_expertise_incompetent" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -566,8 +566,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_expertise_nascent = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_expertise_nascent" }
+		towe_industrial_expertise_nascent = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_expertise_nascent" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -584,8 +584,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_expertise_experienced = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_expertise_experienced" }
+		towe_industrial_expertise_experienced = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_expertise_experienced" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -601,8 +601,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_industrial_expertise_innovative = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_industrial_expertise_innovative" }
+		towe_industrial_expertise_innovative = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_industrial_expertise_innovative" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -624,10 +624,10 @@ ideas = {
 	}
 
 	#Army Professionalism
-	tno_army_professionalism = {
+	towe_army_professionalism = {
 		law = yes
-		tno_army_professionalism_untrained = { #disorganized rabble
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_untrained" }
+		towe_army_professionalism_untrained = { #disorganized rabble
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_untrained" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -646,8 +646,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_reluctant_conscripts = { #incompetent officer corps
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_reluctant_conscripts" }
+		towe_army_professionalism_reluctant_conscripts = { #incompetent officer corps
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_reluctant_conscripts" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -668,8 +668,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_disgruntled_veterans = { #dysfunctional high command
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_disgruntled_veterans" }
+		towe_army_professionalism_disgruntled_veterans = { #dysfunctional high command
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_disgruntled_veterans" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -690,8 +690,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_cronyism = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_cronyism" }
+		towe_army_professionalism_cronyism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_cronyism" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -713,8 +713,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_political_interference = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_political_interference" }
+		towe_army_professionalism_political_interference = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_political_interference" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -731,8 +731,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_professional = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_professional" }
+		towe_army_professionalism_professional = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_professional" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -744,8 +744,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_army_professionalism_spartan_discipline = { #renamed to Esprit de Corps
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_army_professionalism_spartan_discipline" }
+		towe_army_professionalism_spartan_discipline = { #renamed to Esprit de Corps
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_army_professionalism_spartan_discipline" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -770,10 +770,10 @@ ideas = {
 
 	### Admin Efficiency ###
 
-	tno_admin_efficiency = {
+	towe_admin_efficiency = {
 		law = yes
-		tno_admin_efficiency_organized_chaos = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_organized_chaos" }
+		towe_admin_efficiency_organized_chaos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_organized_chaos" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -790,8 +790,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_nonexistent_state_apparatus = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_nonexistent_state_apparatus" }
+		towe_admin_efficiency_nonexistent_state_apparatus = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_nonexistent_state_apparatus" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -808,8 +808,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_illegitimate_administration = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_illegitimate_administration" }
+		towe_admin_efficiency_illegitimate_administration = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_illegitimate_administration" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -826,8 +826,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_deficient_administrative_systems = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_deficient_administrative_systems" }
+		towe_admin_efficiency_deficient_administrative_systems = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_deficient_administrative_systems" }
 			default = yes
 			available = { always = no }
 			cost = 0
@@ -845,8 +845,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_functional_administrative_systems = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_functional_administrative_systems" }
+		towe_admin_efficiency_functional_administrative_systems = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_functional_administrative_systems" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -859,8 +859,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_streamlined_bureaucracy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_streamlined_bureaucracy" }
+		towe_admin_efficiency_streamlined_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_streamlined_bureaucracy" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
@@ -878,8 +878,8 @@ ideas = {
 			cancel_if_invalid = no
 			ai_will_do = { }
 		}
-		tno_admin_efficiency_well_oiled_machine = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea tno_admin_efficiency_well_oiled_machine" }
+		towe_admin_efficiency_well_oiled_machine = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea towe_admin_efficiency_well_oiled_machine" }
 			available = { always = no }
 			cost = 0
 			removal_cost = -1
