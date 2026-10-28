@@ -1958,7 +1958,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { original_tag = SPR original_ original_ original_ original_ }
+						OR = { original_tag = SPR }
 						has_dlc = "La Resistance"
 					}
 				}
@@ -2070,7 +2070,7 @@ ideas = {
 				}
 				NOT = {
 					AND = {
-						OR = { original_tag = SPR original_ original_ original_ original_ }
+						OR = { original_tag = SPR }
 						has_dlc = "La Resistance"
 					}
 				}
