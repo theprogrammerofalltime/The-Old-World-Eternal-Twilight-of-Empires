@@ -30,13 +30,13 @@ set_popularities = {
     despotism = 100
 }
 
-# TNO Edition: default law package
+# TOWE Edition: default law package
 add_ideas = {
-	tno_political_parties_one_party_state
-	tno_vote_franchise_no_voting
-	tno_press_rights_propaganda_press
-	tno_public_meetings_regulated
-	tno_trade_unions_state_controlled
-	tno_conscription_service_by_requirement
-	tno_slavery_penal_labor
+	towe_political_parties_one_party_state
+	towe_vote_franchise_no_voting
+	towe_press_rights_propaganda_press
+	towe_public_meetings_regulated
+	towe_trade_unions_state_controlled
+	towe_conscription_service_by_requirement
+	towe_slavery_penal_labor
 }
