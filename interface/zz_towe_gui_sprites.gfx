@@ -1403,10 +1403,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/SocDevIcons/towe_refugees_banned.dds"
 	}
 
-	spriteType = {
-		name = "GFX_idea_tno_refugees_give_me_your_poor"
-		textureFile = "gfx/interface/SocDevIcons/towe_refugees_give_me_your_poor.dds"
-	}
 
 	spriteType = {
 		name = "GFX_idea_tno_refugees_not_applicable"
