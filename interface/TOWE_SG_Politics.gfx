@@ -28,11 +28,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_tno_long_border"
-		textureFile = "gfx/interface/tno_politics_long_border.dds"
+		textureFile = "gfx/interface/towe_politics_long_border.dds"
 	}
 	spriteType = {
 		name = "GFX_tno_politics_law_field"
-		textureFile = "gfx/interface/tno_politics_law_field.dds"
+		textureFile = "gfx/interface/towe_politics_law_field.dds"
 	}
 	spriteType = {
 		name = "GFX_blank"
@@ -315,7 +315,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_assorted_laws_rectangle"
-		texturefile = "gfx/interface/tno_politics_misc_rectangle.dds"
+		texturefile = "gfx/interface/towe_politics_misc_rectangle.dds"
 	}
 
 	#########################
@@ -325,209 +325,209 @@ spriteTypes = {
 	## Political Party SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_nonpartisan_system"
-		textureFile = "gfx/interface/SocDevIcons/tno_political_parties_nonpartisan_system.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_political_parties_nonpartisan_system.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_one_party_state"
-		textureFile = "gfx/interface/SocDevIcons/tno_political_parties_one_party_state.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_political_parties_one_party_state.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_controlled_opposition"
-		textureFile = "gfx/interface/SocDevIcons/tno_political_parties_controlled_opposition.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_political_parties_controlled_opposition.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_dominant_party_system"
-		textureFile = "gfx/interface/SocDevIcons/tno_political_parties_dominant_party_system.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_political_parties_dominant_party_system.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_political_parties_multiparty_system"
-		textureFile = "gfx/interface/SocDevIcons/tno_political_parties_multiparty_system.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_political_parties_multiparty_system.dds"
 	}
 
 	## Religion SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_state_religion"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_state_religion.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_state_religion.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_pluralism"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_pluralism.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_pluralism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_secularism"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_secularism.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_secularism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_laicism"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_laicism.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_laicism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_state_atheism"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_state_atheism.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_state_atheism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_religious_rights_suppression_of_churches"
-		textureFile = "gfx/interface/SocDevIcons/tno_religious_rights_suppression_of_churches.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_religious_rights_suppression_of_churches.dds"
 	}
 
 	## Unions SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_trade_unions_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_unions_illegal"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_unions_illegal.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_unions_illegal.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_unions_state_controlled"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_unions_state_controlled.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_unions_state_controlled.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_unions_nonsocialist_allowed"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_unions_nonsocialist_allowed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_unions_nonsocialist_allowed.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_unions_all_allowed"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_unions_all_allowed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_unions_all_allowed.dds"
 	}
 
 	## Immigration SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_immigration_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_closed_borders"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_closed_borders.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_closed_borders.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_skilled_labor_only"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_skilled_labor_only.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_skilled_labor_only.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_quota_immigration"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_quota_immigration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_quota_immigration.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_open_immigration"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_open_immigration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_open_immigration.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_encouraged_immigration"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_encouraged_immigration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_encouraged_immigration.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_immigration_ethnic_immigration"
-		textureFile = "gfx/interface/SocDevIcons/tno_immigration_ethnic_immigration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_immigration_ethnic_immigration.dds"
 	}
 
 	## Forced Labor SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_slavery_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_chattel"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_chattel.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_chattel.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_corvee"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_corvee.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_corvee.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_penal_labor"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_penal_labor.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_penal_labor.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_work_programs"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_work_programs.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_work_programs.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_pow_only"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_pow_only.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_pow_only.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_slavery_outlawed"
-		textureFile = "gfx/interface/SocDevIcons/tno_slavery_outlawed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_slavery_outlawed.dds"
 	}
 
 	## Public Meetings SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_public_meetings_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_public_meetings_outlawed"
-		textureFile = "gfx/interface/SocDevIcons/tno_public_meetings_outlawed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_public_meetings_outlawed.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_public_meetings_regulated"
-		textureFile = "gfx/interface/SocDevIcons/tno_public_meetings_regulated.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_public_meetings_regulated.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_public_meetings_allowed"
-		textureFile = "gfx/interface/SocDevIcons/tno_public_meetings_allowed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_public_meetings_allowed.dds"
 	}
 
 	## Press Rights SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_press_rights_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_press_rights_propaganda_press"
-		textureFile = "gfx/interface/SocDevIcons/tno_press_rights_propaganda_press.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_press_rights_propaganda_press.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_press_rights_state_press_only"
-		textureFile = "gfx/interface/SocDevIcons/tno_press_rights_state_press_only.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_press_rights_state_press_only.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_press_rights_censored_press"
-		textureFile = "gfx/interface/SocDevIcons/tno_press_rights_censored_press.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_press_rights_censored_press.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_press_rights_free_press"
-		textureFile = "gfx/interface/SocDevIcons/tno_press_rights_free_press.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_press_rights_free_press.dds"
 	}
 
 	## Voting SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_no_voting"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_no_voting.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_no_voting.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_elite_voting"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_elite_voting.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_elite_voting.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_inequal_voting"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_inequal_voting.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_inequal_voting.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_registered_voting"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_registered_voting.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_registered_voting.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_universal"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_universal.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_universal.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_vote_franchise_promoted_voting"
-		textureFile = "gfx/interface/SocDevIcons/tno_vote_franchise_promoted_voting.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_vote_franchise_promoted_voting.dds"
 	}
 
 	########################
@@ -537,117 +537,117 @@ spriteTypes = {
 	## Conscription SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_conscription_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_scraping_the_barrel"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_scraping_the_barrel.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_scraping_the_barrel.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_all_adults_serve"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_all_adults_serve.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_all_adults_serve.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_service_by_requirement"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_service_by_requirement.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_service_by_requirement.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_extensive_conscription"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_extensive_conscription.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_extensive_conscription.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_broadened_conscription"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_broadened_conscription.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_broadened_conscription.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_limited_conscription"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_limited_conscription.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_limited_conscription.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_volunteer_only"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_volunteer_only.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_volunteer_only.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_conscription_disarmed_nation"
-		textureFile = "gfx/interface/SocDevIcons/tno_conscription_disarmed_nation.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_conscription_disarmed_nation.dds"
 	}
 
 	## Military Supervision SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_kill_em_all"
-		textureFile = "gfx/interface/SocDevIcons/tno_military_supervision_kill_em_all.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_military_supervision_kill_em_all.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_no_supervision"
-		textureFile = "gfx/interface/SocDevIcons/tno_military_supervision_no_supervision.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_military_supervision_no_supervision.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_rules_of_engagement"
-		textureFile = "gfx/interface/SocDevIcons/tno_military_supervision_rules_of_engagement.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_military_supervision_rules_of_engagement.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_watchdog_groups"
-		textureFile = "gfx/interface/SocDevIcons/tno_military_supervision_watchdog_groups.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_military_supervision_watchdog_groups.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_military_supervision_total_supervision"
-		textureFile = "gfx/interface/SocDevIcons/tno_military_supervision_total_supervision.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_military_supervision_total_supervision.dds"
 	}
 
 	## Training SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_training_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_training_none"
-		textureFile = "gfx/interface/SocDevIcons/tno_training_none.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_training_none.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_training_minimal_training"
-		textureFile = "gfx/interface/SocDevIcons/tno_training_minimal_training.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_training_minimal_training.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_training_basic_training"
-		textureFile = "gfx/interface/SocDevIcons/tno_training_basic_training.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_training_basic_training.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_training_combat_schooling"
-		textureFile = "gfx/interface/SocDevIcons/tno_training_combat_schooling.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_training_combat_schooling.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_training_advanced_training_methods"
-		textureFile = "gfx/interface/SocDevIcons/tno_training_advanced_training_methods.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_training_advanced_training_methods.dds"
 	}
 
 	## Draft Exemptions SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_none"
-		textureFile = "gfx/interface/SocDevIcons/tno_draft_exemptions_none.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_draft_exemptions_none.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_elite_exemptions"
-		textureFile = "gfx/interface/SocDevIcons/tno_draft_exemptions_elite_exemptions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_draft_exemptions_elite_exemptions.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_educational_deferment"
-		textureFile = "gfx/interface/SocDevIcons/tno_draft_exemptions_educational_deferment.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_draft_exemptions_educational_deferment.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_civil_service_deferment"
-		textureFile = "gfx/interface/SocDevIcons/tno_draft_exemptions_civil_service_deferment.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_draft_exemptions_civil_service_deferment.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_draft_exemptions_generous_exemptions"
-		textureFile = "gfx/interface/SocDevIcons/tno_draft_exemptions_generous_exemptions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_draft_exemptions_generous_exemptions.dds"
 	}
 
 	########################
@@ -657,169 +657,169 @@ spriteTypes = {
 	## Trade Laws SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_trade_laws_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_laws_free_trade"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_laws_free_trade.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_laws_free_trade.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_laws_export_focus"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_laws_export_focus.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_laws_export_focus.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_laws_limited_exports"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_laws_limited_exports.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_laws_limited_exports.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_trade_laws_closed_economy"
-		textureFile = "gfx/interface/SocDevIcons/tno_trade_laws_closed_economy.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_trade_laws_closed_economy.dds"
 	}
 
 	## Income Taxes SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_no_income_taxation"
-		textureFile = "gfx/interface/SocDevIcons/tno_income_taxation_no_income_taxation.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_income_taxation_no_income_taxation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_low_income_weighted"
-		textureFile = "gfx/interface/SocDevIcons/tno_income_taxation_low_income_weighted.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_income_taxation_low_income_weighted.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_flat_taxes"
-		textureFile = "gfx/interface/SocDevIcons/tno_income_taxation_flat_taxes.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_income_taxation_flat_taxes.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_high_income_weighted"
-		textureFile = "gfx/interface/SocDevIcons/tno_income_taxation_high_income_weighted.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_income_taxation_high_income_weighted.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_income_taxation_negative_taxation"
-		textureFile = "gfx/interface/SocDevIcons/tno_income_taxation_negative_taxation.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_income_taxation_negative_taxation.dds"
 	}
 
 	## Minimum Wage SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_no_minimum_wage"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_no_minimum_wage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_no_minimum_wage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_trinket_minimum_wage"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_trinket_minimum_wage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_trinket_minimum_wage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_low_minimum_wage"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_low_minimum_wage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_low_minimum_wage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_acceptable_minimum"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_acceptable_minimum.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_acceptable_minimum.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_good_minimum_wage"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_good_minimum_wage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_good_minimum_wage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_annual_wage"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_annual_wage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_annual_wage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minimum_wage_collective_bargaining"
-		textureFile = "gfx/interface/SocDevIcons/tno_minimum_wage_collective_bargaining.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minimum_wage_collective_bargaining.dds"
 	}
 
 	## Workday SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_unlimited_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_unlimited_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_unlimited_work_day.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_14_hour_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_14_hour_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_14_hour_work_day.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_12_hour_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_12_hour_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_12_hour_work_day.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_10_hour_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_10_hour_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_10_hour_work_day.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_8_hour_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_8_hour_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_8_hour_work_day.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_max_workhours_6_hour_work_day"
-		textureFile = "gfx/interface/SocDevIcons/tno_max_workhours_6_hour_work_day.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_max_workhours_6_hour_work_day.dds"
 	}
 
 	## Unemployment SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_no_subsidies"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_no_subsidies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_no_subsidies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_trinket_subsidies"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_trinket_subsidies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_trinket_subsidies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_low_subsidies"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_low_subsidies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_low_subsidies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_moderate_subsidies"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_moderate_subsidies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_moderate_subsidies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_generous_subsidies"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_generous_subsidies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_generous_subsidies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_unemployment_full_employment_policy"
-		textureFile = "gfx/interface/SocDevIcons/tno_unemployment_full_employment_policy.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_unemployment_full_employment_policy.dds"
 	}
 
 	## Pensions SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_pensions_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pensions_no_pensions"
-		textureFile = "gfx/interface/SocDevIcons/tno_pensions_no_pensions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pensions_no_pensions.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pensions_trinket_pensions"
-		textureFile = "gfx/interface/SocDevIcons/tno_pensions_trinket_pensions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pensions_trinket_pensions.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pensions_low_pensions"
-		textureFile = "gfx/interface/SocDevIcons/tno_pensions_low_pensions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pensions_low_pensions.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pensions_acceptable_pensions"
-		textureFile = "gfx/interface/SocDevIcons/tno_pensions_acceptable_pensions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pensions_acceptable_pensions.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pensions_good_pensions"
-		textureFile = "gfx/interface/SocDevIcons/tno_pensions_good_pensions.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pensions_good_pensions.dds"
 	}
 
 	######################
@@ -829,181 +829,181 @@ spriteTypes = {
 	## Healthcare Law Icons
 	spriteType = {
 		name = "GFX_idea_tno_health_care_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_no_government_support"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_no_health_care.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_no_health_care.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_service_for_care"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_service_for_care.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_service_for_care.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_negotiated_coverage"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_negotiated_coverage.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_negotiated_coverage.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_support_for_emergencies"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_support_for_emergencies.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_support_for_emergencies.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_low_income_protections"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_low_income_protections.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_low_income_protections.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_universal_health_care"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_universal_health_care.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_universal_health_care.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_health_care_free_universal_care"
-		textureFile = "gfx/interface/SocDevIcons/tno_health_care_free_universal_care.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_health_care_free_universal_care.dds"
 	}
 
 	## Education SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_education_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_restricted_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_restricted_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_restricted_education.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_stratified_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_stratified_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_stratified_education.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_public_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_public_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_public_education.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_subsidised_higher_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_subsidised_higher_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_subsidised_higher_education.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_public_higher_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_public_higher_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_public_higher_education.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_education_free_education"
-		textureFile = "gfx/interface/SocDevIcons/tno_education_free_education.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_education_free_education.dds"
 	}
 
 	## Penal System SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_overt_oppression"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_overt_oppression.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_overt_oppression.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_politicized_penal_system"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_politicized_penal_system.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_politicized_penal_system.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_harsh_penal_code"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_harsh_penal_code.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_harsh_penal_code.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_incarceration"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_incarceration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_incarceration.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_rehabilitation"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_rehabilitation.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_rehabilitation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_military_justice"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_military_justice.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_military_justice.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_penal_system_frontier_justice"
-		textureFile = "gfx/interface/SocDevIcons/tno_penal_system_frontier_justice.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_penal_system_frontier_justice.dds"
 	}
 
 	## Security SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_security_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_security_anarchic"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_organized_chaos.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_organized_chaos.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_security_resource_extraction"
-		textureFile = "gfx/interface/SocDevIcons/tno_security_resource_extraction.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_security_resource_extraction.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_security_crime_prevention"
-		textureFile = "gfx/interface/SocDevIcons/tno_security_crime_prevention.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_security_crime_prevention.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_security_maintenance_of_order"
-		textureFile = "gfx/interface/SocDevIcons/tno_security_maintenance_of_order.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_security_maintenance_of_order.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_security_political_control"
-		textureFile = "gfx/interface/SocDevIcons/tno_security_political_control.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_security_political_control.dds"
 	}
 
 	## Industrial Regulations SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_regulations_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_regulations_utterly_unregulated"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_no_controls.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_no_controls.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_regulations_token_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_few_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_few_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_regulations_moderate_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_some_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_some_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_regulations_strict_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_good_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_good_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_regulations_harsh_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_strict_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_strict_regulations.dds"
 	}
 
 	## Rights of Women SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_heavily_restricted"
-		textureFile = "gfx/interface/SocDevIcons/tno_gender_rights_heavily_restricted.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_gender_rights_heavily_restricted.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_traditional_roles"
-		textureFile = "gfx/interface/SocDevIcons/tno_gender_rights_traditional_roles.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_gender_rights_traditional_roles.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_women_in_the_workplace"
-		textureFile = "gfx/interface/SocDevIcons/tno_gender_rights_women_in_the_workplace.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_gender_rights_women_in_the_workplace.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_gender_equality"
-		textureFile = "gfx/interface/SocDevIcons/tno_gender_rights_gender_equality.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_gender_rights_gender_equality.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_promoted_equality"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_military_assistance.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_military_assistance.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_gender_rights_enforced_equality"
-		textureFile = "gfx/interface/SocDevIcons/tno_gender_rights_enforced_equality.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_gender_rights_enforced_equality.dds"
 	}
 
 	####################
@@ -1013,193 +1013,193 @@ spriteTypes = {
 	## Pollution SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_pollution_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pollution_no_controls"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_no_controls.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_no_controls.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pollution_few_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_few_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_few_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pollution_some_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_some_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_some_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pollution_good_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_good_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_good_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_pollution_strict_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_pollution_strict_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_pollution_strict_regulations.dds"
 	}
 
 	## Safety SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_safety_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_safety_no_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_safety_no_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_safety_no_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_safety_minimal_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_safety_minimal_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_safety_minimal_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_safety_limited_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_safety_limited_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_safety_limited_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_safety_acceptable_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_safety_acceptable_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_safety_acceptable_regulations.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_safety_excellent_regulations"
-		textureFile = "gfx/interface/SocDevIcons/tno_safety_excellent_regulations.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_safety_excellent_regulations.dds"
 	}
 
 	## Child Labor SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_child_labor_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_child_labor_legal"
-		textureFile = "gfx/interface/SocDevIcons/tno_child_labor_legal.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_child_labor_legal.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_child_labor_restricted"
-		textureFile = "gfx/interface/SocDevIcons/tno_child_labor_restricted.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_child_labor_restricted.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_child_labor_illegal"
-		textureFile = "gfx/interface/SocDevIcons/tno_child_labor_illegal.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_child_labor_illegal.dds"
 	}
 
 	## Refugee SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_refugees_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_refugees_banned"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_banned.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_refugees_banned.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_refugees_skilled"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_skilled.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_refugees_skilled.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_refugees_vetted_entry"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_vetted_entry.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_refugees_vetted_entry.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_refugees_open"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_open.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_refugees_open.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_refugees_give_me_your_poor"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_give_me_your_poor.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_refugees_give_me_your_poor.dds"
 	}
 
 	## Minorities SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_minorities_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minorities_oppression"
-		textureFile = "gfx/interface/SocDevIcons/tno_minorities_oppression.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minorities_oppression.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minorities_segregation"
-		textureFile = "gfx/interface/SocDevIcons/tno_minorities_segregation.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minorities_segregation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minorities_institutional_discrimination"
-		textureFile = "gfx/interface/SocDevIcons/tno_minorities_institutional_discrimination.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minorities_institutional_discrimination.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minorities_equal_rights"
-		textureFile = "gfx/interface/SocDevIcons/tno_minorities_equal_rights.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minorities_equal_rights.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_minorities_affirmative_action"
-		textureFile = "gfx/interface/SocDevIcons/tno_minorities_affirmative_action.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_minorities_affirmative_action.dds"
 	}
 
 	## LGBT SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_lgbt_rights_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_lgbt_rights_lgbt_outlawed"
-		textureFile = "gfx/interface/SocDevIcons/tno_lgbt_rights_lgbt_outlawed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_lgbt_rights_lgbt_outlawed.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_lgbt_rights_lgbt_allowed"
-		textureFile = "gfx/interface/SocDevIcons/tno_lgbt_rights_lgbt_allowed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_lgbt_rights_lgbt_allowed.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_lgbt_rights_equal_rights"
-		textureFile = "gfx/interface/SocDevIcons/tno_lgbt_rights_equal_rights.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_lgbt_rights_equal_rights.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_lgbt_rights_lgbt_normality"
-		textureFile = "gfx/interface/SocDevIcons/tno_lgbt_rights_lgbt_normality.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_lgbt_rights_lgbt_normality.dds"
 	}
 
 	## Military Racial Integration SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_racial_integration_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_racial_integration_none"
-		textureFile = "gfx/interface/SocDevIcons/tno_racial_integration_none.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_racial_integration_none.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_racial_integration_segregated_regiments"
-		textureFile = "gfx/interface/SocDevIcons/tno_racial_integration_segregated_regiments.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_racial_integration_segregated_regiments.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_racial_integration_integrated_military"
-		textureFile = "gfx/interface/SocDevIcons/tno_racial_integration_integrated_military.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_racial_integration_integrated_military.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_racial_integration_enforced_integration"
-		textureFile = "gfx/interface/SocDevIcons/tno_racial_integration_enforced_integration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_racial_integration_enforced_integration.dds"
 	}
 
 	## Military Women SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_women_not_applicable"
-		textureFile = "gfx/interface/SocDevIcons/tno_law_not_applicable.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_law_not_applicable.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_women_banned"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_banned.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_banned.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_women_military_assistance"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_military_assistance.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_military_assistance.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_women_noncombat_only"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_noncombat_only.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_noncombat_only.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_women_combat_roles"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_combat_roles.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_combat_roles.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_women_total_equality"
-		textureFile = "gfx/interface/SocDevIcons/tno_women_total_equality.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_women_total_equality.dds"
 	}
 
 	#################
@@ -1209,209 +1209,209 @@ spriteTypes = {
 	##Academic SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_mass_illiteracy"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_mass_illiteracy.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_mass_illiteracy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_basic_literacy"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_basic_literacy.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_basic_literacy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_primary_schooling"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_primary_schooling.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_primary_schooling.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_secondary_schooling"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_secondary_schooling.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_secondary_schooling.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_tertiary_schooling"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_tertiary_schooling.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_tertiary_schooling.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_academic_base_golden_age"
-		textureFile = "gfx/interface/SocDevIcons/tno_academic_base_golden_age.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_academic_base_golden_age.dds"
 	}
 
 	##Research Facilities SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_makeshift"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_makeshift.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_makeshift.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_basic"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_basic.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_basic.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_outdated"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_outdated.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_outdated.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_modern"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_modern.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_modern.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_advanced"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_advanced.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_advanced.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_research_facilities_cutting_edge"
-		textureFile = "gfx/interface/SocDevIcons/tno_research_facilities_cutting_edge.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_research_facilities_cutting_edge.dds"
 	}
 
 	##Farming SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_agriculture_subsistence"
-		textureFile = "gfx/interface/SocDevIcons/tno_agriculture_subsistence.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_agriculture_subsistence.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_agriculture_centralized"
-		textureFile = "gfx/interface/SocDevIcons/tno_agriculture_centralized.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_agriculture_centralized.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_agriculture_basic_mechanized"
-		textureFile = "gfx/interface/SocDevIcons/tno_agriculture_basic_mechanized.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_agriculture_basic_mechanized.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_agriculture_mass_mechanized"
-		textureFile = "gfx/interface/SocDevIcons/tno_agriculture_mass_mechanized.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_agriculture_mass_mechanized.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_agriculture_modern"
-		textureFile = "gfx/interface/SocDevIcons/tno_agriculture_modern.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_agriculture_modern.dds"
 	}
 
 	##Healthcare SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_makeshift"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_makeshift.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_makeshift.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_rudimentary"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_rudimentary.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_rudimentary.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_nascent"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_nascent.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_nascent.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_developed"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_developed.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_developed.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_advanced"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_advanced.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_advanced.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_healthcare_world_class"
-		textureFile = "gfx/interface/SocDevIcons/tno_healthcare_world_class.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_healthcare_world_class.dds"
 	}
 
 	##Industry SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_hand_tools"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_hand_tools.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_hand_tools.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_power_tools"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_power_tools.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_power_tools.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_manufacturing_lines"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_manufacturing_lines.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_manufacturing_lines.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_factory_complexes"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_factory_complexes.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_factory_complexes.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_modern"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_modern.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_modern.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_equipment_cutting_edge"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_equipment_cutting_edge.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_equipment_cutting_edge.dds"
 	}
 
 	##Industrial Base SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_industrial_expertise_pre_industrial"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_expertise_pre_industrial.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_expertise_pre_industrial.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_expertise_incompetent"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_expertise_incompetent.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_expertise_incompetent.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_expertise_nascent"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_expertise_nascent.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_expertise_nascent.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_expertise_experienced"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_expertise_experienced.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_expertise_experienced.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_industrial_expertise_innovative"
-		textureFile = "gfx/interface/SocDevIcons/tno_industrial_expertise_innovative.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_industrial_expertise_innovative.dds"
 	}
 
 	##Army Professionalism SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_untrained"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_untrained.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_untrained.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_reluctant_conscripts"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_reluctant_conscripts.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_reluctant_conscripts.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_disgruntled_veterans"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_disgruntled_veterans.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_disgruntled_veterans.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_cronyism"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_cronyism.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_cronyism.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_political_interference"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_political_interference.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_political_interference.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_professional"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_professional.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_professional.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_army_professionalism_spartan_discipline"
-		textureFile = "gfx/interface/SocDevIcons/tno_army_professionalism_spartan_discipline.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_army_professionalism_spartan_discipline.dds"
 	}
 
 	##Administrative Efficiency SocDev Icons
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_organized_chaos"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_organized_chaos.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_organized_chaos.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_nonexistent_state_apparatus"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_nonexistent_state_apparatus.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_nonexistent_state_apparatus.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_illegitimate_administration"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_illegitimate_administration.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_illegitimate_administration.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_deficient_administrative_systems"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_deficient_administrative_systems.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_deficient_administrative_systems.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_functional_administrative_systems"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_functional_administrative_systems.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_functional_administrative_systems.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_streamlined_bureaucracy"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_streamlined_bureaucracy.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_streamlined_bureaucracy.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_tno_admin_efficiency_well_oiled_machine"
-		textureFile = "gfx/interface/SocDevIcons/tno_admin_efficiency_well_oiled_machine.dds"
+		textureFile = "gfx/interface/SocDevIcons/towe_admin_efficiency_well_oiled_machine.dds"
 	}
 
 	frameAnimatedSpriteType = {
