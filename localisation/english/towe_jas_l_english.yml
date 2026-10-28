@@ -1,17 +1,8 @@
 ﻿l_english:
  # Focuses
- JAS_the_dying_mandate: "The Dying Mandate"
- JAS_the_dying_mandate_desc: "The old order of the Jasmine Empire trembles. The mandate that once bound the realm frays under the weight of court intrigue, provincial discontent, and a treasury stretched thin. The year is 1905. The choices made now will shape the fate of the nation for a generation."
- JAS_the_dying_mandate_tt: "The crisis of legitimacy begins. Economic systems initialized."
  
- JAS_echoes_of_past_glory: "Echoes of Past Glory"
- JAS_echoes_of_past_glory_desc: "Remember the golden age when the Jasmine banners flew unchallenged. That memory still has power—if we can wield it."
  
- JAS_the_court_is_divided: "The Court is Divided"
- JAS_the_court_is_divided_desc: "Factions circle like vultures. Reformers, hardliners, traditionalists, and radicals all claim to speak for the true Jasmine."
  
- JAS_whispers_from_the_provinces: "Whispers from the Provinces"
- JAS_whispers_from_the_provinces_desc: "Far from the capital, the land speaks in unrest. Harvests fail, taxes bite, and old loyalties fray."
  
  JAS_assess_the_treasury: "Assess the Treasury"
  JAS_assess_the_treasury_desc: "Before any path can be chosen, we must know the true state of the realm's wealth—and its debts."
@@ -20,16 +11,8 @@
  JAS_the_mandate_of_heaven_cracks: "The Mandate of Heaven Cracks"
  JAS_the_mandate_of_heaven_cracks_desc: "The crisis can no longer be denied. The old consensus is dead. What rises in its place will define the Jasmine Empire."
  
- JAS_path_of_reform: "The Path of Reform"
- JAS_path_of_reform_desc: "Only by modernizing institutions, expanding rights, and harnessing the energies of the people can the Empire survive the new century."
- JAS_reform_path_tt: "The Reformist path is chosen. Constitutional possibilities open."
  
- JAS_path_of_iron: "The Path of Iron"
- JAS_path_of_iron_desc: "Strength alone preserves the state. The court must be purged, the army elevated, and dissent crushed. Order before all."
- JAS_iron_path_tt: "The Authoritarian path is chosen. Military consolidation begins."
  
- JAS_path_of_retreat: "The Path of Retreat"
- JAS_path_of_retreat_desc: "The world outside is chaos. Better to restore the old rites, limit foreign contamination, and seek harmony within."
  JAS_retreat_path_tt: "The Conservative Restoration path is chosen."
  
  JAS_path_of_revolution: "The Path of Revolution"
@@ -45,14 +28,8 @@
  towe_agricultural_reform_tt: "Agricultural output improves through reform."
  
  # Events
- towe_jas.1.t: "The Crisis of 1905"
- towe_jas.1.d: "Reports flood the capital. Provincial governors delay tax shipments. Court factions openly defy the throne. The people murmur that the Mandate itself is failing. Something must be done—yet every choice risks civil strife."
- towe_jas.1.a: "Call for measured reform"
  towe_jas.1.b: "Assert authority by force"
  
- towe_jas.10.t: "The Reformist Cabinet"
- towe_jas.10.d: "A new ministry of moderate reformers takes shape. Their program is ambitious: land reform, education, a consultative assembly. The hardliners watch with open hostility."
- towe_jas.10.a: "Support the reformers fully"
  
  towe_jas.11.t: "The Constitutional Compact"
  towe_jas.11.d: "After months of negotiation, a new compact is signed. The throne retains significant powers, but a national assembly and provincial charters now limit arbitrary rule. It is an imperfect settlement—yet it holds."
