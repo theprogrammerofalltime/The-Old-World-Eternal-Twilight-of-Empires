@@ -101,10 +101,6 @@
  towe_weapons_bonus:0 "Armament Program"
 
  # Party names - Jasmine Empire
- JAS_democratic:0 "§R[BANNED]§!"
- JAS_fascism:0 "§R[BANNED]§!"
- JAS_communism:0 "§R[BANNED]§!"
- JAS_neutrality:0 "The Jasmine Throne"
 
  # Super Event text
  towe_balkan.1.t:0 "§RTHE BALKAN CRISIS§!"
