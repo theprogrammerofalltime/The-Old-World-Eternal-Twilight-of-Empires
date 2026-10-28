@@ -56,11 +56,11 @@ superpower_jap_usa_tension_modifier = {
 }
 
 ## This is in here because there's not really a better place to put it and I'm not creating a whole new file for just a single dynmod
-TNO_Espionage_dynamic_modifier = {
-	enable = { has_country_flag = TNO_Espionage_Mech_Active }
-	political_power_factor	= TNO_Espionage_political_power_factor
-	army_org_factor			= TNO_Espionage_army_org_factor
-	compliance_gain			= TNO_Espionage_compliance_gain
-	misc_costs_modifier		= TNO_Espionage_Investment
-	max_command_power		= TNO_Espionage_max_command_power
+TOWE_Espionage_dynamic_modifier = {
+	enable = { has_country_flag = TOWE_Espionage_Mech_Active }
+	political_power_factor	= TOWE_Espionage_political_power_factor
+	army_org_factor			= TOWE_Espionage_army_org_factor
+	compliance_gain			= TOWE_Espionage_compliance_gain
+	misc_costs_modifier		= TOWE_Espionage_Investment
+	max_command_power		= TOWE_Espionage_max_command_power
 }
