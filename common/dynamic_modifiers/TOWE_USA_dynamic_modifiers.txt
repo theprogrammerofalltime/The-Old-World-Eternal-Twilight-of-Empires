@@ -195,8 +195,8 @@ USA_LBJ_great_society_modifier = {
 
 USA_HAR_social_reforms_costs_modifier = {
 	icon = "GFX_idea_generic_expanded_safety_net"
-	tno_other_program_proportional_pop_cost = USA_HAR_social_programs_pop_costs
-	tno_admin_proportional_pop_cost = USA_HAR_admin_programs_pop_costs
+	towe_other_program_proportional_pop_cost = USA_HAR_social_programs_pop_costs
+	towe_admin_proportional_pop_cost = USA_HAR_admin_programs_pop_costs
 }
 
 USA_WAL_buisness_subsidies_dynmod = {
