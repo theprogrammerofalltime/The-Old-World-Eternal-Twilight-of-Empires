@@ -11,7 +11,7 @@ if not groups:
     raise SystemExit("No ideology definitions found")
 refs = Counter()
 locations = {}
-for folder in ["history/countries", "common/characters", "common/national_focus", "common/decisions", "common/on_actions", "events"]:
+for folder in ["history/countries", "history/units", "common/characters", "common/national_focus", "common/decisions", "common/on_actions", "events", "common/dynamic_modifiers", "common/ideas", "common/scripted_effects", "common/scripted_guis", "common/scripted_localisation", "common/technologies", "interface"]:
     for path in (ROOT / folder).rglob("*.txt"):
         text = re.sub(r"(?m)#.*$", "", path.read_text(encoding="utf-8-sig", errors="replace"))
         for key in groups:
