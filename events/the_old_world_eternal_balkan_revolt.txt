@@ -116,7 +116,7 @@ country_event = {
 	option = {
 		name = towe_balkan.3.a
 		if = {
-			limit = { exists = JSE NOT = { has_country_flag = towe_jse_balkan_war_declared } }
+			limit = { JSE = { exists = yes } NOT = { has_country_flag = towe_jse_balkan_war_declared } }
 			JSE = {
 				set_country_flag = towe_jse_balkan_war_declared
 				declare_war_on = { target = JAS type = annex_everything }
@@ -124,7 +124,7 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { exists = KSE is_in_faction = no }
+			limit = { KSE = { exists = yes } is_in_faction = no }
 			KSE = {
 				add_to_war = {
 					targeted_alliance = JSE
