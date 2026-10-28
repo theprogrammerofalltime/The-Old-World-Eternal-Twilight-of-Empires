@@ -128,6 +128,45 @@ def check_focus_tree_targets() -> None:
                     f"{path.relative_to(ROOT)}: focus tree '{target}' is not defined"
                 )
 
+
+def check_october_error_log_regressions() -> None:
+    """Guard known source-level faults from the 2026-10-28 19:48 game log."""
+    opinion = ROOT / "common/opinion_modifiers/towe_great_game_opinion_modifiers.txt"
+    if not opinion.is_file() or not re.search(
+        r"(?m)^\s*opinion_modifiers\s*=\s*\{", opinion.read_text(encoding="utf-8-sig")
+    ):
+        errors.append("Great Game opinion modifiers require an opinion_modifiers root block")
+
+    for path in [
+        ROOT / "common/decisions/towe_great_game_decisions.txt",
+        *(ROOT / "events").glob("*.txt"),
+    ]:
+        content = path.read_text(encoding="utf-8-sig", errors="replace")
+        if re.search(r"(?m)^\s*exists\s*=\s*[A-Z]{3}\b", content):
+            errors.append(f"{path.relative_to(ROOT)}: exists requires yes/no in a country scope")
+
+    generic = ROOT / "common/national_focus/the_old_world_eternal_generic_basic.txt"
+    if not generic.is_file() or "default = yes" in generic.read_text(encoding="utf-8-sig"):
+        errors.append("TOWE generic focus tree must not compete with vanilla default")
+
+    names = ROOT / "common/names/00_towe_scenario_names.txt"
+    tagfile = ROOT / "common/country_tags/zyy_the_old_world_eternal_countries.txt"
+    if not names.is_file():
+        errors.append("TOWE scenario country character name pools are missing")
+    else:
+        defined = set(re.findall(r"(?m)^([A-Z]{3})\s*=\s*\{", names.read_text(encoding="utf-8-sig")))
+        active_tags = set(re.findall(r'(?m)^([A-Z]{3})\s*=\s*"', tagfile.read_text(encoding="utf-8-sig")))
+        for tag in sorted(active_tags - defined):
+            errors.append(f"playable country {tag} has no random-character name pool")
+
+    indices = ROOT / "common/modifier_definitions/towe_economic_society_indices.txt"
+    if not indices.is_file():
+        errors.append("TOWE economy and society modifier definitions are missing")
+    else:
+        ids = re.findall(r"(?m)^([A-Za-z_][A-Za-z_0-9]*)\s*=\s*\{", indices.read_text(encoding="utf-8-sig"))
+        if len(ids) != len(set(ids)) or len(ids) < 164:
+            errors.append("TOWE economy modifier index definitions missing or duplicated")
+
 def main() -> int:
     for path in ROOT.rglob("*"):
         if not path.is_file():
@@ -148,6 +187,7 @@ def main() -> int:
     check_sprite_assets()
     check_native_gui_fallback()
     check_focus_tree_targets()
+    check_october_error_log_regressions()
     for warning in warnings:
         print("WARNING:", warning)
     for error in errors:
