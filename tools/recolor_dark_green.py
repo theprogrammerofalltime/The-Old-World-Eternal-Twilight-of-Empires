@@ -15,7 +15,7 @@ The transform is idempotent: running it twice gives the same result.
 Usage (from the mod root):
     python3 tools/recolor_dark_green.py            # recolour in place
     python3 tools/recolor_dark_green.py --dry-run  # just list what would change
-    python3 tools/recolor_dark_green.py --hue 150  # nudge the green hue
+    python3 tools/recolor_dark_green.py --hue 146  # nudge the green hue
 
 Needs: numpy
 """
@@ -40,7 +40,7 @@ INCLUDE_DIRS = [
     "gfx/interface/topbar",
 ]
 
-DEFAULT_HUE = 146.0     # degrees; emerald, leaning slightly towards teal
+DEFAULT_HUE = 135.0     # degrees; matches the green already used in the original UI art
 MAX_SAT = 0.60          # never go more saturated than this
 
 

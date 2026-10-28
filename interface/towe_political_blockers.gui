@@ -1,0 +1,28 @@
+guiTypes = {
+
+	# These three windows are mounted on the politics screen by
+	# common/scripted_guis/towe_political_scripted_gui.txt. They were referenced
+	# there but never defined in any .gui file, which made the scripted GUI
+	# fail to find its window. They are intentionally empty for now: the TNO
+	# law panel (TNO_SG_politics_laws) already covers the lower part of the
+	# screen. Put real blocker art/size/position in here once the layout is
+	# confirmed in-game.
+
+	containerWindowType = {
+		name = "towe_laws_blocker"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+	}
+
+	containerWindowType = {
+		name = "towe_research_blocker"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+	}
+
+	containerWindowType = {
+		name = "towe_military_blocker"
+		position = { x = 0 y = 0 }
+		size = { width = 1 height = 1 }
+	}
+}
