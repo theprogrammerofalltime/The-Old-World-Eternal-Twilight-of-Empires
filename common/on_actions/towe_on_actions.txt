@@ -1,14 +1,8 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			JAS = {
-				limit = { has_focus_tree = no }
-				load_focus_tree = jas_towe_expanded_focus
-			}
-			FUD = {
-				limit = { has_focus_tree = no }
-				load_focus_tree = fud_twilight_focus
-			}
+			JAS = { load_focus_tree = jas_towe_expanded_focus }
+			FUD = { load_focus_tree = fud_twilight_focus }
 		}
 	}
 }
