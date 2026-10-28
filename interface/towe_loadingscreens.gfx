@@ -1,15 +1,16 @@
 spriteTypes = {
-	# Placeholder entries - replace texturefile paths with real DDS loading screens later
+	# Placeholder entries - load_2.dds / load_3.dds do not exist yet, so they reuse load_1.dds
+	# until real art is added to gfx/loadingscreens/.
 	spriteType = {
 		name = "GFX_loadingscreen_towe_1"
 		texturefile = "gfx/loadingscreens/load_1.dds"
 	}
 	spriteType = {
 		name = "GFX_loadingscreen_towe_2"
-		texturefile = "gfx/loadingscreens/load_2.dds"
+		texturefile = "gfx/loadingscreens/load_1.dds"
 	}
 	spriteType = {
 		name = "GFX_loadingscreen_towe_3"
-		texturefile = "gfx/loadingscreens/load_3.dds"
+		texturefile = "gfx/loadingscreens/load_1.dds"
 	}
 }

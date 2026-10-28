@@ -1,20 +1,158 @@
+# Shows the ruling government's ideology group name on the politics and diplomacy screens.
+# Keys are the ideology group names from common/ideologies/00_ideologies.txt (localised in TNO_Ideologies_l_english.yml).
 defined_text = {
 	name = GetSubIdeologyLoc
 	text = {
-		trigger = { has_government = despotism }
-		localisation_key = TOWE_subideology_despotism
+		trigger = { has_government = national_socialism_1 }
+		localisation_key = national_socialism_1
 	}
 	text = {
-		trigger = { has_government = liberalism }
-		localisation_key = TOWE_subideology_liberalism
+		trigger = { has_government = national_socialism_2 }
+		localisation_key = national_socialism_2
+	}
+	text = {
+		trigger = { has_government = national_socialism }
+		localisation_key = national_socialism
+	}
+	text = {
+		trigger = { has_government = national_socialism_3 }
+		localisation_key = national_socialism_3
+	}
+	text = {
+		trigger = { has_government = national_socialism_4 }
+		localisation_key = national_socialism_4
+	}
+	text = {
+		trigger = { has_government = fascism_1 }
+		localisation_key = fascism_1
+	}
+	text = {
+		trigger = { has_government = fascism_2 }
+		localisation_key = fascism_2
 	}
 	text = {
 		trigger = { has_government = fascism }
-		localisation_key = TOWE_subideology_fascism
+		localisation_key = fascism
+	}
+	text = {
+		trigger = { has_government = fascism_3 }
+		localisation_key = fascism_3
+	}
+	text = {
+		trigger = { has_government = fascism_4 }
+		localisation_key = fascism_4
+	}
+	text = {
+		trigger = { has_government = ultranationalism_1 }
+		localisation_key = ultranationalism_1
+	}
+	text = {
+		trigger = { has_government = ultranationalism }
+		localisation_key = ultranationalism
+	}
+	text = {
+		trigger = { has_government = despotism_1 }
+		localisation_key = despotism_1
+	}
+	text = {
+		trigger = { has_government = despotism_2 }
+		localisation_key = despotism_2
+	}
+	text = {
+		trigger = { has_government = despotism }
+		localisation_key = despotism
+	}
+	text = {
+		trigger = { has_government = despotism_3 }
+		localisation_key = despotism_3
+	}
+	text = {
+		trigger = { has_government = despotism_4 }
+		localisation_key = despotism_4
+	}
+	text = {
+		trigger = { has_government = paternalism_1 }
+		localisation_key = paternalism_1
+	}
+	text = {
+		trigger = { has_government = paternalism }
+		localisation_key = paternalism
+	}
+	text = {
+		trigger = { has_government = paternalism_2 }
+		localisation_key = paternalism_2
+	}
+	text = {
+		trigger = { has_government = conservatism_1 }
+		localisation_key = conservatism_1
+	}
+	text = {
+		trigger = { has_government = conservatism }
+		localisation_key = conservatism
+	}
+	text = {
+		trigger = { has_government = conservatism_2 }
+		localisation_key = conservatism_2
+	}
+	text = {
+		trigger = { has_government = liberal_conservatism }
+		localisation_key = liberal_conservatism
+	}
+	text = {
+		trigger = { has_government = liberalism_1 }
+		localisation_key = liberalism_1
+	}
+	text = {
+		trigger = { has_government = liberalism }
+		localisation_key = liberalism
+	}
+	text = {
+		trigger = { has_government = liberalism_2 }
+		localisation_key = liberalism_2
+	}
+	text = {
+		trigger = { has_government = progressivism_1 }
+		localisation_key = progressivism_1
+	}
+	text = {
+		trigger = { has_government = progressivism }
+		localisation_key = progressivism
+	}
+	text = {
+		trigger = { has_government = progressivism_2 }
+		localisation_key = progressivism_2
+	}
+	text = {
+		trigger = { has_government = socialist_1 }
+		localisation_key = socialist_1
+	}
+	text = {
+		trigger = { has_government = socialist }
+		localisation_key = socialist
+	}
+	text = {
+		trigger = { has_government = socialist_2 }
+		localisation_key = socialist_2
+	}
+	text = {
+		trigger = { has_government = communist_1 }
+		localisation_key = communist_1
+	}
+	text = {
+		trigger = { has_government = communist_2 }
+		localisation_key = communist_2
+	}
+	text = {
+		trigger = { has_government = communist_3 }
+		localisation_key = communist_3
+	}
+	text = {
+		trigger = { has_government = communist_4 }
+		localisation_key = communist_4
 	}
 	text = {
 		trigger = { has_government = communist }
-		localisation_key = TOWE_subideology_communist
+		localisation_key = communist
 	}
 	text = {
 		trigger = { always = yes }

@@ -4,3 +4,4 @@
  TOWE_TNO_LAWS_LOCKED:0 "Laws can only be changed through the Throne and the Focus Tree"
  TOWE_TNO_ADVISORS_LOCKED:0 "Advisors are appointed through political focus paths"
  TOWE_TNO_STAFF_LOCKED:0 "Military staff is assigned via decisions and focuses"
+ TOWE_subideology_unknown:0 "Unknown"

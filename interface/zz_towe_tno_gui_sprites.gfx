@@ -1405,7 +1405,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_tno_refugees_give_me_your_poor"
-		textureFile = "gfx/interface/SocDevIcons/tno_refugees_give_me_your_poor.dds"
+		textureFile = "gfx/interface/SocDevIcons/tno_refugees_open.dds"
 	}
 
 	spriteType = {

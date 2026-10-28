@@ -139,8 +139,8 @@ guiTypes = {
 			scale = 0.70
 			alwaystransparent = no
 			pdx_tooltip = "CURRENT_FACTION_STATUS_SHORT_TT"
-			pdx_tooltip_delayed = "CURRENT_
-			fixedsize = yesFACTION_STATUS_TT"
+			pdx_tooltip_delayed = "CURRENT_FACTION_STATUS_TT"
+			fixedsize = yes
 			centerposition = yes
 		}
 

@@ -366,7 +366,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_16_outline"
 		path = "gfx/fonts/aldrich_16_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -633,7 +633,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_18_outline"
 		path = "gfx/fonts/aldrich_18_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -900,7 +900,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_20_outline"
 		path = "gfx/fonts/aldrich_20_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -1167,7 +1167,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_22_outline"
 		path = "gfx/fonts/aldrich_22_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -1434,7 +1434,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_24_outline"
 		path = "gfx/fonts/aldrich_24_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -1701,7 +1701,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_30_outline"
 		path = "gfx/fonts/aldrich_30_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
@@ -1968,7 +1968,7 @@ bitmapfonts = {
 	bitmapfont = {
 		name = "aldrich_36_outline"
 		path = "gfx/fonts/aldrich_36_outline"
-		color = "0xffb2c9c2"
+		color = "0xffb9d6bf"
 		textcolors = {
 			F = {
 				178
