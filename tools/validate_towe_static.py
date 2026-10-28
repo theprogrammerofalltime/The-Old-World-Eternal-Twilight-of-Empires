@@ -68,6 +68,39 @@ def check_idea_slots() -> None:
         if not re.search(r"(?m)^\s*" + re.escape(slot) + r"\s*=\s*\{", all_ideas):
             errors.append(f"idea category slot has no definition: {slot}")
 
+
+def check_native_gui_fallback() -> None:
+    """Guard against reactivating incompatible layered screen replacements."""
+    disabled = {
+        "interface/TOWE_SG_Politics.gui": "guiTypes",
+        "interface/TOWE_SG_Diplomacy.gui": "guiTypes",
+        "interface/countryintelledger.gui": "guiTypes",
+        "interface/towe_hide_vanilla_political.gui": "guiTypes",
+        "interface/towe_political_overrides.gui": "guiTypes",
+        "common/scripted_guis/zz_towe_politics.txt": "scripted_gui",
+        "common/scripted_guis/zz_towe_diplomacy.txt": "scripted_gui",
+        "common/scripted_guis/towe_political_scripted_gui.txt": "scripted_gui",
+    }
+    for name, root_key in disabled.items():
+        path = ROOT / name
+        if not path.is_file():
+            errors.append(f"missing GUI fallback file: {name}")
+            continue
+        contents = path.read_text(encoding="utf-8-sig")
+        contents = re.sub(r"(?m)#.*$", "", contents)
+        if re.sub(r"\\s+", "", contents) != f"{root_key}={{}}":
+            errors.append(f"conflicting GUI override has been re-enabled: {name}")
+
+    throne = ROOT / "common/scripted_guis/towe_custom_panel.txt"
+    if not throne.exists():
+        errors.append("missing protected Throne panel controller")
+        return
+    text = throne.read_text(encoding="utf-8-sig")
+    if text.count("has_country_flag = towe_throne_ui_enabled") < 2:
+        errors.append("Throne GUI button and panel must remain hidden by default")
+    if "towe_throne_toggle_click" not in text or "towe_throne_close_click" not in text:
+        errors.append("protected Throne panel toggle/close functionality is missing")
+
 def main() -> int:
     for path in ROOT.rglob("*"):
         if not path.is_file():
@@ -86,6 +119,7 @@ def main() -> int:
             check_braces(path)
     check_idea_slots()
     check_sprite_assets()
+    check_native_gui_fallback()
     for warning in warnings:
         print("WARNING:", warning)
     for error in errors:
