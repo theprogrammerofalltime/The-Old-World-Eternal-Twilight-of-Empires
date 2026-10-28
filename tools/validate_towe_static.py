@@ -74,7 +74,6 @@ def check_native_gui_fallback() -> None:
     disabled = {
         "interface/TOWE_SG_Politics.gui": "guiTypes",
         "interface/TOWE_SG_Diplomacy.gui": "guiTypes",
-        "interface/countryintelledger.gui": "guiTypes",
         "interface/towe_hide_vanilla_political.gui": "guiTypes",
         "interface/towe_political_overrides.gui": "guiTypes",
         "common/scripted_guis/zz_towe_politics.txt": "scripted_gui",
@@ -90,6 +89,11 @@ def check_native_gui_fallback() -> None:
         contents = re.sub(r"(?m)#.*$", "", contents)
         if re.sub(r"\s+", "", contents) != f"{root_key}={{}}":
             errors.append(f"conflicting GUI override has been re-enabled: {name}")
+
+    # These partial overrides must be absent so HOI4 loads its current native definitions.
+    for name in ("interface/countryintelledger.gui", "interface/countrydiplomacyview.gfx"):
+        if (ROOT / name).exists():
+            errors.append(f"obsolete engine GUI override has returned: {name}")
 
     throne = ROOT / "common/scripted_guis/towe_custom_panel.txt"
     if not throne.exists():
