@@ -76,7 +76,7 @@ country_event = {
 
 		# JSE (Jasmine European Buffer) breaks free and declares war
 		if = {
-			limit = { exists = JSE }
+			limit = { JSE = { exists = yes } }
 			JSE = {
 				if = {
 					limit = { is_subject = yes }
@@ -90,7 +90,7 @@ country_event = {
 				set_country_flag = towe_jse_rebelled
 				declare_war_on = {
 					target = JAS
-					type = independence_war
+					type = annex_everything
 				}
 				add_war_support = 0.20
 				add_stability = 0.05
@@ -100,7 +100,7 @@ country_event = {
 
 		# Serbs (KSE) join the war against Jasmine
 		if = {
-			limit = { exists = KSE }
+			limit = { KSE = { exists = yes } }
 			KSE = {
 				add_to_war = {
 					targeted_alliance = JSE
@@ -253,7 +253,7 @@ country_event = {
 
 		# Transfer Belgium-area states to Gaulle
 		if = {
-			limit = { exists = GAU }
+			limit = { GAU = { exists = yes } }
 			GAU = {
 				if = { limit = { 6 = { is_owned_by = BRC } } transfer_state = 6 }
 				if = { limit = { 34 = { is_owned_by = BRC } } transfer_state = 34 }
@@ -263,7 +263,7 @@ country_event = {
 
 		# Transfer Netherlands-area states to Prussia
 		if = {
-			limit = { exists = PRG }
+			limit = { PRG = { exists = yes } }
 			PRG = {
 				if = { limit = { 7 = { is_owned_by = BRC } } transfer_state = 7 }
 				if = { limit = { 35 = { is_owned_by = BRC } } transfer_state = 35 }

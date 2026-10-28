@@ -172,7 +172,7 @@
  FUD_the_southern_thrust_desc:0 "The Jasmine heartland is the prize. Everything else is secondary."
 
  FUD_the_final_accounting:0 "The Final Accounting"
- FUD_the_final_accounting_desc:0 "One of us will order the East. The other will be a footnote."
+ FUD_the_final_accounting_desc:0 "One of us will order the East. The other will be a footowete."
  FUD_final_accounting_tt:0 "The Great Fu commits to a final struggle for mastery of the East."
 
  FUD_legacy_of_the_steppe:0 "Legacy of the Steppe"
@@ -212,9 +212,6 @@
 #############################################
 # POLITICAL UI LOCK MESSAGES
 #############################################
- TOWE_LAWS_LOCKED:0 "Laws are directed by the Throne and the Focus Tree"
- TOWE_ADVISORS_LOCKED:0 "Advisors are appointed through political focus paths"
- TOWE_STAFF_LOCKED:0 "Military Staff is assigned via decisions and focuses"
 
  TOWE_POLITICAL_CONTROL_TITLE:0 "Authority of the Throne"
  TOWE_POLITICAL_CONTROL_DESC:0 "In the Jasmine Empire, laws, advisors, and military appointments are not freely chosen by ministers.\n\nThey are the product of political struggle, focus decisions, and the will of the centre.\n\nUse the National Focus tree and Decisions to shape the government. The old free selection of laws and staff has been abolished."

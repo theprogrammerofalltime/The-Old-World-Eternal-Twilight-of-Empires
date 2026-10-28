@@ -5,8 +5,8 @@ JAS_INF_01 = {
 	division_types = { "infantry" }
 	fallback_name = "%d. Jasmine Infantry Division"
 	ordered = {
-		1 = "%d. Jasmine Guard Division"
-		2 = "%d. Jasmine Infantry Division"
+		1 = { "%d. Jasmine Guard Division" }
+		2 = { "%d. Jasmine Infantry Division" }
 	}
 }
 
@@ -17,6 +17,6 @@ JAS_CAV_01 = {
 	division_types = { "cavalry" }
 	fallback_name = "%d. Jasmine Cavalry Division"
 	ordered = {
-		1 = "%d. Jasmine Cavalry Division"
+		1 = { "%d. Jasmine Cavalry Division" }
 	}
 }

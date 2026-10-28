@@ -1,0 +1,547 @@
+### TOWE Laws
+### Economic Laws
+### ALL LAW EFFECTS MOVED TO DYNAMIC MODIFIERS
+ideas = {
+	towe_trade_laws = {
+		law = yes
+		towe_trade_laws_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_laws_not_applicable"
+				towe_trade_laws_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_laws_free_trade = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_laws_free_trade"
+				towe_trade_laws_free_trade_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_laws_export_focus = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_laws_export_focus"
+				towe_trade_laws_export_focus_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_laws_limited_exports = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_laws_limited_exports"
+				towe_trade_laws_limited_exports_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_trade_laws_closed_economy = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_trade_laws_closed_economy"
+				towe_trade_laws_closed_economy_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				# min_export = 0
+			}
+			cancel_if_invalid = no
+		}
+	}
+	towe_income_taxation = {
+		law = yes
+		towe_income_taxation_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_not_applicable"
+				towe_income_taxation_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_income_taxation_no_income_taxation = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_no_income_taxation"
+				towe_income_taxation_no_income_taxation_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+			#cancel = { NOT = { econ_can_use_economy_system = yes } }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_income_taxation_low_income_weighted = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_low_income_weighted"
+				towe_income_taxation_low_income_weighted_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+			#cancel = { NOT = { econ_can_use_economy_system = yes } }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_income_taxation_flat_taxes = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_flat_taxes"
+				towe_income_taxation_flat_taxes_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+			#cancel = { NOT = { econ_can_use_economy_system = yes } }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_income_taxation_high_income_weighted = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_high_income_weighted"
+				towe_income_taxation_high_income_weighted_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+			#cancel = { NOT = { econ_can_use_economy_system = yes } }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_income_taxation_negative_taxation = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_income_taxation_negative_taxation"
+				towe_income_taxation_negative_taxation_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+			#cancel = { NOT = { econ_can_use_economy_system = yes } }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_minimum_wage = {
+		law = yes
+		towe_minimum_wage_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_not_applicable"
+				towe_minimum_wage_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_no_minimum_wage = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_no_minimum_wage"
+				towe_minimum_wage_no_minimum_wage_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_trinket_minimum_wage = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_trinket_minimum_wage"
+				towe_minimum_wage_trinket_minimum_wage_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_low_minimum_wage = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_low_minimum_wage"
+				towe_minimum_wage_low_minimum_wage_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+
+			}
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_acceptable_minimum = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_acceptable_minimum"
+				towe_minimum_wage_acceptable_minimum_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_good_minimum_wage = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_good_minimum_wage"
+				towe_minimum_wage_good_minimum_wage_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_annual_wage = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_annual_wage"
+				towe_minimum_wage_annual_wage_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minimum_wage_collective_bargaining = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minimum_wage_collective_bargaining"
+				towe_minimum_wage_collective_bargaining_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_max_workhours = {
+		law = yes
+		towe_max_workhours_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_not_applicable"
+				towe_max_workhours_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_unlimited_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_unlimited_work_day"
+				towe_max_workhours_unlimited_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_14_hour_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_14_hour_work_day"
+				towe_max_workhours_14_hour_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_12_hour_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_12_hour_work_day"
+				towe_max_workhours_12_hour_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+
+			}
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_10_hour_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_10_hour_work_day"
+				towe_max_workhours_10_hour_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_8_hour_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_8_hour_work_day"
+				towe_max_workhours_8_hour_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_max_workhours_6_hour_work_day = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_max_workhours_6_hour_work_day"
+				towe_max_workhours_6_hour_work_day_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_pensions = {
+		law = yes
+		towe_pensions_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_not_applicable"
+				towe_pensions_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pensions_no_pensions = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_no_pensions"
+				towe_pensions_no_pensions_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pensions_trinket_pensions = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_trinket_pensions"
+				towe_pensions_trinket_pensions_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pensions_low_pensions = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_low_pensions"
+				towe_pensions_low_pensions_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pensions_acceptable_pensions = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_acceptable_pensions"
+				towe_pensions_acceptable_pensions_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pensions_good_pensions = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pensions_good_pensions"
+				towe_pensions_good_pensions_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_unemployment = {
+		law = yes
+		towe_unemployment_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_not_applicable"
+				towe_unemployment_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_no_subsidies = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_no_subsidies"
+				towe_unemployment_no_subsidies_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_trinket_subsidies = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_trinket_subsidies"
+				towe_unemployment_trinket_subsidies_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_low_subsidies = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_low_subsidies"
+				towe_unemployment_low_subsidies_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_moderate_subsidies = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_moderate_subsidies"
+				towe_unemployment_moderate_subsidies_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_generous_subsidies = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_generous_subsidies"
+				towe_unemployment_generous_subsidies_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_unemployment_full_employment_policy = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_unemployment_full_employment_policy"
+				towe_unemployment_full_employment_policy_effect = yes
+				TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+}

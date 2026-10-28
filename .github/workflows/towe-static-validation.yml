@@ -1,0 +1,19 @@
+name: TOWE Static Validation
+on:
+  pull_request:
+  push:
+    branches:
+      - repair/hoi4-log-errors-2026-10-28
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate TOWE source
+        run: |
+          python3 tools/validate_towe_static.py
+          python3 tools/validate_towe_references.py
+          python3 tools/audit_ideology_usage.py
+          python3 tools/audit_towe_localisation.py

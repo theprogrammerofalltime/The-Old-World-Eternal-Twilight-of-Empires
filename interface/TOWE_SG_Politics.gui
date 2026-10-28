@@ -1,0 +1,5 @@
+# The imported politics layout conflicts with current HOI4 politics widgets.
+# Disabled until an isolated TOWE layout has been built and verified.
+# See git history for the complete old definition.
+guiTypes = {
+}

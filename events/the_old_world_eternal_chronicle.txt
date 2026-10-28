@@ -96,8 +96,8 @@ country_event = {
   name = towe_chronicle.11.a
   add_political_power = 25
   add_war_support = 0.03
-  if = { limit = { exists = FUD } FUD = { country_event = { id = towe_asia.1 days = 1 } } }
-  if = { limit = { exists = MGL } MGL = { country_event = { id = towe_asia.1 days = 2 } } }
+  if = { limit = { FUD = { exists = yes } } FUD = { country_event = { id = towe_asia.1 days = 1 } } }
+  if = { limit = { MGL = { exists = yes } } MGL = { country_event = { id = towe_asia.1 days = 2 } } }
  }
 }
 

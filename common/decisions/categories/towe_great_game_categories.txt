@@ -1,0 +1,8 @@
+# TOWE-native strategic rivalry interface. The Hilāl Bloc and Iron Pact
+# compete diplomatically; their struggle begins in 1905.
+towe_great_game = {
+    icon = generic_diplomatic
+    priority = 80
+    allowed = { OR = { tag = JAS tag = PRG } }
+    visible = { OR = { tag = JAS tag = PRG } }
+}

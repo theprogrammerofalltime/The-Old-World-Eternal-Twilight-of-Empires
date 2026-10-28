@@ -1,0 +1,987 @@
+# TOWE registered economic/social indices.
+# These are script-visible numeric indices, not automatic vanilla effects.
+# The TOWE economy tick consumes relevant indices explicitly; others remain available
+ # for future law and event simulation without engine parse errors.
+academic_base_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+admin_costs_misc = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+admin_efficiency_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+admin_program_cost_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+agriculture_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+airforce_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+annual_gdp_growth_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+Antarctica_daily_supply = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+Antarctica_weekly_legitimacy = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+Antarctica_weekly_militarization = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+army_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+army_professionalism_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+BRA_monthly_udn_loyalty_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+BRG_food_consumption_base = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+BRG_food_income_base = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+BRI_Midnight_AcclimationGain = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+BRI_Midnight_ExhaustionGain = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+business_tax_rate_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+CAN_ruling_party_pop_modfifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+civilian_annual_cost = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+civilian_expenditures_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+conscription_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+consumer_goods_production_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+consumer_goods_use_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+country_resource_cost_consumer_goods = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+country_resource_cost_power = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+country_resource_cost_uranium = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+country_resource_power = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+debt_effect_on_GDP_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+debt_to_GDP_ceiling_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+deficit_pp_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+draft_exemptions_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+education_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+free_production_units_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+gdp_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GDP_to_sphere_leader_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+gender_rights_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_chinese_support_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_chinese_to_zhujin_conversion = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_chinese_to_zhujin_inverse_conversion = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Fujitsu_Product_Profitability = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Hitachi_Product_Profitability = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_japanese_empire_opinion_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_kenpeitai_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_kenpeitai_support_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Matsushita_Product_Profitability = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_monthly_chinese_government_support = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_monthly_corruption = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_monthly_government_support = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_monthly_japanese_government_support = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_monthly_zhujin_government_support = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_police_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_police_support_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_product_cycle_initial_interest_max_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_product_cycle_initial_interest_min_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_product_cycle_initial_quality_max_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_product_cycle_initial_quality_min_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_product_profitability_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_republic_of_china_opinion_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rGDP_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Riots_Despair_Tick_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Riots_Japanese_Intervention_Tick_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Riots_Radicalism_Tick_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Riots_Strength_Tick_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_audio_video_focus_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_computational_power_focus_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_data_storage_focus_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_household_electronics_focus_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_rnd_power_efficiency_focus_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_Sony_Product_Profitability = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_triads_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_yakuza_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+GNG_zhujin_support_cap = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+health_care_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+healthcare_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_consumption_base = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_consumption_core_states = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_consumption_occupied_states = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_consumption_population = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_production_base = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_production_core_states = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+IBR_wars_hc_production_occupied_states = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+immigration_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+income_tax_rate_modifier_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+income_taxation_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+industrial_equipment_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+industrial_expertise_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+inflation_rate_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+interest_rate_factor_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+interest_rate_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+max_workhours_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_agronomic_productivity_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_base_stimulation_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_rural_quality_of_life_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_stimulation_decay_monthly_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_stimulation_monthly_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_global_urban_quality_of_life_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_econ_pacific_base_stimulation_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_JAP_business_opinion_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_PRI_intellectuals_power_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_PRI_peasants_loyalty_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_PRI_peasants_power_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_PRI_workers_loyalty_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_PRI_workers_power_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_SB_Mex_influence_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+MEX_USA_business_opinion_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_costs_misc = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_expenditures_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_industry_cost_equipment_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_industry_cost_expertise_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_R_D_expenditures_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+military_supervision_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+minimum_wage_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+misc_costs_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+misc_costs_percent_of_GDP_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+misc_income_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+misc_income_percent_of_GDP_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+monthly_credit_rating_progress = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+monthly_unemployment_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+naval_industry_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+offices_coverage_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+offices_PE_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+penal_system_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+pensions_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+personnel_cost_factor_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+personnel_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+political_parties_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+poverty_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+poverty_taxation_rate_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+press_rights_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+production_speed_schools_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+production_speed_thermoelectric_plant_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+production_units_to_GDP_ratio_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+production_units_use = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+public_meetings_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+regulations_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+religious_rights_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+research_cost_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+research_facilities_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+sales_tax_rate_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+schools_coverage_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+schools_PE_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+security_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+slavery_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+socdev_points = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+social_costs_misc = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+social_program_cost_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+state_GDP_contribution_to_total_state_GDP_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+state_GDP_growth_factor_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+state_GDP_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+state_population_growth_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+state_resource_power = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+taxable_population_factor = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+taxable_population_modifier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+towe_admin_proportional_pop_cost = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+towe_other_program_proportional_pop_cost = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+trade_laws_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+trade_unions_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+training_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+trust_gain_multiplier = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+unemployment_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+vote_franchise_policy_monthly_rate = {
+    color_type = neutral
+    value_type = number
+    category = all
+}
+
+weekly_supply_consumption = {
+    color_type = neutral
+    value_type = number
+    category = all
+}

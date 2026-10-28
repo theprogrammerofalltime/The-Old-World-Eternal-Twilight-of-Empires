@@ -1,0 +1,23 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = despotism }
+		localization_key = TOWE_subideology_despotism
+	}
+	text = {
+		trigger = { has_government = liberalism }
+		localization_key = TOWE_subideology_liberalism
+	}
+	text = {
+		trigger = { has_government = fascism }
+		localization_key = TOWE_subideology_fascism
+	}
+	text = {
+		trigger = { has_government = communist }
+		localization_key = TOWE_subideology_communist
+	}
+	text = {
+		trigger = { always = yes }
+		localization_key = TOWE_subideology_unknown
+	}
+}

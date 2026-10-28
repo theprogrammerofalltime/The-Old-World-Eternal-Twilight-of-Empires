@@ -9,8 +9,8 @@ country_event = {
   name = towe_asia.1.a
   if = { limit = { NOT = { has_country_flag = towe_asian_war_support_sent } }
    set_country_flag = towe_asian_war_support_sent
-   if = { limit = { exists = FUD } FUD = { add_to_faction = JAS } }
-   if = { limit = { exists = MGL } MGL = { add_to_faction = JAS } }
+   if = { limit = { FUD = { exists = yes } } FUD = { add_to_faction = JAS } }
+   if = { limit = { MGL = { exists = yes } } MGL = { add_to_faction = JAS } }
   }
  }
 }

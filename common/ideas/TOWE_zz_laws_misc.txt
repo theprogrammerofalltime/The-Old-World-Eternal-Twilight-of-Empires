@@ -1,0 +1,649 @@
+### TOWE Laws
+### Misc Laws
+ideas = {
+	towe_pollution = {
+		law = yes
+		towe_pollution_not_applicable = {
+			#default = yes
+			available = { always = no }
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_not_applicable"
+				towe_pollution_no_controls_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				#custom_modifier_tooltip = towe_pollution_no_controls_tt
+			}
+			cancel_if_invalid = no
+		}
+		towe_pollution_no_controls = {
+			#default = yes
+			available = { always = no }
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_no_controls"
+				towe_pollution_no_controls_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				#custom_modifier_tooltip = towe_pollution_no_controls_tt
+			}
+			cancel_if_invalid = no
+		}
+		towe_pollution_few_regulations = {
+			available = { always = no }
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_few_regulations"
+				towe_pollution_few_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				#custom_modifier_tooltip = towe_pollution_few_regulations_tt
+			}
+			cancel_if_invalid = no
+		}
+		towe_pollution_some_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_some_regulations"
+				towe_pollution_some_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_pollution_good_regulations = {
+			available = { always = no }
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_good_regulations"
+				towe_pollution_good_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				#custom_modifier_tooltip = towe_pollution_good_regulations_tt
+			}
+			cancel_if_invalid = no
+		}
+		towe_pollution_strict_regulations = {
+			available = { always = no }
+
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_pollution_strict_regulations"
+				towe_pollution_strict_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+				#TOWE_set_thermoelectric_plant_power = yes
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				#custom_modifier_tooltip = towe_pollution_strict_regulations_tt
+			}
+			cancel_if_invalid = no
+		}
+	}
+	towe_safety = {
+		law = yes
+		towe_safety_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_not_applicable"
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_safety_no_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_no_regulations"
+				towe_safety_no_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_safety_minimal_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_minimal_regulations"
+				towe_safety_minimal_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_safety_limited_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_limited_regulations"
+				towe_safety_limited_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+
+			}
+			cancel_if_invalid = no
+		}
+		towe_safety_acceptable_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_acceptable_regulations"
+				towe_safety_acceptable_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_safety_excellent_regulations = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_safety_excellent_regulations"
+				towe_safety_excellent_regulations_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_refugees = {
+		law = yes
+		towe_refugees_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_refugees_not_applicable"
+				towe_refugees_not_applicable_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_refugees_banned = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_refugees_banned"
+				towe_refugees_banned_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_refugees_skilled = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_refugees_skilled"
+				towe_refugees_skilled_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_refugees_vetted_entry = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_refugees_vetted_entry"
+				towe_refugees_vetted_entry_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				}
+			cancel_if_invalid = no
+		}
+		towe_refugees_open = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_refugees_open"
+				towe_refugees_open_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {
+				}
+			cancel_if_invalid = no
+		}
+
+	}
+	towe_child_labor = {
+		law = yes
+		towe_child_labor_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_child_labor_not_applicable"
+				towe_child_labor_legal_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_child_labor_legal = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_child_labor_legal"
+				towe_child_labor_legal_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_child_labor_restricted = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_child_labor_restricted"
+				towe_child_labor_restricted_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_child_labor_illegal = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_child_labor_illegal"
+				towe_child_labor_illegal_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {}
+			cancel_if_invalid = no
+		}
+	}
+	towe_minorities = {
+		law = yes
+		towe_minorities_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_not_applicable"
+				towe_minorities_oppression_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minorities_oppression = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_oppression"
+				towe_minorities_oppression_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minorities_segregation = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_segregation"
+				towe_minorities_segregation_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minorities_institutional_discrimination = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_institutional_discrimination"
+				towe_minorities_institutional_discrimination_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minorities_equal_rights = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_equal_rights"
+				towe_minorities_equal_rights_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_minorities_affirmative_action = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_minorities_affirmative_action"
+				towe_minorities_affirmative_action_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_lgbt_rights = {
+		law = yes
+		towe_lgbt_rights_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_lgbt_rights_not_applicable"
+				towe_lgbt_rights_lgbt_outlawed_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_lgbt_rights_lgbt_outlawed = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_lgbt_rights_lgbt_outlawed"
+				towe_lgbt_rights_lgbt_outlawed_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_lgbt_rights_partially_deciminalized = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_lgbt_rights_partially_deciminalized"
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_lgbt_rights_lgbt_allowed = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_lgbt_rights_lgbt_allowed"
+				towe_lgbt_rights_lgbt_allowed_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_lgbt_rights_equal_rights = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_lgbt_rights_equal_rights"
+				towe_lgbt_rights_equal_rights_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = {
+				NOT = {
+					has_idea = towe_gender_rights_traditional_roles
+				}
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_racial_integration = {
+		law = yes
+		towe_racial_integration_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_racial_integration_not_applicable"
+				towe_racial_integration_not_applicable_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = { }
+			cancel_if_invalid = no
+		}
+		towe_racial_integration_none = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_racial_integration_none"
+				towe_racial_integration_none_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_racial_integration_segregated_regiments = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_racial_integration_segregated_regiments"
+				towe_racial_integration_segregated_regiments_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_racial_integration_integrated_military = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_racial_integration_integrated_military"
+				towe_racial_integration_integrated_military_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_racial_integration_enforced_integration = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_racial_integration_enforced_integration"
+				towe_racial_integration_enforced_integration_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { always = no }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+	towe_women = {
+		law = yes
+		towe_women_not_applicable = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_not_applicable"
+				towe_women_not_applicable_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = { has_idea = towe_conscription_disarmed_nation }
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_women_banned = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_banned"
+				towe_women_banned_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			#default = yes
+			available = {
+				NOT = {
+					has_idea = towe_gender_rights_gender_equality
+					has_idea = towe_gender_rights_promoted_equality
+				}
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_women_military_assistance = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_military_assistance"
+				towe_women_military_assistance_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = {
+				OR = {
+					has_idea = towe_gender_rights_women_in_the_workplace
+					has_idea = towe_gender_rights_gender_equality
+					has_idea = towe_gender_rights_promoted_equality
+				}
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_women_noncombat_only = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_noncombat_only"
+				towe_women_noncombat_only_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = {
+				OR = {
+					has_idea = towe_gender_rights_women_in_the_workplace
+					has_idea = towe_gender_rights_gender_equality
+					has_idea = towe_gender_rights_promoted_equality
+				}
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_women_combat_roles = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_combat_roles"
+				towe_women_combat_roles_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = {
+				OR = {
+					has_idea = towe_gender_rights_gender_equality
+					has_idea = towe_gender_rights_promoted_equality
+				}
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+		towe_women_total_equality = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea towe_women_total_equality"
+				towe_women_total_equality_effect = yes
+				#TOWE_update_policy_effectiveness = yes
+			}
+			available = {
+				has_idea = towe_gender_rights_promoted_equality
+			}
+
+			removal_cost = -1
+			ledger = civilian
+			modifier = {  }
+			cancel_if_invalid = no
+		}
+	}
+}

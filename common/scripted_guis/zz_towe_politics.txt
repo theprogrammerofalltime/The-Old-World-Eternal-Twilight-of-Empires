@@ -1,0 +1,4 @@
+# The legacy politics windows have been disabled pending a compatible redesign.
+# Keep law and ideology mechanics loaded independently of the visual overlay.
+scripted_gui = {
+}

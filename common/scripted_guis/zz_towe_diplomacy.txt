@@ -1,0 +1,3 @@
+# The legacy right-click diplomacy overlay was stacking on the native view.
+scripted_gui = {
+}

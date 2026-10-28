@@ -1,0 +1,301 @@
+# The Great Game: TOWE's 1905 strategic standoff.
+# Strategic tension is kept on JAS to provide one shared value for both blocs.
+towe_great_game = {
+    towe_jas_trade_mission = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = { has_war = no }
+        cost = 45
+        days_re_enable = 120
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = 5 }
+            add_to_variable = { var = towe_great_game_tension value = 3 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            add_stability = 0.01
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_prg_trade_mission = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = { has_war = no }
+        cost = 45
+        days_re_enable = 120
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = 5 }
+            JAS = {
+                add_to_variable = { var = towe_great_game_tension value = 3 }
+                clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            }
+            add_stability = 0.01
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_jas_military_mission = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = { has_war = no }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = 8 }
+            add_to_variable = { var = towe_great_game_tension value = 10 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            add_war_support = 0.03
+            add_stability = -0.01
+        }
+        ai_will_do = { factor = 0.5 }
+    }
+
+    towe_prg_military_mission = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = { has_war = no }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = 8 }
+            JAS = {
+                add_to_variable = { var = towe_great_game_tension value = 10 }
+                clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            }
+            add_war_support = 0.03
+            add_stability = -0.01
+        }
+        ai_will_do = { factor = 0.5 }
+    }
+
+    towe_jas_backchannel = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = { check_variable = { towe_great_game_tension > 5 } }
+        cost = 35
+        days_re_enable = 90
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_tension value = -10 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            add_stability = 0.02
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_prg_backchannel = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = { JAS = { check_variable = { towe_great_game_tension > 5 } } }
+        cost = 35
+        days_re_enable = 90
+        complete_effect = {
+            JAS = {
+                add_to_variable = { var = towe_great_game_tension value = -10 }
+                clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            }
+            add_stability = 0.02
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_jas_consolidate_sphere = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = { check_variable = { towe_great_game_influence > 29 } }
+        cost = 40
+        days_re_enable = 365
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = -20 }
+            add_stability = 0.04
+            add_political_power = 10
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_prg_consolidate_sphere = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = { check_variable = { towe_great_game_influence > 29 } }
+        cost = 40
+        days_re_enable = 365
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_influence value = -20 }
+            add_stability = 0.04
+            add_political_power = 10
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_emergency_conference_jas = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = {
+            check_variable = { towe_great_game_tension > 59 }
+            has_war = no
+        }
+        cost = 70
+        days_re_enable = 365
+        complete_effect = {
+            add_to_variable = { var = towe_great_game_tension value = -25 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            add_stability = 0.03
+        }
+        ai_will_do = { factor = 2 }
+    }
+
+    towe_emergency_conference_prg = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = {
+            JAS = { check_variable = { towe_great_game_tension > 59 } }
+            has_war = no
+        }
+        cost = 70
+        days_re_enable = 365
+        complete_effect = {
+            JAS = {
+                add_to_variable = { var = towe_great_game_tension value = -25 }
+                clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            }
+            add_stability = 0.03
+        }
+        ai_will_do = { factor = 2 }
+    }
+
+    towe_jas_outreach_plc = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = {
+            PLC = { exists = yes }
+            PLC = { is_subject = no }
+            has_war = no
+        }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_opinion_modifier = { target = PLC modifier = towe_great_game_outreach }
+            add_to_variable = { var = towe_great_game_influence value = 6 }
+            add_to_variable = { var = towe_great_game_tension value = 5 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_prg_outreach_plc = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = {
+            PLC = { exists = yes }
+            PLC = { is_subject = no }
+            has_war = no
+        }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_opinion_modifier = { target = PLC modifier = towe_great_game_outreach }
+            add_to_variable = { var = towe_great_game_influence value = 6 }
+            
+            JAS = { add_to_variable = { var = towe_great_game_tension value = 5 } clamp_variable = { var = towe_great_game_tension min = 0 max = 100 } }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_jas_outreach_azt = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = {
+            AZT = { exists = yes }
+            AZT = { is_subject = no }
+            has_war = no
+        }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_opinion_modifier = { target = AZT modifier = towe_great_game_outreach }
+            add_to_variable = { var = towe_great_game_influence value = 6 }
+            add_to_variable = { var = towe_great_game_tension value = 5 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_prg_outreach_azt = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = {
+            AZT = { exists = yes }
+            AZT = { is_subject = no }
+            has_war = no
+        }
+        cost = 60
+        days_re_enable = 180
+        complete_effect = {
+            add_opinion_modifier = { target = AZT modifier = towe_great_game_outreach }
+            add_to_variable = { var = towe_great_game_influence value = 6 }
+            
+            JAS = { add_to_variable = { var = towe_great_game_tension value = 5 } clamp_variable = { var = towe_great_game_tension min = 0 max = 100 } }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    towe_jas_support_client = {
+        icon = generic_form_nation
+        allowed = { original_tag = JAS }
+        visible = { tag = JAS }
+        available = {
+            FUD = { exists = yes }
+            FUD = { has_war = yes }
+        }
+        cost = 70
+        days_re_enable = 180
+        complete_effect = {
+            FUD = {
+                add_political_power = 25
+                add_war_support = 0.03
+            }
+            add_to_variable = { var = towe_great_game_influence value = 3 }
+            add_to_variable = { var = towe_great_game_tension value = 12 }
+            clamp_variable = { var = towe_great_game_tension min = 0 max = 100 }
+            add_stability = -0.01
+        }
+        ai_will_do = { factor = 0.5 }
+    }
+
+    towe_prg_support_client = {
+        icon = generic_form_nation
+        allowed = { original_tag = PRG }
+        visible = { tag = PRG }
+        available = {
+            GAU = { exists = yes }
+            GAU = { has_war = yes }
+        }
+        cost = 70
+        days_re_enable = 180
+        complete_effect = {
+            GAU = {
+                add_political_power = 25
+                add_war_support = 0.03
+            }
+            add_to_variable = { var = towe_great_game_influence value = 3 }
+            JAS = { add_to_variable = { var = towe_great_game_tension value = 12 } clamp_variable = { var = towe_great_game_tension min = 0 max = 100 } }
+            add_stability = -0.01
+        }
+        ai_will_do = { factor = 0.5 }
+    }
+
+}

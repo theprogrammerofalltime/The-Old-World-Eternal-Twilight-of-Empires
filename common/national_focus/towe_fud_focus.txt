@@ -218,7 +218,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FUD_strike_south
-		icon = GFX_goal_generic_occupy_states_ongoing
+		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = FUD_war_economy }
 		x = 10
 		y = 5

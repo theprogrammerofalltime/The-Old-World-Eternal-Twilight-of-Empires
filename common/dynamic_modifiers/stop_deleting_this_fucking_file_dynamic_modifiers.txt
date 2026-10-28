@@ -49,8 +49,8 @@ efficiency_cap_modifier = {
 	production_factory_max_efficiency_factor = var_efficiency_cap_adjustment
 }
 
-TNO_vol_troops_modifier = {
+TOWE_vol_troops_modifier = {
 	enable = { always = yes }
-	send_volunteer_size = TNO_test_additional_volunteers
+	send_volunteer_size = TOWE_test_additional_volunteers
 }
 

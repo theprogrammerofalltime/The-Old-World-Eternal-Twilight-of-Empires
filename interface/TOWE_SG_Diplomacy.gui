@@ -1,0 +1,4 @@
+# The imported diplomacy layout doubles the portrait/faction sections.
+# Disabled: use the game-provided country diplomacy view instead.
+guiTypes = {
+}

@@ -6,7 +6,7 @@ focus_tree = {
 		modifier = { factor = 0 tag = FUD }
 		modifier = { factor = 0 tag = MGL }
 	}
-	default = yes
+	default = no
 	continuous_focus_position = { x = 20 y = 1000 }
 
 	focus = {
