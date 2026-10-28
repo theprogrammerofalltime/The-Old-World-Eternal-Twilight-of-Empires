@@ -9,11 +9,8 @@ scripted_gui = {
 		visible = {
 			always = yes
 		}
-		properties = {
-			ideology = {
-				text = "[GetSubIdeologyLoc]"
-			}
-		}
+		# The ideology textbox provides its localisation in TNO_SG_Diplomacy.gui.
+		# A scripted-GUI properties/text block is not valid here.
 	}
 
 	TNO_SG_Diplomacy_self = {
