@@ -1,4 +1,4 @@
-﻿# Starting diplomatic order: the two permanent strategic blocs.
+# Starting diplomatic order: the two permanent strategic blocs.
 # Named powers and their subjects are aligned at game start.
 on_actions = {
     on_startup = {
