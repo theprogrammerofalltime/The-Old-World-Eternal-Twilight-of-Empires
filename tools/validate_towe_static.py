@@ -101,6 +101,29 @@ def check_native_gui_fallback() -> None:
     if "towe_throne_toggle_click" not in text or "towe_throne_close_click" not in text:
         errors.append("protected Throne panel toggle/close functionality is missing")
 
+
+def check_focus_tree_targets() -> None:
+    """Reject switches to focus trees that are not part of this mod."""
+    definitions: set[str] = set()
+    for path in (ROOT / "common/national_focus").glob("*.txt"):
+        contents = path.read_text(encoding="utf-8-sig")
+        definitions.update(re.findall(
+            r"focus_tree\\s*=\\s*\\{\\s*id\\s*=\\s*(\\w+)", contents
+        ))
+    to_check = [
+        *(ROOT / "common/on_actions").glob("*.txt"),
+        *(ROOT / "common/decisions").rglob("*.txt"),
+        *(ROOT / "events").glob("*.txt"),
+        *(ROOT / "history/countries").glob("*.txt"),
+    ]
+    for path in to_check:
+        text = path.read_text(encoding="utf-8-sig", errors="replace")
+        for target in re.findall(r"(?m)^\\s*load_focus_tree\\s*=\\s*(\\w+)", text):
+            if target not in definitions:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: focus tree '{target}' is not defined"
+                )
+
 def main() -> int:
     for path in ROOT.rglob("*"):
         if not path.is_file():
@@ -120,6 +143,7 @@ def main() -> int:
     check_idea_slots()
     check_sprite_assets()
     check_native_gui_fallback()
+    check_focus_tree_targets()
     for warning in warnings:
         print("WARNING:", warning)
     for error in errors:
