@@ -1101,10 +1101,6 @@ spriteTypes = {
 		name = "GFX_idea_tno_refugees_open"
 		textureFile = "gfx/interface/SocDevIcons/towe_refugees_open.dds"
 	}
-	spriteType = {
-		name = "GFX_idea_tno_refugees_give_me_your_poor"
-		textureFile = "gfx/interface/SocDevIcons/towe_refugees_give_me_your_poor.dds"
-	}
 
 	## Minorities SocDev Icons
 	spriteType = {
