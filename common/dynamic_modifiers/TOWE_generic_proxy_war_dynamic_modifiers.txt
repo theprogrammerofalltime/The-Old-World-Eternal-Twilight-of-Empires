@@ -54,7 +54,7 @@ GER_sabotage_effort_dynmod = {
 	command_power_gain = GER_sab_eff
 }
 
-TNO_plane_bombing = {
+TOWE_plane_bombing = {
 	enable = { always = yes }
 	icon = "GFX_idea_generic_intensified_bombing"
 	planning_speed = plane_bombing_planing_speed
