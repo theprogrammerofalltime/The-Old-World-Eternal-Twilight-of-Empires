@@ -1,14 +1,14 @@
-### TNO Laws
+### TOWE Laws
 ### Military Laws
 ### ALL LAW EFFECTS MOVED TO DYNAMIC MODIFIERS
 ideas = {
-	tno_conscription = {
+	towe_conscription = {
 		law = yes
-		tno_conscription_not_applicable = {
+		towe_conscription_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_not_applicable"
-				tno_conscription_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_not_applicable"
+				towe_conscription_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -17,11 +17,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_scraping_the_barrel = {
+		towe_conscription_scraping_the_barrel = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_scraping_the_barrel"
-				tno_conscription_scraping_the_barrel_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_scraping_the_barrel"
+				towe_conscription_scraping_the_barrel_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -30,11 +30,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_all_adults_serve = {
+		towe_conscription_all_adults_serve = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_all_adults_serve"
-				tno_conscription_all_adults_serve_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_all_adults_serve"
+				towe_conscription_all_adults_serve_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -43,11 +43,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_service_by_requirement = {
+		towe_conscription_service_by_requirement = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_service_by_requirement"
-				tno_conscription_service_by_requirement_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_service_by_requirement"
+				towe_conscription_service_by_requirement_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -56,11 +56,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_extensive_conscription = {
+		towe_conscription_extensive_conscription = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_extensive_conscription"
-				tno_conscription_extensive_conscription_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_extensive_conscription"
+				towe_conscription_extensive_conscription_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -69,11 +69,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_broadened_conscription = {
+		towe_conscription_broadened_conscription = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_broadened_conscription"
-				tno_conscription_broadened_conscription_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_broadened_conscription"
+				towe_conscription_broadened_conscription_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -82,11 +82,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_limited_conscription = {
+		towe_conscription_limited_conscription = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_limited_conscription"
-				tno_conscription_limited_conscription_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_limited_conscription"
+				towe_conscription_limited_conscription_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -96,11 +96,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_volunteer_only = {
+		towe_conscription_volunteer_only = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_volunteer_only"
-				tno_conscription_volunteer_only_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_volunteer_only"
+				towe_conscription_volunteer_only_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -109,11 +109,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_conscription_disarmed_nation = {
+		towe_conscription_disarmed_nation = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_conscription_disarmed_nation"
-				tno_conscription_disarmed_nation_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_conscription_disarmed_nation"
+				towe_conscription_disarmed_nation_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -123,13 +123,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_military_supervision = {
+	towe_military_supervision = {
 		law = yes
-		tno_military_supervision_not_applicable = {
+		towe_military_supervision_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_not_applicable"
-				tno_military_supervision_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_not_applicable"
+				towe_military_supervision_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -138,11 +138,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_military_supervision_kill_em_all = {
+		towe_military_supervision_kill_em_all = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_kill_em_all"
-				tno_military_supervision_kill_em_all_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_kill_em_all"
+				towe_military_supervision_kill_em_all_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -151,11 +151,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_military_supervision_no_supervision = {
+		towe_military_supervision_no_supervision = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_no_supervision"
-				tno_military_supervision_no_supervision_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_no_supervision"
+				towe_military_supervision_no_supervision_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -165,11 +165,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_military_supervision_rules_of_engagement = {
+		towe_military_supervision_rules_of_engagement = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_rules_of_engagement"
-				tno_military_supervision_rules_of_engagement_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_rules_of_engagement"
+				towe_military_supervision_rules_of_engagement_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -178,11 +178,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_military_supervision_watchdog_groups = {
+		towe_military_supervision_watchdog_groups = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_watchdog_groups"
-				tno_military_supervision_watchdog_groups_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_watchdog_groups"
+				towe_military_supervision_watchdog_groups_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -191,11 +191,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_military_supervision_total_supervision = {
+		towe_military_supervision_total_supervision = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_military_supervision_total_supervision"
-				tno_military_supervision_total_supervision_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_military_supervision_total_supervision"
+				towe_military_supervision_total_supervision_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -205,13 +205,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_training = {
+	towe_training = {
 		law = yes
-		tno_training_not_applicable = {
+		towe_training_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_not_applicable"
-				tno_training_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_not_applicable"
+				towe_training_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -220,11 +220,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_training_none = { #trial by fire
+		towe_training_none = { #trial by fire
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_none"
-				tno_training_none_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_none"
+				towe_training_none_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -233,11 +233,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_training_minimal_training = {
+		towe_training_minimal_training = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_minimal_training"
-				tno_training_minimal_training_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_minimal_training"
+				towe_training_minimal_training_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -247,11 +247,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_training_basic_training = {
+		towe_training_basic_training = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_basic_training"
-				tno_training_basic_training_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_basic_training"
+				towe_training_basic_training_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -260,11 +260,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_training_combat_schooling = {
+		towe_training_combat_schooling = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_combat_schooling"
-				tno_training_combat_schooling_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_combat_schooling"
+				towe_training_combat_schooling_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -273,11 +273,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_training_advanced_training_methods = {
+		towe_training_advanced_training_methods = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_training_advanced_training_methods"
-				tno_training_advanced_training_methods_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_training_advanced_training_methods"
+				towe_training_advanced_training_methods_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -287,13 +287,13 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-	tno_draft_exemptions = {
+	towe_draft_exemptions = {
 		law = yes
-		tno_draft_exemptions_not_applicable = {
+		towe_draft_exemptions_not_applicable = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_not_applicable"
-				tno_draft_exemptions_not_applicable_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_not_applicable"
+				towe_draft_exemptions_not_applicable_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -302,11 +302,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_draft_exemptions_none = {
+		towe_draft_exemptions_none = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_none"
-				tno_draft_exemptions_none_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_none"
+				towe_draft_exemptions_none_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			default = yes
 			available = { always = no }
@@ -316,11 +316,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_draft_exemptions_elite_exemptions = {
+		towe_draft_exemptions_elite_exemptions = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_elite_exemptions"
-				tno_draft_exemptions_elite_exemptions_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_elite_exemptions"
+				towe_draft_exemptions_elite_exemptions_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -329,11 +329,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_draft_exemptions_educational_deferment = {
+		towe_draft_exemptions_educational_deferment = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_educational_deferment"
-				tno_draft_exemptions_educational_deferment_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_educational_deferment"
+				towe_draft_exemptions_educational_deferment_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -342,11 +342,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_draft_exemptions_civil_service_deferment = {
+		towe_draft_exemptions_civil_service_deferment = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_civil_service_deferment"
-				tno_draft_exemptions_civil_service_opt_out_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_civil_service_deferment"
+				towe_draft_exemptions_civil_service_opt_out_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
@@ -355,11 +355,11 @@ ideas = {
 			modifier = {  }
 			cancel_if_invalid = no
 		}
-		tno_draft_exemptions_generous_exemptions = {
+		towe_draft_exemptions_generous_exemptions = {
 			on_add = {
-				log = "[GetDateText]: [Root.GetName]: add idea tno_draft_exemptions_generous_exemptions"
-				tno_draft_exemptions_generous_exemptions_effect = yes
-				TNO_update_policy_effectiveness = yes
+				log = "[GetDateText]: [Root.GetName]: add idea towe_draft_exemptions_generous_exemptions"
+				towe_draft_exemptions_generous_exemptions_effect = yes
+				TOWE_update_policy_effectiveness = yes
 			}
 			available = { always = no }
 
